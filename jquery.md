@@ -13,3 +13,13 @@ $.post('/api/checkopentime', function(result) {
 });
 
 ```
+
+##### get attribute value
+
+```javascript
+var tabIndex = +$(document.activeElement).attr('tabindex');
+if (tabIndex == 308 && $('#btnUpload').prop('disabled')) {
+    self.focusIndex(0);
+    self.focusIndex(305);
+}
+```
