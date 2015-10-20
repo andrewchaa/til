@@ -16,3 +16,13 @@ var dinnerEnd = new TimeSpan(22, 30, 0);
 if (time >= lunchStart && time <= lunchEnd) return open;
 if (time >= dinnerStart && time <= dinnerEnd) return open;
 ```
+
+##### Convert to UK Time from UTC
+
+```csharp
+public static DateTime ToUkDateTime(this DateTime dateTime)
+{
+    var zone = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");
+    return TimeZoneInfo.ConvertTimeFromUtc(dateTime, zone);
+}
+```
