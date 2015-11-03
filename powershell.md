@@ -4,6 +4,15 @@
 ```
 
 #### Website Administration
+
+##### Check if website exists
+```powershell
+if (Test-Path "IIS:\Sites\Market") {
+	Write-Host "Removing Market..."
+	Remove-Website -Name Market
+}
+```
+
 ##### Remove a website
 ```powershell
 $marketWebDir = (Get-Item -Path "..\..\MiMarketWeb" -Verbose).FullName
