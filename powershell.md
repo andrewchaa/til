@@ -3,6 +3,15 @@
 (Get-Item -Path ".\" -Verbose).FullName
 ```
 
+#### String
+
+##### Concatenation
+```powershell
+function getFullPath ($dir) {
+	(Get-Item -Path "..\..\$dir" -Verbose).FullName
+}
+```
+
 #### Website Administration
 
 ##### Check if website exists
@@ -20,3 +29,4 @@ $marketBindings = (@{ protocol="http"; bindingInformation=":80:Market"},@{ proto
 Remove-Website -Name Market
 New-Item iis:\Sites\Market -bindings $marketBindings -physicalPath $marketWebDir
 ```
+
