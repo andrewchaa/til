@@ -16,17 +16,12 @@ function getFullPath ($dir) {
 
 ##### Create an application pool
 ```powershell
-function createAppPool ($name) {
+function createWebsite ($name, $dirName) {
     if (Test-Path "IIS:\AppPools\$name") {
         Remove-WebAppPool $name
     }
-    New-Item "IIS:\AppPools\$name"
-}
-```
+    $appPool = New-Item "IIS:\AppPools\$name"
 
-##### Create a website
-```powershell
-function createWebsite ($name, $dirName) {
     if (Test-Path "IIS:\Sites\$name") {
         Write-Host "Removing $name ..."
         Remove-Website -Name $name
@@ -35,8 +30,15 @@ function createWebsite ($name, $dirName) {
     $dir = (Get-Item -Path "..\..\$dirName" -Verbose).FullName
 	$bindings = (@{ protocol="http"; bindingInformation=":80:$name"},@{ protocol="https"; bindingInformation=":443:$name"})
 
-	New-Item iis:\Sites\$name -bindings $bindings -physicalPath $dir	
+	$website = New-Item iis:\Sites\$name -bindings $bindings -physicalPath $dir
+    $website | Set-ItemProperty -Name "applicationPool" -Value $name
 }
+```
+
+##### Create a website
+```powershell
+    $website = New-Item iis:\Sites\$name -bindings $bindings -physicalPath $dir
+    $website | Set-ItemProperty -Name "applicationPool" -Value $name
 ```
 
 ##### Check if website exists
