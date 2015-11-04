@@ -1,7 +1,7 @@
 ## Table of Content
 
-* [Paths](#Paths)
-* [String](#String)
+* [Paths](#paths)
+* [String](#string)
 
 #### Paths
 
