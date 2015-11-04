@@ -2,6 +2,7 @@
 
 * [Paths](#paths)
 * [String](#string)
+* [Website Administration](#website-administration)
 
 #### Paths
 
