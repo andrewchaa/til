@@ -1,3 +1,8 @@
+#### Powershell
+
+* Ps Get: http://psget.net/
+* go: https://github.com/cameronharp/Go-Shell
+
 #### Subime
 
 * package controller: https://packagecontrol.io/installation#st3
