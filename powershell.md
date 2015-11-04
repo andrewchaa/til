@@ -1,6 +1,18 @@
+#### Paths
+
 ##### Get the current path
 ```powershell
 (Get-Item -Path ".\" -Verbose).FullName
+```
+
+##### List down special folders
+```powershell
+[Environment+SpecialFolder]::GetNames([Environment+SpecialFolder])
+```
+
+### Get System folder path
+```powershell
+[Environment]::GetFolderPath("System")
 ```
 
 #### String
