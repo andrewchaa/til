@@ -1,3 +1,8 @@
+## Table of Content
+
+* [Paths](#Paths)
+* [String](#String)
+
 #### Paths
 
 ##### Get the current path
@@ -10,7 +15,7 @@
 [Environment+SpecialFolder]::GetNames([Environment+SpecialFolder])
 ```
 
-### Get System folder path
+##### Get System folder path
 ```powershell
 [Environment]::GetFolderPath("System")
 ```
