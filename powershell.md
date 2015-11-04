@@ -23,6 +23,8 @@ $appPool = New-Item "IIS:\AppPools\$name"
 $appPool | Set-ItemProperty -Name processModel -Value @{identityType=2}
 ```
 
+* IIS Process models: http://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel
+
 ##### Create a website
 ```powershell
 if (Test-Path "IIS:\Sites\$name") {
