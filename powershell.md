@@ -4,6 +4,12 @@
 * [String](#string)
 * [Website Administration](#website-administration)
 
+##### running powershell script from a windows batch file
+
+```
+Powershell -ExecutionPolicy RemoteSigned -File .\add-websites.ps1
+```
+
 #### File
 
 ##### Reading a file content
