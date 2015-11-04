@@ -4,6 +4,14 @@
 * [String](#string)
 * [Website Administration](#website-administration)
 
+#### File
+
+##### Reading a file content
+```powershell
+$hostPath = [Environment]::GetFolderPath("System") + "\drivers\etc\hosts"
+$hostFile = Get-Content $hostPath
+```
+
 #### Paths
 
 ##### Get the current path
@@ -28,6 +36,16 @@
 function getFullPath ($dir) {
 	(Get-Item -Path "..\..\$dir" -Verbose).FullName
 }
+```
+
+#### Check if it contains text
+
+```powershell
+    $hostFile = Get-Content $hostPath
+    $found = $hostFile | %{$_ -match $text}
+    if (-Not ($found -contains $true)) {
+        Add-Content $hostPath $text
+    }
 ```
 
 #### Website Administration
