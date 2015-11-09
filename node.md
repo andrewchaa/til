@@ -1,3 +1,19 @@
-##### Restart webserver on file watch
+#### Tools
 
-* https://github.com/remy/nodemon
+* nodemon: Restart webserver on file watch. https://github.com/remy/nodemon
+
+##### serve statif files
+
+```javascript
+var http = require('http');
+var express = require('express');
+var app = express();
+
+app.use(express.static(__dirname));
+
+var server = app.listen("3100", function () {
+	console.log("listening on port %d", server.address().port)
+});
+```
+
+
