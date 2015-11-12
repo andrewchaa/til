@@ -18,3 +18,11 @@ git config credential.helper store
 ```shell
 git checkout -b feature-install-script
 ```
+
+#### Branching
+
+##### Delete a branch
+
+```
+git branch -d feature-api-documentation
+```
