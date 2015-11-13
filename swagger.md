@@ -24,3 +24,13 @@ Run the both, to edit and to try the api operation.
   get:
     operationId: get
 ```
+
+use string instead of boolean, as response validation fails
+
+```yaml
+responses:
+  '200':
+    description: a string that represents a boolean value
+    schema:
+      type: string
+```
