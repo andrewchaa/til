@@ -1,6 +1,7 @@
 #### Tools
 
 * nodemon: Restart webserver on file watch. https://github.com/remy/nodemon
+* rimraf: delete node project who file paths are too long for windows to delete: https://github.com/isaacs/rimraf
 
 ##### serve statif files
 
