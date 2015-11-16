@@ -14,6 +14,12 @@ git config --global push.default current
 git config credential.helper store
 ```
 
+##### alias for add and commit
+```
+git config --global alias.add-commit '!git add -A && git commit'
+git add-commit -m 'My commit message'
+```
+
 ##### create a new branch
 ```shell
 git checkout -b feature-install-script
