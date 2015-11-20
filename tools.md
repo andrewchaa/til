@@ -15,3 +15,9 @@
     "command": "revert"
 }
 ```
+
+#### Visual Studio
+
+##### Turn off Code Lens References
+
+Tools > Options > Text Editor > All Languages > CodeLens
