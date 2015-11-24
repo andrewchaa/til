@@ -17,4 +17,12 @@ var server = app.listen("3100", function () {
 });
 ```
 
+##### Change default root
 
+In package.json, add:
+
+```javascript
+"scripts": {
+    "start": "node index.js"
+}
+```
