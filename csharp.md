@@ -4,7 +4,7 @@
 var open = new JavaScriptSerializer().Serialize(new {open = true});
 ```
 
-##### Compare Time of the da
+##### Compare Time of the day
 
 ```csharp
 var time = DateTime.UtcNow.ToUkDateTime().TimeOfDay;
@@ -25,4 +25,13 @@ public static DateTime ToUkDateTime(this DateTime dateTime)
     var zone = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");
     return TimeZoneInfo.ConvertTimeFromUtc(dateTime, zone);
 }
+```
+
+##### Check if an object can be cast to a type
+
+```csharp
+var timestampable = entry.Entity as ITimestampable;
+if (timestampable == null)
+    continue;
+
 ```
