@@ -30,5 +30,6 @@ git checkout -b feature-install-script
 ##### Delete a branch
 
 ```
-git branch -d feature-api-documentation
+git branch -d fix-3987-dont-sent-email-until-advance-succeeds
+git push origin --delete fix-3987-dont-sent-email-until-advance-succeeds
 ```
