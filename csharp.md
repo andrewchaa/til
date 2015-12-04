@@ -4,6 +4,7 @@
 var open = new JavaScriptSerializer().Serialize(new {open = true});
 ```
 
+#### DateTime
 ##### Compare Time of the day
 
 ```csharp
@@ -35,3 +36,9 @@ if (timestampable == null)
     continue;
 
 ```
+
+#### String
+
+##### Custom Numeric Format Strings
+
+https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx
