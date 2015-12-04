@@ -6,4 +6,4 @@ Inspired by [milooy](https://github.com/milooy/TIL), I commit what I learn each 
 
 - Write everyday
 - Write in [GFM (Github Flavored Markdown)](https://help.github.com/articles/github-flavored-markdown/)
-- Each subject has its own folder
+- Each subject has its own file
