@@ -3,6 +3,14 @@
 * Ps Get: http://psget.net/
 * go: https://github.com/cameronharp/Go-Shell
 
+#### rimraf, https://github.com/isaacs/rimraf
+
+Delete long depth files and folders
+
+```
+rimraf <directory>
+```
+
 #### Subime
 
 * package controller: https://packagecontrol.io/installation#st3
