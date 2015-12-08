@@ -34,3 +34,12 @@ responses:
     schema:
       type: string
 ```
+
+##### to use the current server as host
+
+remove host in swagger.yaml
+
+```yaml
+# during dev, should point to your local machine
+# host: /
+```
