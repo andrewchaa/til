@@ -1,3 +1,7 @@
+#### Resources
+
+* javascript formatter: https://code.google.com/p/javascript-number-formatter/
+
 ##### create an asynchronous function
 Use setTimeout(fn, 0);
 
