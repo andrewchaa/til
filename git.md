@@ -20,10 +20,21 @@ git config --global alias.add-commit '!git add -A && git commit'
 git add-commit -m 'My commit message'
 ```
 
-##### create a new branch
+#### Checking out
+
+##### Checking out a new branch
+
 ```shell
 git checkout -b feature-install-script
 ```
+
+##### Checking out remote branch
+
+```shell
+git fetch
+git checkout test
+```
+
 
 #### Branching
 
