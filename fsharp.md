@@ -1,3 +1,16 @@
+##### reference a namespace
+```fsharp
+open System.IO
+```
+
+
+#### Directory
+
+##### Getting a full path
+```fsharp
+let fullPath = Path.GetFullPath argv.[0]
+```
+
 #### loop
 ##### for in loop
 
