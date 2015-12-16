@@ -11,6 +11,11 @@ open System.IO
 let fullPath = Path.GetFullPath argv.[0]
 ```
 
+##### combine paths
+```fsharp
+let packageFolder = Path.Combine [| fullPath; "packages" |]
+```
+
 #### loop
 ##### for in loop
 
