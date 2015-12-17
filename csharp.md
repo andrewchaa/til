@@ -1,3 +1,11 @@
+#### Numbers
+
+##### convert to decimal
+
+```csharp
+Convert.ToDecimal(123456789012345500.12D)
+```
+
 ##### Turn C# object into a JSON string
 
 ```csharp
