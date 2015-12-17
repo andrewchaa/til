@@ -2,6 +2,14 @@
 
 * javascript formatter: https://code.google.com/p/javascript-number-formatter/
 
+#### numbers
+
+##### format number to 1 decimal place
+
+```javascript
+format("##.#", series.percent) + '%' + (label == "Free" ? " - Available" : "") + '</div>'
+```
+
 ##### create an asynchronous function
 Use setTimeout(fn, 0);
 
