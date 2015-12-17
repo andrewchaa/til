@@ -44,3 +44,11 @@ git checkout test
 git branch -d fix-3987-dont-sent-email-until-advance-succeeds
 git push origin --delete fix-3987-dont-sent-email-until-advance-succeeds
 ```
+
+#### Undoing stuff
+
+##### forget tracking a file
+
+```
+git rm --cached <file>
+```
