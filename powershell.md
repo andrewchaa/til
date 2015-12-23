@@ -1,6 +1,6 @@
 ## Table of Content
 
-* [Paths](#paths)
+* [File and directory](#file-and-directory)
 * [String](#string)
 * [Website Administration](#website-administration)
 
@@ -10,15 +10,13 @@
 Powershell -ExecutionPolicy RemoteSigned -File .\add-websites.ps1
 ```
 
-#### File
+#### File and Directory
 
 ##### Reading a file content
 ```powershell
 $hostPath = [Environment]::GetFolderPath("System") + "\drivers\etc\hosts"
 $hostFile = Get-Content $hostPath
 ```
-
-#### Paths
 
 ##### Get the current path
 ```powershell
@@ -97,3 +95,16 @@ Remove-Website -Name Market
 New-Item iis:\Sites\Market -bindings $marketBindings -physicalPath $marketWebDir
 ```
 
+##### parameter
+
+```powershell
+Param(
+  [string]$name
+)
+
+git pull
+New-Item ./$name -type file
+git add -A
+git commit -m "$name"
+git push
+```
