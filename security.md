@@ -4,6 +4,7 @@
 * JWT Authentication in ASP.NET Web API: http://bitoftech.net/2015/02/16/implement-oauth-json-web-tokens-authentication-in-asp-net-web-api-and-identity-2/
 * Authorisation server: https://github.com/IdentityModel/AuthorizationServer
 * Simplest OAuth2: https://identityserver.github.io/Documentation/docsv2/overview/simplestOAuth.html
+* OpenID: https://openid.net/
 
 ##### load a certificate from windows certificate store
 
