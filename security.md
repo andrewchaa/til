@@ -85,7 +85,8 @@ Bu0JPfKmgSJjFtyuMwxw/Qpsr7xa
 -----END CERTIFICATE-----
 ```
 
-##### load a certificate from windows certificate store
+
+### load a certificate from windows certificate store
 
 ```csharp
 static void Main(string[] args)
@@ -103,3 +104,9 @@ static void Main(string[] args)
     store.Close();
 }
 ```
+
+## JWT
+
+### signing and validating
+
+With a private key, you sign the token - encrypt it. With the public key, you verify it, decrypting the token.
