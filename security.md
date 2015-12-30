@@ -113,3 +113,7 @@ static void Main(string[] args)
 With a private key, you sign the token - encrypt it. With the public key, you verify it, decrypting the token.
 
 When a resource server is on https, the auth server issues the cookie against https. You cannot redirect the user back to http.
+
+## Identity Server
+
+* uris: https://localhost:44301/identity/.well-known/openid-configuration
