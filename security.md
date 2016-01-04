@@ -14,6 +14,8 @@
 * Samples: https://github.com/identityserver/IdentityServer3.Samples
 * IdentityServer3 repo: https://github.com/IdentityServer/IdentityServer3
 * IdentityServer v3 and azure: http://leastprivilege.com/2014/04/22/identityserver-v3-and-azure-websites-and-other-deployment-simplifications/
+* User service: https://identityserver.github.io/Documentation/docs/advanced/userService.html
+* User service sample: https://github.com/IdentityServer/IdentityServer3.Samples/tree/master/source/CustomUserService
 
 # Concepts
 
