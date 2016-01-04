@@ -5,7 +5,12 @@
 * Authorisation server: https://github.com/IdentityModel/AuthorizationServer
 * Simplest OAuth2: https://identityserver.github.io/Documentation/docsv2/overview/simplestOAuth.html
 * OpenID: https://openid.net/
+
+## Identity Server
+
 * Getting started: https://identityserver.github.io/Documentation/docsv2/overview/mvcGettingStarted.html
+* Documentation: https://identityserver.github.io/Documentation/docsv2/
+
 
 # Concepts
 
