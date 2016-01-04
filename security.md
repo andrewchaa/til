@@ -12,6 +12,7 @@
 * Documentation: https://identityserver.github.io/Documentation/docsv2/
 * Videos: https://github.com/IdentityModel/AuthorizationServer/wiki
 * Samples: https://github.com/identityserver/IdentityServer3.Samples
+* IdentityServer3 repo: https://github.com/IdentityServer/IdentityServer3
 
 # Concepts
 
