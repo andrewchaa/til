@@ -10,6 +10,7 @@
 
 * Getting started: https://identityserver.github.io/Documentation/docsv2/overview/mvcGettingStarted.html
 * Documentation: https://identityserver.github.io/Documentation/docsv2/
+* VIdeos: https://github.com/IdentityModel/AuthorizationServer/wiki
 
 
 # Concepts
