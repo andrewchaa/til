@@ -48,3 +48,15 @@ public class IdentityScope
 }
 
 ```
+
+# Errors
+
+Asking for CREATE permission
+
+```csharp
+public IdentityDbContext() : base("name=IdentityDbContext")
+{
+    Database.SetInitializer<IdentityDbContext>(null);
+} 
+
+```
