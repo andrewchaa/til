@@ -127,3 +127,17 @@ When a resource server is on https, the auth server issues the cookie against ht
 ## Identity Server
 
 * uris: https://localhost:44301/identity/.well-known/openid-configuration
+
+# OpenID
+
+## Connect Flows
+https://www.scottbrady91.com/OpenID-Connect/OpenID-Connect-Flows
+
+### Authorization Code Flow
+This flow returns an authorisation code that can then be exchanged for an ID token and access token. Thi sis done via the unauthenticated front end, requiring client authentication to use a client id and secret to retrieve the tokens from the back end. This flow allows for long lived access through the use of refresh tokens.
+
+### Implicit Flow
+The implicit flow requests tokens without explicit client authentication, instaed using the redirect URI to verify the client identity. Because of this, long lived tokens are not allowed. It's the simplest to implement, as it only needs to redirect the user to the location of the OpenID Connect provider.
+
+### Hybrid Flow
+A combination of the previous two. This allows the client to make immediate use of an identity token and optionally retrieve an authorisation code via one round trip to the authentication server.
