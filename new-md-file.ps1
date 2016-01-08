@@ -3,9 +3,9 @@ Param(
   [string]$name2
 )
 
-#git pull
+git pull
 $name = $name1 + ' ' + $name2
 New-Item ./$name  -type file
-#git add -A
-#git commit -m "$name"
-#git push
+git add -A
+git commit -m "$name"
+git push
