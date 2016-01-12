@@ -1,3 +1,7 @@
+# Resources
+
+* Simple OAuth getting started: https://identityserver.github.io/Documentation/docs/overview/simplestOAuth.html
+
 ## Get user claims
 
 ```csharp
