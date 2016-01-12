@@ -1,4 +1,11 @@
-##### Index
+# Getting started
+
+Install package
+```powershell
+Install-Package FluentMigrator
+```
+
+## Index
 
 ```csharp
 Delete.Index("_dta_index_Bids_5_1429580131__K2_K1_K14_K3_4_5_6_7_8_9_10_11_12_13_15").OnTable("Bids");
