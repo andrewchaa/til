@@ -1,48 +1,57 @@
-## Table of Content
+# Table of Content
 
 * [File and directory](#file-and-directory)
 * [String](#string)
 * [Website Administration](#website-administration)
 
-##### running powershell script from a windows batch file
+# Console
+
+## Write to console
+
+```powershell
+Write-Host $password
+```
+
+
+## running powershell script from a windows batch file
 
 ```
 Powershell -ExecutionPolicy RemoteSigned -File .\add-websites.ps1
 ```
 
-#### File and Directory
+# File and Directory
 
-##### Reading a file content
+## Reading a file content
 ```powershell
 $hostPath = [Environment]::GetFolderPath("System") + "\drivers\etc\hosts"
 $hostFile = Get-Content $hostPath
 ```
 
-##### Get the current path
+## Get the current path
 ```powershell
 (Get-Item -Path ".\" -Verbose).FullName
 ```
 
-##### List down special folders
+## List down special folders
 ```powershell
 [Environment+SpecialFolder]::GetNames([Environment+SpecialFolder])
 ```
 
-##### Get System folder path
+## Get System folder path
 ```powershell
 [Environment]::GetFolderPath("System")
 ```
 
-#### String
+# String
 
-##### Concatenation
+## Concatenation
 ```powershell
 function getFullPath ($dir) {
 	(Get-Item -Path "..\..\$dir" -Verbose).FullName
 }
 ```
 
-#### Check if it contains text
+## Check if it contains text
 
 ```powershell
     $hostFile = Get-Content $hostPath
@@ -52,9 +61,9 @@ function getFullPath ($dir) {
     }
 ```
 
-#### Website Administration
+# Website Administration
 
-##### Create an application pool
+## Create an application pool
 ```powershell
 if (Test-Path "IIS:\AppPools\$name") {
     Remove-WebAppPool $name
@@ -65,7 +74,7 @@ $appPool | Set-ItemProperty -Name processModel -Value @{identityType=2}
 
 * IIS Process models: http://www.iis.net/configreference/system.applicationhost/applicationpools/add/processmodel
 
-##### Create a website
+## Create a website
 ```powershell
 if (Test-Path "IIS:\Sites\$name") {
 Write-Host "Removing $name ..."
@@ -79,7 +88,7 @@ $website = New-Item iis:\Sites\$name -bindings $bindings -physicalPath $dir
 $website | Set-ItemProperty -Name "applicationPool" -Value $name
 ```
 
-##### Check if website exists
+## Check if website exists
 ```powershell
 if (Test-Path "IIS:\Sites\Market") {
 	Write-Host "Removing Market..."
@@ -87,7 +96,7 @@ if (Test-Path "IIS:\Sites\Market") {
 }
 ```
 
-##### Remove a website
+## Remove a website
 ```powershell
 $marketWebDir = (Get-Item -Path "..\..\MiMarketWeb" -Verbose).FullName
 $marketBindings = (@{ protocol="http"; bindingInformation=":80:Market"},@{ protocol="https"; bindingInformation=":443:Market"})
@@ -95,7 +104,7 @@ Remove-Website -Name Market
 New-Item iis:\Sites\Market -bindings $marketBindings -physicalPath $marketWebDir
 ```
 
-##### parameter
+## parameter
 
 ```powershell
 Param(
