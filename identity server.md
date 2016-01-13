@@ -2,6 +2,19 @@
 
 * Simple OAuth getting started: https://identityserver.github.io/Documentation/docs/overview/simplestOAuth.html
 
+# OpenId Authentication
+
+## interactions
+
+* Client: GET client's /Home/UserLogin 
+* Server: GET /identity/.well-known/openid-configuration
+* Server: GET /identity/.well-known/jwks
+* Server: GET /identity/connect/authorize?client_id=MvcPrototype&redirect_uri=https%3a%2f%2fmvcprototype%2f&response_mode=form_post&response_type=id_token+token&scope=openid+profile+role+publicWebsite+miApi&state=OpenIdConnect.AuthenticationProperties%3dnkKmPYwrkOBWDojiMCDNqI6_Xo1Ms12iPebp7lvOku9I4sp2YNYVfZL4SokzhB8kS4m_Lu7WvjXTFCkKoVF9PJJeYyNii-cURC4vyXXTG7tpLc06eFeszB1kxM65DTHSmTCZiMbvRH6b29-pnvVZkWsvKdwIUgdmHJAal_o5AHk5JUG4wQlcyJZZFALZAhapMzuQApxTbW-f7ohYrK1owg&nonce=635882920865285418.MmMxMzllNzUtNTRkOS00MjBiLWE4OWMtMzEzZWQ2YzZjNTgyYTNiNzVkODItYmMxZS00Y2U1LWFhYmQtZjg1MDgyYmExNDVk
+* Server: POST /identity/connect/consent?client_id=MvcPrototype&redirect_uri=https%3A%2F%2Fmvcprototype%2F&response_mode=form_post&response_type=id_token%20token&scope=openid%20profile%20role%20publicWebsite%20miApi&state=OpenIdConnect.AuthenticationProperties%3DnkKmPYwrkOBWDojiMCDNqI6_Xo1Ms12iPebp7lvOku9I4sp2YNYVfZL4SokzhB8kS4m_Lu7WvjXTFCkKoVF9PJJeYyNii-cURC4vyXXTG7tpLc06eFeszB1kxM65DTHSmTCZiMbvRH6b29-pnvVZkWsvKdwIUgdmHJAal_o5AHk5JUG4wQlcyJZZFALZAhapMzuQApxTbW-f7ohYrK1owg&nonce=635882920865285418.MmMxMzllNzUtNTRkOS00MjBiLWE4OWMtMzEzZWQ2YzZjNTgyYTNiNzVkODItYmMxZS00Y2U1LWFhYmQtZjg1MDgyYmExNDVk
+* Client: POST /
+* Server: GET /identity/connect/userinfo
+* Client: GET /Home/UserLogin
+
 ## Setting user claims
 
 ```csharp
