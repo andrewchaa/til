@@ -2,6 +2,7 @@
 
 * Simple OAuth getting started: https://identityserver.github.io/Documentation/docs/overview/simplestOAuth.html
 * Annoucing IdentityServer 4: http://leastprivilege.com/2016/01/11/announcing-identityserver-for-asp-net-5-and-net-core/
+* Client samples: https://github.com/IdentityServer/IdentityServer3.Samples/tree/master/source/Clients
 
 # OpenId Authentication
 
