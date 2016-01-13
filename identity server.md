@@ -2,7 +2,7 @@
 
 * Simple OAuth getting started: https://identityserver.github.io/Documentation/docs/overview/simplestOAuth.html
 
-## Get user claims
+## Setting user claims
 
 ```csharp
 public override Task GetProfileDataAsync(ProfileDataRequestContext context)
@@ -16,6 +16,7 @@ public override Task GetProfileDataAsync(ProfileDataRequestContext context)
         {
             var claims = new List<Claim>
             {
+                new Claim(Constants.ClaimTypes.Subject, user.Email),
                 new Claim(Constants.ClaimTypes.Name, user.Name),
                 new Claim(Constants.ClaimTypes.Id, user.UserId.ToString()),
                 new Claim(Constants.ClaimTypes.Role, user.Role.Name)
