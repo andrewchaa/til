@@ -39,3 +39,25 @@ install-package Microsoft.Owin.Security.OpenIdConnect
 install-package IdentityServer3
 install-package IdentityServer3.AccessTokenValidation
 ```
+
+## Troubleshootings
+
+### The protected page keeps redirecting the browser to the login server
+
+Add cookie authentication to OWIN
+
+```csharp
+app.UseCookieAuthentication(new CookieAuthenticationOptions {
+    AuthenticationType = "Cookies"
+});
+```
+
+### AntiForgeryToken() error
+
+"A claim of type 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier' or 'http://schemas.microsoft.com/accesscontrolservice/2010/07/claims/identityprovider' was not present on the provided ClaimsIdentity"
+
+* Specify ClaimTypes.Subject as unique claim type identifier
+
+```csharp
+AntiForgeryConfig.UniqueClaimTypeIdentifier = IdentityServer3.Core.Constants.ClaimTypes.Subject;
+```
