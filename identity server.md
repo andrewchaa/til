@@ -75,7 +75,34 @@ public enum Flows
 ## Refresh token
 
 * Supported for the following flows: authorization code, hybrid and resource owner password credential flow.
-* 
+* code flow will call the token endpoint with client_id, client_secret, authorization code, and redirectUricalls. The token response will include id_token, access_token, and refresh_token
+
+```csharp
+AuthorizationCodeReceived = async n =>
+{
+    // use the code to get the access and refresh token
+    var tokenClient = new TokenClient("token endpoint", "client id", "client secret");
+    var tokenResponse = await tokenClient.RequestAuthorizationCodeAsync(n.Code, n.RedirectUri);
+
+    // use the access token to retrieve claims from userinfo
+    var userInfoClient = new UserInfoClient(new Uri("user info endpoint"), tokenResponse.AccessToken);
+    var userInfoResponse = await userInfoClient.GetAsync();
+
+    // create new identity
+    var id = new ClaimsIdentity(n.AuthenticationTicket.Identity.AuthenticationType);
+    id.AddClaims(userInfoResponse.GetClaimsIdentity().Claims);
+
+    id.AddClaim(new Claim("id_token", n.ProtocolMessage.IdToken));
+    id.AddClaim(new Claim("access_token", tokenResponse.AccessToken));
+    id.AddClaim(new Claim("expires_at", DateTime.Now.AddSeconds(tokenResponse.ExpiresIn).ToLocalTime().ToString()));
+    id.AddClaim(new Claim("refresh_token", tokenResponse.RefreshToken));
+    id.AddClaim(new Claim("sid", n.AuthenticationTicket.Identity.FindFirst("sid").Value));
+
+    n.AuthenticationTicket = new AuthenticationTicket(new ClaimsIdentity(id.Claims, 
+        n.AuthenticationTicket.Identity.AuthenticationType), n.AuthenticationTicket.Properties);
+},
+```
+
 
 ### Response types
 
