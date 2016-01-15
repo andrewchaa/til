@@ -112,3 +112,18 @@ var claims = new List<Claim>
 };
 context.IssuedClaims = claims;
 ```
+
+### ERROR Invalid flow for client: Implicit
+
+ResponseTypeToFlowMapping
+```csharp
+{
+    { ResponseTypes.Code, Flows.AuthorizationCode },
+    { ResponseTypes.Token, Flows.Implicit },
+    { ResponseTypes.IdToken, Flows.Implicit },
+    { ResponseTypes.IdTokenToken, Flows.Implicit },
+    { ResponseTypes.CodeIdToken, Flows.Hybrid },
+    { ResponseTypes.CodeToken, Flows.Hybrid },
+    { ResponseTypes.CodeIdTokenToken, Flows.Hybrid }
+};
+```
