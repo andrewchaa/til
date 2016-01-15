@@ -64,13 +64,12 @@ install-package IdentityServer3
 install-package IdentityServer3.AccessTokenValidation
 ```
 
-
+#### Authorisation Code / Implicit flow
 ```powershell
-install-package Microsoft.Owin.Security.OpenIdConnect
-
 install-package IdentityModel
 install-package IdentityServer3
 install-package IdentityServer3.AccessTokenValidation
+install-package Microsoft.Owin.Security.OpenIdConnect
 ```
 
 ## Flows
