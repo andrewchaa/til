@@ -75,6 +75,24 @@ public enum Flows
 ## Refresh token
 
 * Supported for the following flows: authorization code, hybrid and resource owner password credential flow.
+* 
+
+### Response types
+
+```csharp
+// authorization code flow
+public const string Code = "code";
+
+// implicit flow
+public const string Token        = "token";
+public const string IdToken      = "id_token";
+public const string IdTokenToken = "id_token token";
+
+// hybrid flow
+public const string CodeIdToken      = "code id_token";
+public const string CodeToken        = "code token";
+public const string CodeIdTokenToken = "code id_token token";
+```
 
 # Troubleshootings
 
@@ -131,3 +149,4 @@ ResponseTypeToFlowMapping
     { ResponseTypes.CodeIdTokenToken, Flows.Hybrid }
 };
 ```
+
