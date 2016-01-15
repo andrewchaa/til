@@ -58,6 +58,20 @@ install-package IdentityServer3
 install-package IdentityServer3.AccessTokenValidation
 ```
 
+## Flows
+
+```csharp
+public enum Flows
+{
+    AuthorizationCode,
+    Implicit,
+    Hybrid,
+    ClientCredentials,
+    ResourceOwner,
+    Custom,
+}
+```
+
 # Troubleshootings
 
 ## Endless redirection
