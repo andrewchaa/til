@@ -81,7 +81,7 @@ const string clientSecret = "client secret";
 const string userInfoEndpoint = "user info endpoint";
 const string identityServer = "https://identityserverlocal.marketinvoice.ninja/identity";
 const string redirectUri = "https://mvcprototype/";
-const string requestingScopes = "openid profile role publicWebsite miApi offline_access";
+const string requestingScopes = "openid profile role publicWebsite offline_access";
 const string requestingResponseTypes = "code id_token token";
 
 AntiForgeryConfig.UniqueClaimTypeIdentifier = IdentityServer3.Core.Constants.ClaimTypes.Subject;
