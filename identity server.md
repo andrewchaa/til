@@ -70,6 +70,14 @@ install-package IdentityServer3.AccessTokenValidation
 install-package Microsoft.Owin.Security.OpenIdConnect
 ```
 
+#### To protect APIs
+```powershell
+install-package IdentityModel
+install-package IdentityServer3.AccessTokenValidation
+```
+
+
+
 ## Set Up for OWIN
 
 ### Authorzation / Implicit flow
