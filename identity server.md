@@ -144,6 +144,17 @@ app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions {
 
 ```
 
+### To protect APIs
+
+```csharp
+const string identityServer = "identity server uri";
+const string requiredScope = "required scope";
+app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions() {
+    Authority = identityServer,
+    RequiredScopes = new[] { requiredScope }
+});
+```
+
 ## Flows
 
 ```csharp
