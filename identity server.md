@@ -72,6 +72,10 @@ public enum Flows
 }
 ```
 
+## Refresh token
+
+* Supported for the following flows: authorization code, hybrid and resource owner password credential flow.
+
 # Troubleshootings
 
 ## Endless redirection
