@@ -1,19 +1,32 @@
-#### Numbers
+## HTTP related
 
-##### convert to decimal
+### HttpClient
+
+#### post string value
+
+```csharp
+var client = new HttpClient();
+client.SetBearerToken(tokenResponse.AccessToken);
+var url = "api endpoint";
+var response = client.PostAsync(url, new FormUrlEncodedContent(new KeyValuePair<string, string>[0])).Result;
+```
+
+## Numbers
+
+### convert to decimal
 
 ```csharp
 Convert.ToDecimal(123456789012345500.12D)
 ```
 
-##### Turn C# object into a JSON string
+### Turn C# object into a JSON string
 
 ```csharp
 var open = new JavaScriptSerializer().Serialize(new {open = true});
 ```
 
-#### DateTime
-##### Compare Time of the day
+## DateTime
+### Compare Time of the day
 
 ```csharp
 var time = DateTime.UtcNow.ToUkDateTime().TimeOfDay;
@@ -26,7 +39,7 @@ if (time >= lunchStart && time <= lunchEnd) return open;
 if (time >= dinnerStart && time <= dinnerEnd) return open;
 ```
 
-##### Convert to UK Time from UTC
+### Convert to UK Time from UTC
 
 ```csharp
 public static DateTime ToUkDateTime(this DateTime dateTime)
@@ -36,7 +49,7 @@ public static DateTime ToUkDateTime(this DateTime dateTime)
 }
 ```
 
-##### Check if an object can be cast to a type
+### Check if an object can be cast to a type
 
 ```csharp
 var timestampable = entry.Entity as ITimestampable;
@@ -45,8 +58,8 @@ if (timestampable == null)
 
 ```
 
-#### String
+## String
 
-##### Custom Numeric Format Strings
+### Custom Numeric Format Strings
 
 https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx

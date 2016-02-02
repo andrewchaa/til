@@ -3,6 +3,9 @@
 * Simple OAuth getting started: https://identityserver.github.io/Documentation/docs/overview/simplestOAuth.html
 * Annoucing IdentityServer 4: http://leastprivilege.com/2016/01/11/announcing-identityserver-for-asp-net-5-and-net-core/
 * Client samples: https://github.com/IdentityServer/IdentityServer3.Samples/tree/master/source/Clients
+* JWT: http://bitoftech.net/2014/10/27/json-web-token-asp-net-web-api-2-jwt-owin-authorization-server/
+* JWT Authentication in ASP.NET Web API: http://bitoftech.net/2015/02/16/implement-oauth-json-web-tokens-authentication-in-asp-net-web-api-and-identity-2/
+
 
 # OpenId Authentication
 
@@ -50,8 +53,6 @@ public override Task GetProfileDataAsync(ProfileDataRequestContext context)
 
 # Identity Server client
 
-
-
 ## required libraries
 
 ### for clients
@@ -70,6 +71,91 @@ install-package IdentityModel
 install-package IdentityServer3
 install-package IdentityServer3.AccessTokenValidation
 install-package Microsoft.Owin.Security.OpenIdConnect
+```
+
+#### To protect APIs
+```powershell
+install-package IdentityModel
+install-package IdentityServer3.AccessTokenValidation
+```
+
+
+
+## Set Up for OWIN
+
+### Authorzation / Implicit flow
+
+```csharp
+const string clientId = "client id";
+const string accessTokenEndpoinot = "token endpoint";
+const string clientSecret = "client secret";
+const string userInfoEndpoint = "user info endpoint";
+const string identityServer = "https://identityserverlocal.marketinvoice.ninja/identity";
+const string redirectUri = "https://mvcprototype/";
+const string requestingScopes = "openid profile role publicWebsite offline_access";
+const string requestingResponseTypes = "code id_token token";
+
+AntiForgeryConfig.UniqueClaimTypeIdentifier = IdentityServer3.Core.Constants.ClaimTypes.Subject;
+app.UseCookieAuthentication(new CookieAuthenticationOptions { AuthenticationType = "Cookies" });
+app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions {
+    Authority = identityServer,
+    ClientId = clientId,
+    Scope = requestingScopes,
+    ResponseType = requestingResponseTypes,
+    RedirectUri = redirectUri,
+    SignInAsAuthenticationType = "Cookies",
+    UseTokenLifetime = true,
+
+    Notifications = new OpenIdConnectAuthenticationNotifications {
+
+        AuthorizationCodeReceived = async n =>
+        {
+            var tokenClient = new TokenClient(accessTokenEndpoinot, clientId, clientSecret);
+            var tokenResponse = await tokenClient.RequestAuthorizationCodeAsync(n.Code, n.RedirectUri);
+
+            var userInfoClient = new UserInfoClient(new Uri(userInfoEndpoint), tokenResponse.AccessToken);
+            var userInfoResponse = await userInfoClient.GetAsync();
+
+            // create new identity
+            var id = new ClaimsIdentity(n.AuthenticationTicket.Identity.AuthenticationType);
+            id.AddClaims(userInfoResponse.GetClaimsIdentity().Claims);
+            id.AddClaim(new Claim("id_token", n.ProtocolMessage.IdToken));
+            id.AddClaim(new Claim("access_token", tokenResponse.AccessToken));
+            id.AddClaim(new Claim("expires_at", DateTime.Now.AddSeconds(tokenResponse.ExpiresIn).ToLocalTime().ToString()));
+            id.AddClaim(new Claim("refresh_token", tokenResponse.RefreshToken));
+            id.AddClaim(new Claim("sid", n.AuthenticationTicket.Identity.FindFirst("sid").Value));
+
+            n.AuthenticationTicket = new AuthenticationTicket(new ClaimsIdentity(id.Claims, n.AuthenticationTicket.Identity.AuthenticationType), n.AuthenticationTicket.Properties);
+        },
+
+        RedirectToIdentityProvider = p =>
+        {
+            if (p.ProtocolMessage.RequestType == OpenIdConnectRequestType.LogoutRequest)
+            {
+                var idTokenHint = p.OwinContext.Authentication.User.FindFirst("id_token");
+
+                if (idTokenHint != null)
+                {
+                    p.ProtocolMessage.IdTokenHint = idTokenHint.Value;
+                }
+            }
+
+            return Task.FromResult(0);
+        },
+    }
+});
+
+```
+
+### To protect APIs
+
+```csharp
+const string identityServer = "identity server uri";
+const string requiredScope = "required scope";
+app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions() {
+    Authority = identityServer,
+    RequiredScopes = new[] { requiredScope }
+});
 ```
 
 ## Flows
