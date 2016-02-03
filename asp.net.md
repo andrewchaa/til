@@ -11,5 +11,9 @@
 <logger name="*" writeTo="logentries" xdt:Transform="SetAttributes(writeTo)" xdt:Locator="Match(name)" />
 ```
 
+**Send http status code from MVC controller**
 
+```csharp
+return new HttpStatusCodeResult(HttpStatusCode.OK);
+```
 
