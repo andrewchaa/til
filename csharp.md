@@ -1,3 +1,12 @@
+# Network
+
+## Sending mail
+
+**Outlook removes plain text line break**
+
+add two spaces at the beginning of each line
+
+
 ## HTTP related
 
 ### HttpClient
