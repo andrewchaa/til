@@ -11,6 +11,8 @@
 
 ## interactions
 
+**website**
+
 * Client: GET client's /Home/UserLogin 
 * Server: GET /identity/.well-known/openid-configuration, returning the details of the server
 * Server: GET /identity/.well-known/jwks
@@ -21,6 +23,19 @@
 * Server: GET /identity/connect/userinfo, returns user info, {"sub":"iamuser@marketinvoice.com","name":"A User","id":"1","role":"Seller"}
 * Client: Redirect to /Home/UserLogin
 * Client: GET /Home/UserLogin
+
+**mobile app**
+
+* Authorisation endpoint: https://<authserver>/identity/connect/authorize?client_id=<clientid>&scope=openid%20profile%20role%20mobileApi&response_type=code%20id_token&nonce=xxxd1&redirect_uri=https://marketinvoice.com
+* user login page
+* user submit id and pwd
+* user gets redirected to redirect_uri with code, id_token, and scopes
+
+```
+https://www.marketinvoice.com/#code=xxxxx&id_token=<token>&scope=openid%20profile%20role%20mobileApi&session_state=<session state>
+```
+
+
 
 ## Setting user claims
 
