@@ -35,6 +35,9 @@
 https://www.marketinvoice.com/#code=xxxxx&id_token=<token>&scope=openid%20profile%20role%20mobileApi&session_state=<session state>
 ```
 
+**Getting refresh token in hybrid flow**
+
+Hybrid flow allows to request a combination of identity token, access token, and code via the front channel using either a fragment encoded redirect (native and JS based clients) or a form post (server-based web applications). The client can make immediate use of an identity token to get access to the user's identity but also retrieve an authorisation code that can be used (by a back end service) to request a refresh token and thus gaining long lived access to resources
 
 
 ## Setting user claims
