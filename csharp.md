@@ -1,3 +1,21 @@
+# Delegate
+
+**Get name of Action / Func delegate**
+
+```csharp
+public async Task<T1> LogAndExecute<T1>(string number, Func<Task<T1>> func)
+{
+
+    Logger.LogInfo(new Info
+    {
+        Number = number,
+        Method = func.Method.Name,
+        LogType = "Pre",
+        Message = $"Started calling {func.Method.Name}"
+    }.ToJson());
+
+```
+
 # Network
 
 ## Sending mail
