@@ -52,8 +52,8 @@ Convert.ToDecimal(123456789012345500.12D)
 var open = new JavaScriptSerializer().Serialize(new {open = true});
 ```
 
-## DateTime
-### Compare Time of the day
+# DateTime
+**Compare Time of the day**
 
 ```csharp
 var time = DateTime.UtcNow.ToUkDateTime().TimeOfDay;
@@ -66,7 +66,7 @@ if (time >= lunchStart && time <= lunchEnd) return open;
 if (time >= dinnerStart && time <= dinnerEnd) return open;
 ```
 
-### Convert to UK Time from UTC
+**Convert to UK Time from UTC**
 
 ```csharp
 public static DateTime ToUkDateTime(this DateTime dateTime)
@@ -76,7 +76,13 @@ public static DateTime ToUkDateTime(this DateTime dateTime)
 }
 ```
 
-### Check if an object can be cast to a type
+**Precision time to log elapsed time**
+```csharp
+var watch = Stopwatch.StartNew();
+durationInSeconds = watch.Elapsed.Seconds
+```
+
+**Check if an object can be cast to a type**
 
 ```csharp
 var timestampable = entry.Entity as ITimestampable;
