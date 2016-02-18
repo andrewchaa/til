@@ -21,6 +21,9 @@ git add-commit -m 'My commit message'
 ```
 
 **See the details of the origin**
+```
+git remote show origin
+```
 
 # Checking out
 
