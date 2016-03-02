@@ -43,6 +43,11 @@ git checkout test
 
 # Branching
 
+**Check remote**
+```
+git remote -v
+```
+
 **Delete a branch**
 ```
 git branch -d fix-3987-dont-sent-email-until-advance-succeeds
