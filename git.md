@@ -56,6 +56,7 @@ git remove -v // check if upstream is added
 
 git fetch upstream // fetch the branch from the upstream repository
 git checkout master // checkout your fork's master
+git merge upstream/master // merge upstream/master
 ```
 
 
