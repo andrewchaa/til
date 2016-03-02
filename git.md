@@ -48,6 +48,17 @@ git checkout test
 git remote -v
 ```
 
+**Syncing a fork**
+```
+git remote -v // check if you have upstream
+git remote add upstream git@github.com:CorrelatorSharp/CorrelatorSharp.git // add upstream
+git remove -v // check if upstream is added
+
+git fetch upstream // fetch the branch from the upstream repository
+git checkout master // checkout your fork's master
+```
+
+
 **Delete a branch**
 ```
 git branch -d fix-3987-dont-sent-email-until-advance-succeeds
