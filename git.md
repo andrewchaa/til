@@ -48,6 +48,11 @@ git checkout test
 git remote -v
 ```
 
+**List remote branches**
+```
+git branch -a
+```
+
 **Syncing a fork**
 ```
 git remote -v // check if you have upstream
