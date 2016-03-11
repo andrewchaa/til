@@ -39,7 +39,7 @@ git checkout -b feature-install-script
 
 ```shell
 git fetch
-git checkout test
+git checkout -b booking origin/booking
 ```
 
 **delete**
