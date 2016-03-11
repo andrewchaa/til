@@ -33,6 +33,8 @@ git remote show origin
 git checkout -b feature-install-script
 ```
 
+# Remote branch
+
 **Checking out remote branch**
 
 ```shell
@@ -40,8 +42,11 @@ git fetch
 git checkout test
 ```
 
+**delete**
 
-# Branching
+```shell
+git push origin --delete new-design
+```
 
 **Check remote**
 ```
@@ -64,6 +69,7 @@ git checkout master // checkout your fork's master
 git merge upstream/master // merge upstream/master
 ```
 
+# Local branch
 
 **Delete a branch**
 ```
