@@ -72,12 +72,12 @@ https://msdn.microsoft.com/en-us/Library/vs/alm/Build/azure/nodejs
 
 # WebJob
 
-**CRON expression**
-
 Resources
 * Create a webjob: https://azure.microsoft.com/en-gb/documentation/articles/web-sites-create-web-jobs/
 * Scheduling: http://blog.amitapple.com/post/2015/06/scheduling-azure-webjobs/#.VugTFhzhCUk
+* Enable webjobs deployment for an existing Console Application project: https://azure.microsoft.com/en-us/documentation/articles/websites-dotnet-deploy-webjobs/#convert
 
+**CRON expression**
 
 * create a file, settings.job
 * build action should be "Copy Always" or "Copy if newer"
