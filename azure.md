@@ -1,4 +1,6 @@
-##### deploying node.js application
+# node.js
+
+**deploying node.js application**
 
 You need a web.config, yuck!
 https://msdn.microsoft.com/en-us/Library/vs/alm/Build/azure/nodejs
@@ -67,3 +69,24 @@ https://msdn.microsoft.com/en-us/Library/vs/alm/Build/azure/nodejs
 </configuration>
 
 ```
+
+# WebJob
+
+**CRON expression**
+
+* https://azure.microsoft.com/en-gb/documentation/articles/web-sites-create-web-jobs/
+* create a file, settings.job
+* build action should be "Copy Always" or "Copy if newer"
+* the expression is {second} {minute} {hour} {day} {month} {day of the week}
+
+```xml
+{
+    "schedule": "0 */15 * * * *"
+}
+```
+
+For example,
+* Every hour (i.e. whenever the count of minutes is 0): 0 0 * * * *
+* Every hour from 9 AM to 5 PM: 0 0 9-17 * * *
+* At 9:30 AM every day: 0 30 9 * * *
+* At 9:30 AM every week day: 0 30 9 * * 1-5
