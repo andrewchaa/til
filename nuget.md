@@ -5,8 +5,13 @@
 ```
 
 **Update a package**
-```powershell
+```
 Update-Package MarketInvoice.Infrastructure.Audit
+```
+
+**Install a specific version**
+```
+Install-Package Microsoft.Web.WebJobs.Publish -Version 1.0.3
 ```
 
 **Setting up a cache**
