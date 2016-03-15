@@ -74,7 +74,11 @@ https://msdn.microsoft.com/en-us/Library/vs/alm/Build/azure/nodejs
 
 **CRON expression**
 
-* https://azure.microsoft.com/en-gb/documentation/articles/web-sites-create-web-jobs/
+Resources
+* Create a webjob: https://azure.microsoft.com/en-gb/documentation/articles/web-sites-create-web-jobs/
+* Scheduling: http://blog.amitapple.com/post/2015/06/scheduling-azure-webjobs/#.VugTFhzhCUk
+
+
 * create a file, settings.job
 * build action should be "Copy Always" or "Copy if newer"
 * the expression is {second} {minute} {hour} {day} {month} {day of the week}
