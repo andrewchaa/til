@@ -79,6 +79,7 @@ Resources
 
 **CRON expression**
 
+* Install-Package Microsoft.Web.WebJobs.Publish
 * create a file, settings.job
 * build action should be "Copy Always" or "Copy if newer"
 * the expression is {second} {minute} {hour} {day} {month} {day of the week}
