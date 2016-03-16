@@ -9,3 +9,5 @@
 # Javascript
 
 * browserify: http://browserify.org/
+* HTML5 notifications: https://notifications.spec.whatwg.org/
+* 
