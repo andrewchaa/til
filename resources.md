@@ -11,3 +11,7 @@
 * browserify: http://browserify.org/
 * HTML5 notifications: https://notifications.spec.whatwg.org/
 * bower: http://bower.io/
+
+# ASP.NET
+
+* role-based authorization: http://www.asp.net/web-forms/overview/older-versions-security/roles/role-based-authorization-cs
