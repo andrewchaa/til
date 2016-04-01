@@ -49,3 +49,17 @@ WHERE   myTime > DATEADD(HOUR, -1, GETDATE())
     and b.Created <= CONVERT(DATETIME, '2016-03-31 15:09:00')
 
 ```
+
+**case statement**
+
+```sql
+ select *,
+   Correction =
+     case
+       when s.Av + s.Dep < 100000 then 30
+ 	     when s.Av + s.Dep >= 100000 and s.Av + s.Dep < 200000 then 25
+ 	     when s.Av + s.Dep >= 200000 then 20
+     end,
+   from DeploymentStatistics s
+
+```
