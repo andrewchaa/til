@@ -39,3 +39,13 @@ SELECT  *
 FROM    Whatever
 WHERE   myTime > DATEADD(HOUR, -1, GETDATE())
 ```
+
+**compare date**
+```sql
+ select *
+   from Bidings b
+  where 
+    and b.Created >= CONVERT(DATETIME, '2016-03-30 18:30:00')
+    and b.Created <= CONVERT(DATETIME, '2016-03-31 15:09:00')
+
+```
