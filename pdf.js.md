@@ -1,5 +1,6 @@
 **Display the whole pdf**
 
+```javascript
 $(document).ready(function() {
     PDFJS.workerSrc = 'pdf.worker.js';
     PDFJS.getDocument('Rules.pdf').then(function (pdf) {
@@ -37,5 +38,5 @@ $(document).ready(function() {
         }
 
     });
-});
+```
     
