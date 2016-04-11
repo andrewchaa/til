@@ -7,3 +7,9 @@
 ```csharp
 .Bind<ILog>().ToMethod(p => LogManager.GetLogger(p.Request.Target.Member.DeclaringType));
 ```
+
+**Bind generic repository**
+
+```csharp
+Bind(typeof(IRepository<>)).To(typeof(Repository<>));
+```
