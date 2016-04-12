@@ -30,3 +30,11 @@ diskutil list
  
  sudo mount -t msdos /dev/disk0s1 /Volumes/efi
 ```
+
+**Install Realtek ACL 887 audio**
+
+http://www.tonymacx86.com/audio/143757-audio-realtek-alc-applehda-guide.html#post886744
+
+* Run Multibeast
+* Drivers > Audio > Realtek 887/888b (Not legacy)
+* Select Optional HD 4600 HDMI Audio/Desktop
