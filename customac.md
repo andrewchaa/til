@@ -38,3 +38,4 @@ http://www.tonymacx86.com/audio/143757-audio-realtek-alc-applehda-guide.html#pos
 * Run Multibeast
 * Drivers > Audio > Realtek 887/888b (Not legacy)
 * Select Optional HD 4600 HDMI Audio/Desktop
+* untick "Wake for network access"
