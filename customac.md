@@ -39,3 +39,8 @@ http://www.tonymacx86.com/audio/143757-audio-realtek-alc-applehda-guide.html#pos
 * Drivers > Audio > Realtek 887/888b (Not legacy)
 * Select Optional HD 4600 HDMI Audio/Desktop
 * untick "Wake for network access"
+
+
+**Display not working after sleep and wake**
+
+on BIOS, make graphics active always
