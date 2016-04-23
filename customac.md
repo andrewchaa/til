@@ -49,4 +49,5 @@ http://www.tonymacx86.com/audio/143757-audio-realtek-alc-applehda-guide.html#pos
 
 **Display not working after sleep and wake**
 
-on BIOS, make graphics active always
+* On BIOS, make graphics active always
+* On Multibeast, install FakeSMC, FakeSMC Plugins, FakeSMC HWMOnitor Application and NullCPUPowerManagement
