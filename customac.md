@@ -3,6 +3,12 @@
 * editing config.plist http://www.tonymacx86.com/basics/174320-how-edit-clover-config-plist.html
 * http://themacadmin.com/mounting-the-efi-boot-partition-on-mac-os-x/
 
+**Hardware Specs**
+
+* Processor: 32 GHz Intel Core i5
+* Memory 16 GB 1333 MHz DDR3
+* Graphics: Intel HD Graphics 4600 1536 MB
+
 **Intel HD Graphics on El Capitan**
 
 Before editing plist file, make sure you have an editor. Install XCode
