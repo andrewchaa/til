@@ -9,6 +9,7 @@
 * Memory 16 GB 1333 MHz DDR3
 * Graphics: Intel HD Graphics 4600 1536 MB
 * Realtek ALC887 Codec
+* Motherboard: GA-Z97-HD3
 
 **Intel HD Graphics on El Capitan**
 
