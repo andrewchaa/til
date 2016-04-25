@@ -53,3 +53,9 @@ http://www.tonymacx86.com/audio/143757-audio-realtek-alc-applehda-guide.html#pos
 
 * On BIOS, make graphics active always
 * On Multibeast, install FakeSMC, FakeSMC Plugins, FakeSMC HWMOnitor Application and NullCPUPowerManagement
+
+
+**RealTec audio not working after sleep and wake**
+
+* Download Kextbeast: http://www.tonymacx86.com/downloads.php?do=file&id=32
+* Install the ready-made kext: http://www.tonymacx86.com/audio/170063-fix-no-sound-after-sleep-1150-possibly-other-realteks.html
