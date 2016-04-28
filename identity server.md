@@ -178,6 +178,14 @@ app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuth
 });
 ```
 
+Then in start up
+
+```csharp
+IdentityServerConfigure.Configure(app);
+WebApiConfig.Register(config);
+```
+
+
 ## Flows
 
 ```csharp
