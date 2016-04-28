@@ -191,12 +191,12 @@ WebApiConfig.Register(config);
 ```csharp
 public enum Flows
 {
-    AuthorizationCode,
-    Implicit,
-    Hybrid,
-    ClientCredentials,
-    ResourceOwner,
-    Custom,
+    AuthorizationCode = 0,
+    Implicit = 1,
+    Hybrid = 2,
+    ClientCredentials = 3,
+    ResourceOwner = 4, //resource owner password credential flow
+    Custom = 5,
 }
 ```
 
