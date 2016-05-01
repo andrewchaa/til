@@ -48,3 +48,15 @@ func layoutView() {
     }
 }
 ```
+
+**float and edge type conversion error**
+
+the type of superview!.top is CGFloat
+
+```swift
+let currentWeatherInsect: Float = Float(view.frame.height) - Float(currentWeatherView.frame.height) - 10
+constrain(currentWeatherView) { view in
+    view.top == view.superview!.top + CGFloat(currentWeatherInsect)
+    return
+}
+```
