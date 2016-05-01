@@ -33,3 +33,18 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
 }
 
 ```
+
+**unresolved identifier 'layout'**
+
+Use constrain instead
+
+```swift
+func layoutView() {
+    constrain(backgroundView) { view in
+        view.top == view.superview!.top
+        view.bottom == view.superview!.bottom
+        view.left == view.superview!.left
+        view.right == view.superview!.right
+    }
+}
+```
