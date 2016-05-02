@@ -6,6 +6,10 @@
 * Dapper: https://github.com/StackExchange/dapper-dot-net
 
 
+**Mac**
+
+* homebrew: http://brew.sh/
+
 # Javascript
 
 * browserify: http://browserify.org/
