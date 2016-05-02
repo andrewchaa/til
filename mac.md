@@ -8,7 +8,6 @@ https://support.apple.com/en-gb/HT201236
 * edit .bash_profile 
 
 ```bash
-source ~/.git-prompt.sh
 GIT_PS1_SHOWUPSTREAM="auto"
 GIT_PS1_SHOWCOLORHINTS="yes"
 source ~/.git-prompt.sh
