@@ -1,6 +1,11 @@
-**Keyboard shortcuts**
+**Resources**
 
-https://support.apple.com/en-gb/HT201236
+* Keyboard shortcuts: https://support.apple.com/en-gb/HT201236
+
+**ls alias**
+
+* open ~/.bashrc or ~/.bash_profile
+* alias ls='ls -alG'
 
 **Show git branch in command line**
 
