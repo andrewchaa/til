@@ -1,4 +1,16 @@
-## Configuration
+**Secure cookie**
+
+```csharp
+var authCookie = new HttpCookie(AuthToken)
+{
+    Expires = DateTime.UtcNow.AddHours(24),
+    Secure = true,
+    HttpOnly = true,
+    Value = result.AccessToken
+};
+
+HttpContext.Current.Response.SetCookie(authCookie);
+```
 
 **config file transformation**
 
