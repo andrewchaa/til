@@ -1,3 +1,9 @@
+# Web app
+
+**When creating a web app**
+
+* Tick on Always on
+
 # node.js
 
 **deploying node.js application**
