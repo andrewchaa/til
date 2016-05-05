@@ -1,4 +1,28 @@
-#### first item check in foreach binding
+**refresh observablearray**
+```html
+self.refresh = function () {
+    var data = self.orders().slice(0);
+    self.orders([]);
+    self.orders(data);
+};
+
+self.confirm = function (order) {
+    $.post('/api/orders/' + order.orderNo + '/confirm', function () {
+        console.log('confirmed');
+        order.orderStatus = 'Confirmed';
+        self.refresh();
+    });
+
+}
+```
+
+**style binding**
+
+```html
+<span data-bind="click: $parent.confirm, style: { color: orderStatus == 'Confirmed' ? 'green' : 'white'}" class="glyphicon glyphicon-ok" aria-hidden="true" style="cursor: pointer" title="Confirm the order"></span>
+```
+
+**first item check in foreach binding**
 ```html
 <table style="width: 100%">
     <tbody data-bind="foreach: folders">
@@ -13,7 +37,7 @@
 ```
 
 
-##### if containless binding 
+**if containless binding**
 
 ```html
 <!-- ko if: errorInApiCall -->
