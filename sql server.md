@@ -1,4 +1,9 @@
-# Installation
+**Add / Remove a column**
+
+```sql
+ALTER TABLE [dbo].[Clt] ADD TokenLifetime int NOT NULL CONSTRAINT TokenLifetime_Default DEFAULT 3600
+UPDATE [dbo].[Clt] SET TokenLifetime = 86400 WHERE Id = 'form'
+```
 
 **To import bacpac**
 "Unable to import SQL Azure V12 BACPAC: “type Microsoft.Data.Tools.Schema.Sql.SqlAzureV12DatabaseSchemaProvider is not valid"
