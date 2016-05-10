@@ -5,6 +5,10 @@
 * https://raywenderlich.com/
 * https://iosbytes.codeschool.com/
 
+**xcode shortcuts**
+
+* ctrl + cmd + <-: go back
+
 **casting int to string**
 
 ```swift
