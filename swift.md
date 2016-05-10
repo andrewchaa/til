@@ -7,7 +7,8 @@
 
 **xcode shortcuts**
 
-* ctrl + cmd + <-: go back
+* go back: ctrl + cmd + <-
+* reveal in project navigator: shft + cmd + J
 
 **casting int to string**
 
