@@ -1,3 +1,37 @@
+**Check if a db exists**
+
+```powershell
+[reflection.assembly]::LoadWithPartialName("Microsoft.SqlServer.Smo")
+
+$server = new-object ("Microsoft.SqlServer.Management.Smo.Server") .
+
+$dbExists = $FALSE
+foreach ($db in $server.databases) {
+  if ($db.name -eq "Db") {
+    Write-Host "Db already exists."
+    $dbExists = $TRUE
+  }
+}
+
+```
+
+**Create a db and a user and associate the user with a role**
+```powershell
+if ($dbExists -eq $FALSE) {
+  $db = New-Object -TypeName Microsoft.SqlServer.Management.Smo.Database -argumentlist $server, "Db"
+  $db.Create()
+
+  $user = "NT AUTHORITY\NETWORK SERVICE"
+  $usr = New-Object -TypeName Microsoft.SqlServer.Management.Smo.User -argumentlist $db, $user
+  $usr.Login = $user
+  $usr.Create()
+
+  $role = $db.Roles["db_datareader"]
+  $role.AddMember($user)
+}
+
+```
+
 **Write to console**
 ```powershell
 Write-Host $password
