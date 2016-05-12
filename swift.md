@@ -10,6 +10,7 @@
 
 * go back: ctrl + cmd + <-
 * reveal in project navigator: shft + cmd + J
+* jump to definition: ctrl + cmd + J
 
 **NSLog**
 
