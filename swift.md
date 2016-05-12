@@ -4,6 +4,7 @@
 * NS Screen cast: http://nsscreencast.com/
 * https://raywenderlich.com/
 * https://iosbytes.codeschool.com/
+* Renaming a project physical folder: http://stackoverflow.com/questions/8262613/renaming-xcode-4-project-and-the-actual-folder
 
 **xcode shortcuts**
 
