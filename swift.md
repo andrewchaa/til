@@ -11,6 +11,12 @@
 * go back: ctrl + cmd + <-
 * reveal in project navigator: shft + cmd + J
 
+**NSLog**
+
+```swift
+NSLog("Error: \(error)")
+```
+
 **casting int to string**
 
 ```swift
