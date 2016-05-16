@@ -8,6 +8,7 @@
 
 **xcode shortcuts**
 
+* Re-indent: ctrl + I
 * go back: ctrl + cmd + <-
 * reveal in project navigator: shft + cmd + J
 * jump to definition: ctrl + cmd + J
