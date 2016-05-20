@@ -1,3 +1,14 @@
+**Binding a certificate to a site**
+
+```powershell
+  Write-Host "Binding certificate to $($name)"
+  if (Test-Path IIS:\SslBindings\0.0.0.0!443) {
+    Remove-Item IIS:\SslBindings\0.0.0.0!443
+  }
+
+  Get-ChildItem cert:\LocalMachine\My | where { $_.Subject -like "*market.*" } | select -First 1 | New-Item IIS:\SslBindings\0.0.0.0!443
+```
+
 **Check if a db exists**
 
 ```powershell
