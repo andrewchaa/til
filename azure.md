@@ -4,6 +4,7 @@
 
 * Tick on Always on
 * Scale out, if you need to. Increase CPU count by 1 if it's over 80%
+* bind SSL certificate to host name
 
 # node.js
 
