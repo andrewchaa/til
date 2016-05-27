@@ -1,3 +1,16 @@
+**async within event handler**
+
+Use Task.Run(). Otherwise, the async wouldn't be able to attach itself to the thread back
+
+```csharp
+public void Handle(ImportedEvent ev)
+{
+    LogManager.GetLogger("Transactions").LogInfo("Sending {0} new payments",ev.NewTransactions.Count);
+    
+    Task.Run(() => _client.SendTransactions(ev.NewTransactions));
+}
+```
+
 **Secure cookie**
 
 ```csharp
