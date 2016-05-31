@@ -1,8 +1,8 @@
 **Setting up Atom**
 
-* ESLint
 * AirBnb Javascript Style Guid
-* linter and eslinter
+* linter
+* linter-eslint
 
 Dependencies
 
