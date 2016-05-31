@@ -3,6 +3,7 @@
 **Permission**
 * Don't install npm packages with sudo. It changes the package folder to belong to root
 * .npm needs to belong to the user
+* https://docs.npmjs.com/getting-started/fixing-npm-permissions
 
 ```
 sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
