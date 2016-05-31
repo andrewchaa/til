@@ -16,8 +16,10 @@ Dependencies
 
 .eslint: https://gist.github.com/hendrikswan/2153ae77f1496d2b40aa
 
+**tools and libraries**
 
-
+* exponent js: https://exponentjs.com/
+* ngrok: https://ngrok.com/
 
 **change class name**
 
