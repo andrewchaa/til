@@ -1,3 +1,10 @@
+# Set Up
+
+**Permission**
+```
+sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+```
+
 #### Tools
 
 * nodemon: Restart webserver on file watch. https://github.com/remy/nodemon
