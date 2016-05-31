@@ -14,6 +14,9 @@ Dependencies
 * react-native-swipeout
 * redux
 
+.eslint: https://gist.github.com/hendrikswan/2153ae77f1496d2b40aa
+
+
 
 
 **change class name**
