@@ -2,6 +2,7 @@
 
 * editing config.plist http://www.tonymacx86.com/basics/174320-how-edit-clover-config-plist.html
 * http://themacadmin.com/mounting-the-efi-boot-partition-on-mac-os-x/
+* Converting El Capitan to ISO: http://www.insanelymac.com/forum/topic/308533-how-to-create-a-bootable-el-capitan-iso-fo-vmware/
 
 **Hardware Specs**
 
