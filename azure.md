@@ -1,5 +1,11 @@
 # Web app
 
+**Pre-requisites**
+
+* Microsoft Azure SDK for .NET (VS 2015) - Mandatory
+* Microsoft Azure Cross-platform Command Line Tools
+* Microsoft Azure PowerShell
+
 **When creating a web app**
 
 * Tick on Always on
