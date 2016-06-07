@@ -1,5 +1,17 @@
 # Setting up a build
 
+**Build definition for a web job**
+
+Add build steps
+
+* NuGet restore **\*.sln
+* Build solution **\*.sln
+* Test Assemblies
+* Publish Artifact: WebDeploy package
+  * Path to Publish: $(build.artifactstagingdirectory)\build
+  * Artifact Name: WebDeploy package
+  * Artifact Type: Server
+
 **Release a web job**
 
 * Add environment for staging and production
