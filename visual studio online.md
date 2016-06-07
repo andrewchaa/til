@@ -1,5 +1,14 @@
 # Setting up a build
 
+**Release a web job**
+
+* Add environment for staging and production
+* Add a task: Deploy Website to Azure
+  * Azure Subscription: ********
+  * Web App Location: West Europe
+  * Web App Name: **-********
+  * Web Deploy Package: $(System.DefaultWorkingDirectory)/******** - CI/WebDeploy package/release/********.***.zip
+
 **Node.js app**
 
 * npm install
