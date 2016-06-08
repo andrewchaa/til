@@ -5,6 +5,8 @@
 **Setting up Atom**
 
 * AirBnb Javascript Style Guid
+* react
+* terminal-plus
 * linter
 * linter-eslint
 
