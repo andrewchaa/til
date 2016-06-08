@@ -1,3 +1,7 @@
+**Resources**
+
+* https://github.com/coryhouse/pluralsight-redux-starter
+
 **Setting up Atom**
 
 * AirBnb Javascript Style Guid
