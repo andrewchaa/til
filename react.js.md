@@ -33,6 +33,8 @@ Dependencies
 
 * node_module
   * src 
+* .editorconfig
+* .gitignore
 * package.json
 
 ```html
