@@ -29,6 +29,12 @@ Dependencies
 
 **change class name**
 
+**Directory Structure**
+
+* node_module
+  * src 
+* package.json
+
 ```html
 <span className={this.props.buttonIcon}></span>
 ```
