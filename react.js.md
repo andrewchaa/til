@@ -26,19 +26,30 @@ Dependencies
 **npm scripts**
 
 ```javascript
-"scripts": {
-  "prestart": "babel-node tools/startMessage.js"
-  "start": "babel-node tools/srcServer.js"
-},
-
+  "scripts": {
+    "prestart": "babel-node tools/startMessage.js",
+    "start": "npm-run-all --parallel open:src lint:watch",
+    "open:src": "babel-node tools/srcServer.js",
+    "lint": "node_modules/.bin/esw webpack.config.* src tools",
+    "lint:watch": "npm run lint -- --watch"
+  },
 ```
 
 **es linting**
 
 * add .eslintrc
+* npm run lint
 
 ```javascript
+//package.json
+  "scripts": {
+    "prestart": "babel-node tools/startMessage.js",
+    "start": "babel-node tools/srcServer.js",
+    "lint": "node_modules/.bin/esw webpack.config.* src tools",
+    "lint:watch": "npm run lint -- --watch"
+  },
 
+// .eslintrc
 {
   "extends": [
     "eslint:recommended",
