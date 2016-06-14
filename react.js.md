@@ -19,6 +19,7 @@ Dependencies
 * react-native
 * react-native-swipeout
 * redux
+* babel-node: Babel's second CLI which works exactly the same as Node.js' CLI, only it will compile ES6 code before running it. Not meant for production use
 
 .eslint: https://gist.github.com/hendrikswan/2153ae77f1496d2b40aa
 
