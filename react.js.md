@@ -4,11 +4,8 @@
 
 **Setting up Atom**
 
-* AirBnb Javascript Style Guid
 * react
 * terminal-plus
-* linter
-* linter-eslint
 
 Dependencies
 
@@ -226,15 +223,26 @@ package.json
 webpack.config.dev.js
 
 -- src
-
-
 ```
-* node_module
-  * src 
-* .editorconfig
-* .gitignore
-* .eslintrc
-* package.json
+
+**Routing**
+
+```javascript
+import React from 'react';
+import { Route, IndexRoute } from 'react-router';
+import App from './components/App';
+import HomePage from './components/home/HomePage';
+import AboutPage from './components/about/AboutPage';
+import CoursesPage from './components/course/CoursesPage';
+
+export default (
+  <Route path="/" component={App}>
+    <IndexRoute component={HomePage} />
+    <Route path="courses" component={CoursesPage} />
+    <Route path="about" component={AboutPage} />
+  </Route>
+);
+```
 
 ```html
 <span className={this.props.buttonIcon}></span>
