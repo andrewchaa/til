@@ -225,7 +225,9 @@ webpack.config.dev.js
 -- src
 ```
 
-**Routing**
+**Bootstrapping**
+
+Routing
 
 ```javascript
 import React from 'react';
@@ -241,6 +243,64 @@ export default (
     <Route path="courses" component={CoursesPage} />
     <Route path="about" component={AboutPage} />
   </Route>
+);
+```
+
+App
+
+```javascript
+import React, {PropTypes} from 'react';
+import Header from './common/Header';
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className="container-fluid">
+        <Header />
+        {this.props.children}
+      </div>
+    );
+  }
+}
+
+App.propTypes = {
+  children: PropTypes.object.isRequired
+};
+
+export default App;
+```
+
+index.js
+
+```javascript
+import 'babel-polyfill';
+import React from 'react';
+import { render } from 'react-dom';
+import { Router, browserHistory } from 'react-router';
+import routes from './routes';
+import './styles/styles.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+render (
+  <Router history={browserHistory} routes={routes} />,
+  document.getElementById('app')
+);
+```
+
+index.html
+
+```html
+import 'babel-polyfill';
+import React from 'react';
+import { render } from 'react-dom';
+import { Router, browserHistory } from 'react-router';
+import routes from './routes';
+import './styles/styles.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+render (
+  <Router history={browserHistory} routes={routes} />,
+  document.getElementById('app')
 );
 ```
 
