@@ -206,6 +206,29 @@ documentRef = document;  //eslint-disable-line no-undef
 
 **Directory Structure**
 
+```
+node_module
+-- src
+---- components
+------ about
+------ home
+
+---- App.js
+---- styles
+
+-- tools
+
+.babelrc
+.editorconfig
+.eslintrc
+.gitignore
+package.json
+webpack.config.dev.js
+
+-- src
+
+
+```
 * node_module
   * src 
 * .editorconfig
