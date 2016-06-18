@@ -2,6 +2,14 @@
 
 * https://github.com/coryhouse/pluralsight-redux-starter
 
+**Container component**
+
+* constructor function: initialise the state, bind functions for this
+* child functions: called by render
+* render function
+* PropTypes validation
+* Redux connect and related functions
+
 **props vs state**
 
 * https://facebook.github.io/react/docs/thinking-in-react.html
