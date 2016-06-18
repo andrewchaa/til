@@ -2,6 +2,13 @@
 
 * https://github.com/coryhouse/pluralsight-redux-starter
 
+**Redux Flow**
+
+* Action
+* Store
+* Reducer
+* Container component
+
 **Container component**
 
 * constructor function: initialise the state, bind functions for this
