@@ -2,6 +2,21 @@
 
 * https://github.com/coryhouse/pluralsight-redux-starter
 
+**ES 6 Destructuring**
+
+* https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+```javascript
+
+// module loading
+const { Loader, main } = require('toolkit/loader');
+
+// array destructuring
+var foo = ["one", "two", "three"];
+var [one, two, three] = foo;
+```
+
+
 **Redux Flow**
 
 * Action
