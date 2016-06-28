@@ -2,6 +2,14 @@
 
 * https://github.com/coryhouse/pluralsight-redux-starter
 
+**webpack-dev-server**
+
+```javascript
+npm i webpack-dev-server -g
+
+webpack-dev-server --config webpack.config --port 3000
+```
+
 **ES 6 Destructuring**
 
 * https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
