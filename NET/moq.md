@@ -1,5 +1,11 @@
 # moq
 
+**Return different values the first and second time**
+
+```csharp
+AssociateNewUserCommand.SetupSequence(a => a.Result).Returns(_smallDebtor.CompanyId).Returns(_mediumDebtor.CompanyId);
+```
+
 **Callbacks**
 
 ```csharp
