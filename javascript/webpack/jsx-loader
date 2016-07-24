@@ -1,7 +1,7 @@
 ```javascript
   module: {
     loaders: [
-      { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/ },
       { test: /\.ejs$/, loader: 'ejs-compiled-loader' },
       { test: /\.md$/, loader: 'html-loader!markdown-loader' }
     ]
