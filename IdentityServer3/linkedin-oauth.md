@@ -2,6 +2,8 @@
 
 * https://developer.linkedin.com/docs/oauth2
 * http://www.oauthforaspnet.com/providers/linkedin/
+* https://developer.linkedin.com/docs/signin-with-linkedin
+* image resource: https://developer.linkedin.com/downloads
 
 **Setting up**
 
@@ -34,5 +36,21 @@
    ```
    
 4. Make authenticated request
-5. Refresh your Access Tokens
+5. Retrieve basic profile data
+
+   https://api.linkedin.com/v1/people/~?format=json
+   
+   sample api response
+   ```
+   {
+     "firstName": "Frodo",
+     "headline": "2nd Generation Adventurer",
+     "id": "1R2RtA",
+     "lastName": "Baggins",
+     "siteStandardProfileRequest": {
+       "url": "https://www.linkedin.com/profile/view?id=…"
+     }
+   }
+   ```
+ 
 
