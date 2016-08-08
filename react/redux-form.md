@@ -1,3 +1,7 @@
+**Resources**
+
+* https://gist.github.com/insin/bbf116e8ea10ef38447b
+
 **Getting Started**
 
 * give reducer to Redux
