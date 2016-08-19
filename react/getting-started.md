@@ -22,3 +22,9 @@
    ```
    gcloud app deploy
    ```
+
+**Import CSS**
+
+```javascript
+import 'react-datepicker/dist/react-datepicker.css';
+```
