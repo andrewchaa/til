@@ -17,9 +17,10 @@
    npm start
    ```
 
-3. deploy to google app engine
+3. deploy
 
    ```
+   npm run build
    gcloud app deploy
    ```
 
