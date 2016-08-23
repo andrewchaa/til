@@ -22,3 +22,9 @@ jekyll new my-site
 ```
 jekyll serve
 ```
+
+**build a static site**
+
+```
+jekyll build
+```
