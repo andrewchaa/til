@@ -1,3 +1,7 @@
+**resources**
+
+* https://www.firebase.com/docs/web/guide/retrieving-data.html#section-queries
+
 **filtering**
 
 ```javascript
