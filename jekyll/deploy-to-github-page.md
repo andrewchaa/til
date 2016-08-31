@@ -1,3 +1,8 @@
+1. go to settings and set github pages branch to master
+2. the default address becomes like http://andrewchaa.github.io/funkorean
+3. set the custom domain
+
+
 **Resources**
 
 * http://jmcglone.com/guides/github-pages/
