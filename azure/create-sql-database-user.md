@@ -1,4 +1,6 @@
-1. create logins on Master
+1. create logins on Master. 
+   
+   Password generator is handly. http://passwordsgenerator.net/
 
   ```sql
   CREATE LOGIN StagingUser WITH PASSWORD=N'password'
