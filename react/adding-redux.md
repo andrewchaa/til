@@ -6,7 +6,7 @@
 
 2. Add redux, reducer, store, etc ...
 
-   ```
+   ```javascript
     import { Provider } from 'react-redux';
     import { createStore, applyMiddleware, combineReducers, compose } from 'redux';
     import createLogger from 'redux-logger';
