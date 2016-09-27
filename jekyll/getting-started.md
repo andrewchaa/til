@@ -3,9 +3,9 @@
 ```
 brew install ruby
 gem update --system
-gem install jekyll
-gem install bundler
+gem install jekyll bundler
 bundler install
+jekyll serve
 ```
 
 # create a site
