@@ -6,6 +6,9 @@
   // change to Master
   CREATE LOGIN StagingUser WITH PASSWORD=N'password'
   CREATE LOGIN MigratorUser WITH PASSWORD=N'password'
+  
+  // if you need to change the password
+  ALTER LOGIN Mary5 WITH PASSWORD = '<enterStrongPasswordHere>'
   ```
 
 2. create users for those logins on your db
