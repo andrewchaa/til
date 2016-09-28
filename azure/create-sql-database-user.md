@@ -3,6 +3,7 @@
    Password generator is handly. http://passwordsgenerator.net/
 
   ```sql
+  // change to Master
   CREATE LOGIN StagingUser WITH PASSWORD=N'password'
   CREATE LOGIN MigratorUser WITH PASSWORD=N'password'
   ```
