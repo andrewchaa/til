@@ -24,4 +24,9 @@
   EXEC sp_addrolemember N'db_ddladmin',   N'MigratorUser'
   ```
 
+4. to remove a role, if you added a user to the role by mistake
+
+   ```sql
+   EXEC sp_droprolemember N'db_ddladmin',   N'StagingUser'
+   ```
 
