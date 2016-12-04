@@ -2,3 +2,8 @@
 
 * getting started: https://facebook.github.io/react-native/docs/getting-started.html
 
+# installation
+
+* brew install node
+* brew install watchman
+* npm i -g react-native-cli
