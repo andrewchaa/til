@@ -25,3 +25,22 @@ jekyll serve
 ```
 jekyll build
 ```
+
+# layout and content
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+    <body>
+      {% include navigation-bar.html %}
+
+      {{ content }}
+
+      {% include footer.html %}
+      {% include scripts.html %}
+    </body>
+</html>
+
+```
