@@ -1,3 +1,6 @@
+# references
+* https://shopify.github.io/liquid/
+
 # Cheatsheets
 
 * http://jekyll.tips/jekyll-cheat-sheet/
