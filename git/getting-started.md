@@ -2,10 +2,14 @@
 
 ## Install Git
 
-## Set proxy, if you are behind a proxy server
+## Configuration
 
 ```
+// Set proxy, if you are behind a proxy server
 git config --global http.proxy http://webproxy.intra.gsacapital.com:3128
+
+// on windows, to cache credential
+git config --global credential.helper wincred
 ```
 
 ## Set up p4merge
