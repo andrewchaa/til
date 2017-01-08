@@ -14,10 +14,10 @@
    Agent pid 59566
    ```
 
-3. Add your SSH key to the ssh-agent. If you used an existing SSH key rather than generating a new SSH key, you'll need to replace id_rsa in the command with the name of your existing private key file.
+3. Add your SSH key to the ssh-agent. If you used an existing SSH key rather than generating a new SSH key, you'll need to replace id_rsa in the command with the name of your existing private key file. Use -K option to add it to Mack Keychain
 
    ```
-   $ ssh-add ~/.ssh/id_rsa
+   $ ssh-add -K ~/.ssh/id_rsa
    ```
 
 4. Copy the SSH key to your clipboard.
