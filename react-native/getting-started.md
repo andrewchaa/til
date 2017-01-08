@@ -7,3 +7,9 @@
 * brew install node
 * brew install watchman
 * npm i -g react-native-cli
+
+# creating an application
+
+```
+react-native init awesome-project
+```
