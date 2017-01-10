@@ -33,4 +33,9 @@ Associations that can be traversed in more than one direction also increase comp
 * Design around Domain Invariants
 * Transactional Consistency Internally. Avoid large transactional boundary and align transactional boundaries with domain invariants.
 
+  ![transactional boundaries](https://github.com/andrewchaa/WILT/raw/master/domain-driven-development/images/transactional-boundaries.jpg)
+  
+ * Eventual consistency externally
+ * Favour smaller aggregates
+
    
