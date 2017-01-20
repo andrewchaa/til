@@ -10,6 +10,9 @@ git config --global http.proxy http://webproxy.intra.gsacapital.com:3128
 
 // on windows, to cache credential
 git config --global credential.helper wincred
+
+// on windows, convert to CR LF automatically
+git config --global core.autocrlf true
 ```
 
 ## Set up p4merge
