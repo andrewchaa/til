@@ -3,6 +3,7 @@
 ## Resources
 
 * http://stackoverflow.com/questions/12173990/how-can-you-debug-a-cors-request-with-curl
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS#Access-Control-Allow-Methods
 
 ## Testing CORS requests
 
