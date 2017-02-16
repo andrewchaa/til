@@ -18,6 +18,12 @@ ALTER TABLE InvestorRelationsUserGroups DROP COLUMN UserId
 ALTER TABLE InvestorRelationsUserGroups ALTER COLUMN UserId uniqueidentifier NOT NULL
 ```
 
+## Alter Column name
+
+```sql
+EXEC sp_RENAME 'DueDiligenceAnswers.Answer' , 'AnswerText', 'COLUMN'
+```
+
 ## Drop constraint
 
 ```sql
