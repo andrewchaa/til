@@ -1,4 +1,4 @@
-# Working with column
+# Alter
 
 ## Adding a column
 
@@ -10,4 +10,16 @@ ALTER TABLE Companies ADD BuyerCompany_EnableBidOnLedgerTrade bit NOT NULL DEFAU
 
 ```sql
 ALTER TABLE InvestorRelationsUserGroups ALTER COLUMN UserId uniqueidentifier NOT NULL
+```
+
+## Drop constraint
+
+```sql
+ALTER TABLE InvestorRelationsUserGroups DROP CONSTRAINT FK_InvestorRelationsUserGroups_InvestorRelationsUsers_UserId
+```
+
+## Drop index
+
+```sql
+DROP INDEX IX_InvestorRelationsUserGroups_UserId ON InvestorRelationsUserGroups
 ```
