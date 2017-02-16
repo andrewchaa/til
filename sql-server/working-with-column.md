@@ -8,6 +8,6 @@ ALTER TABLE Companies ADD BuyerCompany_EnableBidOnLedgerTrade bit NOT NULL DEFAU
 
 ## Alter column type
 
-```
+```sql
 ALTER TABLE InvestorRelationsUserGroups ALTER COLUMN UserId uniqueidentifier NOT NULL
 ```
