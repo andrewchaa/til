@@ -4,6 +4,13 @@
 
 ```sql
 ALTER TABLE Companies ADD BuyerCompany_EnableBidOnLedgerTrade bit NOT NULL DEFAULT 1
+
+ALTER TABLE UltraUsers ADD 
+    HttpReferer nvarchar(1024) NULL,
+    MarketingChannel nvarchar(1024) NULL,
+    ReferralSource nvarchar(512) NULL,
+    ReferralOtherText nvarchar(2048) NULL
+
 ```
 
 ## Drop a column
