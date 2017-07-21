@@ -1,6 +1,6 @@
-When select the last postcode in the list
-And add the post code with 6,00, -1,00, 2,00 limit values
-Then the correct limit values 6, -1, 2 are added
+* When select the last postcode in the list
+* And add the post code with 6,00, -1,00, 2,00 limit values
+* Then the correct limit values 6, -1, 2 are added
 
 ```csharp
 
