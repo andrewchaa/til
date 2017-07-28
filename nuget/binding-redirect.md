@@ -1,3 +1,9 @@
+Get assembly signature
+
+```
+"%ProgramFiles(x86)%\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\sn.exe" -T <assemblyname>
+```
+
 ```xml
 <dependentAssembly>
   <assemblyIdentity name="AWSSDK" publicKeyToken="9f476d3089b52be3" culture="neutral" />
