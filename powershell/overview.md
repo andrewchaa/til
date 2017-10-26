@@ -12,4 +12,4 @@ You can handle them in *param* section in the beginning of the file
 ## On the server
 
     Stop-Process -name chromedriver // to stop the process
-    Get-Process // list all the processes running
+    Get-Process                     // list all the processes running
