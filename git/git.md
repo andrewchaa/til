@@ -33,40 +33,26 @@ pbcopy < ~/.ssh/id_rsa.pub    #Copy the SSH key to your clipboard.
 
 ### Common configurations
 
+    git config --global http.proxy http://webproxy.intra.gsacapital.com:3128
+                                                      #set proxy, if you are behind a proxy server
+    git config --global credential.helper wincred     #on windows, to cache credential
+    git config --global core.autocrlf true            #on windows, convert to CR LF automatically
+    git config core.autocrlf false                    #disable crlf fatal warning
+    git config core.safecrlf false
 
-```
-// Set proxy, if you are behind a proxy server
-git config --global http.proxy http://webproxy.intra.gsacapital.com:3128
-
-// on windows, to cache credential
-git config --global credential.helper wincred
-
-// on windows, convert to CR LF automatically
-git config --global core.autocrlf true
-
-// disable crlf fatal warning
-git config core.autocrlf false
-git config core.safecrlf false
-
-git config --global push.default current
-
-
-```
 
 #### p4merge
 
-```
-$ git config --global --add difftool.prompt false
-$ git config --global merge.tool p4mergetool
-$ git config --global mergetool.p4mergetool.cmd \
-"/Applications/p4merge.app/Contents/Resources/launchp4merge \$PWD/\$BASE \$PWD/\$REMOTE \$PWD/\$LOCAL \$PWD/\$MERGED"
-$ git config --global mergetool.p4mergetool.trustExitCode false
-$ git config --global mergetool.keepBackup false
+    $ git config --global --add difftool.prompt false
+    $ git config --global merge.tool p4mergetool
+    $ git config --global mergetool.p4mergetool.cmd \
+    "/Applications/p4merge.app/Contents/Resources/launchp4merge \$PWD/\$BASE \$PWD/\$REMOTE \$PWD/\$LOCAL \$PWD/\$MERGED"
+    $ git config --global mergetool.p4mergetool.trustExitCode false
+    $ git config --global mergetool.keepBackup false
 
-$ git config --global diff.tool p4mergetool
-$ git config --global difftool.p4mergetool.cmd \
-"/Applications/p4merge.app/Contents/Resources/launchp4merge \$LOCAL \$REMOTE"
-```
+    $ git config --global diff.tool p4mergetool
+    $ git config --global difftool.p4mergetool.cmd \
+    "/Applications/p4merge.app/Contents/Resources/launchp4merge \$LOCAL \$REMOTE"
 
 #### Beyond Compare 3
 
@@ -87,13 +73,9 @@ git config --global alias.add-commit '!git add -A && git commit'
 git add-commit -m 'My commit message'
 ```
 
-**See the details of the origin**
-```
-git remote -v
-```
-
 ### Operations
 
+    git remote -v                           #show remote in verbose mode
     git checkout -b feature-install-script  #check out into a new branch
     git log .\Generate-Configs.ps1
     git checkout '1392d931af20a4a68665d353c0808eaef40296b1' -- .\Generate-Configs.ps1 
