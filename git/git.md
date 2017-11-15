@@ -94,22 +94,20 @@ git remote -v
 
 ### Operations
 
-```shell
-git checkout -b feature-install-script #check out into a new branch
-git log .\Generate-Configs.ps1
-git checkout '1392d931af20a4a68665d353c0808eaef40296b1' -- .\Generate-Configs.ps1 #check out a file at a specific commit
+    git checkout -b feature-install-script  #check out into a new branch
+    git log .\Generate-Configs.ps1
+    git checkout '1392d931af20a4a68665d353c0808eaef40296b1' -- .\Generate-Configs.ps1 
+                                            #check out a file at a specific commit
 
 
-git branch -d fix-3987-dont-sent-email-until-advance-succeeds #delete the branch
-git push origin --delete fix-3987-dont-sent-email-until-advance-succeeds #delete the remote branch
+    git branch -d fix-3987-dont-sent-email-until-advance-succeeds #delete the branch
+    git push origin --delete fix-3987-dont-sent-email-until-advance-succeeds #delete the remote branch
 
-git branch -m <oldname> <newname>   #rename the branch
+    git branch -m <oldname> <newname>       #rename the branch
 
-git reset --hard b197e3c6ff5e941aa2cff50766eb3a7ac86c1e79 #reset to a specific commit
+    git reset --hard b197e3c6ff5e941aa2cff50766eb3a7ac86c1e79 #reset to a specific commit
 
-git clean -f -d                     #remove untracked files and folders
-git rm --cached <file>              #forget a tracked file
-
-```
+    git clean -f -d                         #remove untracked files and folders
+    git rm --cached <file>                  #forget a tracked file
 
 
