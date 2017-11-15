@@ -9,18 +9,15 @@
 ```
 brew install git
 
-rm -rf ~/.ssh                // if you want to delete the existing key
-
+rm -rf ~/.ssh                 #if you want to delete the existing key
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
-eval "$(ssh-agent -s)"        // start the ssh-agent in the background
+eval "$(ssh-agent -s)"        #start the ssh-agent in the background
 Agent pid 59566
 
-
-ssh-add -K ~/.ssh/id_rsa .    // Add your SSH key to the ssh-agent
-                              // Use -K option to add it to Mack Keychain
-
-pbcopy < ~/.ssh/id_rsa.pub    // Copy the SSH key to your clipboard.
+ssh-add -K ~/.ssh/id_rsa .    #Add your SSH key to the ssh-agent
+                              #Use -K option to add it to Mack Keychain
+pbcopy < ~/.ssh/id_rsa.pub    #Copy the SSH key to your clipboard.
 ```
 
 
@@ -95,26 +92,24 @@ git add-commit -m 'My commit message'
 git remote -v
 ```
 
-# Checking out
-
-**Checking out a new branch**
+### Operations
 
 ```shell
-git checkout -b feature-install-script
-```
+git checkout -b feature-install-script #check out into a new branch
+git log .\Generate-Configs.ps1
+git checkout '1392d931af20a4a68665d353c0808eaef40296b1' -- .\Generate-Configs.ps1 #check out a file at a specific commit
 
 
-# Local branch
+git branch -d fix-3987-dont-sent-email-until-advance-succeeds #delete the branch
+git push origin --delete fix-3987-dont-sent-email-until-advance-succeeds #delete the remote branch
 
-**Delete a branch**
-```
-git branch -d fix-3987-dont-sent-email-until-advance-succeeds
-git push origin --delete fix-3987-dont-sent-email-until-advance-succeeds
-```
+git branch -m <oldname> <newname>   #rename the branch
 
-**Rename a branch**
-```
-git branch -m <oldname> <newname>
+git reset --hard b197e3c6ff5e941aa2cff50766eb3a7ac86c1e79 #reset to a specific commit
+
+git clean -f -d                     #remove untracked files and folders
+git rm --cached <file>              #forget a tracked file
+
 ```
 
 
