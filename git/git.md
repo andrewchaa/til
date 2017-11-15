@@ -110,4 +110,6 @@ git remote -v
     git clean -f -d                         #remove untracked files and folders
     git rm --cached <file>                  #forget a tracked file
 
-
+    git rev-list -n 1 hEAD -- src/ambassador.aspx
+                                            #find the commit that deleted file
+    git log --diff-filter=D --summary       #to get all the commits that have deleted files
