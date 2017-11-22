@@ -6,19 +6,17 @@
 
 ### mac
 
-```
-brew install git
+    brew install git
 
-rm -rf ~/.ssh                 #if you want to delete the existing key
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    rm -rf ~/.ssh                 #if you want to delete the existing key
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
-eval "$(ssh-agent -s)"        #start the ssh-agent in the background
-Agent pid 59566
+    eval "$(ssh-agent -s)"        #start the ssh-agent in the background
+    Agent pid 59566
 
-ssh-add -K ~/.ssh/id_rsa .    #Add your SSH key to the ssh-agent
-                              #Use -K option to add it to Mack Keychain
-pbcopy < ~/.ssh/id_rsa.pub    #Copy the SSH key to your clipboard.
-```
+    ssh-add -K ~/.ssh/id_rsa .    #Add your SSH key to the ssh-agent
+                                  #Use -K option to add it to Mack Keychain
+    pbcopy < ~/.ssh/id_rsa.pub    #Copy the SSH key to your clipboard.
 
 
 ### Windows
@@ -95,3 +93,5 @@ git add-commit -m 'My commit message'
     git rev-list -n 1 hEAD -- src/ambassador.aspx
                                             #find the commit that deleted file
     git log --diff-filter=D --summary       #to get all the commits that have deleted files
+
+    rimraf ./.git/index.lock                #to delete index.lock to fix "another git process seems to be running..." issue
