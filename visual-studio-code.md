@@ -1,3 +1,4 @@
 ## Keyboard Shortcuts
 
-* to activate file explorer: shft + cmd + e
+* activate file explorer: shft + cmd + e
+* replace: alt + cmd + f
