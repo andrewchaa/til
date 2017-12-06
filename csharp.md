@@ -1,4 +1,13 @@
-# Delegate
+## String
+
+**Escape a double quote in a verbatim string**
+
+Use a duplicated double quote
+
+    @"this ""word"" is escaped";
+
+
+## Delegate
 
 **Get name of Action / Func delegate**
 
@@ -16,9 +25,9 @@ public async Task<T1> LogAndExecute<T1>(string number, Func<Task<T1>> func)
 
 ```
 
-# Network
+## Network
 
-## Sending mail
+### Sending mail
 
 **Outlook removes plain text line break**
 
