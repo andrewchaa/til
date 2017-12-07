@@ -1,3 +1,16 @@
+## Parse CSV with double quotes and comma separated numbers
+
+    public IEnumerable<string> SplitCSV(string input)
+    {
+        Regex csvSplit = new Regex("(?:^|,)(\"(?:[^\"]+|\"\")*\"|[^,]*)", RegexOptions.Compiled);
+
+        foreach (Match match in csvSplit.Matches(input))
+        {
+            yield return match.Value.TrimStart(',');
+        }
+    }
+
+
 ## convert match collection to list
 
 ```csharp
