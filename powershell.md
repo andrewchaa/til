@@ -1,3 +1,11 @@
+### Installation
+
+**Mac**
+
+    brew tap caskroom/cask
+    brew cask install powershell
+    brew casl reinstall powershell
+
 **Invoke-WebRequest**
 
 ```powershell
