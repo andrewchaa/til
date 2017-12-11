@@ -5,16 +5,15 @@
 
 ### Usages
 
-* show origin details: git remote show origin
-* show all the remotes: git remote -v
-* check out and create a branch: git checkout -b feature-install-script
+    * show origin details: git remote show origin
+    * show all the remotes: git remote -v
+    * check out and create a branch: git checkout -b feature-install-script
+    * checkout remote branch
 
-* checkout remote branch
+        git fetch
+        git checkout -b booking origin/booking
 
-    git fetch
-    git checkout -b booking origin/booking
-
-* list all branches: git branch -a
+    * list all branches: git branch -a
 
 **Syncing a fork**
 ```
