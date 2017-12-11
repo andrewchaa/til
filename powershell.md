@@ -1,10 +1,17 @@
 ### Installation
 
-**Mac**
+#### Mac
+
+To install
 
     brew tap caskroom/cask
     brew cask install powershell
     brew casl reinstall powershell
+    
+Create an alias to start powershell
+
+    open .zshrc
+    alias powershell='/usr/local/microsoft/powershell/6.0.0-rc/pwsh'
 
 **Invoke-WebRequest**
 
