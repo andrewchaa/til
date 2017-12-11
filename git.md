@@ -89,3 +89,7 @@ git branch -m <oldname> <newname>
     git rm --cached <file>
     git rm -r --cached <directory>   //resursively
 
+### Find and restore a deleted file
+
+    git rev-list -n 1 HEAD -- git.md
+    git checkout 1a3b9633ba7829f5c00f1009648c19bcbc2965b6^ -- git.md
