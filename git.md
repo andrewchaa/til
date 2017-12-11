@@ -3,60 +3,18 @@
 * posh-git: https://github.com/dahlbyk/posh-git
 
 
-# Settings
-**push only the current branch**
-```
-git config --global push.default current
-```
+### Usages
 
-**store git credential**
-```
-git config credential.helper store
-```
+* show origin details: git remote show origin
+* show all the remotes: git remote -v
+* check out and create a branch: git checkout -b feature-install-script
 
-**alias for add and commit**
-```
-git config --global alias.add-commit '!git add -A && git commit'
-git add-commit -m 'My commit message'
-```
+* checkout remote branch
 
-**See the details of the origin**
-```
-git remote show origin
-```
+    git fetch
+    git checkout -b booking origin/booking
 
-# Checking out
-
-**Checking out a new branch**
-
-```shell
-git checkout -b feature-install-script
-```
-
-# Remote branch
-
-**Checking out remote branch**
-
-```shell
-git fetch
-git checkout -b booking origin/booking
-```
-
-**delete**
-
-```shell
-git push origin --delete new-design
-```
-
-**Check remote**
-```
-git remote -v
-```
-
-**List remote branches**
-```
-git branch -a
-```
+* list all branches: git branch -a
 
 **Syncing a fork**
 ```
