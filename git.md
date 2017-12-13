@@ -15,16 +15,16 @@
 
     * list all branches: git branch -a
 
-**Syncing a fork**
-```
-git remote -v // check if you have upstream
-git remote add upstream git@github.com:CorrelatorSharp/CorrelatorSharp.git // add upstream
-git remove -v // check if upstream is added
+### Syncing fork
 
-git fetch upstream // fetch the branch from the upstream repository
-git checkout master // checkout your fork's master
-git merge upstream/master // merge upstream/master
-```
+    git remote -v // check if you have upstream
+    git remote add upstream git@github.com:CorrelatorSharp/CorrelatorSharp.git // add upstream
+    git remove -v // check if upstream is added
+
+    git fetch upstream // fetch the branch from the upstream repository
+    git checkout master // checkout your fork's master
+    git merge upstream/master // merge upstream/master
+
 
 # Local branch
 
@@ -48,5 +48,6 @@ git branch -m <oldname> <newname>
 
 ### Find and restore a deleted file
 
+    git log --diff-filter=D --summary     // list all deleted files
     git rev-list -n 1 HEAD -- git.md
     git checkout 1a3b9633ba7829f5c00f1009648c19bcbc2965b6^ -- git.md
