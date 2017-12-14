@@ -23,3 +23,14 @@
             console.log(this.name + ' ' + this.age)
         }
     }
+    
+    // generic function
+    const getType = function<T>(value: T): string {
+        return typeof (T)
+    }
+    
+    function driveVehicle<vehicle extends Vehicle>(v: Vehicle) {
+        v.drive()
+    }
+    driveVehicle(car)
+    driveVehicle(bike)
