@@ -1,29 +1,33 @@
-## String
+### string
 
-**Escape a double quote in a verbatim string**
-
-Use a duplicated double quote
-
-    @"this ""word"" is escaped";
+    @"this ""word"" is escaped";        // Use a duplicated double quote to escape
 
 
-## Delegate
+### Delegate
 
-**Get name of Action / Func delegate**
 
-```csharp
-public async Task<T1> LogAndExecute<T1>(string number, Func<Task<T1>> func)
-{
-
-    Logger.LogInfo(new Info
+    // Get name of Action / Func delegate**
+    public async Task<T1> LogAndExecute<T1>(string number, Func<Task<T1>> func)
     {
-        Number = number,
-        Method = func.Method.Name,
-        LogType = "Pre",
-        Message = $"Started calling {func.Method.Name}"
-    }.ToJson());
 
-```
+        Logger.LogInfo(new Info
+        {
+            Number = number,
+            Method = func.Method.Name,
+            LogType = "Pre",
+            Message = $"Started calling {func.Method.Name}"
+        }.ToJson());
+
+### async
+
+    // call async from sync
+    var requestTask = Task.Run(async () => await _requestService.IssueRequest(
+        client => new OrgRc(client, _logger).GetAllByIdsAsync(ids),
+        "Failed to get orgs by id (Id)",
+        new {Id = id}
+    ));
+    var result = requestTask.Result;
+
 
 ## Network
 
