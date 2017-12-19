@@ -5,3 +5,5 @@
     ng new hello-world
     ng serve
     
+    ng g component header       // generate header component
+    
