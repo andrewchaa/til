@@ -1,3 +1,5 @@
+### basic
+
     // return Task all the time
     public async Task DoWorkAsync(int parameter)
     {
@@ -13,3 +15,13 @@
         
         return left + right;
     }
+
+
+### parallelism
+
+    // start and wait for all to complete
+    var left = updateLeft(generator);
+    var right = updateRight(generator);
+    
+    await Task.When.All(left, right);
+    await updateTotal(generator);
