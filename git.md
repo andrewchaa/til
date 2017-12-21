@@ -1,7 +1,12 @@
-# Resources
+### Resources
 
 * posh-git: https://github.com/dahlbyk/posh-git
 
+
+### Set up
+
+    // support npm packages from github
+    git config --global url."https://".insteadOf git://
 
 ### Usages
 
