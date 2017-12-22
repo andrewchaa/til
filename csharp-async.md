@@ -25,3 +25,11 @@
     
     await Task.When.All(left, right);
     await updateTotal(generator);
+
+    // avoid serial await. use list of tasks for a loop
+    var tasks = new List<Task>();
+    foreach (var episode in eposodes)
+    {
+        tasks.Add(downloadAsync(episode.url);
+    }
+    await Task.WhenAll(tasks);
