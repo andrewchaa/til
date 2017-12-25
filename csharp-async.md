@@ -33,3 +33,8 @@
         tasks.Add(downloadAsync(episode.url);
     }
     await Task.WhenAll(tasks);
+    
+    // Use available thread-pool whenever possible
+    var file = await folder.CreateFileAsync(name, CreationCollisonOption.GenerateUniqueName)
+        .AsTask().ConfigureAwait(continueOnCapturedContext: false);
+        
