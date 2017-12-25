@@ -33,8 +33,12 @@
         tasks.Add(downloadAsync(episode.url);
     }
     await Task.WhenAll(tasks);
-    
+
+### UI Context and threadpool
+
     // Use available thread-pool whenever possible
     var file = await folder.CreateFileAsync(name, CreationCollisonOption.GenerateUniqueName)
         .AsTask().ConfigureAwait(continueOnCapturedContext: false);
         
+    // When touching UI element, can't use thread-pool thread
+    var file = await folder.CreateFileAsync(name, CreationCollisonOption.GenerateUniqueName);
