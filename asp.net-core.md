@@ -3,3 +3,5 @@
     mkdir coiny
     cd coiny
     dotnet new webapi
+    
+    dotnet run
