@@ -1,7 +1,22 @@
 ### string
 
-    @"this ""word"" is escaped";        // Use a duplicated double quote to escape
+    // escape verbatim string
+    @"this ""word"" is escaped";
 
+    // Compare two string arrays
+    _client.Setup(c => c.Organizations.GetAllByExternalIdsAsync(
+        It.Is<string[]>(s => s.SequenceEqual(new[] { "123" })), 
+        It.IsAny<PagerParameters>()))
+        .Returns(Task.FromResult((IPagination<Organization>)new OrganizationsResponse
+        {
+            Organizations = new List<Organization>(),
+            Count = 0
+        }));
+    
+### decimal
+    
+    Convert.ToDecimal(123456789012345500.12D)
+    
 
 ### Delegate
 
@@ -29,19 +44,6 @@
     var result = requestTask.Result;
 
 
-## Network
-
-### Sending mail
-
-**Outlook removes plain text line break**
-
-add two spaces at the beginning of each line
-
-
-## HTTP related
-
-### HttpClient
-
 #### post string value
 
 ```csharp
@@ -51,13 +53,6 @@ var url = "api endpoint";
 var response = client.PostAsync(url, new FormUrlEncodedContent(new KeyValuePair<string, string>[0])).Result;
 ```
 
-## Numbers
-
-### convert to decimal
-
-```csharp
-Convert.ToDecimal(123456789012345500.12D)
-```
 
 ### Turn C# object into a JSON string
 
