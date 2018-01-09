@@ -16,4 +16,9 @@
         Username = appSettings.GetValue("zendeskuser")
     });
 
+### Controllers
+
+    // download file
+    var fileStream = Encoding.ASCII.GetBytes(csvString);
+    return File(fileStream, "text/csv");
 
