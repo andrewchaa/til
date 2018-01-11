@@ -16,50 +16,34 @@
         Username = appSettings.GetValue("zendeskuser")
     });
 
-    // cors
-    // Install Microsoft.AspNetCore.Cors
-    // update Startup
+### Start up
+
+    public Startup(IHostingEnvironment env)
+    {
+        env.ConfigureNLog("nlog.config"); // read nlog config
+    }
+
 
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddCors();
+        services.AddCors();  // adding CORSs upport. install Microsoft.AspNetCore.Cors
         services.AddMvc();
+        services.AddTransient<IApiClient, GdaxClient>(); // IoC set up
+
     }
 
     public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
     {
-        loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+        loggerFactory.AddNLog();    // nlog support
+        loggerFactory.AddConsole(Configuration.GetSection("Logging")); // nlog console logger
         loggerFactory.AddDebug();
 
-        app.UseCors(b => b.AllowAnyHeader().AllowAnyOrigin());
+        app.UseCors(b => b.AllowAnyHeader().AllowAnyOrigin()); // CORS
         app.UseMvc();
 
         DocumentDbRepository<MonitoringLog>.Initialize();
     }
 
-    // nlog
-    public class Startup
-    {
-        public Startup(IHostingEnvironment env)
-        {
-            env.ConfigureNLog("nlog.config");
-        }
-
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-        }
-
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
-        {
-            loggerFactory.AddNLog();
-            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
-            loggerFactory.AddDebug();
-
-            app.AddNLogWeb();
-        }
-    }
-    
     // nlog config
 
     <?xml version="1.0" encoding="utf-8"?>
