@@ -1,9 +1,15 @@
-### Setting up Web Api
+### Creating a project
 
+    // Web Api
     mkdir coiny
     cd coiny
     dotnet new webapi
-    
+    dotnet run
+
+    // MVC + WebApi
+    mkdir coiny
+    cd coiny
+    dotnet new razor
     dotnet run
 
 ### Configuration
