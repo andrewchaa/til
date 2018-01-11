@@ -27,7 +27,15 @@
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddCors();  // adding CORSs upport. install Microsoft.AspNetCore.Cors
-        services.AddMvc();
+        services.AddMvc(config =>
+        {
+            var policy = new AuthorizationPolicyBuilder()   // add global auth filter
+                .RequireAuthenticatedUser()
+                .Build();
+            config.Filters.Add(new AuthorizeFilter(policy));
+        });
+    
+        
         services.AddTransient<IApiClient, GdaxClient>(); // IoC set up
 
     }
@@ -43,6 +51,9 @@
 
         DocumentDbRepository<MonitoringLog>.Initialize();
     }
+    
+    // Adding a global authorization filter
+
 
     // nlog config
 
@@ -83,21 +94,6 @@
     </nlog>
 
 
-    // Adding a global authorization filter
-
-    services.AddMvc(config =>
-        {
-            var policy = new AuthorizationPolicyBuilder()
-                .RequireAuthenticatedUser()
-                .Build();
-            config.Filters.Add(new AuthorizeFilter(policy));
-        })
-        .AddApplicationPart(Assembly.Load(MicroserviceBuilder.ServiceName))
-        .AddControllersAsServices()
-        .AddJsonOptions(options =>
-        {
-            options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
-        });
 
 
 
