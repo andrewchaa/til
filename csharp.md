@@ -44,6 +44,13 @@
     var result = requestTask.Result;
 
 
+### Linq
+
+    //Distinct
+    IEnumerable<Customer> filteredList = originalList
+      .GroupBy(customer => customer.CustomerId)
+      .Select(group => group.First());
+
 #### post string value
 
 ```csharp
