@@ -106,6 +106,6 @@
 ### Controllers
 
     // download file
-    var fileStream = Encoding.ASCII.GetBytes(csvString);
-    return File(fileStream, "text/csv");
+    var fileStream = Encoding.ASCII.GetBytes(sb.ToString());
+    return File(fileStream, "text/css", $"{name}-eur.csv");
 
