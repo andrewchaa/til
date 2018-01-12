@@ -4,5 +4,6 @@
 * show file in solution explorer: shft + alt + L
 * build: shft + cmd + b
 * run: alt + shft + cmd + r
+* stop running: shft + f5
 * debug - start: alt + f5
 * debug - stop: shft + f5
