@@ -26,3 +26,16 @@
     public static bool operator >(Age l, int r) => l > new Age(r);
     public static bool operator <(Age l, int r) => l < new Age(r);
     
+    // honest / dishonest function
+    Risk CalculateRiskProfile(Age age) => (age < 60) ? Risk.Low : Risk.Medium;
+    
+    Risk CalculateRiskProfile(int age)
+    {
+       if (age < 0 || 120 <= age)
+          throw new ArgumentException($"{age} is not a valid age");
+
+       return (age < 60) ? Risk.Low : Risk.Medium;
+    }
+
+    // unit: representation of no return type in functional way
+
