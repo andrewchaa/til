@@ -41,3 +41,14 @@
 
     // functor
     Map : (C<T>, (T → R)) → C<R>
+
+### Designing programs with function composition
+
+    // composition
+    h = f · g
+    h(x) = (f · g)(x) = f(g(x))
+    
+    Pure— If your function has side effects, it’s less reusable.
+    Chainable— A this argument (implicit on instance methods and explicit on extension methods) makes it possible to compose through chaining.
+    General— The more specific the function, the fewer cases there will be where it’s useful to compose it.
+    Shape-preserving— The function preserves the “shape” of the structure; so, if it takes an IEnumerable, it returns an IEnumerable, and so on.
