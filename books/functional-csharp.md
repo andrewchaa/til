@@ -39,3 +39,5 @@
 
     // unit: representation of no return type in functional way
 
+    // functor
+    Map : (C<T>, (T → R)) → C<R>
