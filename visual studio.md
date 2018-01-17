@@ -1,6 +1,7 @@
 ### Shortcuts
 
-* find result 1: alt + v, n, n, enter
+* windows - find result 1: alt + v, n, n, enter
+* windows - error list: ctrl + \, e
 
 **Always running VS as administrator**
 
