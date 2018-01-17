@@ -1,3 +1,7 @@
+### Shortcuts
+
+* find result 1: alt + v, n, n, enter
+
 **Always running VS as administrator**
 
 * Right click on the shortcut of the program, then click on Properties.
