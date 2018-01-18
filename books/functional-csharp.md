@@ -52,3 +52,12 @@
     Chainable— A this argument (implicit on instance methods and explicit on extension methods) makes it possible to compose through chaining.
     General— The more specific the function, the fewer cases there will be where it’s useful to compose it.
     Shape-preserving— The function preserves the “shape” of the structure; so, if it takes an IEnumerable, it returns an IEnumerable, and so on.
+
+### Functional error handling
+
+    // Either type, which, in the context of an operation with two possible outcomes, captures details about the outcome that has taken place. 
+    By convention, the two possible outcomes are indicated with Left and Right (as shown in figure 6.1), likening the Either-producing operation to a fork: things can go one way or another.
+    
+    Option<T>	None	Some(T)
+    Either<L, R>	Left(L)	Right(R)
+
