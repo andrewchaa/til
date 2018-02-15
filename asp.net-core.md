@@ -113,3 +113,66 @@
     var fileStream = Encoding.ASCII.GetBytes(sb.ToString());
     return File(fileStream, "text/css", $"{name}-eur.csv");
 
+
+### API Tests
+
+    private readonly TestServer _server;
+    private readonly HttpClient Client;
+    private readonly Mock<IScheduledEventService> _service;
+    private Mock<IScheduledEventRepository> _repository;
+    private const string EventDescription = "Test Event Description";
+    private const string EventName = "Test Event Name";
+    private const string TestPostCodeValue = "EC4M";
+
+    public CreatingScheduledEventTests()
+    {
+        _service = new Mock<IScheduledEventService>();
+        _repository = new Mock<IScheduledEventRepository>();
+
+        _server = new TestServer(new WebHostBuilder()
+            .UseStartup<Startup>()
+            .ConfigureServices(services =>
+            {
+                services.AddTransient<IScheduledEventService>(p => _service.Object);
+                services.AddTransient<IScheduledEventRepository>(p => _repository.Object);
+            }));
+
+        Client = _server.CreateClient();
+
+    }
+
+    private CreateScheduledEventRequest BuildScheduledEventViewModel()
+    {
+        var viewModel = new CreateScheduledEventRequest
+        {
+            Name = EventName,
+            Description = EventDescription,
+            ActionTasks = new[]
+            {
+                new ActionTaskViewModel { Action = "Offline", Date = DateTime.Today },
+                new ActionTaskViewModel { Action = "Online", Date = DateTime.Today.AddDays(1) }
+            },
+            Filter = new FilterViewModel { Type = "PostCode", Value = TestPostCodeValue },
+        };
+
+
+        return viewModel;
+    }
+    private string Uri { get; } = "/api/scheduledevents";
+
+    [Fact]
+    public async Task Should_Return_201_Created()
+    {
+        var response = await HttpClientExtensions.PostAsJsonAsync(Client, Uri, BuildScheduledEventViewModel());
+
+        Assert.Equal(HttpStatusCode.Created, response.StatusCode);
+    }
+
+    [Fact]
+    public async Task Should_Save_The_Events_Name_And_Description()
+    {
+        await HttpClientExtensions.PostAsJsonAsync(Client, Uri, BuildScheduledEventViewModel());
+
+        _service.Verify(s => s.Create(It.Is<ScheduledEvent>(e => e.Name == EventName)));
+        _service.Verify(s => s.Create(It.Is<ScheduledEvent>(e => e.Description == EventDescription)));
+    }
