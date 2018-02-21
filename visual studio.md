@@ -1,8 +1,10 @@
 ### Shortcuts
 
+* close all but this: alt + -, then arrows key
 * show find result 1: alt + v, n, n, enter
 * show error list: ctrl + \, e
 * show solution explorer: shft + alt + l
+
 
 **Always running VS as administrator**
 
