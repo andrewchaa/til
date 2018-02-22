@@ -28,27 +28,17 @@
 
 ### Start up
 
-    public Startup(IHostingEnvironment env)
+    // read nlog config
+    env.ConfigureNLog("nlog.config"); // read nlog config
+
+    // add global filter
+    services.AddMvc(config =>
     {
-        env.ConfigureNLog("nlog.config"); // read nlog config
-    }
-
-
-    public void ConfigureServices(IServiceCollection services)
-    {
-        services.AddCors();  // adding CORSs upport. install Microsoft.AspNetCore.Cors
-        services.AddMvc(config =>
-        {
-            var policy = new AuthorizationPolicyBuilder()   // add global auth filter
-                .RequireAuthenticatedUser()
-                .Build();
-            config.Filters.Add(new AuthorizeFilter(policy));
-        });
-    
-        
-        services.AddTransient<IApiClient, GdaxClient>(); // IoC set up
-
-    }
+        var policy = new AuthorizationPolicyBuilder()
+            .RequireAuthenticatedUser()
+            .Build();
+        config.Filters.Add(new AuthorizeFilter(policy));
+    });
 
     public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
     {
