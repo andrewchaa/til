@@ -1,6 +1,7 @@
 ### Resources
 
 * Enabling swagger: https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?tabs=visual-studio 
+* Writing middleware: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?tabs=aspnetcore2x
 
 ### Creating a project
 
