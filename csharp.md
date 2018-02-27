@@ -1,3 +1,5 @@
+## Types
+
 ### string
 
     // escape verbatim string
@@ -17,6 +19,14 @@
     
     Convert.ToDecimal(123456789012345500.12D)
     
+### enum
+
+    // to parse enum
+    public static T To<T>(this string value) where T : struct
+    {
+        return Enum.Parse<T>(value, true);
+    }
+
 
 ### Delegate
 
