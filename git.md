@@ -7,6 +7,10 @@
 
     // support npm packages from github
     git config --global url."https://".insteadOf git://
+    
+    //ignore a top level directory or file
+    /index.html
+    /deploy
 
 ### Usages
 
