@@ -2,6 +2,10 @@
 
 * [Creating Amazon DynamoDB Tables with PowerShell](https://aws.amazon.com/blogs/developer/creating-amazon-dynamodb-tables-with-powershell/)
 
+### Set up
+
+* [Download AWS Tools for Windows Powershell](https://aws.amazon.com/powershell/) and install it
+
 ### CRUD
 
     //creating tables with Powershell
