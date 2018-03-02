@@ -77,46 +77,39 @@ var response = client.PostAsync(url, new FormUrlEncodedContent(new KeyValuePair<
 var open = new JavaScriptSerializer().Serialize(new {open = true});
 ```
 
-# DateTime
+### DateTime
 
-**Convert Unix Epoch time to DateTime**
-```csharp
-public DateTime FromUnixTime(long unixTime)
-{
-    var epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
-    return epoch.AddSeconds(unixTime);
-}
-```
+    // Convert Unix Epoch time to DateTime
+    public DateTime FromUnixTime(long unixTime)
+    {
+        var epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+        return epoch.AddSeconds(unixTime);
+    }
+
+    // Convert to UK Time from UTC
+    public static DateTime ToUkDateTime(this DateTime dateTime)
+    {
+        var zone = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");
+        return TimeZoneInfo.ConvertTimeFromUtc(dateTime, zone);
+    ```
+
+    // To ISO String
+    DateTime.UtcNow.ToString("s", CultureInfo.InvariantCulture)
+
+    // Compare Time of the day
+    var time = DateTime.UtcNow.ToUkDateTime().TimeOfDay;
+    var lunchStart = new TimeSpan(11, 30, 0);
+    var lunchEnd = new TimeSpan(14, 30, 0);
+    var dinnerStart = new TimeSpan(17, 30, 0);
+    var dinnerEnd = new TimeSpan(22, 30, 0);
+
+    if (time >= lunchStart && time <= lunchEnd) return open;
+    if (time >= dinnerStart && time <= dinnerEnd) return open;
 
 
-**Compare Time of the day**
-
-```csharp
-var time = DateTime.UtcNow.ToUkDateTime().TimeOfDay;
-var lunchStart = new TimeSpan(11, 30, 0);
-var lunchEnd = new TimeSpan(14, 30, 0);
-var dinnerStart = new TimeSpan(17, 30, 0);
-var dinnerEnd = new TimeSpan(22, 30, 0);
-
-if (time >= lunchStart && time <= lunchEnd) return open;
-if (time >= dinnerStart && time <= dinnerEnd) return open;
-```
-
-**Convert to UK Time from UTC**
-
-```csharp
-public static DateTime ToUkDateTime(this DateTime dateTime)
-{
-    var zone = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");
-    return TimeZoneInfo.ConvertTimeFromUtc(dateTime, zone);
-}
-```
-
-**Precision time to log elapsed time**
-```csharp
-var watch = Stopwatch.StartNew();
-durationInSeconds = watch.Elapsed.Seconds
-```
+    // Precision time to log elapsed time
+    var watch = Stopwatch.StartNew();
+    durationInSeconds = watch.Elapsed.Seconds
 
 **Check if an object can be cast to a type**
 
