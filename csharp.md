@@ -26,6 +26,16 @@
     {
         return Enum.Parse<T>(value, true);
     }
+    
+    // to store enum as string in db
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum FilterType
+    {
+        BrandName,
+        RestaurantIds,
+        Postcode
+    }
+
 
 
 ### Delegate
