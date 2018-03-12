@@ -37,56 +37,6 @@
     }
 
 
-
-### Delegate
-
-
-    // Get name of Action / Func delegate**
-    public async Task<T1> LogAndExecute<T1>(string number, Func<Task<T1>> func)
-    {
-
-        Logger.LogInfo(new Info
-        {
-            Number = number,
-            Method = func.Method.Name,
-            LogType = "Pre",
-            Message = $"Started calling {func.Method.Name}"
-        }.ToJson());
-
-### async
-
-    // call async from sync
-    var requestTask = Task.Run(async () => await _requestService.IssueRequest(
-        client => new OrgRc(client, _logger).GetAllByIdsAsync(ids),
-        "Failed to get orgs by id (Id)",
-        new {Id = id}
-    ));
-    var result = requestTask.Result;
-
-
-### Linq
-
-    //Distinct
-    IEnumerable<Customer> filteredList = originalList
-      .GroupBy(customer => customer.CustomerId)
-      .Select(group => group.First());
-
-#### post string value
-
-```csharp
-var client = new HttpClient();
-client.SetBearerToken(tokenResponse.AccessToken);
-var url = "api endpoint";
-var response = client.PostAsync(url, new FormUrlEncodedContent(new KeyValuePair<string, string>[0])).Result;
-```
-
-
-### Turn C# object into a JSON string
-
-```csharp
-var open = new JavaScriptSerializer().Serialize(new {open = true});
-```
-
 ### DateTime
 
     // Convert Unix Epoch time to DateTime
@@ -115,11 +65,57 @@ var open = new JavaScriptSerializer().Serialize(new {open = true});
 
     if (time >= lunchStart && time <= lunchEnd) return open;
     if (time >= dinnerStart && time <= dinnerEnd) return open;
+    
+    // To ISO String upto milliseconds
+    public static string ToIsoMilliseconds(this DateTime dateTime)
+    {
+        return dateTime.ToString("yyyy-MM-dd HH:mm:ss.fff", CultureInfo.InvariantCulture);
+    }
+
 
 
     // Precision time to log elapsed time
     var watch = Stopwatch.StartNew();
     durationInSeconds = watch.Elapsed.Seconds
+
+### Delegate
+
+
+    // Get name of Action / Func delegate**
+    public async Task<T1> LogAndExecute<T1>(string number, Func<Task<T1>> func)
+    {
+
+        Logger.LogInfo(new Info
+        {
+            Number = number,
+            Method = func.Method.Name,
+            LogType = "Pre",
+            Message = $"Started calling {func.Method.Name}"
+        }.ToJson());
+
+### Linq
+
+    //Distinct
+    IEnumerable<Customer> filteredList = originalList
+      .GroupBy(customer => customer.CustomerId)
+      .Select(group => group.First());
+
+#### post string value
+
+```csharp
+var client = new HttpClient();
+client.SetBearerToken(tokenResponse.AccessToken);
+var url = "api endpoint";
+var response = client.PostAsync(url, new FormUrlEncodedContent(new KeyValuePair<string, string>[0])).Result;
+```
+
+
+### Turn C# object into a JSON string
+
+```csharp
+var open = new JavaScriptSerializer().Serialize(new {open = true});
+```
+
 
 **Check if an object can be cast to a type**
 
