@@ -14,15 +14,28 @@
 
 ### Usages
 
-    * show origin details: git remote show origin
-    * show all the remotes: git remote -v
-    * check out and create a branch: git checkout -b feature-install-script
-    * checkout remote branch
+    // show origin details
+    git remote show origin
+    
+    // show all the remotes
+    git remote -v
+    
+    // check out and create a branch
+    git checkout -b feature-install-script
+    
+    // checkout remote branch
+    git fetch
+    git checkout -b booking origin/booking
 
-        git fetch
-        git checkout -b booking origin/booking
-
-    * list all branches: git branch -a
+    // list all branches
+    git branch -a
+    
+    // cherry-pick commits for PR
+    git checkout -b mybranch
+    git fetch upstream
+    git reset --hard upstream/master
+    git cherry-pick <commit-hash>
+    git push origin mybranch:mybranch
 
 ### Syncing fork
 
