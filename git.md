@@ -37,7 +37,8 @@
     git cherry-pick <commit-hash>
     git push origin mybranch:mybranch
 
-### Syncing fork
+
+    // Syncing fork
 
     git remote -v // check if you have upstream
     git remote add upstream git@github.com:CorrelatorSharp/CorrelatorSharp.git // add upstream
