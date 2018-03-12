@@ -16,6 +16,14 @@
         return left + right;
     }
 
+    // call async from sync
+    var requestTask = Task.Run(async () => await _requestService.IssueRequest(
+        client => new OrgRc(client, _logger).GetAllByIdsAsync(ids),
+        "Failed to get orgs by id (Id)",
+        new {Id = id}
+    ));
+    var result = requestTask.Result;
+
 
 ### parallelism
 
