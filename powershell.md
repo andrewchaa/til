@@ -1,52 +1,43 @@
-### Installation
+## Installation
 
-#### Mac
-
-To install
-
+    // Mac
     brew tap caskroom/cask
     brew cask install powershell
     brew casl reinstall powershell
     
-Create an alias to start powershell
-
+    // Create an alias to start powershell
     open .zshrc
     alias powershell='/usr/local/microsoft/powershell/6.0.0-rc/pwsh'
 
-**Invoke-WebRequest**
+## HTTP
+    // POST
+    $postParams = @{username='me';moredata='qwerty'}
+    Invoke-WebRequest -Uri http://example.com/foobar -Method POST -Body $postParams
 
-```powershell
-$postParams = @{username='me';moredata='qwerty'}
-Invoke-WebRequest -Uri http://example.com/foobar -Method POST -Body $postParams
-```
+## IIS
+    // Binding a certificate to a site
 
-**Binding a certificate to a site**
+    Write-Host "Binding certificate to $($name)"
+    if (Test-Path IIS:\SslBindings\0.0.0.0!443) {
+      Remove-Item IIS:\SslBindings\0.0.0.0!443
+    }
 
-```powershell
-  Write-Host "Binding certificate to $($name)"
-  if (Test-Path IIS:\SslBindings\0.0.0.0!443) {
-    Remove-Item IIS:\SslBindings\0.0.0.0!443
-  }
+    Get-ChildItem cert:\LocalMachine\My | where { $_.Subject -like "*market.*" } | select -First 1 | New-Item IIS:\SslBindings\0.0.0.0!443
 
-  Get-ChildItem cert:\LocalMachine\My | where { $_.Subject -like "*market.*" } | select -First 1 | New-Item IIS:\SslBindings\0.0.0.0!443
-```
+## Sql Server
 
-**Check if a db exists**
+    // Check if DB Exists
+    [reflection.assembly]::LoadWithPartialName("Microsoft.SqlServer.Smo")
+    $server = new-object ("Microsoft.SqlServer.Management.Smo.Server") .
 
-```powershell
-[reflection.assembly]::LoadWithPartialName("Microsoft.SqlServer.Smo")
+    $dbExists = $FALSE
+    foreach ($db in $server.databases) {
+      if ($db.name -eq "Db") {
+        Write-Host "Db already exists."
+        $dbExists = $TRUE
+      }
+    }
 
-$server = new-object ("Microsoft.SqlServer.Management.Smo.Server") .
-
-$dbExists = $FALSE
-foreach ($db in $server.databases) {
-  if ($db.name -eq "Db") {
-    Write-Host "Db already exists."
-    $dbExists = $TRUE
-  }
-}
-
-```
 
 **Create a db and a user and associate the user with a role**
 ```powershell
