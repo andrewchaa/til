@@ -49,25 +49,20 @@
     git merge upstream/master // merge upstream/master
 
 
-# Local branch
+## Deletion
 
-**Delete a branch**
-```
-git branch -d fix-3987-dont-sent-email-until-advance-succeeds
-git push origin --delete fix-3987-dont-sent-email-until-advance-succeeds
-```
+    // delete a branch
+    git branch -d fix-3987-dont-sent-email-until-advance-succeeds
+    git push -d origin fix-3987-dont-sent-email-until-advance-succeeds
+
+    // delete a file from tracking
+    git rm --cached <file>
+    git rm -r --cached <directory>   //resursively
 
 **Rename a branch**
 ```
 git branch -m <oldname> <newname>
 ```
-
-## Undoing stuff
-
-### Remove a file from tracking
-
-    git rm --cached <file>
-    git rm -r --cached <directory>   //resursively
 
 ### Find and restore a deleted file
 
