@@ -1,4 +1,4 @@
-## Installation
+## Set up
 
     // Mac
     brew tap caskroom/cask
@@ -9,14 +9,17 @@
     open .zshrc
     alias powershell='/usr/local/microsoft/powershell/6.0.0-rc/pwsh'
 
-## HTTP
-    // POST
+
+## Usage
+
+    // HTTP POST
     $postParams = @{username='me';moredata='qwerty'}
     Invoke-WebRequest -Uri http://example.com/foobar -Method POST -Body $postParams
+    
+    // List Environmental Variables
+    Get-ChildItem Env:
 
-## IIS
-    // Binding a certificate to a site
-
+    // Binding a certificate to a site on IIS
     Write-Host "Binding certificate to $($name)"
     if (Test-Path IIS:\SslBindings\0.0.0.0!443) {
       Remove-Item IIS:\SslBindings\0.0.0.0!443
