@@ -19,6 +19,9 @@
     // List Environmental Variables
     Get-ChildItem Env:
 
+    // Show the content of a file
+    Get-Content .\endtoendsettings.json
+
     // Binding a certificate to a site on IIS
     Write-Host "Binding certificate to $($name)"
     if (Test-Path IIS:\SslBindings\0.0.0.0!443) {
