@@ -1,3 +1,8 @@
+    // Check if a user exists
+    IF USER_ID('RestaurantEventsUK') IS NULL
+        EXEC('CREATE USER [RestaurantEvents' + @tenant + '] FOR LOGIN [RestaurantEvents' + @tenant + '] WITH DEFAULT_SCHEMA=[dbo]')
+
+
     // Getting an exclusive access 
     ALTER DATABASE [Database-Name] SET SINGLE_USER WITH ROLLBACK IMMEDIATE 
     ALTER DATABASE [Database-Name] SET MULTI_USER
