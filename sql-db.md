@@ -1,6 +1,7 @@
     // Check if a user exists
     IF USER_ID('RestaurantEventsUK') IS NULL
-        EXEC('CREATE USER [RestaurantEvents' + @tenant + '] FOR LOGIN [RestaurantEvents' + @tenant + '] WITH DEFAULT_SCHEMA=[dbo]')
+        EXEC('CREATE USER [RestaurantEvents' + @tenant + '] FOR LOGIN [RestaurantEvents' + @tenant + '] 
+        WITH DEFAULT_SCHEMA=[dbo]')
 
 
     // Getting an exclusive access 
