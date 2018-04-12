@@ -1,7 +1,8 @@
-### Resources
+# Resources
 
-* Enabling swagger: https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?tabs=visual-studio 
-* Writing middleware: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?tabs=aspnetcore2x
+* [Enabling swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?tabs=visual-studio) 
+* [Writing middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?tabs=aspnetcore2x)
+* [Improved Model Bindings](https://www.red-gate.com/simple-talk/dotnet/asp-net/improved-model-binding-asp-net-core/)
 
 ### Command line tool
 
@@ -97,15 +98,23 @@
       </rules>
     </nlog>
 
-
-
-
-
 ### Controllers
 
     // download file
     var fileStream = Encoding.ASCII.GetBytes(sb.ToString());
     return File(fileStream, "text/css", $"{name}-eur.csv");
+
+
+## Model Bindings
+```csharp
+    [HttpPost("events/[controller]")]
+    public async Task<IActionResult> Post([FromRoute] Tenant tenant,
+        [FromBody] OfflineRequestModel request,
+        [FromHeader(Name= "X-JE-User-Role")] string userRole,
+        [FromHeader(Name= "X-JE-Requester")] string requester)
+        {
+
+```
 
 
 ### API Tests
