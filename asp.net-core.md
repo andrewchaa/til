@@ -115,6 +115,13 @@
         {
 
 ```
+## Testing
+
+```csharp
+// create options for testing
+_options = Options.Create(new AppSettings());
+    
+```
 
 
 ### API Tests
