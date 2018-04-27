@@ -25,3 +25,20 @@
             {"EventType", new AttributeValue {S = @event.GetType().Name}},
             {nameof(@event), new AttributeValue {S = JsonConvert.SerializeObject(@event)}}
         });
+
+
+```csharp
+// Save
+var credentials = new BasicAWSCredentials("accesskey", "access secret");
+var dynamoDb = new AmazonDynamoDBClient(credentials, RegionEndpoint.EUWest2);
+
+var response = await dynamoDb.PutItemAsync(
+    tableName: "HistoricalRates",
+    item: new Dictionary<string, AttributeValue>
+    {
+        {"Currency", new AttributeValue {S = "BTC"}},
+        {"Date", new AttributeValue {S = DateTime.Today.ToString("yyyy-MM-dd")}},
+        {"Rates", new AttributeValue {S = JsonConvert.SerializeObject(new { Test = 1})}}
+    });
+
+```
