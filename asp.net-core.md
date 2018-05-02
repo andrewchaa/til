@@ -21,16 +21,35 @@
     // watch
     dotnet watch run -p JustExpense.fsproj
 
-### Configuration
+## Set up
 
-    // options
-    var options = new OptionsWrapper<ZendeskOptions>(new ZendeskOptions
-    {
-        EndpointUri = appSettings.GetValue("zendeskurl"),
-        Token = appSettings.GetValue("zendesktoken"),
-        Username = appSettings.GetValue("zendeskuser")
-    });
+```csharp
 
+// get url
+public TenantContext(IHttpContextAccessor accessor, ILogger<TenantContext> logger)
+{
+    _accessor = accessor;
+    _logger = logger;
+}
+
+public Tenant GetTenant()
+{
+    var tenant = _accessor.HttpContext.Request.Path.ToString().Split("/")[2];
+
+    _logger.LogInformation($"Tenant: {tenant}");
+    return tenant.To<Tenant>();
+}
+
+
+// options
+var options = new OptionsWrapper<ZendeskOptions>(new ZendeskOptions
+{
+    EndpointUri = appSettings.GetValue("zendeskurl"),
+    Token = appSettings.GetValue("zendesktoken"),
+    Username = appSettings.GetValue("zendeskuser")
+});
+
+```
 ### Start up
 
 ```csharp
@@ -117,6 +136,7 @@
     // download file
     var fileStream = Encoding.ASCII.GetBytes(sb.ToString());
     return File(fileStream, "text/css", $"{name}-eur.csv");
+
 
 
 ## Model Bindings
