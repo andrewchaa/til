@@ -33,6 +33,20 @@
 
 ### Start up
 
+```csharp
+// open kestrel outside other than localhost
+// launchsettings.json
+"JE.Restaurant.Events": {
+  "commandName": "Project",
+  "launchBrowser": true,
+  "environmentVariables": {
+    "ASPNETCORE_ENVIRONMENT": "Development"
+  },
+  "applicationUrl": "http://0.0.0.0:5000/"
+}
+
+```
+
     // read nlog config
     env.ConfigureNLog("nlog.config"); // read nlog config
 
