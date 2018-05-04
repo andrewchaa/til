@@ -39,44 +39,58 @@
 
 ### DateTime
 
-    // Convert Unix Epoch time to DateTime
-    public DateTime FromUnixTime(long unixTime)
-    {
-        var epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
-        return epoch.AddSeconds(unixTime);
-    }
+```csharp
 
-    // Convert to UK Time from UTC
-    public static DateTime ToUkDateTime(this DateTime dateTime)
-    {
-        var zone = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");
-        return TimeZoneInfo.ConvertTimeFromUtc(dateTime, zone);
-    ```
+// DateTimeOffset offset exception
+// Set Unspecified kind
 
-    // To ISO String
-    DateTime.UtcNow.ToString("s", CultureInfo.InvariantCulture)
+var input = DateTime.SpecifyKind(dateTime, DateTimeKind.Unspecified);
 
-    // Compare Time of the day
-    var time = DateTime.UtcNow.ToUkDateTime().TimeOfDay;
-    var lunchStart = new TimeSpan(11, 30, 0);
-    var lunchEnd = new TimeSpan(14, 30, 0);
-    var dinnerStart = new TimeSpan(17, 30, 0);
-    var dinnerEnd = new TimeSpan(22, 30, 0);
+if (tenant == Tenant.Dk)
+    return new LocalDateTime(new DateTimeOffset(input, TimeZoneInfo.FindSystemTimeZoneById("Central European Standard Time").GetUtcOffset(input)));
 
-    if (time >= lunchStart && time <= lunchEnd) return open;
-    if (time >= dinnerStart && time <= dinnerEnd) return open;
-    
-    // To ISO String upto milliseconds
-    public static string ToIsoMilliseconds(this DateTime dateTime)
-    {
-        return dateTime.ToString("yyyy-MM-dd HH:mm:ss.fff", CultureInfo.InvariantCulture);
-    }
+return new LocalDateTime(new DateTimeOffset(input, TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time").GetUtcOffset(input)));
 
 
+// Convert Unix Epoch time to DateTime
+public DateTime FromUnixTime(long unixTime)
+{
+    var epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+    return epoch.AddSeconds(unixTime);
+}
 
-    // Precision time to log elapsed time
-    var watch = Stopwatch.StartNew();
-    durationInSeconds = watch.Elapsed.Seconds
+// Convert to UK Time from UTC
+public static DateTime ToUkDateTime(this DateTime dateTime)
+{
+    var zone = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");
+    return TimeZoneInfo.ConvertTimeFromUtc(dateTime, zone);
+```
+
+// To ISO String
+DateTime.UtcNow.ToString("s", CultureInfo.InvariantCulture)
+
+// Compare Time of the day
+var time = DateTime.UtcNow.ToUkDateTime().TimeOfDay;
+var lunchStart = new TimeSpan(11, 30, 0);
+var lunchEnd = new TimeSpan(14, 30, 0);
+var dinnerStart = new TimeSpan(17, 30, 0);
+var dinnerEnd = new TimeSpan(22, 30, 0);
+
+if (time >= lunchStart && time <= lunchEnd) return open;
+if (time >= dinnerStart && time <= dinnerEnd) return open;
+
+// To ISO String upto milliseconds
+public static string ToIsoMilliseconds(this DateTime dateTime)
+{
+    return dateTime.ToString("yyyy-MM-dd HH:mm:ss.fff", CultureInfo.InvariantCulture);
+}
+
+
+
+// Precision time to log elapsed time
+var watch = Stopwatch.StartNew();
+durationInSeconds = watch.Elapsed.Seconds
+```
 
 ### Delegate
 
