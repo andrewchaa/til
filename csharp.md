@@ -51,7 +51,6 @@ if (tenant == Tenant.Dk)
 
 return new LocalDateTime(new DateTimeOffset(input, TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time").GetUtcOffset(input)));
 
-
 // Convert Unix Epoch time to DateTime
 public DateTime FromUnixTime(long unixTime)
 {
@@ -64,7 +63,6 @@ public static DateTime ToUkDateTime(this DateTime dateTime)
 {
     var zone = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");
     return TimeZoneInfo.ConvertTimeFromUtc(dateTime, zone);
-```
 
 // To ISO String
 DateTime.UtcNow.ToString("s", CultureInfo.InvariantCulture)
@@ -84,8 +82,6 @@ public static string ToIsoMilliseconds(this DateTime dateTime)
 {
     return dateTime.ToString("yyyy-MM-dd HH:mm:ss.fff", CultureInfo.InvariantCulture);
 }
-
-
 
 // Precision time to log elapsed time
 var watch = Stopwatch.StartNew();
