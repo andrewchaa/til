@@ -5,13 +5,36 @@
 
 ### Set up
 
-    // support npm packages from github
-    git config --global url."https://".insteadOf git://
-    
-    //ignore a top level directory or file
-    /index.html
-    /deploy
+```bash
 
+// Check if ssh exists
+ls -al ~/.ssh
+
+// Start ssh agent
+eval "$(ssh-agent -s)"
+
+// Automaticaly load key into ssh-agent
+open ~/.ssh/config
+
+Host *
+ AddKeysToAgent yes
+ UseKeychain yes
+ IdentityFile ~/.ssh/id_rsa
+
+// Add the private key to ssh agent
+ssh-add -K ~/.ssh/id_rsa
+
+
+// support npm packages from github
+git config --global url."https://".insteadOf git://
+
+// ignore a top level directory or file
+/index.html
+/deploy
+
+
+
+```
 ### Usages
 
     // show origin details
