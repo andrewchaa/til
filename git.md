@@ -24,6 +24,8 @@ Host *
 // Add the private key to ssh agent
 ssh-add -K ~/.ssh/id_rsa
 
+// Copy the corresponding public key and put it on github
+pbcopy < ~/.ssh/id_rsa.pub
 
 // support npm packages from github
 git config --global url."https://".insteadOf git://
