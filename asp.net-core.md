@@ -1,6 +1,4 @@
-# ASP.NET Core 
-
-## Table of Contents
+## ASP.NET Core 
 
 1. [Resources](#resources)
 1. [Running xunit tests](#runningxunittests)
