@@ -3,8 +3,18 @@
 https://www.safaribooksonline.com/library/view/aspnet-core-mvc/9781785886751/
 
 1. [Resources](#resources)
-1. run xunit tests
+1. [Running xunit tests](#runningxunittests)
 
+
+**<a href="#runningxunittests">Runing xUnit Tests</a>**
+
+Install packages
+
+* Microsoft.NET.Test.Sdk
+* xunit
+* xunit.runner.visualstudio
+
+The target framework should be .NETCore 2.0 more or less, not .NETStandard 2.0
 
 **<a href="#resources">Resources</a>**
 
