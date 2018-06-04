@@ -5,7 +5,8 @@ https://www.safaribooksonline.com/library/view/aspnet-core-mvc/9781785886751/
 1. [Resources](#resources)
 1. run xunit tests
 
-### <a href="#resources">Resources</a>
+
+**<a href="#resources">Resources</a>**
 
 * [Enabling swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?tabs=visual-studio) 
 * [Writing middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?tabs=aspnetcore2x)
