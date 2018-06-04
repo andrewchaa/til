@@ -1,10 +1,12 @@
 # ASP.NET Core 
 
-https://www.safaribooksonline.com/library/view/aspnet-core-mvc/9781785886751/
+## Table of Contents
 
 1. [Resources](#resources)
 1. [Running xunit tests](#runningxunittests)
 
+
+## Contents
 
 **<a href="#runningxunittests">Runing xUnit Tests</a>**
 
