@@ -8,12 +8,15 @@
 ### Usage
 
 ```csharp
+
 // create interface
-public interface IRestaurantEventApi
-{
-    [Post("/v1/{tenant}/restaurants/{restaurantId}/events/offline")]
-    Task<RestaurantOfflineEventResponse> OfflineRestaurant(string tenant, int restaurantId);
-}
+// set verb, route, header, and body
+[Post("/v1/{tenant}/restaurants/{restaurantId}/events/offline")]
+Task<RestaurantOfflineEventResponse> OfflineRestaurant(
+    [Header("X-JE-User-Role")] string userRole, 
+    [Header("X-JE-Requester")] string requester, 
+    string tenant, 
+    int restaurantId);
 
 
 ```
