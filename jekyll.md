@@ -4,7 +4,7 @@
 1. [Deployment](#deployment)
 1. [Setting Up Custom Domain](#setting-up-custom-domain)
 1. [Usage](#usage)
-1. [s3_website](#s3-website)
+1. [Deploying by s3_website](#deploy-s3-website)
 
 
 
@@ -150,7 +150,7 @@ jekyll build
 
 ```
 
-## <a href="#s3-website">S3_Website</a>
+## <a href="#deploy-s3-website">Deploying by S3_Website</a>
 
 ```ruby
 # Install s3_website gem
