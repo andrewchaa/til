@@ -1,10 +1,22 @@
-## ASP.NET Core 
+# ASP.NET Core 
 
 1. [Resources](#resources)
 1. [Running xunit tests](#runningxunittests)
+1. [Create IOptions value on the fly](#create-ioptions-value-on-the-fly) 
 
 
 ## Contents
+
+**<a href="#create-ioptions-value-on-the-fly">Create IOptions value on the fly</a>**
+
+```csharp
+var options = new OptionsWrapper<ZendeskOptions>(new ZendeskOptions
+{
+    EndpointUri = appSettings.GetValue("zendeskurl"),
+    Token = appSettings.GetValue("zendesktoken"),
+    Username = appSettings.GetValue("zendeskuser")
+});
+```
 
 **<a href="#runningxunittests">Runing xUnit Tests</a>**
 
@@ -58,14 +70,6 @@ public Tenant GetTenant()
     return tenant.To<Tenant>();
 }
 
-
-// options
-var options = new OptionsWrapper<ZendeskOptions>(new ZendeskOptions
-{
-    EndpointUri = appSettings.GetValue("zendeskurl"),
-    Token = appSettings.GetValue("zendesktoken"),
-    Username = appSettings.GetValue("zendeskuser")
-});
 
 ```
 ### Start up
