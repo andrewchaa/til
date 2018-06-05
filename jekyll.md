@@ -4,13 +4,48 @@
 1. [Deployment](#deployment)
 1. [Setting Up Custom Domain](#setting-up-custom-domain)
 1. [Usage](#usage)
-1. [S3_Website](#s3-website)
+
+### Deploying to AWS S3
+
+1. [S3_Website Installation](#s3-website-installation)
+1. [Using S3_Website to push to AWS S3](#s3-website)
+
+**<a href="#s3-website-installation">S3_Website</a>**
+
+```ruby
+# Install s3_website gem
+gem install s3_website
+
+# Download jdk 8 from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html and install it
+
+# Install jenv
+brew install jenv
+
+# Add that JDK (jdk1.8.0_xxx.jdk) to jenv
+jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/
+
+# View all versions in jenv to confirm jdk1.8.0_162.jdk is present
+jenv versions
+
+# Configure the global version in jenv to be jdk1.8.0_162.jdk
+jenv global oracle64-1.8.0.162
+
+```
 
 **<a href="#s3-website">S3_Website</a>**
 
 ```ruby
 # installation
 gem install s3_website
+
+# to generate s3_website.yml
+s3_website cfg create
+
+# to apply the config file
+s3_website cfg apply
+
+# to push
+s3_website push
 ```
 
 
