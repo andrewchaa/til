@@ -4,13 +4,10 @@
 1. [Deployment](#deployment)
 1. [Setting Up Custom Domain](#setting-up-custom-domain)
 1. [Usage](#usage)
+1. [s3_website](#s3-website)
 
-### Deploying to AWS S3
 
-1. [S3_Website Installation](#s3-website-installation)
-1. [Using S3_Website to push to AWS S3](#s3-website)
-
-**<a href="#s3-website-installation">S3_Website Set up</a>**
+## <a href="#s3-website">S3_Website</a>
 
 ```ruby
 # Install s3_website gem
