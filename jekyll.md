@@ -27,11 +27,6 @@ jenv versions
 # Configure the global version in jenv to be jdk1.8.0_162.jdk
 jenv global oracle64-1.8.0.162
 
-```
-
-**<a href="#s3-website">S3_Website</a>**
-
-```ruby
 # installation
 gem install s3_website
 
