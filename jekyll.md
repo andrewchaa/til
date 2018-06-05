@@ -6,8 +6,12 @@
 1. [Usage](#usage)
 1. [S3_Website](#s3-website)
 
-**<a href="#s3-website">S3_Website/a>**
-  
+**<a href="#s3-website">S3_Website</a>**
+
+```ruby
+# installation
+gem install s3_website
+```
 
 
 ## <a href="#getting-started">Getting Started</a>
