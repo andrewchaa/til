@@ -150,7 +150,7 @@ jekyll build
 
 ```
 
-## Deploying by s3 website
+### Deploying by s3_website
 
 Test
 
