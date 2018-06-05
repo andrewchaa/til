@@ -10,7 +10,7 @@
 1. [S3_Website Installation](#s3-website-installation)
 1. [Using S3_Website to push to AWS S3](#s3-website)
 
-**<a href="#s3-website-installation">S3_Website</a>**
+**<a href="#s3-website-installation">S3_Website Set up</a>**
 
 ```ruby
 # Install s3_website gem
@@ -40,6 +40,11 @@ gem install s3_website
 
 # to generate s3_website.yml
 s3_website cfg create
+
+# configure s3_website.yml
+s3_bucket: www.hyeeun-acupuncture.co.uk
+site: ./_site
+s3_endpoint: eu-west-2
 
 # to apply the config file
 s3_website cfg apply
