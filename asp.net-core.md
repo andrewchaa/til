@@ -5,6 +5,8 @@
 1. [Create IOptions value on the fly](#create-ioptions-value-on-the-fly) 
 1. [Failed to bind to address http://127.0.0.1:5000](https://github.com/andrewchaa/WILT/blob/master/asp.net-core.md#failed-to-bind-to-address-http1270015000)
 
+## Contents
+
 ### Failed to bind to address http://127.0.0.1:5000
 
 On Mac, go to ActivityMonitor and force quit dotnet
