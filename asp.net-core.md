@@ -31,7 +31,7 @@ Install packages
 
 The target framework should be .NETCore 2.0 more or less, not .NETStandard 2.0
 
-**<a href="#resources">Resources</a>**
+### Resources
 
 * [Enabling swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?tabs=visual-studio) 
 * [Writing middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?tabs=aspnetcore2x)
