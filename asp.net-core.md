@@ -4,10 +4,12 @@
 1. [Running xunit tests](#runningxunittests)
 1. [Create IOptions value on the fly](#create-ioptions-value-on-the-fly) 
 
+### Failed to bind to address http://127.0.0.1:5000
 
-## Contents
+On Mac, go to ActivityMonitor and force quit dotnet
 
-**<a href="#create-ioptions-value-on-the-fly">Create IOptions value on the fly</a>**
+
+### Create IOptions value on the fly
 
 ```csharp
 var options = new OptionsWrapper<ZendeskOptions>(new ZendeskOptions
@@ -18,7 +20,7 @@ var options = new OptionsWrapper<ZendeskOptions>(new ZendeskOptions
 });
 ```
 
-**<a href="#runningxunittests">Runing xUnit Tests</a>**
+### Runing xUnit Tests
 
 Install packages
 
