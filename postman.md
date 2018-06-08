@@ -2,6 +2,7 @@
 
 ## Contents
 
+* [Uploading a file](#uploading-a-file)
 
 
 ### Uploading a file
