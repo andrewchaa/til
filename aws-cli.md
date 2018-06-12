@@ -17,7 +17,8 @@ unzip awscli-bundle.zip
 sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 
 // configure for first-time use
-sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+aws configure
+
 ```
 
 ```
