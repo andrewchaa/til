@@ -9,7 +9,7 @@
 
 
 
-## <a href="#getting-started">Getting Started</a>
+### Getting Started
 
 ### Resource
 
@@ -59,7 +59,7 @@ jekyll build
 
 ```
 
-## <a href="#deployment">Deployment</a>
+### Deployment
 
 * http://jmcglone.com/guides/github-pages/
 * Go to settings and set github pages branch to master
