@@ -6,4 +6,7 @@
 
 ```
 sls create --template aws-csharp --path GroovyFood  
+
+cd GroovyFood
+./build.sh
 ```
