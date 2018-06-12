@@ -16,6 +16,9 @@ npm install -g serverless
 # create a project
 sls create --template aws-csharp --path GroovyFood  
 
-cd GroovyFood
+# build the project
 ./build.sh
+
+# deploy
+sls deploy
 ```
