@@ -1,7 +1,7 @@
 # serverless
 
 * [Resource](#resource)
-* [Prepare IAM for lambda](prepare-iam-for-lambda)
+* [Prepare IAM for lambda](#prepare-iam-for-lambda)
 * [Creating a service](#creating-a-service)
 
 ### Resource
