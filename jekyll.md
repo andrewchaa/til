@@ -1,5 +1,7 @@
 # Jekyll
 
+1. [Resource](#resource)
+1. [Getting Started](#getting-started)
 1. [Deployment](#deployment)
 1. [Setting Up Custom Domain](#setting-up-custom-domain)
 1. [Usage](#usage)
@@ -13,6 +15,8 @@
 * https://gist.github.com/smutnyleszek/9803727
 * http://jekyllthemes.org/
 * https://github.com/mattvh/jekyllthemes
+
+### Getting Started
 
 ```
 
