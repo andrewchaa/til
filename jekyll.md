@@ -1,6 +1,5 @@
 # Jekyll
 
-1. [Getting Started](#getting-started)
 1. [Deployment](#deployment)
 1. [Setting Up Custom Domain](#setting-up-custom-domain)
 1. [Usage](#usage)
