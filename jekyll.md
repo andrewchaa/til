@@ -7,10 +7,6 @@
 1. [Deploying by s3_website](#deploying-by-s3-website)
 
 
-
-
-### Getting Started
-
 ### Resource
 
 * https://shopify.github.io/liquid/
@@ -18,9 +14,6 @@
 * https://gist.github.com/smutnyleszek/9803727
 * http://jekyllthemes.org/
 * https://github.com/mattvh/jekyllthemes
-
-
-
 
 ```
 
@@ -88,7 +81,7 @@ jekyll build
    dig www.londoneducationtour.com +nostats +nocomments =nocmd
    ```
 
-## <a href="#usage">Usage</a>
+### Usage
 
 
 ```html
