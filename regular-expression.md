@@ -8,7 +8,7 @@
 .Map(r => Regex.Replace(r, "(?<=[a-zA-Z]),", string.Empty))
 ```
 
-## Parse CSV with double quotes and comma separated numbers
+### Parse CSV with double quotes and comma separated numbers
 
     public IEnumerable<string> SplitCSV(string input)
     {
@@ -21,14 +21,14 @@
     }
 
 
-## convert match collection to list
+### convert match collection to list
 
 ```csharp
 MatchCollection matchList = Regex.Matches(Content, Pattern);
 var list = matchList.Cast<Match>().Select(match => match.Value).ToList();
 ```
 
-## Get only the matched string
+### Get only the matched string
 
 ```csharp
 var linkRegex = "<a class=\"product-card_link js-product-card_link\" href=\"(.*?)\">";
