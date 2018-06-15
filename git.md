@@ -3,10 +3,16 @@
 * [Resources](#resources)
 * [Set up](#set-up)
 * [Remote Repository](#remote-repository)
+* [Github Personal Token](#github-personal-token)
 
 ### Resources
 
 * posh-git: https://github.com/dahlbyk/posh-git
+
+### Github Personal Token
+
+If you have enabled 2FA. 
+[Create Personal Access Token](https://github.com/settings/tokens) and use it as your password
 
 
 ### Set up
