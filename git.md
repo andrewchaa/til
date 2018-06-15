@@ -1,3 +1,9 @@
+# git
+
+* [Resources](#resources)
+* [Set up](#set-up)
+* [Remote Repository](#remote-repository)
+
 ### Resources
 
 * posh-git: https://github.com/dahlbyk/posh-git
@@ -34,9 +40,15 @@ git config --global url."https://".insteadOf git://
 /index.html
 /deploy
 
+```
 
+### Remote Repository
 
 ```
+# set upstream
+git branch --set-upstream-to=origin/master master
+```
+
 ### Usages
 
     // show origin details
