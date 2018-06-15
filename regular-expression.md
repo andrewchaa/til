@@ -1,3 +1,13 @@
+# Regulax Expression
+
+* [Look Ahead](#look-ahead)
+
+### Look Ahead
+
+```csharp
+.Map(r => Regex.Replace(r, "(?<=[a-zA-Z]),", string.Empty))
+```
+
 ## Parse CSV with double quotes and comma separated numbers
 
     public IEnumerable<string> SplitCSV(string input)
