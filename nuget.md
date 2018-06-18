@@ -1,3 +1,14 @@
+# NuGet
+
+* [Basic usages](#basic-usages)
+* [Detected package downgrade error](#detected-package-downgrade-error)
+
+### Detected package downgrade error
+
+Remove NU1605 from "Trust warnings as errors" on Build tab of the project
+
+### Basic usages
+
 ```powershell
 
 // Restore packages
