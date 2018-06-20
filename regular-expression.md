@@ -1,6 +1,19 @@
 # Regulax Expression
 
+* [match guid](#match-guid)
 * [Look Ahead](#look-ahead)
+
+### match guid
+
+```csharp
+EndpointNameResolver = (name, uri) =>
+    uri.PathAndQuery
+        .Pipe(p => Regex.Replace(p, "\\/v[0-9]\\/[a-z]{0,2}\\/", string.Empty)) // remove /v1/dk
+        .Pipe(p => Regex.Replace(p, "\\/[0-9a-f]{8}([0-9a-f]{4}){3}[0-9a-f]{12}", string.Empty)) // remove trailing guid on GET endpiont
+        .Pipe(p => Regex.Replace(p, "\\/[0-9]+", string.Empty)) // remove int id
+        .Pipe(p => p.Replace("/", "-"))
+
+```
 
 ### Look Ahead
 
