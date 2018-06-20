@@ -1,6 +1,17 @@
 # Grafana, Graphite
 
+* [managing boards](#managing-boards)
 * [functions](#functions)
+
+### managing boards
+
+* groupByNode uses 0 based metric hierachy. 
+* panelJson is a easy way to copy the board
+* make sure you save the board before you referesh the browser
+
+```
+groupByNode(stats.timers.restauranteventsapi.$instance.*.restauranteventsapi.*.*.*.*.*.*.upper_90, 9, 'maxSeries')
+```
 
 ### functions
 
