@@ -1,3 +1,7 @@
+# C#
+
+* [clock to inject datetime](#clock-to-inject-datetime)
+
 ## Types
 
 ### string
@@ -36,6 +40,35 @@
         Postcode
     }
 
+
+### clock to inject datetime
+
+```csharp
+public static class Clock
+{
+    public static Func<DateTime> Now = () => DateTime.Now;
+    public static Func<DateTime> UtcNow = () => DateTime.UtcNow;
+    public static Func<DateTime> Today = () => DateTime.Today;
+
+    public static void SetNow(Func<DateTime> func)
+    {
+        Now = func;
+    }
+
+    public static void SetUtcNow(Func<DateTime> func)
+    {
+        UtcNow = func;
+    }
+
+    public static void Reset()
+    {
+        Now = () => DateTime.Now;
+        UtcNow = () => DateTime.UtcNow;
+        Today = () => DateTime.Today;
+
+    }
+}
+```
 
 ### DateTime
 
