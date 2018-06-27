@@ -32,6 +32,9 @@ EndpointNameResolver = (name, uri) =>
 
 ### Look Ahead
 
+* positive: q(?=u)
+* negative: q(?!u)
+
 ```csharp
 .Map(r => Regex.Replace(r, "(?<=[a-zA-Z]),", string.Empty))
 ```
