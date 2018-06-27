@@ -2,6 +2,19 @@
 
 * [match guid](#match-guid)
 * [Look Ahead](#look-ahead)
+* [match new line](#match-new-line)
+
+### match new line
+```javascript
+const baseUrl = req ? `http://${req.headers.host}` : '';
+const res = await fetch(baseUrl + '/static/sdt01_00.htm');
+const html = await res.text();
+
+return {
+htmlData: html.replace(/(\r\n|\r|\n)/gi, '<br />')
+}
+
+```
 
 ### match guid
 
