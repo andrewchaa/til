@@ -11,7 +11,7 @@ const res = await fetch(baseUrl + '/static/sdt01_00.htm');
 const html = await res.text();
 
 return {
-htmlData: html.replace(/(\r\n|\r|\n)/gi, '<br />')
+  htmlData: html.replace(/(\r\n|\r|\n)/gi, '<br />')
 }
 
 ```
