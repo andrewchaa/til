@@ -5,7 +5,7 @@
 1. [Deployment](#deployment)
 1. [Setting Up Custom Domain](#setting-up-custom-domain)
 1. [Usage](#usage)
-1. [Deploying by s3_website](#deploying-by-s3-website)
+1. [Deploying by s3_website](#deploying-by-s3_website)
 
 
 ### Resource
