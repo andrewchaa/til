@@ -18,6 +18,9 @@
 * create hosted zone, named after your domain like "sundodiary.club". This will create two recordsets
 * Create two alias recordsets, one for "www" and the other without "www" like "sundodiary.club". The type is A - IPv4 address and Alias is Yes. The alias target would be a cloudfront domain
 
+**DNS Provider**
 
+* Change your DNS provider to use AWS Nameserver. 
+* Click the created hosted zone. On the right side pane, find Name Servers. Update your domain's nameserver with those.
  
 
