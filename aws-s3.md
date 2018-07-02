@@ -11,7 +11,18 @@
 
 **CloudFront**
 
-* create a cloudfront distribution. Put cnames
+Create a cloudfront distribution. Put cnames
+
+* Origin Domain Name: bucket name
+* Origin ID: auto created
+
+* Default Cache Behaviour - Viewer Protocil Policy: HTTP and HTTPS
+* Allowed HTTP Methods: GET, HEAD
+* Object Caching: Customise (for testing), once done, use Origin Cache headers
+
+* Distribution Settins - Price Class: US, Canada, Europe, Asia and Africa, for cost-saving
+* Default Root object: index.html
+
 
 **Route 53**
 
