@@ -1,5 +1,8 @@
 # Refit
 
+* [Resource](#resource)
+* [Usage](#usage)
+
 ### Resource
 
 * https://github.com/reactiveui/refit
