@@ -4,10 +4,36 @@
 1. [Running xunit tests](#runningxunittests)
 1. [Create IOptions value on the fly](#create-ioptions-value-on-the-fly) 
 1. [Failed to bind to address http://127.0.0.1:5000](https://github.com/andrewchaa/WILT/blob/master/asp.net-core.md#failed-to-bind-to-address-http1270015000)
+1. [modelstate validation global filter](modelstate-validation-global-filter)
 
 ## Contents
 
-#### Failed to bind to address http://127.0.0.1:5000
+### modelstate validation global filter
+
+```csharp
+public class ValidateModelStateOnRequestFilter : Attribute, IActionFilter
+{
+    public void OnActionExecuting(ActionExecutingContext context)
+    {
+        if (!context.ModelState.IsValid)
+            context.Result = new BadRequestObjectResult(context.ModelState);
+    }
+
+    public void OnActionExecuted(ActionExecutedContext context) {}
+}
+
+
+services.AddMvc(options =>
+{
+    options.Filters.Add<ValidateTenantOnRequestFilter>();
+    options.Filters.Add<ValidateModelStateOnRequestFilter>();
+}); 
+
+```
+
+
+
+### Failed to bind to address http://127.0.0.1:5000
 
 On Mac, go to ActivityMonitor and force quit dotnet
 
