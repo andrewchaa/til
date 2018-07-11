@@ -1,8 +1,21 @@
 # MySql
 
 1. [connection pooling](#connection-pooling)
+1. [server variables](#server-variables)
 1. [limit the result](#limit-the-result)
 1. [date time](#date-time)
+
+### server variables
+
+```sql
+
+show variables like 'max_connections'
+select @@global.net_write_timeout;
+select @@global.net_read_timeout;
+select @@global.wait_timeout;
+select @@global.connect_timeout;
+
+```
 
 ### connection pooling
 
