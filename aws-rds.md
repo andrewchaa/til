@@ -5,18 +5,32 @@
 ### cloudformation for dbparametergroup
 
 ```javascript
+
+"Parameters": {
+  "MaxConnection": {
+    "Type": "Number",
+    "Description" : "Set max connection limit for the db instance"
+  }
+}
+
 "Resources": {
   "DBParameterGroup": {
     "Type": "AWS::RDS::DBParameterGroup",
     "Properties": {
-      "Description": "Parameter group for RDS instances",
+      "Description": "Parameter group for Restaurant RDS instances",
       "Family": "aurora5.6",
       "Parameters": {
-        "max_connections": 100
+        "max_connections": { "Ref": "MaxConnection" }
       }
     }
-  },      
+  }
+}
 
 ```
 
-
+```yml
+---
+:parameters:
+ :MaxConnection: 100
+ 
+```
