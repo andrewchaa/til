@@ -1,6 +1,17 @@
 # aws rds
 
-1. [cloudformation for dbparametergroup](#cloudformation-for-dbparametergroup)
+* [cloudformation for dbparametergroup](#cloudformation-for-dbparametergroup)
+* [db size in mb](#db-size-in-mb)
+
+###
+
+```sql
+SELECT table_schema "restaurantevents",
+        ROUND(SUM(data_length + index_length) / 1024 / 1024, 1) "DB Size in MB"
+FROM information_schema.tables
+GROUP BY table_schema;
+
+```
 
 ### cloudformation for dbparametergroup
 
