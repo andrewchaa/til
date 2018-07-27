@@ -2,7 +2,7 @@
 
 * [fix for windows start menu not appearing](#fix-for-windows-start-menu-not-appearing)
 * [parallels is hanging on start](#parallels-is-hanging-on-start)
-* [cannot access hdd disk 1](#annot-access-hdd-disk-1)
+* [cannot access hdd disk 1](#cannot-access-hdd-disk-1)
 
 ### cannot access hdd disk 1
 
