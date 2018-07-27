@@ -8,6 +8,7 @@
 
 * Copy Windows 10.pvm
 * On control panel, choose hdd disk again with the new image
+* If it still doesn't work, reinstall Parallels
 
 ### parallels is hanging on start
 
