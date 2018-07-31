@@ -2,6 +2,13 @@
 
 * [Basic usages](#basic-usages)
 * [Detected package downgrade error](#detected-package-downgrade-error)
+* [reinstall package](#reinstall-package)
+
+### reinstall package
+
+```powershell
+Update-Package -reinstall JE.Restaurant.Contracts
+```
 
 ### Detected package downgrade error
 
