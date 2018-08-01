@@ -15,4 +15,5 @@
 * highlight the current file in the solution explorer: shft + alt + L
 * view error list window: ctrl \, e
 * view output window: ctrl alt o
+* view Find Results window: ctrl alt u
 * view find result: alt v, n, n, n, enter, 1
