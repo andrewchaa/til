@@ -8,11 +8,12 @@
 * switch to full screen app: ctrl ->, ctrl <-
 
 
-### Visual Studio
+### Visual Studio & Reshraper
 
 * close all other documents: alt -,  a
 * focus solution explorer: ctrl + shft + L
 * highlight the current file in the solution explorer: shft + alt + L
+* past from history: ctrl + shft + v
 * view error list window: ctrl \, e
 * view output window: ctrl alt o
 * view Find Results window: ctrl alt u
