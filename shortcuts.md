@@ -1,3 +1,8 @@
+# Shortcuts
+
+* [Visual Studio & ReSharper](#visual-studio-resharper)
+* [Rider](#rider)
+
 ### [Github](https://help.github.com/articles/using-keyboard-shortcuts/)
 
 * activate the file finder: t 
@@ -18,3 +23,5 @@
 * view output window: ctrl alt o
 * view Find Results window: ctrl alt u
 * view find result: alt v, n, n, n, enter, 1
+
+### Rider
