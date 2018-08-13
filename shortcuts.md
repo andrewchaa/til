@@ -1,6 +1,6 @@
 # Shortcuts
 
-* [Visual Studio & ReSharper](#visual-studio-resharper)
+* [Visual Studio & ReSharper](#visual-studio--resharper)
 * [Rider](#rider)
 
 ### [Github](https://help.github.com/articles/using-keyboard-shortcuts/)
@@ -25,3 +25,5 @@
 * view find result: alt v, n, n, n, enter, 1
 
 ### Rider
+
+* Next Error: alt + f12
