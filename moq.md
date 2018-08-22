@@ -7,6 +7,7 @@
 * [throwing errror](#throwing-errror)
 * [mocking action](#mocking-action)
 * [mocking property](#mocking-property)
+* [matching parameters](#matching parameters)
 
 ### simple verify
 
@@ -106,4 +107,17 @@ loanRepository.SetupSet(x => x.Rate = 12.5F);
 loanRepository.SetupGet(x => x.Rate);
 
 
+```
+
+### matching parameters
+
+```csharp
+List<Person> people = new List<Person>
+{
+    new Person { FirstName = "Donald", LastName = "Duke", Age =30},
+    new Person { FirstName = "Ayobami", LastName = "Adewole", Age =20}
+};
+
+var loanRepository = new Mock<ILoanRepository>();
+loanRepository.Setup(x => x.GetCarLoanDefaulters(It.IsInRange<int>(1, 5, Range.Inclusive))).Returns(people);
 ```
