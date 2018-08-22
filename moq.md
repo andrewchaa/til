@@ -8,6 +8,7 @@
 * [mocking action](#mocking-action)
 * [mocking property](#mocking-property)
 * [matching parameters](#matching parameters)
+* [callbacks](#callbacks)
 
 ### simple verify
 
@@ -120,4 +121,33 @@ List<Person> people = new List<Person>
 
 var loanRepository = new Mock<ILoanRepository>();
 loanRepository.Setup(x => x.GetCarLoanDefaulters(It.IsInRange<int>(1, 5, Range.Inclusive))).Returns(people);
+```
+
+### callbacks
+
+you can specify the callback to be invoked before and after a method is called
+
+```csharp
+var people = new List<Person>
+{
+    new Person { FirstName = "Donald", LastName = "Duke", Age =30},
+    new Person { FirstName = "Ayobami", LastName = "Adewole", Age =20}
+};
+
+var loanRepository = new Mock<ILoanRepository>();
+
+loanRepository.Setup(x => x.GetCarLoanDefaulters())
+    .Callback(() => CarLoanDefaultersCallbackAfter ())
+    .Returns(() => people)
+    .Callback(() => CarLoanDefaultersCallbackAfter());
+    
+public void CarLoanDefaultersCallback()
+{
+    people.Add(new Person { FirstName = "John", LastName = "Doe", Age =40});
+}
+
+public void CarLoanDefaultersCallbackAfter()
+{
+    people.RemoveAt(0);
+}
 ```
