@@ -7,9 +7,9 @@
 * [throwing errror](#throwing-errror)
 * [mocking action](#mocking-action)
 * [mocking property](#mocking-property)
-* [matching parameters](#matching parameters)
+* [matching parameters](#matching-parameters)
 * [callbacks](#callbacks)
-* [loose vs. strict](#loose-vs--strict)
+* [loose vs. strict](#loose-vs-strict)
 
 ### simple verify
 
