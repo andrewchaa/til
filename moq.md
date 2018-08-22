@@ -9,6 +9,7 @@
 * [mocking property](#mocking-property)
 * [matching parameters](#matching parameters)
 * [callbacks](#callbacks)
+* [loose vs. strict](#loose-vs--strict)
 
 ### simple verify
 
@@ -150,4 +151,16 @@ public void CarLoanDefaultersCallbackAfter()
 {
     people.RemoveAt(0);
 }
+```
+
+### loose vs. strict
+
+When a Loose member is selected, the mock will not throw any exceptions. The default values will always be returned. This means null will be returned for reference types, and zero or empty arrays and enumerables will be returned for value types
+
+Tge default behaviour of the mock is loose.
+
+```csharp
+loanRepository= new Mock<ILoanRepository>(MockBehavior.Loose);
+loanRepository= new Mock<ILoanRepository>(MockBehavior.Strict);
+
 ```
