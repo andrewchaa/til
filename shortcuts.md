@@ -2,6 +2,11 @@
 
 * [Visual Studio & ReSharper](#visual-studio--resharper)
 * [Rider](#rider)
+* [VS Code](#vs-code)
+
+### vs code
+
+* focus on editor: cmd + 1
 
 ### [Github](https://help.github.com/articles/using-keyboard-shortcuts/)
 
