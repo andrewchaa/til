@@ -1,3 +1,13 @@
+# Powershell
+
+* [set alias](#set-alias)
+
+### set alias
+
+```powershell
+ Set-Alias -Name l -Value Get-ChildItem
+```
+
 ## Set up
 
     // Mac
