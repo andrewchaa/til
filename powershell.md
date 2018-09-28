@@ -1,6 +1,13 @@
 # Powershell
 
 * [set alias](#set-alias)
+* [reload profile](#reload-profile)
+
+### reload profile
+
+```powershell
+. $profile
+```
 
 ### set alias
 
