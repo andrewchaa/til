@@ -1,6 +1,8 @@
 # Terraform
 
+* [Terraform](https://www.terraform.io/)
 * [installation](#installation)
+* [create a plan](#create-a-plan)
 
 ### installation
 
