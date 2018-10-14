@@ -24,5 +24,5 @@ aws configure
 ```
 
 // back up s3 bucket
-aws s3 sync s3://www.hyeeun-acupuncture.co.uk .
+aws s3 sync --delete ./dist s3://www.jsbeautifieronline.net --acl public-read
 ```
