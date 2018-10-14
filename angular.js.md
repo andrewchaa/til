@@ -7,6 +7,10 @@
 https://cli.angular.io/
 
 ```
+brew install node // if it complains about node version
+```
+
+```
 npm i -g @angular/cli
 
 ng new hello-world
