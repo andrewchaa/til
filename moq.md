@@ -153,7 +153,7 @@ public void CarLoanDefaultersCallbackAfter()
 }
 ```
 
-Callback to handle called argument
+Callback to handle the called argument
 
 ```csharp
 backupAccountDataStore.Setup(b => b.UpdateAccount(It.IsAny<Account>())).Callback<Account>((ac) =>
