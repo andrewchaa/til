@@ -153,6 +153,13 @@ public void CarLoanDefaultersCallbackAfter()
 }
 ```
 
+Callback to handle called argument
+
+```csharp
+backupAccountDataStore.Setup(b => b.UpdateAccount(It.IsAny<Account>())).Callback<Account>((ac) =>
+    account = ac);
+```
+
 ### loose vs. strict
 
 When a Loose member is selected, the mock will not throw any exceptions. The default values will always be returned. This means null will be returned for reference types, and zero or empty arrays and enumerables will be returned for value types
