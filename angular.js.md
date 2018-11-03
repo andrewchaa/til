@@ -3,7 +3,7 @@
 * [getting started](#getting started)
 * [angular cli](#angular-cli)
 
-### getting started
+### Getting started
 
 Install node.js
 Install [angular cli](#angular-cli)
