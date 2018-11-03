@@ -10,7 +10,7 @@ Install [angular cli](#angular-cli)
 Create a scaffold
 
 ```
-ng new guessthenumber 
+ng new guessthenumber --inlineTemplate
 cd guessthenumber
 ng serve
 ```
