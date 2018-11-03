@@ -27,6 +27,12 @@ npm i --save bootstrap
 
 ```
 
+Create model for cleaner code
+
+```
+ng generate class model/train
+```
+
 
 
 ### angular cli
