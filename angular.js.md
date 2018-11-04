@@ -33,6 +33,11 @@ Create model for cleaner code
 ng generate class model/train
 ```
 
+Create a component
+
+```
+ng g component train/train-times
+```
 
 
 ### angular cli
