@@ -27,16 +27,12 @@ npm i --save bootstrap
 
 ```
 
-Create model for cleaner code
+Create models, components, and services
 
 ```
 ng generate class model/train
-```
-
-Create a component
-
-```
 ng g component train/train-times
+ng g service services/traintime 
 ```
 
 
