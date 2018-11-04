@@ -29,6 +29,7 @@ npm i --save bootstrap
 ```
 
 Create models, components, and services
+You can use https://jvilk.com/MakeTypes/ to create typescript types from JSON sample
 
 ```
 ng generate class model/train
@@ -38,7 +39,19 @@ ng g service services/traintime
 
 ### Calling API
 
-Use HttpClient and Observable for async api operation
+Import HttpClientModule
+
+```javascript
+// app.module.ts
+
+  imports: [
+    BrowserModule,
+    HttpClientModule
+  ],
+
+```
+
+Wrap API response with Observable
 
 ```javascript
 
@@ -54,8 +67,14 @@ export class TraintimeService {
       .get<Traintime>('https://transportapi.com/v3/uk/train/station/lst/live.json?destination=CHI');
   }
 }
+```
+
+Subscribe to the observable
+
+```javascript
 
 // *.component.ts
+  public departures: Departure[];
   ngOnInit() {
     this.traintime$ = this.traintimeService.getTraintime();
     this.traintimeService.getTraintime()
@@ -63,7 +82,16 @@ export class TraintimeService {
         this.departures = t.departures.all;
       });
   }
+```
 
+```html
+// *.component.html
+
+<div class="row justify-content-md-center" *ngFor="let d of departures; index as i" >
+  <div class="col">{{ d.destination_name }}</div>
+  <div class="col">{{ d.expected_departure_time }}</div>
+  <div class="col">{{ d.platform }}</div>
+</div>
 
 ```
 
