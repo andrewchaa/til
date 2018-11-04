@@ -1,8 +1,8 @@
 # angular js
 
-* [getting started](#getting started)
+* [Getting started](#getting-started)
 * [angular cli](#angular-cli)
-* [calling API](#calling-api)
+* [Calling API](#calling-api)
 
 ### Getting started
 
@@ -38,11 +38,12 @@ ng g service services/traintime
 
 ### Calling API
 
-Call API and use the JSON response
+Use HttpClient and Observable for async api operation
 
 ```javascript
 
 // *.service.ts
+import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
 export class TraintimeService {
@@ -53,6 +54,16 @@ export class TraintimeService {
       .get<Traintime>('https://transportapi.com/v3/uk/train/station/lst/live.json?destination=CHI');
   }
 }
+
+// *.component.ts
+  ngOnInit() {
+    this.traintime$ = this.traintimeService.getTraintime();
+    this.traintimeService.getTraintime()
+      .subscribe(t => {
+        this.departures = t.departures.all;
+      });
+  }
+
 
 ```
 
