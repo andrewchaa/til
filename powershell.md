@@ -12,7 +12,9 @@
 ### set alias
 
 ```powershell
- Set-Alias -Name l -Value Get-ChildItem
+ code $profile
+ set-alias l get-childItem
+ . $profile
 ```
 
 ## Set up
