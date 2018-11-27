@@ -11,9 +11,11 @@
 
 start container for a service 
 
+
 ```
 docker-compose up -d
 ```
+
 
 ```
 Get docker: https://store.docker.com/editions/community/docker-ce-desktop-mac
