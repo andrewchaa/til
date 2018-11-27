@@ -1,6 +1,6 @@
 # docker
 
-* [resource](#resource)
+* [resource](#resources)
 * [Getting started](#getting-started)
 
 ### Resources
@@ -20,6 +20,5 @@ docker-compose up -d
 ```
 Get docker: https://store.docker.com/editions/community/docker-ce-desktop-mac
 run docker.app to start
-
 ```
 
