@@ -1,6 +1,6 @@
 # Visual Studio
 
-* [Always open .sln in administrative mode](#always-open--sln-in-administrative-mode)
+* [Always open .sln in administrative mode](#always-open-sln-in-administrative-mode)
 
 ### Shortcuts
 
