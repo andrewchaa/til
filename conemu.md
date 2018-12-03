@@ -1,6 +1,6 @@
 # conemu
 
-* [start powershell from a directory](start-powershell-from-a-directory)
+* [start powershell from a directory](#start-powershell-from-a-directory)
 
 
 ### start powershell from a directory
