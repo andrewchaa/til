@@ -5,6 +5,7 @@
 1. [Create IOptions value on the fly](#create-ioptions-value-on-the-fly) 
 1. [Failed to bind to address http://127.0.0.1:5000](https://github.com/andrewchaa/WILT/blob/master/asp.net-core.md#failed-to-bind-to-address-http1270015000)
 1. [modelstate validation global filter](#modelstate-validation-global-filter)
+1. [Add User for Intergrated Security](#add-user-for-intergrated-security)
 
 ## Contents
 
@@ -273,3 +274,9 @@ _options = Options.Create(new AppSettings());
         _service.Verify(s => s.Create(It.Is<ScheduledEvent>(e => e.Name == EventName)));
         _service.Verify(s => s.Create(It.Is<ScheduledEvent>(e => e.Description == EventDescription)));
     }
+
+### Add User for Intergrated Security
+
+Often locally, the connection string is like "Server=.\\SQLExpress;Database=xxx;Integrated Security=True;MultipleActiveResultSets=True". When you build your DB first time, you don't have the user. If you run your intergration test or call an API endpoint, it fails with login failure.
+
+Simply add Network Service to your DB.
