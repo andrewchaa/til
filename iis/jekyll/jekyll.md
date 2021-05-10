@@ -18,7 +18,7 @@
 
 ### Getting Started
 
-```
+```bash
 
 // install jekyll
 brew install ruby
@@ -59,7 +59,7 @@ jekyll build
 
 * http://jmcglone.com/guides/github-pages/
 * Go to settings and set github pages branch to master
-* The default address becomes like http://andrewchaa.github.io/funkorean
+* The default address becomes like `http://andrewchaa.github.io/funkorean`
 * set the custom domain
 
 
@@ -76,13 +76,13 @@ jekyll build
 1. Create a CNAME record that points from your default pages domain, such as YOUR-GITHUB-USERNAME.github.io to your subdomain. Your DNS changes can take over a full day to update and the wait varies among DNS and hosting providers.
 
   * cname, www, andrewchaa.github.io
-  * URL Redirect Record, @, http://www.asianlancook.org
+  * URL Redirect Record, @, `http://www.asianlancook.org`
 
 3. Test if the domain is correctly set up
    
-   ```
-   dig www.londoneducationtour.com +nostats +nocomments =nocmd
-   ```
+ ```bash
+ dig www.londoneducationtour.com +nostats +nocomments =nocmd
+ ```
 
 ### Usage
 
