@@ -1,0 +1,30 @@
+name: Build README
+
+on:
+  push:
+    branches: [ master ]
+    paths-ignore: [ README.md ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Autoformat README
+        uses: cflynn07/github-action-til-autoformat-readme@1.1.0
+        with:
+          description: |
+            A collection of concrete writeups of small things I learn daily while working
+            and researching. My goal is to work in public. I was inspired to start this
+            repository after reading Josh Branchaud's [TIL collection][1].
+          footer: |
+            [1]: https://github.com/jbranchaud/til
+          list_most_recent: 5 # optional, lists most recent TILS below description
+          date_format: "2020 Jan 15:04" # optional, must align to https://golang.org/pkg/time/#Time.Format
