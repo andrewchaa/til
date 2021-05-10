@@ -6,16 +6,16 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_125 TILs and counting..._
+_126 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
+- [Convert string to different types in Go](golang/convert-string.md) - Mon May 10 14:27:07 2021 +0100
 - [Creating HTTP Request in Go](golang/create-http-request.md) - Mon May 10 11:51:20 2021 +0100
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md) - Mon May 10 10:28:04 2021 +0100
 - [parallels desktop](parallels-desktop/parallels-desktop.md) - Mon May 10 09:20:31 2021 +0100
-- [AWS Certificate Manager](aws/aws-certificate-manager.md) - Mon May 10 09:20:31 2021 +0100
 - [aws cli](aws/aws-cli.md) - Mon May 10 09:20:31 2021 +0100
 
 ### Categories
@@ -157,6 +157,7 @@ _125 TILs and counting..._
 - [* AMI: [An Amazon Machine Image (AMI)](https://en.wikipedia.org/wiki/Amazon_Machine_Image) is a special type of virtual appliance that is used to create a virtual machine within the Amazon Elastic Compute Cloud ("EC2"). It serves as the basic unit of deployment for services delivered using EC2.](glossaries/dictionary.md)
 
 ### [golang](#golang)
+- [Convert string to different types in Go](golang/convert-string.md)
 - [Creating HTTP Request in Go](golang/create-http-request.md)
 
 ### [grafana](#grafana)
