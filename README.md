@@ -6,14 +6,14 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_123 TILs and counting..._
+_124 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
+- [Auto-generate README for TIL](github-actions/auto-generate-readme.md) - Mon May 10 10:28:04 2021 +0100
 - [```csharp](pdf-sharp/pdf-sharp.md) - Mon May 10 09:20:31 2021 +0100
-- [ASP.NET Core](asp.net-core/asp.net-core.md) - Mon May 10 09:20:31 2021 +0100
 - [## errors](asp.net-core/asp.net.md) - Mon May 10 09:20:31 2021 +0100
 - [AWS Certificate Manager](aws/aws-certificate-manager.md) - Mon May 10 09:20:31 2021 +0100
 - [aws cli](aws/aws-cli.md) - Mon May 10 09:20:31 2021 +0100
@@ -36,6 +36,7 @@ _123 TILs and counting..._
 - [firebase](#firebase)
 - [fsharp](#fsharp)
 - [git](#git)
+- [github-actions](#github-actions)
 - [glossaries](#glossaries)
 - [grafana](#grafana)
 - [gulp](#gulp)
@@ -147,6 +148,9 @@ _123 TILs and counting..._
 
 ### [git](#git)
 - [git](git/git.md)
+
+### [github-actions](#github-actions)
+- [Auto-generate README for TIL](github-actions/auto-generate-readme.md)
 
 ### [glossaries](#glossaries)
 - [* AMI: [An Amazon Machine Image (AMI)](https://en.wikipedia.org/wiki/Amazon_Machine_Image) is a special type of virtual appliance that is used to create a virtual machine within the Amazon Elastic Compute Cloud ("EC2"). It serves as the basic unit of deployment for services delivered using EC2.](glossaries/dictionary.md)
