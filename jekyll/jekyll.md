@@ -64,7 +64,7 @@ jekyll build
 
 
 ```html
-// Use site.github.url**
+Use site.github.url**
 
 <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.github.url }}">
 <link rel="stylesheet" href="{{ "/css/site.css" | prepend: site.github.url }}">
