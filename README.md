@@ -6,14 +6,14 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_123 TILs and counting..._
+_124 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
+- [Jekyll](jekyll/jekyll.md) - Mon May 10 10:17:05 2021 +0100
 - [```csharp](pdf-sharp/pdf-sharp.md) - Mon May 10 09:20:31 2021 +0100
-- [ASP.NET Core](asp.net-core/asp.net-core.md) - Mon May 10 09:20:31 2021 +0100
 - [## errors](asp.net-core/asp.net.md) - Mon May 10 09:20:31 2021 +0100
 - [AWS Certificate Manager](aws/aws-certificate-manager.md) - Mon May 10 09:20:31 2021 +0100
 - [aws cli](aws/aws-cli.md) - Mon May 10 09:20:31 2021 +0100
@@ -44,6 +44,7 @@ _123 TILs and counting..._
 - [identity-server](#identity-server)
 - [iis](#iis)
 - [javascript](#javascript)
+- [jekyll](#jekyll)
 - [journals](#journals)
 - [keyboard-shortcuts](#keyboard-shortcuts)
 - [logentries](#logentries)
@@ -180,6 +181,9 @@ _123 TILs and counting..._
 - [// install directory from github repo](javascript/npm.md)
 - [**Display the whole pdf**](javascript/pdf.js.md)
 - [* https://github.com/mzabriskie/axios: Promise based HTTP client for the browser and node.js](javascript/resources.md)
+
+### [jekyll](#jekyll)
+- [Jekyll](jekyll/jekyll.md)
 
 ### [journals](#journals)
 - [2019](journals/2019-01.md)
