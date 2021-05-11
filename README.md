@@ -6,17 +6,17 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_130 TILs and counting..._
+_131 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
+- [Writing my first Go test](golang/writing-my-first-go-test.md) - Tue May 11 20:31:49 2021 +0100
 - [Learning by doing](korean/learning-by-doing.md) - Tue May 11 20:16:18 2021 +0100
 - [Methods in Go](golang/methods.md) - Mon May 10 20:39:34 2021 +0100
 - [If with a short statement](golang/if-with-short-statment.md) - Mon May 10 20:24:53 2021 +0100
 - [Getting JSON response from HTTP Get](golang/get-json-response-from-get.md) - Mon May 10 14:29:31 2021 +0100
-- [Convert string to different types in Go](golang/convert-string.md) - Mon May 10 14:27:07 2021 +0100
 
 ### Categories
 
@@ -163,6 +163,7 @@ _130 TILs and counting..._
 - [Getting JSON response from HTTP Get](golang/get-json-response-from-get.md)
 - [If with a short statement](golang/if-with-short-statment.md)
 - [Methods in Go](golang/methods.md)
+- [Writing my first Go test](golang/writing-my-first-go-test.md)
 
 ### [grafana](#grafana)
 - [Grafana, Graphite](grafana/graphite-grafana.md)
