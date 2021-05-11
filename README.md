@@ -6,17 +6,17 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_129 TILs and counting..._
+_130 TILs and counting..._
 
 ---
 
 ### 5 most recent TILs
 
+- [Learning by doing](korean/learning-by-doing.md) - Tue May 11 20:16:18 2021 +0100
 - [Methods in Go](golang/methods.md) - Mon May 10 20:39:34 2021 +0100
 - [If with a short statement](golang/if-with-short-statment.md) - Mon May 10 20:24:53 2021 +0100
 - [Getting JSON response from HTTP Get](golang/get-json-response-from-get.md) - Mon May 10 14:29:31 2021 +0100
 - [Convert string to different types in Go](golang/convert-string.md) - Mon May 10 14:27:07 2021 +0100
-- [Creating HTTP Request in Go](golang/create-http-request.md) - Mon May 10 11:51:20 2021 +0100
 
 ### Categories
 
@@ -48,6 +48,7 @@ _129 TILs and counting..._
 - [javascript](#javascript)
 - [journals](#journals)
 - [keyboard-shortcuts](#keyboard-shortcuts)
+- [korean](#korean)
 - [logentries](#logentries)
 - [moq](#moq)
 - [mysql](#mysql)
@@ -200,6 +201,9 @@ _129 TILs and counting..._
 - [Shortcuts](keyboard-shortcuts/shortcuts.md)
 - [Visual Studio](keyboard-shortcuts/visual studio.md)
 - [VS Code](keyboard-shortcuts/visual-studio-code.md)
+
+### [korean](#korean)
+- [Learning by doing](korean/learning-by-doing.md)
 
 ### [logentries](#logentries)
 - [1. install packages](logentries/getting-started.md)
