@@ -26,5 +26,5 @@ jobs:
             repository after reading Josh Branchaud's [TIL collection][1].
           footer: |
             [1]: https://github.com/jbranchaud/til
-          list_most_recent: 5 # optional, lists most recent TILS below description
+          list_most_recent: 20 # optional, lists most recent TILS below description
           date_format: "2020 Jan 15:04" # optional, must align to https://golang.org/pkg/time/#Time.Format
