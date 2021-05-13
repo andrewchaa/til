@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_131 TILs and counting..._
+_132 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Writing down the process of a given work](work/writing-down-process-of-work.md) - Thu May 13 10:12:00 2021 +0100
 - [Writing my first Go test](golang/writing-my-first-go-test.md) - Tue May 11 20:31:49 2021 +0100
 - [Learning by doing](korean/learning-by-doing.md) - Tue May 11 20:16:18 2021 +0100
 - [Methods in Go](golang/methods.md) - Mon May 10 20:39:34 2021 +0100
@@ -20,8 +21,7 @@ _131 TILs and counting..._
 - [Convert string to different types in Go](golang/convert-string.md) - Mon May 10 14:27:07 2021 +0100
 - [Creating HTTP Request in Go](golang/create-http-request.md) - Mon May 10 11:51:20 2021 +0100
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md) - Mon May 10 10:28:04 2021 +0100
-- [parallels desktop](parallels-desktop/parallels-desktop.md) - Mon May 10 09:20:31 2021 +0100
-- [aws rds](aws/aws-rds.md) - Mon May 10 09:20:31 2021 +0100
+- [Postman](postman/postman.md) - Mon May 10 09:20:31 2021 +0100
 - [AWS - S3](aws/aws-s3.md) - Mon May 10 09:20:31 2021 +0100
 - [// Testing topic subscription](aws/aws-sns.md) - Mon May 10 09:20:31 2021 +0100
 - [Step Function](aws/aws-stepfunction.md) - Mon May 10 09:20:31 2021 +0100
@@ -95,6 +95,7 @@ _131 TILs and counting..._
 - [webjob](#webjob)
 - [webpack](#webpack)
 - [windows-script](#windows-script)
+- [work](#work)
 - [xunit](#xunit)
 
 ### [angular-js](#angular-js)
@@ -346,6 +347,9 @@ _131 TILs and counting..._
 
 ### [windows-script](#windows-script)
 - [windows batch](windows-script/bat.md)
+
+### [work](#work)
+- [Writing down the process of a given work](work/writing-down-process-of-work.md)
 
 ### [xunit](#xunit)
 - [xUnit](xunit/xunit.md)
