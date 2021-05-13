@@ -10,13 +10,28 @@ _131 TILs and counting..._
 
 ---
 
-### 5 most recent TILs
+### 20 most recent TILs
 
 - [Writing my first Go test](golang/writing-my-first-go-test.md) - Tue May 11 20:31:49 2021 +0100
 - [Learning by doing](korean/learning-by-doing.md) - Tue May 11 20:16:18 2021 +0100
 - [Methods in Go](golang/methods.md) - Mon May 10 20:39:34 2021 +0100
 - [If with a short statement](golang/if-with-short-statment.md) - Mon May 10 20:24:53 2021 +0100
 - [Getting JSON response from HTTP Get](golang/get-json-response-from-get.md) - Mon May 10 14:29:31 2021 +0100
+- [Convert string to different types in Go](golang/convert-string.md) - Mon May 10 14:27:07 2021 +0100
+- [Creating HTTP Request in Go](golang/create-http-request.md) - Mon May 10 11:51:20 2021 +0100
+- [Auto-generate README for TIL](github-actions/auto-generate-readme.md) - Mon May 10 10:28:04 2021 +0100
+- [parallels desktop](parallels-desktop/parallels-desktop.md) - Mon May 10 09:20:31 2021 +0100
+- [aws rds](aws/aws-rds.md) - Mon May 10 09:20:31 2021 +0100
+- [AWS - S3](aws/aws-s3.md) - Mon May 10 09:20:31 2021 +0100
+- [// Testing topic subscription](aws/aws-sns.md) - Mon May 10 09:20:31 2021 +0100
+- [Step Function](aws/aws-stepfunction.md) - Mon May 10 09:20:31 2021 +0100
+- [Azure Storage](azure/azure-storage.md) - Mon May 10 09:20:31 2021 +0100
+- [### Resources](car/car.md) - Mon May 10 09:20:31 2021 +0100
+- [## basic](csharp/csharp-async.md) - Mon May 10 09:20:31 2021 +0100
+- [// map](csharp/csharp-functional.md) - Mon May 10 09:20:31 2021 +0100
+- [C#](csharp/csharp.md) - Mon May 10 09:20:31 2021 +0100
+- [NLog](csharp/logging.md) - Mon May 10 09:20:31 2021 +0100
+- [NuGet](csharp/nuget.md) - Mon May 10 09:20:31 2021 +0100
 
 ### Categories
 
