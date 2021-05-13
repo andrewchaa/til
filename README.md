@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_135 TILs and counting..._
+_136 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Creating a serverless project](serverless-framework/creating-serverless-project.md) - Thu May 13 21:28:56 2021 +0100
 - [Displaying the content of a file on the shell](terminals/display-file-content-on-shell.md) - Thu May 13 16:56:50 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Thu May 13 15:46:42 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Thu May 13 14:41:59 2021 +0100
@@ -24,8 +25,7 @@ _135 TILs and counting..._
 - [Convert string to different types in Go](golang/convert-string.md) - Mon May 10 14:27:07 2021 +0100
 - [Creating HTTP Request in Go](golang/create-http-request.md) - Mon May 10 11:51:20 2021 +0100
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md) - Mon May 10 10:28:04 2021 +0100
-- [Postman](postman/postman.md) - Mon May 10 09:20:31 2021 +0100
-- [Azure Storage](azure/azure-storage.md) - Mon May 10 09:20:31 2021 +0100
+- [react](react/react.md) - Mon May 10 09:20:31 2021 +0100
 - [### Resources](car/car.md) - Mon May 10 09:20:31 2021 +0100
 - [## basic](csharp/csharp-async.md) - Mon May 10 09:20:31 2021 +0100
 - [// map](csharp/csharp-functional.md) - Mon May 10 09:20:31 2021 +0100
@@ -293,6 +293,7 @@ _135 TILs and counting..._
 - [```](scriptcs/creating-database.md)
 
 ### [serverless-framework](#serverless-framework)
+- [Creating a serverless project](serverless-framework/creating-serverless-project.md)
 - [serverless](serverless-framework/serverless.md)
 
 ### [specflow](#specflow)
