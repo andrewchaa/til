@@ -17,3 +17,10 @@ Then run `docker exec -it <container id> sh`
 ```bash
 docker exec -it 0727ac3f88e7 sh
 ```
+
+If the container is not running, you would need to run it interactively with shell
+
+```bash
+docker run -it form3_client_tests sh
+```
+
