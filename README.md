@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_133 TILs and counting..._
+_134 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Thu May 13 15:46:42 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Thu May 13 14:41:59 2021 +0100
 - [Writing down the process of a given work](work/writing-down-process-of-work.md) - Thu May 13 10:12:00 2021 +0100
 - [Writing my first Go test](golang/writing-my-first-go-test.md) - Tue May 11 20:31:49 2021 +0100
@@ -23,7 +24,6 @@ _133 TILs and counting..._
 - [Creating HTTP Request in Go](golang/create-http-request.md) - Mon May 10 11:51:20 2021 +0100
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md) - Mon May 10 10:28:04 2021 +0100
 - [```csharp](pdf-sharp/pdf-sharp.md) - Mon May 10 09:20:31 2021 +0100
-- [// Testing topic subscription](aws/aws-sns.md) - Mon May 10 09:20:31 2021 +0100
 - [Step Function](aws/aws-stepfunction.md) - Mon May 10 09:20:31 2021 +0100
 - [Azure Storage](azure/azure-storage.md) - Mon May 10 09:20:31 2021 +0100
 - [### Resources](car/car.md) - Mon May 10 09:20:31 2021 +0100
@@ -142,6 +142,7 @@ _133 TILs and counting..._
 ### [docker](#docker)
 - [docker-compose up / down](docker/docker-compose.md)
 - [docker](docker/docker.md)
+- [Login to docker shell interactively](docker/interactive-login-docker-shell.md)
 
 ### [domain-driven-design](#domain-driven-design)
 - [```csharp](domain-driven-design/ddd-value-object.md)
