@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_138 TILs and counting..._
+_139 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Deploying C# severless project to AWS lambda](github-actions/deploy-serverless-lambda-to-aws.md) - Fri May 14 07:48:43 2021 +0100
 - [Things to do to set up a new project](checklists/new-project-setup.md) - Fri May 14 07:20:00 2021 +0100
 - [Make bash script executable](bash/make-script-executable.md) - Thu May 13 23:16:04 2021 +0100
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md) - Thu May 13 23:11:58 2021 +0100
@@ -30,7 +31,6 @@ _138 TILs and counting..._
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md) - Mon May 10 10:28:04 2021 +0100
 - [```csharp](pdf-sharp/pdf-sharp.md) - Mon May 10 09:20:31 2021 +0100
 - [### Resources](car/car.md) - Mon May 10 09:20:31 2021 +0100
-- [Azure Storage](azure/azure-storage.md) - Mon May 10 09:20:31 2021 +0100
 - [## basic](csharp/csharp-async.md) - Mon May 10 09:20:31 2021 +0100
 
 ### Categories
@@ -181,6 +181,7 @@ _138 TILs and counting..._
 
 ### [github-actions](#github-actions)
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md)
+- [Deploying C# severless project to AWS lambda](github-actions/deploy-serverless-lambda-to-aws.md)
 
 ### [glossaries](#glossaries)
 - [* AMI: [An Amazon Machine Image (AMI)](https://en.wikipedia.org/wiki/Amazon_Machine_Image) is a special type of virtual appliance that is used to create a virtual machine within the Amazon Elastic Compute Cloud ("EC2"). It serves as the basic unit of deployment for services delivered using EC2.](glossaries/dictionary.md)
