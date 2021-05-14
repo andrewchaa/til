@@ -6,15 +6,16 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_137 TILs and counting..._
+_138 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Things to do to set up a new project](checklists/new-project-setup.md) - Fri May 14 07:20:00 2021 +0100
 - [Make bash script executable](bash/make-script-executable.md) - Thu May 13 23:16:04 2021 +0100
-- [Oh My Zsh](bash/ohmyzsh.md) - Thu May 13 23:11:58 2021 +0100
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md) - Thu May 13 23:11:58 2021 +0100
+- [Oh My Zsh](bash/ohmyzsh.md) - Thu May 13 23:11:58 2021 +0100
 - [Creating a serverless project](serverless-framework/creating-serverless-project.md) - Thu May 13 21:28:56 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Thu May 13 15:46:42 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Thu May 13 14:41:59 2021 +0100
@@ -28,10 +29,9 @@ _137 TILs and counting..._
 - [Creating HTTP Request in Go](golang/create-http-request.md) - Mon May 10 11:51:20 2021 +0100
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md) - Mon May 10 10:28:04 2021 +0100
 - [```csharp](pdf-sharp/pdf-sharp.md) - Mon May 10 09:20:31 2021 +0100
-- [Azure Storage](azure/azure-storage.md) - Mon May 10 09:20:31 2021 +0100
 - [### Resources](car/car.md) - Mon May 10 09:20:31 2021 +0100
+- [Azure Storage](azure/azure-storage.md) - Mon May 10 09:20:31 2021 +0100
 - [## basic](csharp/csharp-async.md) - Mon May 10 09:20:31 2021 +0100
-- [// map](csharp/csharp-functional.md) - Mon May 10 09:20:31 2021 +0100
 
 ### Categories
 
@@ -41,6 +41,7 @@ _137 TILs and counting..._
 - [azure](#azure)
 - [bash](#bash)
 - [car](#car)
+- [checklists](#checklists)
 - [csharp](#csharp)
 - [curl](#curl)
 - [dapper](#dapper)
@@ -128,6 +129,9 @@ _137 TILs and counting..._
 
 ### [car](#car)
 - [### Resources](car/car.md)
+
+### [checklists](#checklists)
+- [Things to do to set up a new project](checklists/new-project-setup.md)
 
 ### [csharp](#csharp)
 - [## basic](csharp/csharp-async.md)
