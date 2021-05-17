@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_140 TILs and counting..._
+_141 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Git Set up](git/set-up-git.md) - Mon May 17 21:36:47 2021 +0100
 - [flameshot](tools/flameshot.md) - Sun May 16 12:35:15 2021 +0100
 - [Deploying C# severless project to AWS lambda](github-actions/deploy-serverless-lambda-to-aws.md) - Fri May 14 07:48:43 2021 +0100
 - [Things to do to set up a new project](checklists/new-project-setup.md) - Fri May 14 07:20:00 2021 +0100
@@ -31,7 +32,6 @@ _140 TILs and counting..._
 - [Creating HTTP Request in Go](golang/create-http-request.md) - Mon May 10 11:51:20 2021 +0100
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md) - Mon May 10 10:28:04 2021 +0100
 - [Postman](postman/postman.md) - Mon May 10 09:20:31 2021 +0100
-- [## basic](csharp/csharp-async.md) - Mon May 10 09:20:31 2021 +0100
 
 ### Categories
 
@@ -179,6 +179,7 @@ _140 TILs and counting..._
 
 ### [git](#git)
 - [git](git/git.md)
+- [Git Set up](git/set-up-git.md)
 
 ### [github-actions](#github-actions)
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md)
