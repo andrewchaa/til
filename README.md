@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_141 TILs and counting..._
+_140 TILs and counting..._
 
 ---
 
@@ -31,7 +31,7 @@ _141 TILs and counting..._
 - [Convert string to different types in Go](golang/convert-string.md) - Mon May 10 14:27:07 2021 +0100
 - [Creating HTTP Request in Go](golang/create-http-request.md) - Mon May 10 11:51:20 2021 +0100
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md) - Mon May 10 10:28:04 2021 +0100
-- [Postman](postman/postman.md) - Mon May 10 09:20:31 2021 +0100
+- [```csharp](pdf-sharp/pdf-sharp.md) - Mon May 10 09:20:31 2021 +0100
 
 ### Categories
 
@@ -90,7 +90,6 @@ _141 TILs and counting..._
 - [swagger](#swagger)
 - [swift](#swift)
 - [terminals](#terminals)
-- [terraform](#terraform)
 - [tools](#tools)
 - [typescript](#typescript)
 - [virtual-box](#virtual-box)
@@ -338,9 +337,6 @@ _141 TILs and counting..._
 - [Powershell](terminals/powershell.md)
 - [# Usage](terminals/terminal.md)
 - [### Powershell](terminals/tools.md)
-
-### [terraform](#terraform)
-- [Terraform](terraform/terraform.md)
 
 ### [tools](#tools)
 - [flameshot](tools/flameshot.md)
