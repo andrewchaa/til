@@ -1,8 +1,18 @@
 # Provisioning Azure resources with Github actions
 
+A few things to note
+
+* [Create a service principal](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal) for the terraform to use
+* Create a blob storage to [store tfstate](https://docs.microsoft.com/en-us/azure/developer/terraform/store-state-in-azure-storage)
+* Add those keys and secret as environment variables
+
+
+### Github actions
+
 Github actions come free with the repository and has a lot of useful ready-made actions. 
 
 `./github/workflows/terraform.yml`
+
 
 ```yaml
 name: 'Terraform'
@@ -18,6 +28,7 @@ jobs:
       run:
         working-directory: "./terraform"
     env:
+      ARM_ACCESS_KEY: ${{ secrets.AZURE_STORAGE_ACCESS_KEY }}    
       ARM_CLIENT_ID: ${{ secrets.AZURE_AD_CLIENT_ID }}
       ARM_CLIENT_SECRET: ${{ secrets.AZURE_AD_CLIENT_SECRET }}
       ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
@@ -50,6 +61,21 @@ jobs:
 ## Provision Azure App Service
 
 ```terraform
+
+terraform {
+  backend "azurerm" {
+    resource_group_name  = "tstate"
+    storage_account_name = "tstate20081"
+    container_name       = "tstate"
+    key                  = "terraform.tfstate"
+  }
+}
+
+provider "azurerm" {
+  version = "~>2.0"
+  features {}
+}
+
 variable "location" {
   type    = string
   default = "UK South"
