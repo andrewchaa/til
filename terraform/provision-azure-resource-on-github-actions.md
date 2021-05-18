@@ -58,7 +58,7 @@ jobs:
         run: terraform apply -auto-approve
 ```
 
-## Provision Azure App Service
+### Provision Azure App Service
 
 ```terraform
 
