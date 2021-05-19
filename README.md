@@ -12,6 +12,7 @@ _141 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [**Resources**](react/create-react-app.md) - Wed May 19 19:24:20 2021 +0100
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md) - Tue May 18 08:29:01 2021 +0100
 - [Git Set up](git/set-up-git.md) - Mon May 17 21:36:47 2021 +0100
 - [flameshot](tools/flameshot.md) - Sun May 16 12:35:15 2021 +0100
@@ -31,7 +32,6 @@ _141 TILs and counting..._
 - [Getting JSON response from HTTP Get](golang/get-json-response-from-get.md) - Mon May 10 14:29:31 2021 +0100
 - [Convert string to different types in Go](golang/convert-string.md) - Mon May 10 14:27:07 2021 +0100
 - [Creating HTTP Request in Go](golang/create-http-request.md) - Mon May 10 11:51:20 2021 +0100
-- [Auto-generate README for TIL](github-actions/auto-generate-readme.md) - Mon May 10 10:28:04 2021 +0100
 
 ### Categories
 
@@ -273,8 +273,8 @@ _141 TILs and counting..._
 
 ### [react](#react)
 - [1. install dependencies](react/adding-redux.md)
+- [**Resources**](react/create-react-app.md)
 - [```javascript](react/dom-events.md)
-- [**Resources**](react/getting-started.md)
 - [```javascript](react/react-datepicker.md)
 - [**Getting starated**](react/react-native.md)
 - [**Resources**](react/react.js.md)
