@@ -12,7 +12,7 @@ _141 TILs and counting..._
 
 ### 20 most recent TILs
 
-- [**Resources**](react/create-react-app.md) - Wed May 19 19:24:20 2021 +0100
+- [Create react app](react/create-react-app.md) - Wed May 19 19:24:20 2021 +0100
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md) - Tue May 18 08:29:01 2021 +0100
 - [Git Set up](git/set-up-git.md) - Mon May 17 21:36:47 2021 +0100
 - [flameshot](tools/flameshot.md) - Sun May 16 12:35:15 2021 +0100
@@ -273,7 +273,7 @@ _141 TILs and counting..._
 
 ### [react](#react)
 - [1. install dependencies](react/adding-redux.md)
-- [**Resources**](react/create-react-app.md)
+- [Create react app](react/create-react-app.md)
 - [```javascript](react/dom-events.md)
 - [```javascript](react/react-datepicker.md)
 - [**Getting starated**](react/react-native.md)
