@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_142 TILs and counting..._
+_143 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [required-group](terraform/required-group.md) - Wed May 19 19:58:21 2021 +0100
 - [everything about file and directory](bash/file-and-directory.md) - Wed May 19 19:41:54 2021 +0100
 - [Create react app](react/create-react-app.md) - Wed May 19 19:24:20 2021 +0100
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md) - Tue May 18 08:29:01 2021 +0100
@@ -31,7 +32,6 @@ _142 TILs and counting..._
 - [Methods in Go](golang/methods.md) - Mon May 10 20:39:34 2021 +0100
 - [If with a short statement](golang/if-with-short-statment.md) - Mon May 10 20:24:53 2021 +0100
 - [Getting JSON response from HTTP Get](golang/get-json-response-from-get.md) - Mon May 10 14:29:31 2021 +0100
-- [Convert string to different types in Go](golang/convert-string.md) - Mon May 10 14:27:07 2021 +0100
 
 ### Categories
 
@@ -342,6 +342,7 @@ _142 TILs and counting..._
 
 ### [terraform](#terraform)
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md)
+- [required-group](terraform/required-group.md)
 
 ### [tools](#tools)
 - [flameshot](tools/flameshot.md)
