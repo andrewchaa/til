@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_141 TILs and counting..._
+_142 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [everything about file and directory](bash/file-and-directory.md) - Wed May 19 19:41:54 2021 +0100
 - [Create react app](react/create-react-app.md) - Wed May 19 19:24:20 2021 +0100
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md) - Tue May 18 08:29:01 2021 +0100
 - [Git Set up](git/set-up-git.md) - Mon May 17 21:36:47 2021 +0100
@@ -31,7 +32,6 @@ _141 TILs and counting..._
 - [If with a short statement](golang/if-with-short-statment.md) - Mon May 10 20:24:53 2021 +0100
 - [Getting JSON response from HTTP Get](golang/get-json-response-from-get.md) - Mon May 10 14:29:31 2021 +0100
 - [Convert string to different types in Go](golang/convert-string.md) - Mon May 10 14:27:07 2021 +0100
-- [Creating HTTP Request in Go](golang/create-http-request.md) - Mon May 10 11:51:20 2021 +0100
 
 ### Categories
 
@@ -125,6 +125,7 @@ _141 TILs and counting..._
 
 ### [bash](#bash)
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md)
+- [everything about file and directory](bash/file-and-directory.md)
 - [Make bash script executable](bash/make-script-executable.md)
 - [Oh My Zsh](bash/ohmyzsh.md)
 
