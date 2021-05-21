@@ -12,6 +12,7 @@ _144 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Full text search examples](eastic-search/full-text-search-examples.md) - Fri May 21 09:36:03 2021 +0100
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md) - Thu May 20 09:44:58 2021 +0100
 - [required-group](terraform/required-group.md) - Wed May 19 19:58:21 2021 +0100
 - [everything about file and directory](bash/file-and-directory.md) - Wed May 19 19:41:54 2021 +0100
@@ -22,8 +23,8 @@ _144 TILs and counting..._
 - [Deploying C# severless project to AWS lambda](github-actions/deploy-serverless-lambda-to-aws.md) - Fri May 14 07:48:43 2021 +0100
 - [Things to do to set up a new project](checklists/new-project-setup.md) - Fri May 14 07:20:00 2021 +0100
 - [Make bash script executable](bash/make-script-executable.md) - Thu May 13 23:16:04 2021 +0100
-- [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md) - Thu May 13 23:11:58 2021 +0100
 - [Oh My Zsh](bash/ohmyzsh.md) - Thu May 13 23:11:58 2021 +0100
+- [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md) - Thu May 13 23:11:58 2021 +0100
 - [Creating a serverless project](serverless-framework/creating-serverless-project.md) - Thu May 13 21:28:56 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Thu May 13 15:46:42 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Thu May 13 14:41:59 2021 +0100
@@ -31,7 +32,6 @@ _144 TILs and counting..._
 - [Writing my first Go test](golang/writing-my-first-go-test.md) - Tue May 11 20:31:49 2021 +0100
 - [Learning by doing](korean/learning-by-doing.md) - Tue May 11 20:16:18 2021 +0100
 - [Methods in Go](golang/methods.md) - Mon May 10 20:39:34 2021 +0100
-- [If with a short statement](golang/if-with-short-statment.md) - Mon May 10 20:24:53 2021 +0100
 
 ### Categories
 
@@ -161,7 +161,7 @@ _144 TILs and counting..._
 - [### Resources](domain-driven-design/ddd.md)
 
 ### [eastic-search](#eastic-search)
-- [## resource](eastic-search/elastic-search.md)
+- [Full text search examples](eastic-search/full-text-search-examples.md)
 
 ### [electron](#electron)
 - [To maximise the application window:  BrowserWindow.maximize()](electron/browser-window.md)
