@@ -3,7 +3,7 @@
 
 ## Installing dependencies
 
-Node and Watchment
+### Node and Watchment
 
 ```bash
 brew install node
@@ -15,11 +15,20 @@ Install XCode via [App Store](https://itunes.apple.com/us/app/xcode/id497799835?
 Command Line Tools#
 You will also need to install the Xcode Command Line Tools. Open Xcode, then choose "Preferences..." from the Xcode menu. Go to the Locations panel and install the tools by selecting the most recent version in the Command Line Tools dropdown.
 
-CocoaPods
+### CocoaPods
 
 ```bash
 sudo gem install cocoapods
 ```
+
+If you encounter pod error, try [the following](https://stackoverflow.com/questions/37904588/cocoapods-not-installing)
+
+```
+sudo gem uninstall cocoapods
+sudo gem install cocoapods -n /usr/local/bin
+pod --version
+```
+
 
 React Native CLI
 
