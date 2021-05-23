@@ -12,6 +12,7 @@ _146 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Setting up [development environment](https://reactnative.dev/docs/environment-setup)](react-native/setting-up-development-environment.md) - Sun May 23 19:46:04 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md) - Sun May 23 09:51:37 2021 +0100
 - [Writing Azure function app with Rider](azure-functions/writing-azure-function-with-rider.md) - Fri May 21 13:24:14 2021 +0100
 - [Full text search examples](eastic-search/full-text-search-examples.md) - Fri May 21 09:36:03 2021 +0100
@@ -31,7 +32,6 @@ _146 TILs and counting..._
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Thu May 13 15:46:42 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Thu May 13 14:41:59 2021 +0100
 - [Writing down the process of a given work](work/writing-down-process-of-work.md) - Thu May 13 10:12:00 2021 +0100
-- [Writing my first Go test](golang/writing-my-first-go-test.md) - Tue May 11 20:31:49 2021 +0100
 
 ### Categories
 
@@ -292,7 +292,7 @@ _146 TILs and counting..._
 - [```javascript](react/stateless-component.md)
 
 ### [react-native](#react-native)
-- [### Resources](react-native/1. getting-started.md)
+- [Setting up [development environment](https://reactnative.dev/docs/environment-setup)](react-native/setting-up-development-environment.md)
 
 ### [regular-expression](#regular-expression)
 - [Regulax Expression](regular-expression/regular-expression.md)
