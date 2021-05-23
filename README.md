@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_145 TILs and counting..._
+_146 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md) - Sun May 23 09:51:37 2021 +0100
 - [Writing Azure function app with Rider](azure-functions/writing-azure-function-with-rider.md) - Fri May 21 13:24:14 2021 +0100
 - [Full text search examples](eastic-search/full-text-search-examples.md) - Fri May 21 09:36:03 2021 +0100
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md) - Thu May 20 09:44:58 2021 +0100
@@ -31,7 +32,6 @@ _145 TILs and counting..._
 - [docker-compose up / down](docker/docker-compose.md) - Thu May 13 14:41:59 2021 +0100
 - [Writing down the process of a given work](work/writing-down-process-of-work.md) - Thu May 13 10:12:00 2021 +0100
 - [Writing my first Go test](golang/writing-my-first-go-test.md) - Tue May 11 20:31:49 2021 +0100
-- [Learning by doing](korean/learning-by-doing.md) - Tue May 11 20:16:18 2021 +0100
 
 ### Categories
 
@@ -125,6 +125,7 @@ _145 TILs and counting..._
 - [Azure Storage](azure/azure-storage.md)
 
 ### [azure-functions](#azure-functions)
+- [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md)
 - [Writing Azure function app with Rider](azure-functions/writing-azure-function-with-rider.md)
 
 ### [bash](#bash)
