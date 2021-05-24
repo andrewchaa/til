@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_147 TILs and counting..._
+_148 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [npm](node-js/npm.md) - Mon May 24 09:04:40 2021 +0100
 - [Set Up](node-js/set-up-node-environment.md) - Mon May 24 09:01:40 2021 +0100
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md) - Mon May 24 08:53:01 2021 +0100
 - [Setting up [development environment](https://reactnative.dev/docs/environment-setup)](react-native/setting-up-development-environment.md) - Sun May 23 19:46:04 2021 +0100
@@ -31,7 +32,6 @@ _147 TILs and counting..._
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md) - Thu May 13 23:11:58 2021 +0100
 - [Oh My Zsh](bash/ohmyzsh.md) - Thu May 13 23:11:58 2021 +0100
 - [Creating a serverless project](serverless-framework/creating-serverless-project.md) - Thu May 13 21:28:56 2021 +0100
-- [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Thu May 13 15:46:42 2021 +0100
 
 ### Categories
 
@@ -266,6 +266,7 @@ _147 TILs and counting..._
 - [```javascript](node-js/configuration-file.md)
 - [1. install node-inspector](node-js/debugging-node-js.md)
 - [find node processes and kill it](node-js/kill-node-process.md)
+- [npm](node-js/npm.md)
 - [* fs extra, including file copy: https://github.com/jprichardson/node-fs-extra](node-js/resources.md)
 - [Set Up](node-js/set-up-node-environment.md)
 
