@@ -265,7 +265,7 @@ _148 TILs and counting..._
 ### [node-js](#node-js)
 - [```javascript](node-js/configuration-file.md)
 - [1. install node-inspector](node-js/debugging-node-js.md)
-- [find node processes and kill it](node-js/kill-node-process.md)
+- [Kill node process](node-js/kill-node-process.md)
 - [npm](node-js/npm.md)
 - [* fs extra, including file copy: https://github.com/jprichardson/node-fs-extra](node-js/resources.md)
 - [Set Up](node-js/set-up-node-environment.md)
