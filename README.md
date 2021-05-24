@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_146 TILs and counting..._
+_147 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Cocoapods set up](cocoapods/cocoapods-set-up.md) - Mon May 24 08:53:01 2021 +0100
 - [Setting up [development environment](https://reactnative.dev/docs/environment-setup)](react-native/setting-up-development-environment.md) - Sun May 23 19:46:04 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md) - Sun May 23 09:51:37 2021 +0100
 - [Writing Azure function app with Rider](azure-functions/writing-azure-function-with-rider.md) - Fri May 21 13:24:14 2021 +0100
@@ -31,7 +32,6 @@ _146 TILs and counting..._
 - [Creating a serverless project](serverless-framework/creating-serverless-project.md) - Thu May 13 21:28:56 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Thu May 13 15:46:42 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Thu May 13 14:41:59 2021 +0100
-- [Writing down the process of a given work](work/writing-down-process-of-work.md) - Thu May 13 10:12:00 2021 +0100
 
 ### Categories
 
@@ -43,6 +43,7 @@ _146 TILs and counting..._
 - [bash](#bash)
 - [car](#car)
 - [checklists](#checklists)
+- [cocoapods](#cocoapods)
 - [csharp](#csharp)
 - [curl](#curl)
 - [dapper](#dapper)
@@ -139,6 +140,9 @@ _146 TILs and counting..._
 
 ### [checklists](#checklists)
 - [Things to do to set up a new project](checklists/new-project-setup.md)
+
+### [cocoapods](#cocoapods)
+- [Cocoapods set up](cocoapods/cocoapods-set-up.md)
 
 ### [csharp](#csharp)
 - [## basic](csharp/csharp-async.md)
