@@ -12,6 +12,7 @@ _147 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Set Up](node-js/set-up-node-environment.md) - Mon May 24 09:01:40 2021 +0100
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md) - Mon May 24 08:53:01 2021 +0100
 - [Setting up [development environment](https://reactnative.dev/docs/environment-setup)](react-native/setting-up-development-environment.md) - Sun May 23 19:46:04 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md) - Sun May 23 09:51:37 2021 +0100
@@ -27,11 +28,10 @@ _147 TILs and counting..._
 - [Deploying C# severless project to AWS lambda](github-actions/deploy-serverless-lambda-to-aws.md) - Fri May 14 07:48:43 2021 +0100
 - [Things to do to set up a new project](checklists/new-project-setup.md) - Fri May 14 07:20:00 2021 +0100
 - [Make bash script executable](bash/make-script-executable.md) - Thu May 13 23:16:04 2021 +0100
-- [Oh My Zsh](bash/ohmyzsh.md) - Thu May 13 23:11:58 2021 +0100
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md) - Thu May 13 23:11:58 2021 +0100
+- [Oh My Zsh](bash/ohmyzsh.md) - Thu May 13 23:11:58 2021 +0100
 - [Creating a serverless project](serverless-framework/creating-serverless-project.md) - Thu May 13 21:28:56 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Thu May 13 15:46:42 2021 +0100
-- [docker-compose up / down](docker/docker-compose.md) - Thu May 13 14:41:59 2021 +0100
 
 ### Categories
 
@@ -266,8 +266,8 @@ _147 TILs and counting..._
 - [```javascript](node-js/configuration-file.md)
 - [1. install node-inspector](node-js/debugging-node-js.md)
 - [find node processes and kill it](node-js/kill-node-process.md)
-- [Set Up](node-js/node.md)
 - [* fs extra, including file copy: https://github.com/jprichardson/node-fs-extra](node-js/resources.md)
+- [Set Up](node-js/set-up-node-environment.md)
 
 ### [parallels-desktop](#parallels-desktop)
 - [parallels desktop](parallels-desktop/parallels-desktop.md)
