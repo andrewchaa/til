@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_148 TILs and counting..._
+_149 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Async Storage issues](cocoapods/async-storage-troubleshooting.md) - Mon May 24 22:00:35 2021 +0100
 - [npm](node-js/npm.md) - Mon May 24 09:04:40 2021 +0100
 - [Set Up](node-js/set-up-node-environment.md) - Mon May 24 09:01:40 2021 +0100
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md) - Mon May 24 08:53:01 2021 +0100
@@ -29,9 +30,8 @@ _148 TILs and counting..._
 - [Deploying C# severless project to AWS lambda](github-actions/deploy-serverless-lambda-to-aws.md) - Fri May 14 07:48:43 2021 +0100
 - [Things to do to set up a new project](checklists/new-project-setup.md) - Fri May 14 07:20:00 2021 +0100
 - [Make bash script executable](bash/make-script-executable.md) - Thu May 13 23:16:04 2021 +0100
-- [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md) - Thu May 13 23:11:58 2021 +0100
 - [Oh My Zsh](bash/ohmyzsh.md) - Thu May 13 23:11:58 2021 +0100
-- [Creating a serverless project](serverless-framework/creating-serverless-project.md) - Thu May 13 21:28:56 2021 +0100
+- [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md) - Thu May 13 23:11:58 2021 +0100
 
 ### Categories
 
@@ -142,6 +142,7 @@ _148 TILs and counting..._
 - [Things to do to set up a new project](checklists/new-project-setup.md)
 
 ### [cocoapods](#cocoapods)
+- [Async Storage issues](cocoapods/async-storage-troubleshooting.md)
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md)
 
 ### [csharp](#csharp)
