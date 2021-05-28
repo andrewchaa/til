@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_151 TILs and counting..._
+_152 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [iTerm2](tools/iterm2.md) - Fri May 28 17:54:35 2021 +0100
 - [Marta](tools/marta.md) - Fri May 28 16:18:37 2021 +0100
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md) - Fri May 28 10:00:45 2021 +0100
 - [Async Storage issues](cocoapods/async-storage-troubleshooting.md) - Mon May 24 22:00:35 2021 +0100
@@ -31,7 +32,6 @@ _151 TILs and counting..._
 - [flameshot](tools/flameshot.md) - Sun May 16 12:35:15 2021 +0100
 - [Deploying C# severless project to AWS lambda](github-actions/deploy-serverless-lambda-to-aws.md) - Fri May 14 07:48:43 2021 +0100
 - [Things to do to set up a new project](checklists/new-project-setup.md) - Fri May 14 07:20:00 2021 +0100
-- [Make bash script executable](bash/make-script-executable.md) - Thu May 13 23:16:04 2021 +0100
 
 ### Categories
 
@@ -362,6 +362,7 @@ _151 TILs and counting..._
 
 ### [tools](#tools)
 - [flameshot](tools/flameshot.md)
+- [iTerm2](tools/iterm2.md)
 - [Marta](tools/marta.md)
 
 ### [typescript](#typescript)
