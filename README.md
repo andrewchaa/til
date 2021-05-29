@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_152 TILs and counting..._
+_153 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Handling error with file pond](file-pond/handle-error-file-pond.md) - Sat May 29 14:27:12 2021 +0100
 - [React Native upgrade issues](react-native/react-native-upgrade-issues.md) - Sat May 29 10:08:45 2021 +0100
 - [git commands](git/git-commands.md) - Sat May 29 09:58:25 2021 +0100
 - [iTerm2](tools/iterm2.md) - Fri May 28 17:54:35 2021 +0100
@@ -31,7 +32,6 @@ _152 TILs and counting..._
 - [Create react app](react/create-react-app.md) - Wed May 19 19:24:20 2021 +0100
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md) - Tue May 18 08:29:01 2021 +0100
 - [Git Set up](git/set-up-git.md) - Mon May 17 21:36:47 2021 +0100
-- [flameshot](tools/flameshot.md) - Sun May 16 12:35:15 2021 +0100
 
 ### Categories
 
@@ -53,6 +53,7 @@ _152 TILs and counting..._
 - [eastic-search](#eastic-search)
 - [electron](#electron)
 - [fiddler](#fiddler)
+- [file-pond](#file-pond)
 - [firebase](#firebase)
 - [fsharp](#fsharp)
 - [git](#git)
@@ -184,6 +185,9 @@ _152 TILs and counting..._
 
 ### [fiddler](#fiddler)
 - [#### Catpuring traffic from .NET server services](fiddler/fiddler.md)
+
+### [file-pond](#file-pond)
+- [Handling error with file pond](file-pond/handle-error-file-pond.md)
 
 ### [firebase](#firebase)
 - [**Resources**](firebase/getting-started.md)
