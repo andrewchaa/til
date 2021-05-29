@@ -12,6 +12,7 @@ _152 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [git commands](git/git-commands.md) - Sat May 29 09:58:25 2021 +0100
 - [iTerm2](tools/iterm2.md) - Fri May 28 17:54:35 2021 +0100
 - [Marta](tools/marta.md) - Fri May 28 16:18:37 2021 +0100
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md) - Fri May 28 10:00:45 2021 +0100
@@ -31,7 +32,6 @@ _152 TILs and counting..._
 - [Git Set up](git/set-up-git.md) - Mon May 17 21:36:47 2021 +0100
 - [flameshot](tools/flameshot.md) - Sun May 16 12:35:15 2021 +0100
 - [Deploying C# severless project to AWS lambda](github-actions/deploy-serverless-lambda-to-aws.md) - Fri May 14 07:48:43 2021 +0100
-- [Things to do to set up a new project](checklists/new-project-setup.md) - Fri May 14 07:20:00 2021 +0100
 
 ### Categories
 
@@ -193,7 +193,7 @@ _152 TILs and counting..._
 - [## Resources](fsharp/fsharp.md)
 
 ### [git](#git)
-- [git](git/git.md)
+- [git commands](git/git-commands.md)
 - [Git Set up](git/set-up-git.md)
 
 ### [github-actions](#github-actions)
