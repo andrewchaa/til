@@ -1,4 +1,4 @@
-# git
+# git commands
 
 * [Resources](#resources)
 * [Set up](#set-up)
@@ -51,18 +51,28 @@ git config --global url."https://".insteadOf git://
 ### Remote Repository
 
 ```
-# set upstream
-git branch --set-upstream-to=origin/master master
 ```
 
-### Usages
+### Remote
 
-    // show origin details
-    git remote show origin
-    
-    // show all the remotes
-    git remote -v
-    
+```
+# set upstream
+git branch --set-upstream-to=origin/master master
+
+# show origin details
+git remote show origin
+
+# show all the remotes
+git remote -v
+```    
+
+### Undoing
+
+```
+# restore file that hasn't been committed
+git checkout HEAD <filename>
+```
+
     // check out and create a branch
     git checkout -b feature-install-script
     
