@@ -28,3 +28,7 @@
 ### Update info.plist
 
 In the new app, many custom settings in `info.plist` is lost. Put those custome settings back from git history
+
+### Using Native Driver for Animated
+
+https://reactnative.dev/blog/2017/02/14/using-native-driver-for-animated#how-do-i-use-this-in-my-app
