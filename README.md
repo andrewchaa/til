@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_154 TILs and counting..._
+_155 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Resuing code with composition](react/code-reuse-by-composition.md) - Mon May 31 09:30:12 2021 +0100
 - [Setting up lint on VS Code](visual-studio-code/set-up-lint-vs-code.md) - Mon May 31 09:14:12 2021 +0100
 - [Handling error with file pond](file-pond/handle-error-file-pond.md) - Sat May 29 14:27:12 2021 +0100
 - [React Native upgrade issues](react-native/react-native-upgrade-issues.md) - Sat May 29 10:08:45 2021 +0100
@@ -31,7 +32,6 @@ _154 TILs and counting..._
 - [required-group](terraform/required-group.md) - Wed May 19 19:58:21 2021 +0100
 - [everything about file and directory](bash/file-and-directory.md) - Wed May 19 19:41:54 2021 +0100
 - [Create react app](react/create-react-app.md) - Wed May 19 19:24:20 2021 +0100
-- [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md) - Tue May 18 08:29:01 2021 +0100
 
 ### Categories
 
@@ -294,6 +294,7 @@ _154 TILs and counting..._
 
 ### [react](#react)
 - [1. install dependencies](react/adding-redux.md)
+- [Resuing code with composition](react/code-reuse-by-composition.md)
 - [Create react app](react/create-react-app.md)
 - [```javascript](react/dom-events.md)
 - [```javascript](react/react-datepicker.md)
