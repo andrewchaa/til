@@ -24,3 +24,7 @@
 ### appcenter-sdk-react-native
 
 [unknown receiver errors](https://github.com/microsoft/appcenter-sdk-react-native/issues/880)
+
+### Update info.plist
+
+In the new app, many custom settings in `info.plist` is lost. Put those custome settings back from git history
