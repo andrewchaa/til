@@ -25,3 +25,13 @@ function WelcomeDialog() {
   );
 }
 ```
+
+Often you have to pass all the props to the child component, regardless of the names.
+
+```javascript
+const IntermediateComponent = (props) => {
+  return (
+    <ChildComponent {...props} />
+  )
+}
+```
