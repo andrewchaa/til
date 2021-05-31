@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_153 TILs and counting..._
+_154 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Setting up lint on VS Code](visual-studio-code/set-up-lint-vs-code.md) - Mon May 31 09:14:12 2021 +0100
 - [Handling error with file pond](file-pond/handle-error-file-pond.md) - Sat May 29 14:27:12 2021 +0100
 - [React Native upgrade issues](react-native/react-native-upgrade-issues.md) - Sat May 29 10:08:45 2021 +0100
 - [git commands](git/git-commands.md) - Sat May 29 09:58:25 2021 +0100
@@ -31,7 +32,6 @@ _153 TILs and counting..._
 - [everything about file and directory](bash/file-and-directory.md) - Wed May 19 19:41:54 2021 +0100
 - [Create react app](react/create-react-app.md) - Wed May 19 19:24:20 2021 +0100
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md) - Tue May 18 08:29:01 2021 +0100
-- [Git Set up](git/set-up-git.md) - Mon May 17 21:36:47 2021 +0100
 
 ### Categories
 
@@ -98,6 +98,7 @@ _153 TILs and counting..._
 - [tools](#tools)
 - [typescript](#typescript)
 - [virtual-box](#virtual-box)
+- [visual-studio-code](#visual-studio-code)
 - [webdriver](#webdriver)
 - [webjob](#webjob)
 - [webpack](#webpack)
@@ -374,6 +375,9 @@ _153 TILs and counting..._
 
 ### [virtual-box](#virtual-box)
 - [**Cannot register the DVD image '/Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso'**](virtual-box/virtual-box.md)
+
+### [visual-studio-code](#visual-studio-code)
+- [Setting up lint on VS Code](visual-studio-code/set-up-lint-vs-code.md)
 
 ### [webdriver](#webdriver)
 - [```csharp](webdriver/FindsBy.md)
