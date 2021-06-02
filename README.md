@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_155 TILs and counting..._
+_156 TILs and counting..._
 
 ---
 
@@ -59,6 +59,7 @@ _155 TILs and counting..._
 - [git](#git)
 - [github-actions](#github-actions)
 - [glossaries](#glossaries)
+- [gmail](#gmail)
 - [golang](#golang)
 - [grafana](#grafana)
 - [gulp](#gulp)
@@ -207,6 +208,9 @@ _155 TILs and counting..._
 
 ### [glossaries](#glossaries)
 - [* AMI: [An Amazon Machine Image (AMI)](https://en.wikipedia.org/wiki/Amazon_Machine_Image) is a special type of virtual appliance that is used to create a virtual machine within the Amazon Elastic Compute Cloud ("EC2"). It serves as the basic unit of deployment for services delivered using EC2.](glossaries/dictionary.md)
+
+### [gmail](#gmail)
+- [Keyboard shortcuts for GMail](gmail/gmail-shortcuts.md)
 
 ### [golang](#golang)
 - [Convert string to different types in Go](golang/convert-string.md)
