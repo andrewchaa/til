@@ -26,12 +26,12 @@ _157 TILs and counting..._
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md) - Mon May 24 08:53:01 2021 +0100
 - [Setting up [development environment](https://reactnative.dev/docs/environment-setup)](react-native/setting-up-development-environment.md) - Sun May 23 19:46:04 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md) - Sun May 23 09:51:37 2021 +0100
-- [Writing Azure function app with Rider](azure-functions/writing-azure-function-with-rider.md) - Fri May 21 13:24:14 2021 +0100
 - [Full text search examples](eastic-search/full-text-search-examples.md) - Fri May 21 09:36:03 2021 +0100
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md) - Thu May 20 09:44:58 2021 +0100
 - [required-group](terraform/required-group.md) - Wed May 19 19:58:21 2021 +0100
 - [everything about file and directory](bash/file-and-directory.md) - Wed May 19 19:41:54 2021 +0100
 - [Create react app](react/create-react-app.md) - Wed May 19 19:24:20 2021 +0100
+- [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md) - Tue May 18 08:29:01 2021 +0100
 
 ### Categories
 
@@ -133,9 +133,9 @@ _157 TILs and counting..._
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md)
 
 ### [azure-functions](#azure-functions)
+- [Getting started with Azure Functions on Mac](azure-functions/azure-function-getting-started-on-mac.md)
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md)
 - [Developing and running Azure functions on a local machine](azure-functions/working-with-azure-function-locally.md)
-- [Writing Azure function app with Rider](azure-functions/writing-azure-function-with-rider.md)
 
 ### [bash](#bash)
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md)
