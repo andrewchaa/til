@@ -58,3 +58,9 @@ The local.settings.json file stores app settings, connection strings, and settin
   }
 }
 ```
+
+## Run functions locally
+
+```
+func start
+```
