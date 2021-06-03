@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_156 TILs and counting..._
+_157 TILs and counting..._
 
 ---
 
@@ -134,6 +134,7 @@ _156 TILs and counting..._
 
 ### [azure-functions](#azure-functions)
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md)
+- [Developing and running Azure functions on a local machine](azure-functions/working-with-azure-function-locally.md)
 - [Writing Azure function app with Rider](azure-functions/writing-azure-function-with-rider.md)
 
 ### [bash](#bash)
