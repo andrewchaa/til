@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_157 TILs and counting..._
+_158 TILs and counting..._
 
 ---
 
@@ -370,6 +370,7 @@ _157 TILs and counting..._
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md)
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md)
 - [required-group](terraform/required-group.md)
+- [Provisioning Azure Functions with Terraform](terraform/terraform-provision-azure-function.md)
 
 ### [tools](#tools)
 - [flameshot](tools/flameshot.md)
