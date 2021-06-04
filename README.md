@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_158 TILs and counting..._
+_159 TILs and counting..._
 
 ---
 
@@ -205,6 +205,7 @@ _158 TILs and counting..._
 
 ### [github-actions](#github-actions)
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md)
+- [Build .NET code with Github action](github-actions/build-dotnet-github-action.md)
 - [Deploying C# severless project to AWS lambda](github-actions/deploy-serverless-lambda-to-aws.md)
 
 ### [glossaries](#glossaries)
