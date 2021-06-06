@@ -22,10 +22,14 @@ resource "azurerm_function_app" "wynwyn" {
   storage_account_name       = azurerm_storage_account.wynwyn.name
   storage_account_access_key = azurerm_storage_account.wynwyn.primary_access_key
   os_type                    = "linux"
+  site_config {
+    always_on = true
+  }
+
 }
 ```
 
-Please refer to [Azure App Service Plan Pricing](https://azure.microsoft.com/en-gb/pricing/details/app-service/linux/) for sku
-
-Free tier is not available for C# runtime (https://docs.microsoft.com/en-us/answers/questions/148581/i-get-error-when-trying-to-create-azure-function-f.html)
+* Please refer to [Azure App Service Plan Pricing](https://azure.microsoft.com/en-gb/pricing/details/app-service/linux/) for sku
+* Free tier is not available for C# runtime (https://docs.microsoft.com/en-us/answers/questions/148581/i-get-error-when-trying-to-create-azure-function-f.html)
+* Make sure `alwsys_on` is set to `true`. Otherwise, the instance wouldn't be ready when you deploy and the CI will most of the time fail.
 
