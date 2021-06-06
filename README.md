@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_158 TILs and counting..._
+_159 TILs and counting..._
 
 ---
 
@@ -112,6 +112,7 @@ _158 TILs and counting..._
 
 ### [asp.net-core](#asp.net-core)
 - [ASP.NET Core](asp.net-core/asp.net-core.md)
+- [Conatinerised ASP.NET Core Web API](asp.net-core/web-api-in-container.md)
 
 ### [aws](#aws)
 - [AWS Certificate Manager](aws/aws-certificate-manager.md)
