@@ -46,3 +46,12 @@ docker images
 
 ### Build and run your Docker application
 
+```
+docker run -t -d -p 5000:80 andrew/wynwyn-apis
+
+# to view running docker process
+docker ps
+
+# to stop the docker container
+docker stop xxxx
+```
