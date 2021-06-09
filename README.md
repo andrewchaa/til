@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_160 TILs and counting..._
+_161 TILs and counting..._
 
 ---
 
@@ -200,6 +200,7 @@ _160 TILs and counting..._
 - [## Resources](fsharp/fsharp.md)
 
 ### [git](#git)
+- [Checking in Git](git/git-checkout.md)
 - [git commands](git/git-commands.md)
 - [Deleting things in git](git/git-deletions.md)
 - [Git Set up](git/set-up-git.md)
