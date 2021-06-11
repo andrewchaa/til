@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_162 TILs and counting..._
+_163 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](asp.net-core/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Fri Jun 11 18:43:35 2021 +0100
 - [# Enable .editorconfig in visual studio code](visual-studio-code/enable-csharp-editorconfig.md) - Fri Jun 11 18:13:05 2021 +0100
 - [Resuing code with composition](react/code-reuse-by-composition.md) - Mon May 31 09:30:12 2021 +0100
 - [Setting up lint on VS Code](visual-studio-code/set-up-lint-vs-code.md) - Mon May 31 09:14:12 2021 +0100
@@ -31,7 +32,6 @@ _162 TILs and counting..._
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md) - Thu May 20 09:44:58 2021 +0100
 - [required-group](terraform/required-group.md) - Wed May 19 19:58:21 2021 +0100
 - [everything about file and directory](bash/file-and-directory.md) - Wed May 19 19:41:54 2021 +0100
-- [Create react app](react/create-react-app.md) - Wed May 19 19:24:20 2021 +0100
 
 ### Categories
 
@@ -112,6 +112,7 @@ _162 TILs and counting..._
 
 ### [asp.net-core](#asp.net-core)
 - [ASP.NET Core](asp.net-core/asp.net-core.md)
+- [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](asp.net-core/deploy-asp-net-core-into-azure-kubernetest-cluster.md)
 - [Conatinerised ASP.NET Core Web API](asp.net-core/web-api-in-container.md)
 
 ### [aws](#aws)
