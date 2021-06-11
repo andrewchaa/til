@@ -32,6 +32,19 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Wynwyn.Apis.dll"]
 ```
 
+To see running docker container 
+
+```
+~/d/wynwynapi ❯❯❯ docker container ls                                                                                                                                                                                                              ✘ 130 main
+CONTAINER ID   IMAGE                COMMAND                  CREATED      STATUS      PORTS                           NAMES
+c3c070ed55b1   andrew/wynwyn-apis   "dotnet Wynwyn.Apis.…"   4 days ago   Up 4 days   443/tcp, 0.0.0.0:5000->80/tcp   zealous_knuth
+```
+
+To kill a running container
+
+```
+docker kill zealous_knuth
+```
 
 ### Create an ACR instance
 
