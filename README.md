@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_163 TILs and counting..._
+_164 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Docker Terminology](docker/docker-terminology.md) - Sat Jun 12 10:48:27 2021 +0100
 - [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](asp.net-core/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Fri Jun 11 18:43:35 2021 +0100
 - [# Enable .editorconfig in visual studio code](visual-studio-code/enable-csharp-editorconfig.md) - Fri Jun 11 18:13:05 2021 +0100
 - [Resuing code with composition](react/code-reuse-by-composition.md) - Mon May 31 09:30:12 2021 +0100
@@ -31,7 +32,6 @@ _163 TILs and counting..._
 - [Full text search examples](eastic-search/full-text-search-examples.md) - Fri May 21 09:36:03 2021 +0100
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md) - Thu May 20 09:44:58 2021 +0100
 - [required-group](terraform/required-group.md) - Wed May 19 19:58:21 2021 +0100
-- [everything about file and directory](bash/file-and-directory.md) - Wed May 19 19:41:54 2021 +0100
 
 ### Categories
 
@@ -172,6 +172,7 @@ _163 TILs and counting..._
 
 ### [docker](#docker)
 - [docker-compose up / down](docker/docker-compose.md)
+- [Docker Terminology](docker/docker-terminology.md)
 - [docker](docker/docker.md)
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md)
 
