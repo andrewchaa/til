@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_164 TILs and counting..._
+_165 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Githut shortcuts](github/github-shortcuts.md) - Sun Jun 13 09:55:49 2021 +0100
 - [Docker Terminology](docker/docker-terminology.md) - Sat Jun 12 10:48:27 2021 +0100
 - [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](asp.net-core/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Fri Jun 11 18:43:35 2021 +0100
 - [# Enable .editorconfig in visual studio code](visual-studio-code/enable-csharp-editorconfig.md) - Fri Jun 11 18:13:05 2021 +0100
@@ -31,7 +32,6 @@ _164 TILs and counting..._
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md) - Sun May 23 09:51:37 2021 +0100
 - [Full text search examples](eastic-search/full-text-search-examples.md) - Fri May 21 09:36:03 2021 +0100
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md) - Thu May 20 09:44:58 2021 +0100
-- [required-group](terraform/required-group.md) - Wed May 19 19:58:21 2021 +0100
 
 ### Categories
 
@@ -57,6 +57,7 @@ _164 TILs and counting..._
 - [firebase](#firebase)
 - [fsharp](#fsharp)
 - [git](#git)
+- [github](#github)
 - [github-actions](#github-actions)
 - [glossaries](#glossaries)
 - [gmail](#gmail)
@@ -206,6 +207,9 @@ _164 TILs and counting..._
 - [git commands](git/git-commands.md)
 - [Deleting things in git](git/git-deletions.md)
 - [Git Set up](git/set-up-git.md)
+
+### [github](#github)
+- [Githut shortcuts](github/github-shortcuts.md)
 
 ### [github-actions](#github-actions)
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md)
