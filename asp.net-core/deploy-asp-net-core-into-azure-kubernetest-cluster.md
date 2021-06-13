@@ -46,5 +46,11 @@ To kill a running container
 docker kill zealous_knuth
 ```
 
+To run the docker repository
+
+```
+docker run -d -p 5000:80 --name myapp andrew/wynwyn-apis
+```
+
 ### Create an ACR instance
 
