@@ -54,3 +54,17 @@ docker run -d -p 5000:80 --name myapp andrew/wynwyn-apis
 
 ### Create an ACR instance
 
+```
+az acr create --name wynwynapi --resource-group wynwyn --sku basic --admin-enabled
+az acr list --resource-group wynwyn --query "[].{acrLoginServer:loginServer}" --output table
+```
+
+Now you can tag the image, taking the latest image (the Release image), with the command
+
+```
+docker tag andrew/wynwyn-apis:latest wynwynapi.azurecr.io/andrew/wynwyn-apis:v1
+docker images
+```
+
+### Push the image into the Azure ACR
+
