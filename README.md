@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_165 TILs and counting..._
+_166 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Create Azure API Management](terraform/azure-api-management.md) - Sun Jun 13 22:58:55 2021 +0100
 - [Githut shortcuts](github/github-shortcuts.md) - Sun Jun 13 09:55:49 2021 +0100
 - [Docker Terminology](docker/docker-terminology.md) - Sat Jun 12 10:48:27 2021 +0100
 - [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](asp.net-core/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Fri Jun 11 18:43:35 2021 +0100
@@ -31,7 +32,6 @@ _165 TILs and counting..._
 - [Setting up [development environment](https://reactnative.dev/docs/environment-setup)](react-native/setting-up-development-environment.md) - Sun May 23 19:46:04 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md) - Sun May 23 09:51:37 2021 +0100
 - [Full text search examples](eastic-search/full-text-search-examples.md) - Fri May 21 09:36:03 2021 +0100
-- [Blob storage for static website](terraform/blob-storage-for-static-website.md) - Thu May 20 09:44:58 2021 +0100
 
 ### Categories
 
@@ -376,6 +376,7 @@ _165 TILs and counting..._
 - [### Powershell](terminals/tools.md)
 
 ### [terraform](#terraform)
+- [Create Azure API Management](terraform/azure-api-management.md)
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md)
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md)
 - [required-group](terraform/required-group.md)
