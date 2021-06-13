@@ -68,3 +68,40 @@ docker images
 
 ### Push the image into the Azure ACR
 
+```
+az acr login --name wynwynapi
+Login Succeeded
+
+docker push wynwynapi.azurecr.io/andrew/wynwyn-apis:v1
+```
+
+
+### Create an AKS Cluster
+
+```
+az aks create --resource-group wynwyn --name wynwynaks --node-count 1 --enable-addons monitoring --generate-ssh-keys
+```
+
+Install kubectl
+
+```
+az aks install-cli
+```
+
+Configure kubectl to connect to your Kubernetes cluster
+
+    az aks get-credentials --resource-group wynwyn --name wynwynaks
+    
+Verify the connection to your cluster using the kubectl get
+
+    kubectl get nodes
+    NAME                                STATUS   ROLES   AGE     VERSION
+    aks-nodepool1-34279672-vmss000000   Ready    agent   6m43s   v1.19.11
+
+### Deploy the app
+
+Get the credentials from the AKS Cluster
+
+```
+az aks get-credentials --resource-group wynwyn --name wynwyn-aks
+```
