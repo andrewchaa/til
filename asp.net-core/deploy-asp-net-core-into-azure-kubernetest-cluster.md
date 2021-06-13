@@ -2,6 +2,12 @@
 
 Create an ASP.NET Core Web API
 
+names
+
+* resource group: wynyn
+* acr: wynwynapi
+* aks: wynwynaks
+
 ### Add Docker support
 
 [Dockerise ASP.NET Core](https://docs.docker.com/samples/dotnetcore/)
@@ -100,8 +106,56 @@ Verify the connection to your cluster using the kubectl get
 
 ### Deploy the app
 
-Get the credentials from the AKS Cluster
+allow the AKS cluster to pull images from the ACR
 
+    az aks update --name wynwynaks --resource-group wynwyn --attach-acr wynwynapi
+
+To deploy your multi-container app into your AKS cluster you need some manifest .yaml
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapi
+  labels:
+    app: wynwynapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: webapi
+  template:
+    metadata:
+      labels:
+        app: wynwynapi
+        service: webapi
+    spec:
+      containers:
+        - name: webapi
+          image: wynwynapi.azurecr.io/andrew/wynwyn-apis:v1
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+              protocol: TCP
+          env:
+            - name: ASPNETCORE_URLS
+              value: http://+:80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapi
+  labels:
+    app: wynwynapi
+    service: webapi
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+  selector:
+    service: webapi
 ```
-az aks get-credentials --resource-group wynwyn --name wynwyn-aks
-```
+
+    kubectl apply -f deploy-webapi.yml
+    kubectl get all    
