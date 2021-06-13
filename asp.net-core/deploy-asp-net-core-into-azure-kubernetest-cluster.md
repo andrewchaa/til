@@ -4,7 +4,7 @@ Create an ASP.NET Core Web API
 
 ### Add Docker support
 
-Create Dockerfile
+[Dockerise ASP.NET Core](https://docs.docker.com/samples/dotnetcore/)
 
 ```Dockerfile
 FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
