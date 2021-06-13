@@ -84,6 +84,8 @@ docker push wynwynapi.azurecr.io/andrew/wynwyn-apis:v1
 
 ### Create an AKS Cluster
 
+* [Deploy an Azure Kubernetes Service cluster using the Azure CLI](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough)
+
 ```
 az aks create --resource-group wynwyn --name wynwynaks --node-count 1 --enable-addons monitoring --generate-ssh-keys
 ```
