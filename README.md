@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_166 TILs and counting..._
+_167 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Slack shortcuts](slack/slack-shortcuts.md) - Mon Jun 14 07:41:28 2021 +0100
 - [Create Azure API Management](terraform/azure-api-management.md) - Sun Jun 13 22:58:55 2021 +0100
 - [Githut shortcuts](github/github-shortcuts.md) - Sun Jun 13 09:55:49 2021 +0100
 - [Docker Terminology](docker/docker-terminology.md) - Sat Jun 12 10:48:27 2021 +0100
@@ -31,7 +32,6 @@ _166 TILs and counting..._
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md) - Mon May 24 08:53:01 2021 +0100
 - [Setting up [development environment](https://reactnative.dev/docs/environment-setup)](react-native/setting-up-development-environment.md) - Sun May 23 19:46:04 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md) - Sun May 23 09:51:37 2021 +0100
-- [Full text search examples](eastic-search/full-text-search-examples.md) - Fri May 21 09:36:03 2021 +0100
 
 ### Categories
 
@@ -90,6 +90,7 @@ _166 TILs and counting..._
 - [ruby](#ruby)
 - [scriptcs](#scriptcs)
 - [serverless-framework](#serverless-framework)
+- [slack](#slack)
 - [specflow](#specflow)
 - [sql](#sql)
 - [sql-server](#sql-server)
@@ -344,6 +345,9 @@ _166 TILs and counting..._
 ### [serverless-framework](#serverless-framework)
 - [Creating a serverless project](serverless-framework/creating-serverless-project.md)
 - [serverless](serverless-framework/serverless.md)
+
+### [slack](#slack)
+- [Slack shortcuts](slack/slack-shortcuts.md)
 
 ### [specflow](#specflow)
 - [* from https://stackoverflow.com/questions/25433031/specflow-test-step-inheritance-causes-ambiguous-step-definitions](specflow/ambigous-step-definitions.md)
