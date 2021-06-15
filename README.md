@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_167 TILs and counting..._
+_168 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Docker commands](container/docker-basic-commands.md) - Tue Jun 15 21:36:32 2021 +0100
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md) - Tue Jun 15 20:52:07 2021 +0100
 - [docker-compose up / down](container/docker-compose.md) - Tue Jun 15 20:51:36 2021 +0100
 - [Docker Terminology](container/docker-terminology.md) - Tue Jun 15 20:51:03 2021 +0100
@@ -31,7 +32,6 @@ _167 TILs and counting..._
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md) - Fri May 28 10:00:45 2021 +0100
 - [Async Storage issues](cocoapods/async-storage-troubleshooting.md) - Mon May 24 22:00:35 2021 +0100
 - [npm](node-js/npm.md) - Mon May 24 09:04:40 2021 +0100
-- [Set Up](node-js/set-up-node-environment.md) - Mon May 24 09:01:40 2021 +0100
 
 ### Categories
 
@@ -158,6 +158,7 @@ _167 TILs and counting..._
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md)
 
 ### [container](#container)
+- [Docker commands](container/docker-basic-commands.md)
 - [docker-compose up / down](container/docker-compose.md)
 - [Docker Terminology](container/docker-terminology.md)
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md)
