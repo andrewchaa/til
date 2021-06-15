@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_168 TILs and counting..._
+_167 TILs and counting..._
 
 ---
 
@@ -176,7 +176,6 @@ _168 TILs and counting..._
 ### [docker](#docker)
 - [docker-compose up / down](docker/docker-compose.md)
 - [Docker Terminology](docker/docker-terminology.md)
-- [docker](docker/docker.md)
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md)
 
 ### [domain-driven-design](#domain-driven-design)
