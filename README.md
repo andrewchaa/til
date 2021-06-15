@@ -12,6 +12,7 @@ _167 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Login to docker shell interactively](container/interactive-login-docker-shell.md) - Tue Jun 15 20:52:07 2021 +0100
 - [docker-compose up / down](container/docker-compose.md) - Tue Jun 15 20:51:36 2021 +0100
 - [Docker Terminology](container/docker-terminology.md) - Tue Jun 15 20:51:03 2021 +0100
 - [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](kubernetes/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Tue Jun 15 20:49:00 2021 +0100
@@ -31,7 +32,6 @@ _167 TILs and counting..._
 - [Async Storage issues](cocoapods/async-storage-troubleshooting.md) - Mon May 24 22:00:35 2021 +0100
 - [npm](node-js/npm.md) - Mon May 24 09:04:40 2021 +0100
 - [Set Up](node-js/set-up-node-environment.md) - Mon May 24 09:01:40 2021 +0100
-- [Cocoapods set up](cocoapods/cocoapods-set-up.md) - Mon May 24 08:53:01 2021 +0100
 
 ### Categories
 
@@ -49,7 +49,6 @@ _167 TILs and counting..._
 - [csharp](#csharp)
 - [curl](#curl)
 - [dapper](#dapper)
-- [docker](#docker)
 - [domain-driven-design](#domain-driven-design)
 - [eastic-search](#eastic-search)
 - [electron](#electron)
@@ -161,6 +160,7 @@ _167 TILs and counting..._
 ### [container](#container)
 - [docker-compose up / down](container/docker-compose.md)
 - [Docker Terminology](container/docker-terminology.md)
+- [Login to docker shell interactively](container/interactive-login-docker-shell.md)
 
 ### [csharp](#csharp)
 - [## basic](csharp/csharp-async.md)
@@ -177,9 +177,6 @@ _167 TILs and counting..._
 
 ### [dapper](#dapper)
 - [**Resources**](dapper/dapper.md)
-
-### [docker](#docker)
-- [Login to docker shell interactively](docker/interactive-login-docker-shell.md)
 
 ### [domain-driven-design](#domain-driven-design)
 - [```csharp](domain-driven-design/ddd-value-object.md)
