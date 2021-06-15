@@ -15,3 +15,5 @@ The lock is released when you call the close related methods on the receiver or 
 When multiple concurrent receivers pull from the queue, the messages belonging to a particular session are dispatched to the specific receiver that currently holds the lock for that session. With that operation, an interleaved message stream in one queue or subscription is cleanly de-multiplexed to different receivers and those receivers can also live on different client machines, since the lock management happens service-side, inside Service Bus.
 
 [Azure Service Bus sessioin example](https://github.com/Azure/azure-sdk-for-net/blob/master/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample05_SessionProcessor.md)
+
+Session is supported from [Standard pricing](https://azure.microsoft.com/en-gb/pricing/details/service-bus/#pricing)
