@@ -12,6 +12,7 @@ _167 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [docker-compose up / down](container/docker-compose.md) - Tue Jun 15 20:51:36 2021 +0100
 - [Docker Terminology](container/docker-terminology.md) - Tue Jun 15 20:51:03 2021 +0100
 - [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](kubernetes/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Tue Jun 15 20:49:00 2021 +0100
 - [Azure Service Bus Message sessions](azure/azure-servicebus-session.md) - Tue Jun 15 17:25:07 2021 +0100
@@ -31,7 +32,6 @@ _167 TILs and counting..._
 - [npm](node-js/npm.md) - Mon May 24 09:04:40 2021 +0100
 - [Set Up](node-js/set-up-node-environment.md) - Mon May 24 09:01:40 2021 +0100
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md) - Mon May 24 08:53:01 2021 +0100
-- [Setting up [development environment](https://reactnative.dev/docs/environment-setup)](react-native/setting-up-development-environment.md) - Sun May 23 19:46:04 2021 +0100
 
 ### Categories
 
@@ -159,6 +159,7 @@ _167 TILs and counting..._
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md)
 
 ### [container](#container)
+- [docker-compose up / down](container/docker-compose.md)
 - [Docker Terminology](container/docker-terminology.md)
 
 ### [csharp](#csharp)
@@ -178,7 +179,6 @@ _167 TILs and counting..._
 - [**Resources**](dapper/dapper.md)
 
 ### [docker](#docker)
-- [docker-compose up / down](docker/docker-compose.md)
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md)
 
 ### [domain-driven-design](#domain-driven-design)
