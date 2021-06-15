@@ -12,12 +12,12 @@ _167 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Docker Terminology](container/docker-terminology.md) - Tue Jun 15 20:51:03 2021 +0100
 - [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](kubernetes/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Tue Jun 15 20:49:00 2021 +0100
 - [Azure Service Bus Message sessions](azure/azure-servicebus-session.md) - Tue Jun 15 17:25:07 2021 +0100
 - [Slack shortcuts](slack/slack-shortcuts.md) - Mon Jun 14 07:41:28 2021 +0100
 - [Create Azure API Management](terraform/azure-api-management.md) - Sun Jun 13 22:58:55 2021 +0100
 - [Githut shortcuts](github/github-shortcuts.md) - Sun Jun 13 09:55:49 2021 +0100
-- [Docker Terminology](docker/docker-terminology.md) - Sat Jun 12 10:48:27 2021 +0100
 - [# Enable .editorconfig in visual studio code](visual-studio-code/enable-csharp-editorconfig.md) - Fri Jun 11 18:13:05 2021 +0100
 - [Resuing code with composition](react/code-reuse-by-composition.md) - Mon May 31 09:30:12 2021 +0100
 - [Setting up lint on VS Code](visual-studio-code/set-up-lint-vs-code.md) - Mon May 31 09:14:12 2021 +0100
@@ -45,6 +45,7 @@ _167 TILs and counting..._
 - [car](#car)
 - [checklists](#checklists)
 - [cocoapods](#cocoapods)
+- [container](#container)
 - [csharp](#csharp)
 - [curl](#curl)
 - [dapper](#dapper)
@@ -157,6 +158,9 @@ _167 TILs and counting..._
 - [Async Storage issues](cocoapods/async-storage-troubleshooting.md)
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md)
 
+### [container](#container)
+- [Docker Terminology](container/docker-terminology.md)
+
 ### [csharp](#csharp)
 - [## basic](csharp/csharp-async.md)
 - [// map](csharp/csharp-functional.md)
@@ -175,7 +179,6 @@ _167 TILs and counting..._
 
 ### [docker](#docker)
 - [docker-compose up / down](docker/docker-compose.md)
-- [Docker Terminology](docker/docker-terminology.md)
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md)
 
 ### [domain-driven-design](#domain-driven-design)
