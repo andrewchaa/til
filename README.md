@@ -12,12 +12,12 @@ _168 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](kubernetes/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Tue Jun 15 20:49:00 2021 +0100
 - [Azure Service Bus Message sessions](azure/azure-servicebus-session.md) - Tue Jun 15 17:25:07 2021 +0100
 - [Slack shortcuts](slack/slack-shortcuts.md) - Mon Jun 14 07:41:28 2021 +0100
 - [Create Azure API Management](terraform/azure-api-management.md) - Sun Jun 13 22:58:55 2021 +0100
 - [Githut shortcuts](github/github-shortcuts.md) - Sun Jun 13 09:55:49 2021 +0100
 - [Docker Terminology](docker/docker-terminology.md) - Sat Jun 12 10:48:27 2021 +0100
-- [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](asp.net-core/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Fri Jun 11 18:43:35 2021 +0100
 - [# Enable .editorconfig in visual studio code](visual-studio-code/enable-csharp-editorconfig.md) - Fri Jun 11 18:13:05 2021 +0100
 - [Resuing code with composition](react/code-reuse-by-composition.md) - Mon May 31 09:30:12 2021 +0100
 - [Setting up lint on VS Code](visual-studio-code/set-up-lint-vs-code.md) - Mon May 31 09:14:12 2021 +0100
@@ -72,6 +72,7 @@ _168 TILs and counting..._
 - [journals](#journals)
 - [keyboard-shortcuts](#keyboard-shortcuts)
 - [korean](#korean)
+- [kubernetes](#kubernetes)
 - [logentries](#logentries)
 - [moq](#moq)
 - [mysql](#mysql)
@@ -114,7 +115,6 @@ _168 TILs and counting..._
 
 ### [asp.net-core](#asp.net-core)
 - [ASP.NET Core](asp.net-core/asp.net-core.md)
-- [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](asp.net-core/deploy-asp-net-core-into-azure-kubernetest-cluster.md)
 - [Conatinerised ASP.NET Core Web API](asp.net-core/web-api-in-container.md)
 
 ### [aws](#aws)
@@ -272,6 +272,9 @@ _168 TILs and counting..._
 
 ### [korean](#korean)
 - [Learning by doing](korean/learning-by-doing.md)
+
+### [kubernetes](#kubernetes)
+- [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](kubernetes/deploy-asp-net-core-into-azure-kubernetest-cluster.md)
 
 ### [logentries](#logentries)
 - [1. install packages](logentries/getting-started.md)
