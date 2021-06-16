@@ -1,4 +1,4 @@
-# Rider
+# Rider shortcuts
 
 * [Shortcuts](#shortcuts)
 
