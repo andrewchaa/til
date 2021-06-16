@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_168 TILs and counting..._
+_169 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Exporting .editorconfig](rider/rider-export-editorconfig.md) - Wed Jun 16 11:08:04 2021 +0100
 - [Rider shortcuts](rider/rider-shortcuts.md) - Wed Jun 16 11:04:58 2021 +0100
 - [Docker commands](container/docker-basic-commands.md) - Tue Jun 15 21:36:32 2021 +0100
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md) - Tue Jun 15 20:52:07 2021 +0100
@@ -31,7 +32,6 @@ _168 TILs and counting..._
 - [iTerm2](tools/iterm2.md) - Fri May 28 17:54:35 2021 +0100
 - [Marta](tools/marta.md) - Fri May 28 16:18:37 2021 +0100
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md) - Fri May 28 10:00:45 2021 +0100
-- [Async Storage issues](cocoapods/async-storage-troubleshooting.md) - Mon May 24 22:00:35 2021 +0100
 
 ### Categories
 
@@ -336,6 +336,7 @@ _168 TILs and counting..._
 - [* smtp4dev: http://smtp4dev.codeplex.com/, dummy smtp server](resources/resources.md)
 
 ### [rider](#rider)
+- [Exporting .editorconfig](rider/rider-export-editorconfig.md)
 - [Rider shortcuts](rider/rider-shortcuts.md)
 
 ### [ruby](#ruby)
