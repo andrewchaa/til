@@ -19,5 +19,7 @@ Application | Description
 [Rectangle](https://rectangleapp.com) | Window management
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
 [Slack](https://apps.apple.com/app/slack/id803453959) | Messenger
+[VS Code](https://code.visualstudio.com/) | Versatile Code Editor
+[Zoom](https://zoom.us/download) | Video chat
 
 
