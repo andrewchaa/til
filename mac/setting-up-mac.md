@@ -11,10 +11,11 @@ It's a job I often do, more than I thought I would.
 * Dock: Enable auto hiding
 * Display: In case of Macbook Air, choose scale > More spaces
 
-## Applications
+## Tools and Applications
 
 Application | Description
 -- | --
+[Brew](https://brew.sh/) | The Missing Package Manager for macOS
 [Flameshot](https://flameshot.org/) | Screen capture
 [Google Chrome](https://www.google.com/intl/en_uk/chrome/) | Browser
 [iTerm](https://iterm2.com/downloads.html) | Terminal emulator
@@ -25,4 +26,12 @@ Application | Description
 [VS Code](https://code.visualstudio.com/) | Versatile Code Editor
 [Zoom](https://zoom.us/download) | Video chat
 
+## Development
+
+* Install Git
+
+  ```
+  brew install git
+  ```
+  
 
