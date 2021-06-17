@@ -16,5 +16,8 @@ It's a job I often do, more than I thought I would.
 Application | Description
 -- | --
 [Google Chrome](https://www.google.com/intl/en_uk/chrome/) | Browser
-[Rect angle](https://rectangleapp.com) | Window management
+[Rectangle](https://rectangleapp.com) | Window management
+[Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
+[Slack](https://apps.apple.com/app/slack/id803453959) | Messenger
+
 
