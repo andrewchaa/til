@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_170 TILs and counting..._
+_171 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Setting up a new mac](mac/setting-up-mac.md) - Thu Jun 17 20:11:56 2021 +0100
 - [Dockerize a .NET application](container/dockerize-net-application.md) - Wed Jun 16 17:39:34 2021 +0100
 - [Exporting .editorconfig](rider/rider-export-editorconfig.md) - Wed Jun 16 11:08:04 2021 +0100
 - [Rider shortcuts](rider/rider-shortcuts.md) - Wed Jun 16 11:04:58 2021 +0100
@@ -31,7 +32,6 @@ _170 TILs and counting..._
 - [React Native upgrade issues](react-native/react-native-upgrade-issues.md) - Sat May 29 10:08:45 2021 +0100
 - [git commands](git/git-commands.md) - Sat May 29 09:58:25 2021 +0100
 - [iTerm2](tools/iterm2.md) - Fri May 28 17:54:35 2021 +0100
-- [Marta](tools/marta.md) - Fri May 28 16:18:37 2021 +0100
 
 ### Categories
 
@@ -74,6 +74,7 @@ _170 TILs and counting..._
 - [korean](#korean)
 - [kubernetes](#kubernetes)
 - [logentries](#logentries)
+- [mac](#mac)
 - [moq](#moq)
 - [mysql](#mysql)
 - [next-js](#next-js)
@@ -279,6 +280,9 @@ _170 TILs and counting..._
 
 ### [logentries](#logentries)
 - [1. install packages](logentries/getting-started.md)
+
+### [mac](#mac)
+- [Setting up a new mac](mac/setting-up-mac.md)
 
 ### [moq](#moq)
 - [moq](moq/moq.md)
