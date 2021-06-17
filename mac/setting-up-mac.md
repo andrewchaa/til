@@ -15,6 +15,7 @@ It's a job I often do, more than I thought I would.
 
 Application | Description
 -- | --
+[Flameshot](https://flameshot.org/) | Screen capture
 [Google Chrome](https://www.google.com/intl/en_uk/chrome/) | Browser
 [Rectangle](https://rectangleapp.com) | Window management
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
