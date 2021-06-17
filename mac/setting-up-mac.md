@@ -16,6 +16,7 @@ It's a job I often do, more than I thought I would.
 Application | Description
 -- | --
 [Brew](https://brew.sh/) | The Missing Package Manager for macOS
+[Docker](https://docs.docker.com/docker-for-mac/install/) | container
 [Flameshot](https://flameshot.org/) | Screen capture
 [Google Chrome](https://www.google.com/intl/en_uk/chrome/) | Browser
 [iTerm](https://iterm2.com/downloads.html) | Terminal emulator
