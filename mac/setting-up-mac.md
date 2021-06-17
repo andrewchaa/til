@@ -17,6 +17,7 @@ Application | Description
 -- | --
 [Flameshot](https://flameshot.org/) | Screen capture
 [Google Chrome](https://www.google.com/intl/en_uk/chrome/) | Browser
+[iTerm](https://iterm2.com/downloads.html) | Terminal emulator
 [Rectangle](https://rectangleapp.com) | Window management
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
 [Slack](https://apps.apple.com/app/slack/id803453959) | Messenger
