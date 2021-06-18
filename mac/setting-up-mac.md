@@ -76,6 +76,8 @@ Install [.NET core 3.1](https://dotnet.microsoft.com/download/dotnet/3.1)
 
 Install [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 
+    brew update && brew install azure-cli
+
 Install [Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash)
 
     brew tap azure/functions
