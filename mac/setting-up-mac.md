@@ -29,6 +29,7 @@ Application | Description
 [Flameshot](https://flameshot.org/) | Screen capture
 [Google Chrome](https://www.google.com/intl/en_uk/chrome/) | Browser
 [iTerm](https://iterm2.com/downloads.html) | Terminal emulator
+[JebTrains tools](https://www.jetbrains.com/rider/download/#section=mac) | JebBrains developer tools
 [Nativefier](https://github.com/nativefier/nativefier) | turn your website into a desktop app
 [Notion](https://www.notion.so/desktop) | Note-taking app
 [Rectangle](https://rectangleapp.com) | Window management
