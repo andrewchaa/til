@@ -32,6 +32,7 @@ Application | Description
 [JebTrains tools](https://www.jetbrains.com/rider/download/#section=mac) | JebBrains developer tools
 [Nativefier](https://github.com/nativefier/nativefier) | turn your website into a desktop app
 [Notion](https://www.notion.so/desktop) | Note-taking app
+[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 [Rectangle](https://rectangleapp.com) | Window management
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
 [Slack](https://apps.apple.com/app/slack/id803453959) | Messenger
@@ -58,6 +59,16 @@ Install Node
     brew install node
   
 Install iTerm2 and [set up the Dracula theme](https://draculatheme.com/iterm)
+
+Install [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+
+Set up ohmyzsh plugins
+
+    code ~/.zshrc
+    
+Install [Dracula theme](https://draculatheme.com/zsh)
+
+    ln -s ~/github/zsh/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
 
 
 ## Shortcuts
