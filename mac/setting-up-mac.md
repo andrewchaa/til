@@ -35,6 +35,7 @@ Application | Description
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
 [Slack](https://apps.apple.com/app/slack/id803453959) | Messenger
 [VS Code](https://code.visualstudio.com/) | Versatile Code Editor
+[Whatsapp](https://www.whatsapp.com/download/?lang=en) | messenger
 [Zoom](https://zoom.us/download) | Video chat
 
 ## Development
@@ -43,15 +44,13 @@ Install [VS Code](https://code.visualstudio.com/) | Versatile Code Editor
 
 Install Code in the command path: ⌘ shft p > "Install Code in the command path"
 
-
-
 Install git
 
     brew install git
     
 [Generate a new SSH Key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-    
+[Adding a new SSH key to your GitHub account](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
   
 Install Node
 
