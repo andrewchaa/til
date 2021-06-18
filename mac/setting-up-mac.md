@@ -28,6 +28,7 @@ Application | Description
 [Azurite](https://github.com/azure/azurite)
 [Brew](https://brew.sh/) | The Missing Package Manager for macOS
 [Docker](https://docs.docker.com/docker-for-mac/install/) | container
+[Draw.io](https://github.com/jgraph/drawio-desktop/releases)
 [Dracula theme](https://draculatheme.com/) | a nice theme
 [Flameshot](https://flameshot.org/) | Screen capture
 [Google Chrome](https://www.google.com/intl/en_uk/chrome/) | Browser
