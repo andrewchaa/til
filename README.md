@@ -12,6 +12,7 @@ _171 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md) - Fri Jun 18 17:23:15 2021 +0100
 - [Getting started with Azure Functions on Mac](azure/azure-function-getting-started-on-mac.md) - Fri Jun 18 17:22:37 2021 +0100
 - [Setting up a new M1 Mac](mac/setting-up-mac.md) - Thu Jun 17 20:11:56 2021 +0100
 - [Dockerize a .NET application](container/dockerize-net-application.md) - Wed Jun 16 17:39:34 2021 +0100
@@ -31,7 +32,6 @@ _171 TILs and counting..._
 - [Setting up lint on VS Code](visual-studio-code/set-up-lint-vs-code.md) - Mon May 31 09:14:12 2021 +0100
 - [Handling error with file pond](file-pond/handle-error-file-pond.md) - Sat May 29 14:27:12 2021 +0100
 - [React Native upgrade issues](react-native/react-native-upgrade-issues.md) - Sat May 29 10:08:45 2021 +0100
-- [git commands](git/git-commands.md) - Sat May 29 09:58:25 2021 +0100
 
 ### Categories
 
@@ -132,6 +132,7 @@ _171 TILs and counting..._
 
 ### [azure](#azure)
 - [Getting started with Azure Functions on Mac](azure/azure-function-getting-started-on-mac.md)
+- [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md)
 - [Azure Service Bus Message sessions](azure/azure-servicebus-session.md)
 - [Azure Storage](azure/azure-storage.md)
 
@@ -139,7 +140,6 @@ _171 TILs and counting..._
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md)
 
 ### [azure-functions](#azure-functions)
-- [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md)
 - [Developing and running Azure functions on a local machine](azure-functions/working-with-azure-function-locally.md)
 
 ### [bash](#bash)
