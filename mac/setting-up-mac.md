@@ -39,9 +39,19 @@ Application | Description
 
 ## Development
 
-Install Git
+Install [VS Code](https://code.visualstudio.com/) | Versatile Code Editor
+
+Install Code in the command path: ⌘ shft p > "Install Code in the command path"
+
+
+
+Install git
 
     brew install git
+    
+[Generate a new SSH Key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+    
   
 Install Node
 
