@@ -25,6 +25,7 @@ Application | Description
 -- | --
 [Brew](https://brew.sh/) | The Missing Package Manager for macOS
 [Docker](https://docs.docker.com/docker-for-mac/install/) | container
+[Dracula theme](https://draculatheme.com/) | a nice theme
 [Flameshot](https://flameshot.org/) | Screen capture
 [Google Chrome](https://www.google.com/intl/en_uk/chrome/) | Browser
 [iTerm](https://iterm2.com/downloads.html) | Terminal emulator
@@ -41,6 +42,13 @@ Install Git
 
     brew install git
   
+Install Node
+
+    brew install node
+  
+Install iTerm2 and [set up the Dracula theme](https://draculatheme.com/iterm)
+
+
 ## Shortcuts
 
 Key | Description
