@@ -1,6 +1,13 @@
-# Setting up a new mac
+# Setting up a new M1 Mac
 
 It's a job I often do, more than I thought I would.
+
+## Pre-requisite
+
+Install Rosetta 2 
+
+    softwareupdate --install-rosetta
+    
 
 ## System preferences
 
