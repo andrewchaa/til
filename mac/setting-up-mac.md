@@ -25,6 +25,7 @@ Application | Description
 -- | --
 [Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash)
 [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+[Azurite](https://github.com/azure/azurite)
 [Brew](https://brew.sh/) | The Missing Package Manager for macOS
 [Docker](https://docs.docker.com/docker-for-mac/install/) | container
 [Dracula theme](https://draculatheme.com/) | a nice theme
@@ -85,6 +86,10 @@ Install [Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure
     # if upgrading on a machine that has 2.x installed
     brew link --overwrite azure-functions-core-tools@3
 
+Install [Azurite](https://github.com/azure/azurite)
+
+    npm install -g azurite
+    azurite -s -l ~/github/azurite -d ~/azurite/debug.log
 
 ## Shortcuts
 
