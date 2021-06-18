@@ -29,6 +29,7 @@ Application | Description
 [Flameshot](https://flameshot.org/) | Screen capture
 [Google Chrome](https://www.google.com/intl/en_uk/chrome/) | Browser
 [iTerm](https://iterm2.com/downloads.html) | Terminal emulator
+[Nativefier](https://github.com/nativefier/nativefier) | turn your website into a desktop app
 [Notion](https://www.notion.so/desktop) | Note-taking app
 [Rectangle](https://rectangleapp.com) | Window management
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
