@@ -24,7 +24,7 @@ Display: In case of Macbook Air, choose scale > More spaces
 Application | Description
 -- | --
 [Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash)
-[Azure SDK for .NET](https://github.com/azure/azure-sdk-for-net/)
+[Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 [Brew](https://brew.sh/) | The Missing Package Manager for macOS
 [Docker](https://docs.docker.com/docker-for-mac/install/) | container
 [Dracula theme](https://draculatheme.com/) | a nice theme
@@ -74,7 +74,7 @@ Install [Dracula theme](https://draculatheme.com/zsh)
 
 Install [.NET core 3.1](https://dotnet.microsoft.com/download/dotnet/3.1)
 
-Install [Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash)
+Install [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 Install [Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash)
 
