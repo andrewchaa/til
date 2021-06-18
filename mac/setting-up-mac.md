@@ -11,12 +11,13 @@ Install Rosetta 2
 
 ## System preferences
 
-* Enable three finger drag and drop from Accessibility
+Enable three finger drag and drop from Accessibility
 
-  <img width="364" alt="image" src="https://user-images.githubusercontent.com/840427/122458169-6a9b9000-cfa7-11eb-9a9e-2905fbe93aa6.png">
+<img width="364" alt="image" src="https://user-images.githubusercontent.com/840427/122458169-6a9b9000-cfa7-11eb-9a9e-2905fbe93aa6.png">
 
-* Dock: Enable auto hiding
-* Display: In case of Macbook Air, choose scale > More spaces
+Dock: Enable auto hiding
+
+Display: In case of Macbook Air, choose scale > More spaces
 
 ## Tools and Applications
 
@@ -36,10 +37,12 @@ Application | Description
 
 ## Development
 
-* Install Git
+Install Git
 
-  ```
-  brew install git
-  ```
+    brew install git
   
+## Shortcuts
 
+Key | Description
+-- | --
+cmd ctrl q | lock screen
