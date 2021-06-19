@@ -31,6 +31,7 @@ Application | Description
 [Draw.io](https://github.com/jgraph/drawio-desktop/releases)
 [Dracula theme](https://draculatheme.com/) | a nice theme
 [Flameshot](https://flameshot.org/) | Screen capture
+[Fork](https://git-fork.com/) | a nice git GUI
 [Google Chrome](https://www.google.com/intl/en_uk/chrome/) | Browser
 [iTerm](https://iterm2.com/downloads.html) | Terminal emulator
 [JebTrains tools](https://www.jetbrains.com/rider/download/#section=mac) | JebBrains developer tools
