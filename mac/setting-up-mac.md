@@ -19,6 +19,11 @@ Dock: Enable auto hiding
 
 Display: In case of Macbook Air, choose scale > More spaces
 
+Use F1, F2 as standard function key
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/840427/122651786-0efe0d80-d133-11eb-8f63-33d928d04370.png">
+
+
 ## Tools and Applications
 
 Application | Description
