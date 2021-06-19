@@ -42,7 +42,7 @@ Application | Description
 [JebTrains tools](https://www.jetbrains.com/rider/download/#section=mac) | JebBrains developer tools
 [Nativefier](https://github.com/nativefier/nativefier) | turn your website into a desktop app
 [Notion](https://www.notion.so/desktop) | Note-taking app
-[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+[Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) | shell
 [Postman](https://www.postman.com/downloads/)
 [Rectangle](https://rectangleapp.com) | Window management
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
