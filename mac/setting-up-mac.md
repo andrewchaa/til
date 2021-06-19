@@ -37,6 +37,7 @@ Application | Description
 [Nativefier](https://github.com/nativefier/nativefier) | turn your website into a desktop app
 [Notion](https://www.notion.so/desktop) | Note-taking app
 [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+[Postman](https://www.postman.com/downloads/)
 [Rectangle](https://rectangleapp.com) | Window management
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
 [Slack](https://apps.apple.com/app/slack/id803453959) | Messenger
