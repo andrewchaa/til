@@ -47,6 +47,7 @@ Application | Description
 [Rectangle](https://rectangleapp.com) | Window management
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
 [Slack](https://apps.apple.com/app/slack/id803453959) | Messenger
+[Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli) | resource provisioning
 [VS Code](https://code.visualstudio.com/) | Versatile Code Editor
 [Whatsapp](https://www.whatsapp.com/download/?lang=en) | messenger
 [yarn](https://classic.yarnpkg.com/en/docs/install#mac-stable) : a javascript package manager
@@ -103,6 +104,9 @@ Install [Azurite](https://github.com/azure/azurite)
 
     npm install -g azurite
     azurite -s -l ~/github/azurite -d ~/azurite/debug.log
+
+Install [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+
 
 ## Shortcuts
 
