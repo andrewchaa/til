@@ -44,6 +44,7 @@ Application | Description
 [Slack](https://apps.apple.com/app/slack/id803453959) | Messenger
 [VS Code](https://code.visualstudio.com/) | Versatile Code Editor
 [Whatsapp](https://www.whatsapp.com/download/?lang=en) | messenger
+[yarn](https://classic.yarnpkg.com/en/docs/install#mac-stable) : a javascript package manager
 [Zoom](https://zoom.us/download) | Video chat
 
 ## Development
@@ -63,6 +64,10 @@ Install git
 Install Node
 
     brew install node
+    
+Install yarn package manager
+
+    npm install --global yarn 
   
 Install iTerm2 and [set up the Dracula theme](https://draculatheme.com/iterm)
 
