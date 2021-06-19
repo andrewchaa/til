@@ -1,10 +1,12 @@
 # cloud formation
 
 * [set route 53 to point to cluster](#set-route-53-to-point-to-cluster)
+* [add api execution policy to an existing role](#add-api-execution-policy-to-an-existing-role)
+
 
 ### set route 53 to point to cluster
 
-```javascript
+```json
 "Resources": {
   "DBCluster": {
     "Type": "AWS::RDS::DBCluster",
@@ -115,6 +117,26 @@
     "Type": "AWS::Route53::RecordSetGroup"
   }
 },
+```
 
+### add api execution policy to an existing role
 
+```yaml
+Parameters:
+  iamApiExecutionRoleParameter:
+    Default: navien-backoffice-dev-20190910115419-authRole
+    Type: CommaDelimitedList
+Resources:
+  apiExecutionPolicy:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Action:
+              - "execute-api:Invoke"
+            Resource:
+              - "arn:aws:execute-api:eu-west-1:844126945093:tq980g774l/*"
+      Roles: !Ref iamApiExecutionRoleParameter
 ```
