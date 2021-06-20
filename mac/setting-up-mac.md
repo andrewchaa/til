@@ -48,6 +48,7 @@ Application | Description
 [Rectangle](https://rectangleapp.com) | Window management
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
 [Ruby](https://www.ruby-lang.org/en/documentation/installation/) | ruby language
+[Serverless](https://www.serverless.com/framework/docs/getting-started/) | serverless framework
 [Slack](https://apps.apple.com/app/slack/id803453959) | Messenger
 [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli) | resource provisioning
 [VS Code](https://code.visualstudio.com/) | Versatile Code Editor
@@ -132,6 +133,9 @@ Then add to ~/.zshrc
     export PATH=$GEM_HOME/bin:$PATH
     export PATH=/Users/andrewchaa/.gem/ruby/3.0.0/bin:$PATH
 
+Install [Serverless](https://www.serverless.com/framework/docs/getting-started/) 
+
+    npm install -g serverless
 
 ## Shortcuts
 
