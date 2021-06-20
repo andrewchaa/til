@@ -136,6 +136,10 @@ Then add to ~/.zshrc
 Install [Serverless](https://www.serverless.com/framework/docs/getting-started/) 
 
     npm install -g serverless
+    
+Install Python 3
+
+    brew install python
 
 ## Shortcuts
 
