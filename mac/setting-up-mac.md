@@ -118,6 +118,21 @@ Install [Cocoapods](https://cocoapods.org/)
 
     sudo gem install cocoapods
 
+Or
+
+    gem install cocoapods --user-install
+    
+Or if it doesn't work
+
+    gem install cocoapods cocoapods-core cocoapods-downloader --user-install
+    
+Then add to ~/.zshrc
+
+    export GEM_HOME=$HOME/.gem
+    export PATH=$GEM_HOME/bin:$PATH
+    export PATH=/Users/andrewchaa/.gem/ruby/3.0.0/bin:$PATH
+
+
 ## Shortcuts
 
 Key | Description
