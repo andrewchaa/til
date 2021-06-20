@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_172 TILs and counting..._
+_173 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Launch login page on public wifi](iPhone/launch-login-page-on-public-wifi.md) - Sun Jun 20 14:08:06 2021 +0100
 - [Azure Functions core Tools](azure/azure-functions-core-tools.md) - Fri Jun 18 17:28:53 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md) - Fri Jun 18 17:23:15 2021 +0100
 - [Getting started with Azure Functions on Mac](azure/azure-function-getting-started-on-mac.md) - Fri Jun 18 17:22:37 2021 +0100
@@ -31,7 +32,6 @@ _172 TILs and counting..._
 - [# Enable .editorconfig in visual studio code](visual-studio-code/enable-csharp-editorconfig.md) - Fri Jun 11 18:13:05 2021 +0100
 - [Resuing code with composition](react/code-reuse-by-composition.md) - Mon May 31 09:30:12 2021 +0100
 - [Setting up lint on VS Code](visual-studio-code/set-up-lint-vs-code.md) - Mon May 31 09:14:12 2021 +0100
-- [Handling error with file pond](file-pond/handle-error-file-pond.md) - Sat May 29 14:27:12 2021 +0100
 
 ### Categories
 
@@ -66,6 +66,7 @@ _172 TILs and counting..._
 - [gulp](#gulp)
 - [hackintosh](#hackintosh)
 - [html](#html)
+- [iPhone](#iPhone)
 - [identity-server](#identity-server)
 - [iis](#iis)
 - [javascript](#javascript)
@@ -246,6 +247,9 @@ _172 TILs and counting..._
 
 ### [html](#html)
 - [Bootstrap](html/bootstrap.md)
+
+### [iPhone](#iPhone)
+- [Launch login page on public wifi](iPhone/launch-login-page-on-public-wifi.md)
 
 ### [identity-server](#identity-server)
 - [Resources](identity-server/identity-server.md)
