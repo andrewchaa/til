@@ -7,4 +7,5 @@ There are [a few tips to handle the issue](https://zapier.com/blog/open-wifi-log
 
 Following the instruction, I just change the custom DNS server to the well-know Google DNS, 8.8.8.8
 
-![image](https://user-images.githubusercontent.com/840427/122675345-dd3b8400-d1d0-11eb-884a-528c5418a243.png)
+<img width="500" src="https://user-images.githubusercontent.com/840427/122675345-dd3b8400-d1d0-11eb-884a-528c5418a243.png" />
+
