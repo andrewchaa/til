@@ -28,10 +28,11 @@ Use F1, F2 as standard function key
 
 Application | Description
 -- | --
-[Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash)
-[Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-[Azurite](https://github.com/azure/azurite)
+[Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash) | Azure function core tools
+[Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) | Azure CLI
+[Azurite](https://github.com/azure/azurite) | Azure Storage Emulator
 [Brew](https://brew.sh/) | The Missing Package Manager for macOS
+[Cocoapods](https://cocoapods.org/) | a dependency manager for swift and Object-C Cocoa projects
 [Docker](https://docs.docker.com/docker-for-mac/install/) | container
 [Draw.io](https://github.com/jgraph/drawio-desktop/releases)
 [Dracula theme](https://draculatheme.com/) | a nice theme
@@ -46,6 +47,7 @@ Application | Description
 [Postman](https://www.postman.com/downloads/)
 [Rectangle](https://rectangleapp.com) | Window management
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
+[Ruby](https://www.ruby-lang.org/en/documentation/installation/) | ruby language
 [Slack](https://apps.apple.com/app/slack/id803453959) | Messenger
 [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli) | resource provisioning
 [VS Code](https://code.visualstudio.com/) | Versatile Code Editor
@@ -107,6 +109,14 @@ Install [Azurite](https://github.com/azure/azurite)
 
 Install [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
+Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+
+    brew install ruby
+    echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+
+Install [Cocoapods](https://cocoapods.org/)
+
+    sudo gem install cocoapods
 
 ## Shortcuts
 
