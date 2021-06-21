@@ -16,7 +16,7 @@ _173 TILs and counting..._
 - [Azure Functions core Tools](azure/azure-functions-core-tools.md) - Fri Jun 18 17:28:53 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md) - Fri Jun 18 17:23:15 2021 +0100
 - [Getting started with Azure Functions on Mac](azure/azure-function-getting-started-on-mac.md) - Fri Jun 18 17:22:37 2021 +0100
-- [Setting up a new M1 Mac](mac/setting-up-mac.md) - Thu Jun 17 20:11:56 2021 +0100
+- [Setting up a new Mac](mac/setting-up-mac.md) - Thu Jun 17 20:11:56 2021 +0100
 - [Dockerize a .NET application](container/dockerize-net-application.md) - Wed Jun 16 17:39:34 2021 +0100
 - [Exporting .editorconfig](rider/rider-export-editorconfig.md) - Wed Jun 16 11:08:04 2021 +0100
 - [Rider shortcuts](rider/rider-shortcuts.md) - Wed Jun 16 11:04:58 2021 +0100
@@ -287,7 +287,7 @@ _173 TILs and counting..._
 - [1. install packages](logentries/getting-started.md)
 
 ### [mac](#mac)
-- [Setting up a new M1 Mac](mac/setting-up-mac.md)
+- [Setting up a new Mac](mac/setting-up-mac.md)
 
 ### [moq](#moq)
 - [moq](moq/moq.md)
