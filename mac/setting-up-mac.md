@@ -1,10 +1,10 @@
-# Setting up a new M1 Mac
+# Setting up a new Mac
 
 It's a job I often do, more than I thought I would.
 
 ## Pre-requisite
 
-Install Rosetta 2 
+Install Rosetta 2 if you are on Mac M1 Sillicon
 
     softwareupdate --install-rosetta
     
@@ -44,7 +44,7 @@ Application | Description
 [Nativefier](https://github.com/nativefier/nativefier) | turn your website into a desktop app
 [Notion](https://www.notion.so/desktop) | Note-taking app
 [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) | shell
-[Postman](https://www.postman.com/downloads/)
+[Postman](https://www.postman.com/downloads/) | API test
 [Rectangle](https://rectangleapp.com) | Window management
 [Rider](https://www.jetbrains.com/rider/download/#section=mac) | .NET IDE
 [Ruby](https://www.ruby-lang.org/en/documentation/installation/) | ruby language
@@ -53,12 +53,12 @@ Application | Description
 [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli) | resource provisioning
 [VS Code](https://code.visualstudio.com/) | Versatile Code Editor
 [Whatsapp](https://www.whatsapp.com/download/?lang=en) | messenger
-[yarn](https://classic.yarnpkg.com/en/docs/install#mac-stable) : a javascript package manager
+[yarn](https://classic.yarnpkg.com/en/docs/install#mac-stable) | a javascript package manager
 [Zoom](https://zoom.us/download) | Video chat
 
 ## Development
 
-Install [VS Code](https://code.visualstudio.com/) | Versatile Code Editor
+Install [VS Code](https://code.visualstudio.com/)
 
 Install Code in the command path: ⌘ shft p > "Install Code in the command path"
 
