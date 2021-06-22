@@ -5,6 +5,7 @@
 
 Key | Description
 -- | --
+ctrl cmd ➝ | split and move it to right
 shft shft | command pop up
 
 ### ReSharper OS X keymap
