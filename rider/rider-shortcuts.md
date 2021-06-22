@@ -1,6 +1,14 @@
 # Rider shortcuts
 
 
+### VS Code Keymap
+
+Key | Description
+-- | --
+shft shft | command pop up
+
+### ReSharper OS X keymap
+
 Key | Description
 -- | --
 cmd + f4 | close the current tab
