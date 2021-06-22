@@ -6,8 +6,10 @@
 Key | Description
 -- | --
 ⌃ ⌘ ➝ | split and move it to right
-shft shft | command pop up
 ⌥ F7 | find usage
+shft shft | command pop up
+shft ⌘ e | show / hide Explorer
+
 
 ### ReSharper OS X keymap
 
