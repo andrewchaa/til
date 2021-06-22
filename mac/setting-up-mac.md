@@ -108,6 +108,16 @@ Install [Azurite](https://github.com/azure/azurite)
     npm install -g azurite
     azurite -s -l ~/github/azurite -d ~/github/azurite/debug.log
 
+Install openssl
+
+    brew install openssl
+    
+Then set `DYLD_LIBRARY_PATH` in the environment
+
+    which openssl
+    export DYLD_LIBRARY_PATH="/usr/local/opt/openssl@1.1/lib/"
+
+
 Install [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
 Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
