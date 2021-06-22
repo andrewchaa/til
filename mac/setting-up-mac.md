@@ -106,7 +106,7 @@ Install [Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure
 Install [Azurite](https://github.com/azure/azurite)
 
     npm install -g azurite
-    azurite -s -l ~/github/azurite -d ~/azurite/debug.log
+    azurite -s -l ~/github/azurite -d ~/github/azurite/debug.log
 
 Install [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
