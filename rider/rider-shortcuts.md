@@ -11,6 +11,7 @@ shft shft | command pop up
 shft ⌘ e | show / hide Explorer
 shft ⌘ space | show parameter hint
 shft ⌘ b | Build
+F12 | go to definition
 
 ### ReSharper OS X keymap
 
