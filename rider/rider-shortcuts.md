@@ -9,7 +9,7 @@ Key | Description
 ⌥ F7 | find usage
 shft shft | command pop up
 shft ⌘ e | show / hide Explorer
-
+shft ⌘ space | show parameter hint
 
 ### ReSharper OS X keymap
 
