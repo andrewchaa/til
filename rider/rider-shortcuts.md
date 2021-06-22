@@ -5,8 +5,9 @@
 
 Key | Description
 -- | --
-ctrl cmd ➝ | split and move it to right
+⌃ ⌘ ➝ | split and move it to right
 shft shft | command pop up
+⌥ F7 | find usage
 
 ### ReSharper OS X keymap
 
