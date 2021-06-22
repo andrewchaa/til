@@ -10,6 +10,7 @@ Key | Description
 shft shft | command pop up
 shft ⌘ e | show / hide Explorer
 shft ⌘ space | show parameter hint
+shft ⌘ b | Build
 
 ### ReSharper OS X keymap
 
