@@ -90,6 +90,10 @@ Install [Dracula theme](https://draculatheme.com/zsh)
 
     ln -s ~/github/zsh/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
 
+In ~/.zshrc
+
+    ZSH_THEME="dracula"
+
 Install [.NET core 3.1](https://dotnet.microsoft.com/download/dotnet/3.1)
 
 Install [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
