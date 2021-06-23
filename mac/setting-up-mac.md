@@ -62,6 +62,43 @@ Install [VS Code](https://code.visualstudio.com/)
 
 Install Code in the command path: ⌘ shft p > "Install Code in the command path"
 
+Install [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+
+Set up ohmyzsh plugins
+
+    code ~/.zshrc
+    
+Install [Dracula theme](https://draculatheme.com/zsh)
+
+    ln -s ~/github/zsh/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
+
+In ~/.zshrc
+
+    ZSH_THEME="dracula"
+
+Install iTerm2 and [set up the Dracula theme](https://draculatheme.com/iterm)
+
+Copy iTerm in Applications directory and rename it to "iTerm (Intel)"
+
+Open Info by doing `cmd + i` and tick on "Open using Resetta"
+Now you have two shell, one for M1 Mac and the other for Intel on Resetta
+
+Install brew on iTerm and iTerm (Intel)
+They should be installed in two different locations
+
+* arm: `/opt/homebrew`
+* intel: `/usr/local/homebrew`
+
+Create aliases for two versions of brew
+
+    ibrew='arch -x86_64 /usr/local/bin/brew'
+    mbrew='arch -arm64e /opt/homebrew/bin/brew'
+
+Add those paths to `~/.zshrc`
+
+    export PATH="/usr/local/homebrew/bin:$PATH"
+    export PATH="/opt/homebrew/bin:$PATH"
+
 Install git
 
     brew install git
@@ -78,22 +115,6 @@ Install yarn package manager
 
     npm install --global yarn 
   
-Install iTerm2 and [set up the Dracula theme](https://draculatheme.com/iterm)
-
-Install [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
-
-Set up ohmyzsh plugins
-
-    code ~/.zshrc
-    
-Install [Dracula theme](https://draculatheme.com/zsh)
-
-    ln -s ~/github/zsh/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
-
-In ~/.zshrc
-
-    ZSH_THEME="dracula"
-
 Install [.NET core 3.1](https://dotnet.microsoft.com/download/dotnet/3.1)
 
 Install [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
