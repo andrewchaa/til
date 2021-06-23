@@ -6,6 +6,7 @@
 Key | Description
 -- | --
 ⌃ ⌘ ➝ | split and move it to right
+⌥ f1 | select in ... (file explorer)
 ⌥ f7 | find usage
 shft shft | command pop up
 shft ⌘ e | show / hide Explorer
