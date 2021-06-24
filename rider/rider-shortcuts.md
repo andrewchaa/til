@@ -5,6 +5,7 @@
 
 Key | Description
 -- | --
+⌘ t | find symbol
 ⌃ ⌘ ➝ | split and move it to right
 ⌥ f1 | select in ... (file explorer)
 ⌥ f7 | find usage
