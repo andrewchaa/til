@@ -12,6 +12,7 @@ _173 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Useful sql queries](sql/sql-queries.md) - Thu Jun 24 18:21:22 2021 +0100
 - [Launch login page on public wifi](iPhone/launch-login-page-on-public-wifi.md) - Sun Jun 20 14:08:06 2021 +0100
 - [Azure Functions core Tools](azure/azure-functions-core-tools.md) - Fri Jun 18 17:28:53 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md) - Fri Jun 18 17:23:15 2021 +0100
@@ -31,7 +32,6 @@ _173 TILs and counting..._
 - [Githut shortcuts](github/github-shortcuts.md) - Sun Jun 13 09:55:49 2021 +0100
 - [# Enable .editorconfig in visual studio code](visual-studio-code/enable-csharp-editorconfig.md) - Fri Jun 11 18:13:05 2021 +0100
 - [Resuing code with composition](react/code-reuse-by-composition.md) - Mon May 31 09:30:12 2021 +0100
-- [Setting up lint on VS Code](visual-studio-code/set-up-lint-vs-code.md) - Mon May 31 09:14:12 2021 +0100
 
 ### Categories
 
@@ -369,7 +369,7 @@ _173 TILs and counting..._
 - [* When select the last postcode in the list](specflow/parameters-in-features.md)
 
 ### [sql](#sql)
-- [// Check if a user exists](sql/sql-db.md)
+- [Useful sql queries](sql/sql-queries.md)
 
 ### [sql-server](#sql-server)
 - [```sql](sql-server/division-by-zero.md)
