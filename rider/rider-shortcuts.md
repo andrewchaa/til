@@ -8,10 +8,11 @@ Key | Description
 ⌃ ⌘ ➝ | split and move it to right
 ⌥ f1 | select in ... (file explorer)
 ⌥ f7 | find usage
-shft shft | command pop up
-shft ⌘ e | show / hide Explorer
-shft ⌘ space | show parameter hint
-shft ⌘ b | Build
+⇧ ⇧ | command pop up
+⇧ ⌘ e | show / hide Explorer
+⇧ ⌘ space | show parameter hint
+⇧ ⌘ b | build
+⇧ ⎋ | hide active tool window
 f6 | move to another file
 f12 | go to definition
 
