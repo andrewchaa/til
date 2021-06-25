@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_173 TILs and counting..._
+_174 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md) - Fri Jun 25 17:24:42 2021 +0100
 - [Useful sql queries](sql/sql-queries.md) - Thu Jun 24 18:21:22 2021 +0100
 - [Launch login page on public wifi](iPhone/launch-login-page-on-public-wifi.md) - Sun Jun 20 14:08:06 2021 +0100
 - [Azure Functions core Tools](azure/azure-functions-core-tools.md) - Fri Jun 18 17:28:53 2021 +0100
@@ -31,7 +32,6 @@ _173 TILs and counting..._
 - [Create Azure API Management](terraform/azure-api-management.md) - Sun Jun 13 22:58:55 2021 +0100
 - [Githut shortcuts](github/github-shortcuts.md) - Sun Jun 13 09:55:49 2021 +0100
 - [# Enable .editorconfig in visual studio code](visual-studio-code/enable-csharp-editorconfig.md) - Fri Jun 11 18:13:05 2021 +0100
-- [Resuing code with composition](react/code-reuse-by-composition.md) - Mon May 31 09:30:12 2021 +0100
 
 ### Categories
 
@@ -71,6 +71,7 @@ _173 TILs and counting..._
 - [iis](#iis)
 - [javascript](#javascript)
 - [journals](#journals)
+- [json-net](#json-net)
 - [keyboard-shortcuts](#keyboard-shortcuts)
 - [korean](#korean)
 - [kubernetes](#kubernetes)
@@ -271,6 +272,9 @@ _173 TILs and counting..._
 
 ### [journals](#journals)
 - [2019](journals/2019-01.md)
+
+### [json-net](#json-net)
+- [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md)
 
 ### [keyboard-shortcuts](#keyboard-shortcuts)
 - [Shortcuts](keyboard-shortcuts/shortcuts.md)
