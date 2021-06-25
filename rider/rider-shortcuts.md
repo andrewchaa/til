@@ -6,6 +6,7 @@
 Key | Description
 -- | --
 ⌘ t | find symbol
+⌘ x | delete the line
 ⌃ ⌘ ➝ | split and move it to right
 ⌥ f1 | select in ... (file explorer)
 ⌥ f7 | find usage
