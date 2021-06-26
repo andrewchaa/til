@@ -12,6 +12,7 @@ _174 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
 - [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md) - Fri Jun 25 17:24:42 2021 +0100
 - [Useful sql queries](sql/sql-queries.md) - Thu Jun 24 18:21:22 2021 +0100
 - [Launch login page on public wifi](iPhone/launch-login-page-on-public-wifi.md) - Sun Jun 20 14:08:06 2021 +0100
@@ -31,7 +32,6 @@ _174 TILs and counting..._
 - [Slack shortcuts](slack/slack-shortcuts.md) - Mon Jun 14 07:41:28 2021 +0100
 - [Create Azure API Management](terraform/azure-api-management.md) - Sun Jun 13 22:58:55 2021 +0100
 - [Githut shortcuts](github/github-shortcuts.md) - Sun Jun 13 09:55:49 2021 +0100
-- [# Enable .editorconfig in visual studio code](visual-studio-code/enable-csharp-editorconfig.md) - Fri Jun 11 18:13:05 2021 +0100
 
 ### Categories
 
@@ -182,7 +182,7 @@ _174 TILs and counting..._
 - [```](curl/curl.md)
 
 ### [dapper](#dapper)
-- [**Resources**](dapper/dapper.md)
+- [**Resources**](dapper/dapper-queries.md)
 
 ### [domain-driven-design](#domain-driven-design)
 - [```csharp](domain-driven-design/ddd-value-object.md)
