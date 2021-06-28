@@ -6,31 +6,31 @@
 Multiple queries
 
 ```csharp
-            var sqlCount = @"
-                SELECT COUNT(*) 
-                  FROM Companies c JOIN Entities e 
-                    ON e.EntityId = c.CompanyId
+var sqlCount = @"
+    SELECT COUNT(*) 
+      FROM Companies c JOIN Entities e 
+        ON e.EntityId = c.CompanyId
 ";
-            var sqlCompanies = @"
-                SELECT *
-                  FROM Companies c JOIN Entities e 
-                    ON e.EntityId = c.CompanyId
-                 WHERE e.TenantId = @tenantId
-                 ORDER BY e.EntityId
-                OFFSET @offset ROWS FETCH NEXT @pageSize ROWS ONLY
+var sqlCompanies = @"
+    SELECT *
+      FROM Companies c JOIN Entities e 
+        ON e.EntityId = c.CompanyId
+     WHERE e.TenantId = @tenantId
+     ORDER BY e.EntityId
+    OFFSET @offset ROWS FETCH NEXT @pageSize ROWS ONLY
 ";
-            using var connection = new SqlConnection(connectionString);
-            connection.Open();
+using var connection = new SqlConnection(connectionString);
+connection.Open();
 
-            var results = await connection.QueryMultipleAsync($"{sqlCount};{sqlCompanies};", new
-            {
-                tenantId,
-                offset = pageSize * (page - 1),
-                pageSize
-            });
+var results = await connection.QueryMultipleAsync($"{sqlCount};{sqlCompanies};", new
+{
+    tenantId,
+    offset = pageSize * (page - 1),
+    pageSize
+});
 
-            var totalResults = await results.ReadFirstOrDefaultAsync<int>();
-            var companies = await results.ReadAsync<Company>();
+var totalResults = await results.ReadFirstOrDefaultAsync<int>();
+var companies = await results.ReadAsync<Company>();
 
 ```
 
