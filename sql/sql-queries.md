@@ -2,7 +2,7 @@
 
 * [Handle pagination](#handle-pagination)
 * [Get an exclusive access](#get-an-exclusive-access)
-* [Subquer](#subquery)
+* [Subquery](#subquery)
 
 ### Handle pagination
 
