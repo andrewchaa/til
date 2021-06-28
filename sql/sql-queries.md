@@ -2,6 +2,7 @@
 
 * [Handle pagination](#handle-pagination)
 * [Get an exclusive access](#get-an-exclusive-access)
+* [Subquer](#subquery)
 
 ### Handle pagination
 
@@ -24,7 +25,27 @@ ALTER DATABASE [Database-Name] SET MULTI_USER
 ```sql
 // Grant permission at object
 GRANT SELECT, UPDATE, INSERT ON dbo.[Restaurants] TO RestaurantEvents
+```
 
+### Subquery
+
+```sql
+select c.*,
+       e.*,
+       (select AttributeValue
+         from Attributes ea
+        where ea.EntityId = e.Entityid
+          and ea.AttributeType = 'Email')
+           as Email,
+  from onboarding.Companies c
+  join onboarding.Entities e
+    on c.CompanyId = e.EntityId
+ where e.EntityUid = '409aaf5ed58c4611bb4fa5da3700ea9e'
+```
+
+### Managing columns
+
+```sql
 // Adding a column
 ALTER TABLE Companies ADD BuyerCompany_EnableBidOnLedgerTrade bit NOT NULL DEFAULT 1
 
@@ -42,7 +63,11 @@ ALTER TABLE InvestorRelationsUserGroups ALTER COLUMN UserId uniqueidentifier NOT
 
 // Alter Column name
 EXEC sp_RENAME 'DueDiligenceAnswers.Answer' , 'AnswerText', 'COLUMN'
+```
 
+### Index
+
+```sql
 // Drop constraint
 ALTER TABLE InvestorRelationsUserGroups 
 DROP CONSTRAINT FK_InvestorRelationsUserGroups_InvestorRelationsUsers_UserId
