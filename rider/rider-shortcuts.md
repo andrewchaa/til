@@ -9,6 +9,7 @@ Key | Description
 ⌘ x | delete the line
 ⌃ ⌘ ➝ | split and move it to right
 ⌥ f1 | select in ... (file explorer)
+⌥ f2 | nexxt error
 ⌥ f7 | find usage
 ⇧ ⇧ | command pop up
 ⇧ ⌘ e | show / hide Explorer
