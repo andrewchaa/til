@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_176 TILs and counting..._
+_177 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Set environment variables for unit test run in Rider](rider/set-environment-variables-unit-test.md) - Tue Jun 29 16:30:48 2021 +0100
 - [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md) - Tue Jun 29 15:05:34 2021 +0100
 - [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
 - [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
@@ -31,7 +32,6 @@ _176 TILs and counting..._
 - [Docker Terminology](container/docker-terminology.md) - Tue Jun 15 20:51:03 2021 +0100
 - [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](kubernetes/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Tue Jun 15 20:49:00 2021 +0100
 - [Azure Service Bus Message sessions](azure/azure-servicebus-session.md) - Tue Jun 15 17:25:07 2021 +0100
-- [Slack shortcuts](slack/slack-shortcuts.md) - Mon Jun 14 07:41:28 2021 +0100
 
 ### Categories
 
@@ -354,6 +354,7 @@ _176 TILs and counting..._
 ### [rider](#rider)
 - [Exporting .editorconfig](rider/rider-export-editorconfig.md)
 - [Rider shortcuts](rider/rider-shortcuts.md)
+- [Set environment variables for unit test run in Rider](rider/set-environment-variables-unit-test.md)
 
 ### [ruby](#ruby)
 - [1. Update gem file](ruby/gem.lock-out-of-sync.md)
