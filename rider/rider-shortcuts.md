@@ -17,6 +17,7 @@ Key | Description
 ⇧ ⌘ space | show parameter hint
 ⇧ ⌘ b | build
 ⇧ ⎋ | hide active tool window
+⇧ ⏎ | run the selected test
 f6 | move to another file
 f12 | go to definition
 
