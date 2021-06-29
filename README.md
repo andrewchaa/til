@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_175 TILs and counting..._
+_176 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md) - Tue Jun 29 15:05:34 2021 +0100
 - [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
 - [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
 - [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md) - Fri Jun 25 17:24:42 2021 +0100
@@ -31,7 +32,6 @@ _175 TILs and counting..._
 - [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](kubernetes/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Tue Jun 15 20:49:00 2021 +0100
 - [Azure Service Bus Message sessions](azure/azure-servicebus-session.md) - Tue Jun 15 17:25:07 2021 +0100
 - [Slack shortcuts](slack/slack-shortcuts.md) - Mon Jun 14 07:41:28 2021 +0100
-- [Create Azure API Management](terraform/azure-api-management.md) - Sun Jun 13 22:58:55 2021 +0100
 
 ### Categories
 
@@ -118,6 +118,7 @@ _175 TILs and counting..._
 
 ### [asp.net-core](#asp.net-core)
 - [ASP.NET Core](asp.net-core/asp.net-core.md)
+- [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md)
 - [Conatinerised ASP.NET Core Web API](asp.net-core/web-api-in-container.md)
 
 ### [aws](#aws)
