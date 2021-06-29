@@ -11,6 +11,7 @@ Key | Description
 ⌥ f1 | select in ... (file explorer)
 ⌥ f2 | nexxt error
 ⌥ f7 | find usage
+⌥ 8 | show / hide unit test window
 ⇧ ⇧ | command pop up
 ⇧ ⌘ e | show / hide Explorer
 ⇧ ⌘ space | show parameter hint
