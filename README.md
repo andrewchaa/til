@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_174 TILs and counting..._
+_175 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
 - [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
 - [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md) - Fri Jun 25 17:24:42 2021 +0100
 - [Useful sql queries](sql/sql-queries.md) - Thu Jun 24 18:21:22 2021 +0100
@@ -31,7 +32,6 @@ _174 TILs and counting..._
 - [Azure Service Bus Message sessions](azure/azure-servicebus-session.md) - Tue Jun 15 17:25:07 2021 +0100
 - [Slack shortcuts](slack/slack-shortcuts.md) - Mon Jun 14 07:41:28 2021 +0100
 - [Create Azure API Management](terraform/azure-api-management.md) - Sun Jun 13 22:58:55 2021 +0100
-- [Githut shortcuts](github/github-shortcuts.md) - Sun Jun 13 09:55:49 2021 +0100
 
 ### Categories
 
@@ -294,6 +294,7 @@ _174 TILs and counting..._
 - [Setting up a new Mac](mac/setting-up-mac.md)
 
 ### [moq](#moq)
+- [Mock Property or Indexer](moq/mock-property-indexer.md)
 - [moq](moq/moq.md)
 
 ### [mysql](#mysql)
