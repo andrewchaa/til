@@ -1,12 +1,6 @@
 # Mock Property or Indexer
 
 ```csharp
-var configuration = new Mock<IConfiguration>();
-configuration
-    .SetupGet(x => x["SubscriptionKey"])
-    .Returns("TestSubscription");
-
-
 public interface ILoanRepository
 {
    LoanType LoanType{get;set;}
