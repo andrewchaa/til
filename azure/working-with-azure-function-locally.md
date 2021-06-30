@@ -1,9 +1,5 @@
 # Developing and running Azure functions on a local machine
 
-Resource
-
-* https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash
-
 
 First, install the [Azure Functioins Core Tools](https://www.npmjs.com/package/azure-functions-core-tools).
 
@@ -14,7 +10,7 @@ brew install azure-functions-core-tools@3
 brew link --overwrite azure-functions-core-tools@3
 ```
 
-## Register extensions
+### Register extensions
 
 With the exception of HTTP and timer triggers, Functions bindings in runtime version 2.x and higher are implemented as extension packages. HTTP bindings and timer triggers don't require extensions.
 
@@ -34,7 +30,7 @@ Install all extensions
 func extensions install
 ```
 
-## Local settings file
+### Local settings file
 
 The local.settings.json file stores app settings, connection strings, and settings used by local development tools. Settings in the local.settings.json file are used only when you're running projects locally. The local settings file has this structure:
 
@@ -59,8 +55,18 @@ The local.settings.json file stores app settings, connection strings, and settin
 }
 ```
 
-## Run functions locally
+Install [Azurite](https://github.com/Azure/Azurite) and run it
+
+    npm install -g azurite
+    azurite -s -l c:\github\azurite -d c:\github\azurite\debug.log
+
+### Run functions locally
 
 ```
 func start
 ```
+
+## Resource
+
+* https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash
+
