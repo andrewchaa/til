@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_177 TILs and counting..._
+_178 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md) - Wed Jun 30 10:48:25 2021 +0100
 - [Set environment variables for unit test run in Rider](rider/set-environment-variables-unit-test.md) - Tue Jun 29 16:30:48 2021 +0100
 - [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md) - Tue Jun 29 15:05:34 2021 +0100
 - [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
@@ -31,7 +32,6 @@ _177 TILs and counting..._
 - [docker-compose up / down](container/docker-compose.md) - Tue Jun 15 20:51:36 2021 +0100
 - [Docker Terminology](container/docker-terminology.md) - Tue Jun 15 20:51:03 2021 +0100
 - [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](kubernetes/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Tue Jun 15 20:49:00 2021 +0100
-- [Azure Service Bus Message sessions](azure/azure-servicebus-session.md) - Tue Jun 15 17:25:07 2021 +0100
 
 ### Categories
 
@@ -135,6 +135,7 @@ _177 TILs and counting..._
 
 ### [azure](#azure)
 - [Getting started with Azure Functions on Mac](azure/azure-function-getting-started-on-mac.md)
+- [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md)
 - [Azure Functions core Tools](azure/azure-functions-core-tools.md)
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md)
 - [Azure Service Bus Message sessions](azure/azure-servicebus-session.md)
