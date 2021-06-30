@@ -9,7 +9,7 @@ Key | Description
 ⌘ x | delete the line
 ⌃ ⌘ ➝ | split and move it to right
 ⌥ f1 | select in ... (file explorer)
-⌥ f2 | nexxt error
+⌥ f2 | next error
 ⌥ f7 | find usage
 ⌥ 8 | show / hide unit test window
 ⌥ ⌘ r | (custom) refactor this
