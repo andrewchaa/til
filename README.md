@@ -12,6 +12,7 @@ _178 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Developing and running Azure functions on a local machine](azure/working-with-azure-function-locally.md) - Wed Jun 30 12:35:37 2021 +0100
 - [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md) - Wed Jun 30 10:48:25 2021 +0100
 - [Set environment variables for unit test run in Rider](rider/set-environment-variables-unit-test.md) - Tue Jun 29 16:30:48 2021 +0100
 - [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md) - Tue Jun 29 15:05:34 2021 +0100
@@ -31,7 +32,6 @@ _178 TILs and counting..._
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md) - Tue Jun 15 20:52:07 2021 +0100
 - [docker-compose up / down](container/docker-compose.md) - Tue Jun 15 20:51:36 2021 +0100
 - [Docker Terminology](container/docker-terminology.md) - Tue Jun 15 20:51:03 2021 +0100
-- [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](kubernetes/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Tue Jun 15 20:49:00 2021 +0100
 
 ### Categories
 
@@ -40,7 +40,6 @@ _178 TILs and counting..._
 - [aws](#aws)
 - [azure](#azure)
 - [azure-devops](#azure-devops)
-- [azure-functions](#azure-functions)
 - [bash](#bash)
 - [car](#car)
 - [checklists](#checklists)
@@ -140,12 +139,10 @@ _178 TILs and counting..._
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md)
 - [Azure Service Bus Message sessions](azure/azure-servicebus-session.md)
 - [Azure Storage](azure/azure-storage.md)
+- [Developing and running Azure functions on a local machine](azure/working-with-azure-function-locally.md)
 
 ### [azure-devops](#azure-devops)
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md)
-
-### [azure-functions](#azure-functions)
-- [Developing and running Azure functions on a local machine](azure-functions/working-with-azure-function-locally.md)
 
 ### [bash](#bash)
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md)
