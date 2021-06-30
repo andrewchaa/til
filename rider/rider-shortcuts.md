@@ -12,6 +12,7 @@ Key | Description
 ⌥ f2 | nexxt error
 ⌥ f7 | find usage
 ⌥ 8 | show / hide unit test window
+⌥ ⌘ r | (custom) refactor this
 ⇧ ⇧ | command pop up
 ⇧ ⌘ e | show / hide Explorer
 ⇧ ⌘ space | show parameter hint
