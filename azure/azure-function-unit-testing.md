@@ -79,3 +79,7 @@ public class SearchOnboardedCompaniesFunctionTests
 }
 
 ```
+
+### Resource
+
+* [Integration Testing in Azure Functions with Dependency Injection](https://saebamini.com/integration-testing-in-azure-functions-with-dependency-injection/)
