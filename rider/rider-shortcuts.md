@@ -7,6 +7,7 @@ Key | Description
 -- | --
 ⌘ t | find symbol
 ⌘ x | delete the line
+⌘ 3 | show / hide `Find` window
 ⌃ ⌘ ➝ | split and move it to right
 ⌥ f1 | select in ... (file explorer)
 ⌥ f2 | next error
