@@ -9,6 +9,7 @@ Key | Description
 ⌘ x | delete the line
 ⌘ 3 | show / hide `Find` window
 ⌃ ⌘ ➝ | split and move it to right
+⌃ ⌘ v | paste from history (custom)
 ⌥ f1 | select in ... (file explorer)
 ⌥ f2 | next error
 ⌥ f7 | find usage
