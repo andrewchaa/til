@@ -14,6 +14,7 @@ Key | Description
 ⌥ f2 | next error
 ⌥ f7 | find usage
 ⌥ 8 | show / hide unit test window
+⌥ ⌘ n | inline variable
 ⌥ ⌘ r | (custom) refactor this
 ⇧ ⇧ | command pop up
 ⇧ ⌘ e | show / hide Explorer
