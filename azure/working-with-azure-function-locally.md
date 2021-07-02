@@ -58,7 +58,7 @@ The local.settings.json file stores app settings, connection strings, and settin
 Install [Azurite](https://github.com/Azure/Azurite) and run it
 
     npm install -g azurite
-    azurite -s -l c:\github\azurite -d c:\github\azurite\debug.log
+    azurite -s -l ~/github/azurite -d ~/github/azurite\debug.log
 
 ### Run functions locally
 
