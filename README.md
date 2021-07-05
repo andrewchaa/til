@@ -14,7 +14,6 @@ _178 TILs and counting..._
 
 - [Developing and running Azure functions on a local machine](azure/working-with-azure-function-locally.md) - Wed Jun 30 12:35:37 2021 +0100
 - [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md) - Wed Jun 30 10:48:25 2021 +0100
-- [Set environment variables for unit test run in Rider](rider/set-environment-variables-unit-test.md) - Tue Jun 29 16:30:48 2021 +0100
 - [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md) - Tue Jun 29 15:05:34 2021 +0100
 - [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
 - [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
@@ -32,6 +31,7 @@ _178 TILs and counting..._
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md) - Tue Jun 15 20:52:07 2021 +0100
 - [docker-compose up / down](container/docker-compose.md) - Tue Jun 15 20:51:36 2021 +0100
 - [Docker Terminology](container/docker-terminology.md) - Tue Jun 15 20:51:03 2021 +0100
+- [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](kubernetes/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Tue Jun 15 20:49:00 2021 +0100
 
 ### Categories
 
@@ -352,7 +352,7 @@ _178 TILs and counting..._
 ### [rider](#rider)
 - [Exporting .editorconfig](rider/rider-export-editorconfig.md)
 - [Rider shortcuts](rider/rider-shortcuts.md)
-- [Set environment variables for unit test run in Rider](rider/set-environment-variables-unit-test.md)
+- [Set environment variables in Rider](rider/set-environment-variables-in-rider.md)
 
 ### [ruby](#ruby)
 - [1. Update gem file](ruby/gem.lock-out-of-sync.md)
