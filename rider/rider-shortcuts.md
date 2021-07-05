@@ -10,6 +10,7 @@ Key | Description
 ⌘ 3 | show / hide `Find` window
 ⌃ ⌘ ➝ | split and move it to right
 ⌃ ⌘ v | paste from history (custom)
+⌃ ⏎ | Generate ...
 ⌥ f1 | select in ... (file explorer)
 ⌥ f2 | next error
 ⌥ f7 | find usage
