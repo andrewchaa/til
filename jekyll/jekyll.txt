@@ -37,7 +37,7 @@ jekyll serve
 jekyll build
 ```
 
-```html
+```html 
 // layout and content
 <!DOCTYPE html>
 <html lang="en">
