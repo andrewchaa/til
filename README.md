@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_179 TILs and counting..._
+_180 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Sat Jul 10 18:27:09 2021 +0100
 - [Install Jekyll](jekyll/install-jekyll.md) - Sat Jul 10 11:06:15 2021 +0100
 - [Developing and running Azure functions on a local machine](azure/working-with-azure-function-locally.md) - Wed Jun 30 12:35:37 2021 +0100
 - [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md) - Wed Jun 30 10:48:25 2021 +0100
@@ -31,7 +32,6 @@ _179 TILs and counting..._
 - [Docker basic commands](container/docker-basic-commands.md) - Tue Jun 15 21:36:32 2021 +0100
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md) - Tue Jun 15 20:52:07 2021 +0100
 - [docker-compose up / down](container/docker-compose.md) - Tue Jun 15 20:51:36 2021 +0100
-- [Docker Terminology](container/docker-terminology.md) - Tue Jun 15 20:51:03 2021 +0100
 
 ### Categories
 
@@ -220,6 +220,7 @@ _179 TILs and counting..._
 
 ### [github-actions](#github-actions)
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md)
+- [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md)
 - [Build .NET code with Github action](github-actions/build-dotnet-github-action.md)
 - [Deploying C# severless project to AWS lambda](github-actions/deploy-serverless-lambda-to-aws.md)
 
