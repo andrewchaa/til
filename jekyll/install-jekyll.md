@@ -12,3 +12,5 @@ I had to reinstall it with `--user-install` option
 What is `--user-install`
 
 > When you use the --user-install option, RubyGems will install the gems to a directory inside your home directory, something like ~/.gem/ruby/1.9.1. The commands provided by the gems you installed will end up in ~/.gem/ruby/1.9.1/bin. For the programs installed there to be available for you, you need to add ~/.gem/ruby/1.9.1/bin to your PATH environment variable.
+
+from https://guides.rubygems.org/faqs/#i-installed-gems-with---user-install-and-their-commands-are-not-available
