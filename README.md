@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_178 TILs and counting..._
+_179 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Jekyll](jekyll/jekyll.md) - Sat Jul 10 11:05:32 2021 +0100
 - [Developing and running Azure functions on a local machine](azure/working-with-azure-function-locally.md) - Wed Jun 30 12:35:37 2021 +0100
 - [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md) - Wed Jun 30 10:48:25 2021 +0100
 - [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md) - Tue Jun 29 15:05:34 2021 +0100
@@ -31,7 +32,6 @@ _178 TILs and counting..._
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md) - Tue Jun 15 20:52:07 2021 +0100
 - [docker-compose up / down](container/docker-compose.md) - Tue Jun 15 20:51:36 2021 +0100
 - [Docker Terminology](container/docker-terminology.md) - Tue Jun 15 20:51:03 2021 +0100
-- [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator](kubernetes/deploy-asp-net-core-into-azure-kubernetest-cluster.md) - Tue Jun 15 20:49:00 2021 +0100
 
 ### Categories
 
@@ -69,6 +69,7 @@ _178 TILs and counting..._
 - [identity-server](#identity-server)
 - [iis](#iis)
 - [javascript](#javascript)
+- [jekyll](#jekyll)
 - [journals](#journals)
 - [json-net](#json-net)
 - [keyboard-shortcuts](#keyboard-shortcuts)
@@ -268,6 +269,9 @@ _178 TILs and counting..._
 - [// install directory from github repo](javascript/npm.md)
 - [**Display the whole pdf**](javascript/pdf.js.md)
 - [* https://github.com/mzabriskie/axios: Promise based HTTP client for the browser and node.js](javascript/resources.md)
+
+### [jekyll](#jekyll)
+- [Jekyll](jekyll/jekyll.md)
 
 ### [journals](#journals)
 - [2019](journals/2019-01.md)
