@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_180 TILs and counting..._
+_181 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md) - Tue Jul 13 20:54:16 2021 +0100
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Sat Jul 10 18:27:09 2021 +0100
 - [Install Jekyll](jekyll/install-jekyll.md) - Sat Jul 10 11:06:15 2021 +0100
 - [Developing and running Azure functions on a local machine](azure/working-with-azure-function-locally.md) - Wed Jun 30 12:35:37 2021 +0100
@@ -31,7 +32,6 @@ _180 TILs and counting..._
 - [Rider shortcuts](rider/rider-shortcuts.md) - Wed Jun 16 11:04:58 2021 +0100
 - [Docker basic commands](container/docker-basic-commands.md) - Tue Jun 15 21:36:32 2021 +0100
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md) - Tue Jun 15 20:52:07 2021 +0100
-- [docker-compose up / down](container/docker-compose.md) - Tue Jun 15 20:51:36 2021 +0100
 
 ### Categories
 
@@ -175,6 +175,7 @@ _180 TILs and counting..._
 - [NLog](csharp/logging.md)
 - [NuGet](csharp/nuget.md)
 - [# Usages](csharp/polly.md)
+- [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md)
 - [Refit](csharp/refit.md)
 - [## Request](csharp/restsharp.md)
 
