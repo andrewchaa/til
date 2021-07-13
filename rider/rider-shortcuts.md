@@ -17,7 +17,7 @@ Key | Description
 ⌥ f7 | find usage
 ⌥ 8 | show / hide unit test window
 ⌥ ⌘ n | inline variable
-⌥ ⌘ r | (custom) refactor this
+⇧ ⌘ r | (custom) refactor this
 ⇧ ⇧ | command pop up
 ⇧ ⌘ e | show / hide Explorer
 ⇧ ⌘ space | show parameter hint
