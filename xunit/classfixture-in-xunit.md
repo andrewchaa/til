@@ -3,56 +3,64 @@
 You can put common code to share in ClassFixture class
 
 ```csharp
-public class UnitTestHostFixture
+public class IntegrationTestFixture
 {
-    public string ConnectionStringKey { get; }
-    public ILogger Logger { get; }
-    public IHost Host { get; }
-    public Mock<IResolverHelperService> ResolverHelperService { get; }
-    public Mock<ICompanyRepository> CompanyReporitory { get; }
-    public IConfigurationRoot Configuration { get; }
-    public string SubscriptionKeyHeader { get; }
+    private string _subscriptionKey;
+    const string ReleaseEnvironmentname = "RELEASE_ENVIRONMENTNAME";
 
-    public UnitTestHostFixture()
+    public string ApiHost { get; }   
+    public string ApiProduct { get; }
+    public int MaxRetry = 15;
+    public string TestEnvironment
     {
-        SubscriptionKeyHeader = "Ocp-Apim-Subscription-Key";
-        var inMemorySettings = new Dictionary<string, string> {
-            {"SubscriptionKeyHeader", SubscriptionKeyHeader},
-            {"ConnectionStringKey", ConnectionStringKey},
-            {"ConnectionStrings:DefaultConnection", "TestConnection"},
-        };
-        Configuration = new ConfigurationBuilder()
-            .AddInMemoryCollection(inMemorySettings)
+        get
+        {
+            var releaseEnvironment = Environment.GetEnvironmentVariable(ReleaseEnvironmentname);
+            return string.IsNullOrEmpty(releaseEnvironment)
+                ? "local"
+                : releaseEnvironment.Replace("stage-", string.Empty);
+        }
+    }
+
+    public IntegrationTestFixture()
+    {
+        var config = new ConfigurationBuilder()
+            .AddJsonFile($"appsettings.{TestEnvironment}.json")
             .Build();
 
-        ResolverHelperService = new Mock<IResolverHelperService>();
-        CompanyReporitory = new Mock<ICompanyRepository>();
+        _subscriptionKey = config["subscript_key"];
+        ApiHost = config["api_host"];
+        ApiProduct = config["product"];
+    }
 
-        var startup = new Startup();
-        Host = new HostBuilder()
-            .ConfigureWebJobs(startup.Configure)
-            .ConfigureServices(x =>
-            {
-                x.Replace(new ServiceDescriptor(typeof(IConfiguration), Configuration));
-                x.Replace(new ServiceDescriptor(typeof(IResolverHelperService), ResolverHelperService.Object));
-                x.Replace(new ServiceDescriptor(typeof(ICompanyRepository), CompanyReporitory.Object));
-            })
-            .Build();
+    public HttpClient GetClient(ITestOutputHelper output)
+    {
+        DelegatingHandler logHandler = new RequestLogHandler(output);
+        var client = HttpClientFactory.Create(new [] {logHandler});
+        client.DefaultRequestHeaders.Add(Apim.SubcriptionKeyHeader, _subscriptionKey);
 
-        Logger = new Mock<ILogger>().Object;
 
+        return client;
     }
 }
 ```
 
 ```csharp
-public class SearchOnboardedCompaniesFunctionTests : IClassFixture<UnitTestHostFixture>
+public class OnboardCompanyV2Tests : IClassFixture<IntegrationTestFixture>
 {
-    private readonly UnitTestHostFixture _fixture;
+    private readonly IntegrationTestFixture _fixture;
+    private readonly ITestOutputHelper _output;
+    private readonly Uri _companyUri;
+    private readonly HttpClient _client;
 
-    public SearchOnboardedCompaniesFunctionTests(UnitTestHostFixture fixture)
+    public OnboardCompanyV2Tests(IntegrationTestFixture fixture, ITestOutputHelper output)
     {
         _fixture = fixture;
+        _output = output;
+        _companyUri = new Uri($"{_fixture.ApiHost}/{_fixture.ApiProduct}/v2/Companies");
+        _client = _fixture.GetClient(output);
+
+        _output.WriteLine($"targetUrl: {_companyUri}");
     }
 
 ```
