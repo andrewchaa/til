@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_183 TILs and counting..._
+_184 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [HttpClient DelegatingHandler](asp.net-core/http-client-delegating-handler.md) - Thu Jul 15 16:10:35 2021 +0100
 - [Share common code in ClassFixture](xunit/classfixture-in-xunit.md) - Thu Jul 15 12:05:08 2021 +0100
 - [Deploy Azure functions with Github actions](github-actions/deploy-azure-functions.md) - Wed Jul 14 16:32:58 2021 +0100
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md) - Tue Jul 13 20:54:16 2021 +0100
@@ -31,7 +32,6 @@ _183 TILs and counting..._
 - [Setting up a new Mac](mac/setting-up-mac.md) - Thu Jun 17 20:11:56 2021 +0100
 - [Dockerize a .NET application](container/dockerize-net-application.md) - Wed Jun 16 17:39:34 2021 +0100
 - [Exporting .editorconfig](rider/rider-export-editorconfig.md) - Wed Jun 16 11:08:04 2021 +0100
-- [Rider shortcuts](rider/rider-shortcuts.md) - Wed Jun 16 11:04:58 2021 +0100
 
 ### Categories
 
@@ -118,6 +118,7 @@ _183 TILs and counting..._
 
 ### [asp.net-core](#asp.net-core)
 - [ASP.NET Core](asp.net-core/asp.net-core.md)
+- [HttpClient DelegatingHandler](asp.net-core/http-client-delegating-handler.md)
 - [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md)
 - [Conatinerised ASP.NET Core Web API](asp.net-core/web-api-in-container.md)
 
