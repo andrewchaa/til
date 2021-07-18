@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_184 TILs and counting..._
+_185 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Azure Data Studio](azure-data-studio/azure-data-studio-getting-started.md) - Sun Jul 18 22:38:10 2021 +0100
 - [HttpClient DelegatingHandler](asp.net-core/http-client-delegating-handler.md) - Thu Jul 15 16:10:35 2021 +0100
 - [Share common code in ClassFixture](xunit/classfixture-in-xunit.md) - Thu Jul 15 12:05:08 2021 +0100
 - [Deploy Azure functions with Github actions](github-actions/deploy-azure-functions.md) - Wed Jul 14 16:32:58 2021 +0100
@@ -31,7 +32,6 @@ _184 TILs and counting..._
 - [Getting started with Azure Functions on Mac](azure/azure-function-getting-started-on-mac.md) - Fri Jun 18 17:22:37 2021 +0100
 - [Setting up a new Mac](mac/setting-up-mac.md) - Thu Jun 17 20:11:56 2021 +0100
 - [Dockerize a .NET application](container/dockerize-net-application.md) - Wed Jun 16 17:39:34 2021 +0100
-- [Exporting .editorconfig](rider/rider-export-editorconfig.md) - Wed Jun 16 11:08:04 2021 +0100
 
 ### Categories
 
@@ -39,6 +39,7 @@ _184 TILs and counting..._
 - [asp.net-core](#asp.net-core)
 - [aws](#aws)
 - [azure](#azure)
+- [azure-data-studio](#azure-data-studio)
 - [azure-devops](#azure-devops)
 - [bash](#bash)
 - [car](#car)
@@ -142,6 +143,9 @@ _184 TILs and counting..._
 - [Azure Service Bus Message sessions](azure/azure-servicebus-session.md)
 - [Azure Storage](azure/azure-storage.md)
 - [Developing and running Azure functions on a local machine](azure/working-with-azure-function-locally.md)
+
+### [azure-data-studio](#azure-data-studio)
+- [Azure Data Studio](azure-data-studio/azure-data-studio-getting-started.md)
 
 ### [azure-devops](#azure-devops)
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md)
