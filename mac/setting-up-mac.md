@@ -30,6 +30,7 @@ Application | Description
 -- | --
 [Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=macos%2Ccsharp%2Cbash) | Azure function core tools
 [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) | Azure CLI
+[Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15)
 [Azurite](https://github.com/azure/azurite) | Azure Storage Emulator
 [Brew](https://brew.sh/) | The Missing Package Manager for macOS
 [Cocoapods](https://cocoapods.org/) | a dependency manager for swift and Object-C Cocoa projects
