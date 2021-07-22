@@ -14,6 +14,12 @@
 If you have enabled 2FA. 
 [Create Personal Access Token](https://github.com/settings/tokens) and use it as your password
 
+```
+# merge remote master
+git fetch origin
+git merge origin/master
+```
+
 
 ### Set up
 
@@ -47,6 +53,8 @@ git config --global url."https://".insteadOf git://
 /deploy
 
 ```
+
+
 
 ### Remote Repository
 
