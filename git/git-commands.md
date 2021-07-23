@@ -81,6 +81,9 @@ git remote -v
 git checkout HEAD <filename>
 ```
 
+    # unstage file
+    git reset
+
     // check out and create a branch
     git checkout -b feature-install-script
     
