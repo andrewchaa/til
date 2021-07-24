@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_186 TILs and counting..._
+_187 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Getting started with Sentry](sentry/sentry-getting-started.md) - Sat Jul 24 11:38:32 2021 +0100
 - [Keyboard shortcuts](xcode/xcode-shortcuts.md) - Fri Jul 23 23:29:48 2021 +0100
 - [Azure Data Studio](azure-data-studio/azure-data-studio-getting-started.md) - Sun Jul 18 22:38:10 2021 +0100
 - [HttpClient DelegatingHandler](asp.net-core/http-client-delegating-handler.md) - Thu Jul 15 16:10:35 2021 +0100
@@ -31,7 +32,6 @@ _186 TILs and counting..._
 - [Azure Functions core Tools](azure/azure-functions-core-tools.md) - Fri Jun 18 17:28:53 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md) - Fri Jun 18 17:23:15 2021 +0100
 - [Getting started with Azure Functions on Mac](azure/azure-function-getting-started-on-mac.md) - Fri Jun 18 17:22:37 2021 +0100
-- [Setting up a new Mac](mac/setting-up-mac.md) - Thu Jun 17 20:11:56 2021 +0100
 
 ### Categories
 
@@ -94,6 +94,7 @@ _186 TILs and counting..._
 - [rider](#rider)
 - [ruby](#ruby)
 - [scriptcs](#scriptcs)
+- [sentry](#sentry)
 - [serverless-framework](#serverless-framework)
 - [slack](#slack)
 - [specflow](#specflow)
@@ -374,6 +375,9 @@ _186 TILs and counting..._
 
 ### [scriptcs](#scriptcs)
 - [```](scriptcs/creating-database.md)
+
+### [sentry](#sentry)
+- [Getting started with Sentry](sentry/sentry-getting-started.md)
 
 ### [serverless-framework](#serverless-framework)
 - [Creating a serverless project](serverless-framework/creating-serverless-project.md)
