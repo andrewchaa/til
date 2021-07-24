@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_187 TILs and counting..._
+_188 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Sentry usage](sentry/sentry-usage.md) - Sat Jul 24 11:40:11 2021 +0100
 - [Getting started with Sentry](sentry/sentry-getting-started.md) - Sat Jul 24 11:38:32 2021 +0100
 - [Keyboard shortcuts](xcode/xcode-shortcuts.md) - Fri Jul 23 23:29:48 2021 +0100
 - [Azure Data Studio](azure-data-studio/azure-data-studio-getting-started.md) - Sun Jul 18 22:38:10 2021 +0100
@@ -31,7 +32,6 @@ _187 TILs and counting..._
 - [Launch login page on public wifi](iPhone/launch-login-page-on-public-wifi.md) - Sun Jun 20 14:08:06 2021 +0100
 - [Azure Functions core Tools](azure/azure-functions-core-tools.md) - Fri Jun 18 17:28:53 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md) - Fri Jun 18 17:23:15 2021 +0100
-- [Getting started with Azure Functions on Mac](azure/azure-function-getting-started-on-mac.md) - Fri Jun 18 17:22:37 2021 +0100
 
 ### Categories
 
@@ -378,6 +378,7 @@ _187 TILs and counting..._
 
 ### [sentry](#sentry)
 - [Getting started with Sentry](sentry/sentry-getting-started.md)
+- [Sentry usage](sentry/sentry-usage.md)
 
 ### [serverless-framework](#serverless-framework)
 - [Creating a serverless project](serverless-framework/creating-serverless-project.md)
