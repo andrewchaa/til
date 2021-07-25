@@ -1,5 +1,43 @@
 # Provisioning Azure Functions with Terraform
 
+### linux, consumption (serverless) plan
+
+`app_settings` is very important
+
+```terraform
+resource "azurerm_app_service_plan" "showmethemoney" {
+  name                = "showmethemoney"
+  location            = var.location
+  resource_group_name = azurerm_resource_group.showmethemoney.name
+  kind                = "FunctionApp"
+
+  sku {
+    tier = "Dynamic"
+    size = "Y1"
+  }
+}
+
+resource "azurerm_function_app" "showmethemoney" {
+  name                       = "showmethemoney"
+  location                   = var.location
+  resource_group_name        = azurerm_resource_group.showmethemoney.name
+  app_service_plan_id        = azurerm_app_service_plan.showmethemoney.id
+  storage_account_name       = azurerm_storage_account.showmethemoney.name
+  storage_account_access_key = azurerm_storage_account.showmethemoney.primary_access_key
+  os_type                    = "linux"
+  version                    = "~3"
+
+  app_settings = {
+    "APPINSIGHTS_INSTRUMENTATIONKEY" = azurerm_application_insights.showmethemoney.instrumentation_key
+    "FUNCTIONS_WORKER_RUNTIME"       = "dotnet"
+    "FUNCTIONS_EXTENSION_VERSION"    = "-3"
+  }
+}
+
+```
+
+### App servier plan
+
 ```terraform
 resource "azurerm_app_service_plan" "wynwyn" {
   name                = "azure-functions-service-plan"
