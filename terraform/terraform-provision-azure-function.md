@@ -2,38 +2,93 @@
 
 ### linux, consumption (serverless) plan
 
-`app_settings` is very important
+* `app_settings` is very important
+* `FUNCTIONS_WORKER_RUNTIME`should set the runtime language, like `dotnet`
+* `FUNCTIONS_EXTENSION_VERSION` should be the same value as `-3`
+* `<forward-request />` to forward the request to the function
+* `x-functions-key` let the APIM to access your function 
 
 ```terraform
-resource "azurerm_app_service_plan" "showmethemoney" {
+resource "azurerm_api_management" "showmethemoney" {
   name                = "showmethemoney"
-  location            = var.location
+  location            = azurerm_resource_group.showmethemoney.location
   resource_group_name = azurerm_resource_group.showmethemoney.name
-  kind                = "FunctionApp"
+  publisher_name      = "Deepeyes"
+  publisher_email     = "deepeyes@terraform.io"
 
-  sku {
-    tier = "Dynamic"
-    size = "Y1"
+  sku_name = "Consumption_0"
+
+  policy {
+    xml_content = <<XML
+    <policies>
+      <inbound />
+      <backend>
+        <forward-request />
+      </backend>
+      <outbound />
+      <on-error />
+    </policies>
+XML
+
   }
 }
 
-resource "azurerm_function_app" "showmethemoney" {
-  name                       = "showmethemoney"
-  location                   = var.location
-  resource_group_name        = azurerm_resource_group.showmethemoney.name
-  app_service_plan_id        = azurerm_app_service_plan.showmethemoney.id
-  storage_account_name       = azurerm_storage_account.showmethemoney.name
-  storage_account_access_key = azurerm_storage_account.showmethemoney.primary_access_key
-  os_type                    = "linux"
-  version                    = "~3"
+resource "azurerm_api_management_api" "invoice" {
+  name                = "invoice"
+  resource_group_name = azurerm_resource_group.showmethemoney.name
+  api_management_name = azurerm_api_management.showmethemoney.name
+  revision            = "1"
+  display_name        = "Invoice"
+  path                = "invoice"
+  protocols           = ["https"]
+}
 
-  app_settings = {
-    "APPINSIGHTS_INSTRUMENTATIONKEY" = azurerm_application_insights.showmethemoney.instrumentation_key
-    "FUNCTIONS_WORKER_RUNTIME"       = "dotnet"
-    "FUNCTIONS_EXTENSION_VERSION"    = "-3"
+resource "azurerm_api_management_api_operation" "createinvoice" {
+  operation_id        = "createinvoice"
+  api_name            = azurerm_api_management_api.invoice.name
+  api_management_name = azurerm_api_management.showmethemoney.name
+  resource_group_name = azurerm_resource_group.showmethemoney.name
+  display_name        = "Create Invoice"
+  method              = "POST"
+  url_template        = "/v1/invoices"
+  description         = "Create Invoice"
+
+  response {
+    status_code = 201
   }
 }
 
+resource "azurerm_api_management_api_operation_policy" "createinvoice" {
+  api_name            = azurerm_api_management_api.invoice.name
+  api_management_name = azurerm_api_management.showmethemoney.name
+  resource_group_name = azurerm_api_management.showmethemoney.resource_group_name
+  operation_id        = azurerm_api_management_api_operation.createinvoice.operation_id
+
+  xml_content = <<XML
+<policies>
+  <inbound>
+    <set-backend-service id="apim-generated-policy" backend-id="${azurerm_api_management_backend.invoice.name}" />
+  </inbound>
+</policies>
+XML
+
+}
+
+resource "azurerm_api_management_backend" "invoice" {
+  name                = "invoice"
+  resource_group_name = azurerm_resource_group.showmethemoney.name
+  api_management_name = azurerm_api_management.showmethemoney.name
+  protocol            = "http"
+  url                 = "https://showmethemoney.azurewebsites.net/api"
+  resource_id         = "https://management.azure.com${azurerm_function_app.showmethemoney.id}"
+
+  credentials {
+    header = {
+      "x-functions-key" = "<< your key here >>"
+    }
+
+  }
+}
 ```
 
 ### App servier plan
