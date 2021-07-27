@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_190 TILs and counting..._
+_191 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Dynamics Nav Getting Started](microsoft-dynamics-nav/dynamics-nav-getting-started.md) - Tue Jul 27 21:38:31 2021 +0100
 - [Azure API Management](azure/azure-api-management.md) - Sun Jul 25 18:12:54 2021 +0100
 - [Deploy Azure function with Azure Functions Core Tool](github-actions/deploy-azure-functions-using-functions-core-tools.md) - Sun Jul 25 12:32:34 2021 +0100
 - [Sentry usage](sentry/sentry-usage.md) - Sat Jul 24 11:40:11 2021 +0100
@@ -31,7 +32,6 @@ _190 TILs and counting..._
 - [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
 - [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md) - Fri Jun 25 17:24:42 2021 +0100
 - [Useful sql queries](sql/sql-queries.md) - Thu Jun 24 18:21:22 2021 +0100
-- [Launch login page on public wifi](iPhone/launch-login-page-on-public-wifi.md) - Sun Jun 20 14:08:06 2021 +0100
 
 ### Categories
 
@@ -78,6 +78,7 @@ _190 TILs and counting..._
 - [kubernetes](#kubernetes)
 - [logentries](#logentries)
 - [mac](#mac)
+- [microsoft-dynamics-nav](#microsoft-dynamics-nav)
 - [moq](#moq)
 - [mysql](#mysql)
 - [next-js](#next-js)
@@ -307,6 +308,9 @@ _190 TILs and counting..._
 
 ### [mac](#mac)
 - [Setting up a new Mac](mac/setting-up-mac.md)
+
+### [microsoft-dynamics-nav](#microsoft-dynamics-nav)
+- [Dynamics Nav Getting Started](microsoft-dynamics-nav/dynamics-nav-getting-started.md)
 
 ### [moq](#moq)
 - [Mock Property or Indexer](moq/mock-property-indexer.md)
