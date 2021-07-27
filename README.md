@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_191 TILs and counting..._
+_192 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Serializatioin and Deserialization with System.Text.Json](system.text.json/serialize-and-deserialize.md) - Tue Jul 27 23:06:51 2021 +0100
 - [Dynamics Nav Getting Started](microsoft-dynamics-nav/dynamics-nav-getting-started.md) - Tue Jul 27 21:38:31 2021 +0100
 - [Azure API Management](azure/azure-api-management.md) - Sun Jul 25 18:12:54 2021 +0100
 - [Deploy Azure function with Azure Functions Core Tool](github-actions/deploy-azure-functions-using-functions-core-tools.md) - Sun Jul 25 12:32:34 2021 +0100
@@ -31,7 +32,6 @@ _191 TILs and counting..._
 - [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
 - [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
 - [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md) - Fri Jun 25 17:24:42 2021 +0100
-- [Useful sql queries](sql/sql-queries.md) - Thu Jun 24 18:21:22 2021 +0100
 
 ### Categories
 
@@ -103,6 +103,7 @@ _191 TILs and counting..._
 - [sql-server](#sql-server)
 - [swagger](#swagger)
 - [swift](#swift)
+- [system.text.json](#system.text.json)
 - [terminals](#terminals)
 - [terraform](#terraform)
 - [tools](#tools)
@@ -416,6 +417,9 @@ _191 TILs and counting..._
 
 ### [swift](#swift)
 - [**Resources**](swift/swift.md)
+
+### [system.text.json](#system.text.json)
+- [Serializatioin and Deserialization with System.Text.Json](system.text.json/serialize-and-deserialize.md)
 
 ### [terminals](#terminals)
 - [conemu](terminals/conemu.md)
