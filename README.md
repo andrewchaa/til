@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_192 TILs and counting..._
+_193 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Implementing Cursor-based Pagination](api/implementing-cursor-pagination.md) - Wed Jul 28 11:34:22 2021 +0100
 - [Serializatioin and Deserialization with System.Text.Json](system.text.json/serialize-and-deserialize.md) - Tue Jul 27 23:06:51 2021 +0100
 - [Dynamics Nav Getting Started](microsoft-dynamics-nav/dynamics-nav-getting-started.md) - Tue Jul 27 21:38:31 2021 +0100
 - [Azure API Management](azure/azure-api-management.md) - Sun Jul 25 18:12:54 2021 +0100
@@ -31,11 +32,11 @@ _192 TILs and counting..._
 - [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md) - Tue Jun 29 15:05:34 2021 +0100
 - [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
 - [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
-- [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md) - Fri Jun 25 17:24:42 2021 +0100
 
 ### Categories
 
 - [angular-js](#angular-js)
+- [api](#api)
 - [asp.net-core](#asp.net-core)
 - [aws](#aws)
 - [azure](#azure)
@@ -120,6 +121,9 @@ _192 TILs and counting..._
 
 ### [angular-js](#angular-js)
 - [angular js](angular-js/angular.js.md)
+
+### [api](#api)
+- [Implementing Cursor-based Pagination](api/implementing-cursor-pagination.md)
 
 ### [asp.net-core](#asp.net-core)
 - [ASP.NET Core](asp.net-core/asp.net-core.md)
