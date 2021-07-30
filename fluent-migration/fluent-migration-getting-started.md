@@ -35,6 +35,7 @@ Install the packages to your project
 * FluentMigrator.Extensions.SqlServer
 * FluentMigrator.Runner
 * FluentMigrator.Runner.SqlServer
+* FluentMigrator.Console : to run in console
 
 Create a migration class
 
