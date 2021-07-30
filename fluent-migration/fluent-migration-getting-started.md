@@ -59,3 +59,10 @@ public class DefaultCountryIsoCodeIndex : Migration
     }
 }
 ```
+
+### Running the migration
+
+For cross-platform, install `FluentMigrator.DotNet.Cli`
+
+    dotnet tool install -g FluentMigrator.DotNet.Cli
+    dotnet fm migrate -p sqlite -c "Data Source=test.db" -a ".\bin\Debug\netcoreapp2.1\test.dll"
