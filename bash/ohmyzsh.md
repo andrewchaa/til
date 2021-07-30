@@ -19,3 +19,8 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # change to zsh
 chsh -s $(which zsh)
 ```
+
+### Commands
+
+    # show $PATH variables
+    echo "$PATH"
