@@ -28,3 +28,11 @@ namespace test
     }
 }
 ```
+
+Install the packages to your project
+
+* FluentMigrator
+* FluentMigrator.Extensions.SqlServer
+* FluentMigrator.Runner
+* FluentMigrator.Runner.SqlServer
+
