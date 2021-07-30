@@ -36,3 +36,25 @@ Install the packages to your project
 * FluentMigrator.Runner
 * FluentMigrator.Runner.SqlServer
 
+Create a migration class
+
+```
+[Migration(202107302306)]
+public class DefaultCountryIsoCodeIndex : Migration
+{
+    private const string column = "CountryCode";
+    private const string schema = "dbo";
+    private const string table = "Companies";
+    public override void Up()
+    {
+        Execute.Script(
+            $"CREATE INDEX IX_Entities_{column} ON {schema}.{table} ({column})");
+    }
+
+    public override void Down()
+    {
+        Execute.Script(
+            $"DROP INDEX IX_Entities_{column} ON {schema}.{table}");
+    }
+}
+```
