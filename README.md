@@ -12,7 +12,7 @@ _194 TILs and counting..._
 
 ### 20 most recent TILs
 
-- [Getting started with Azure Functions](azure/azure-function-getting-started.md) - Fri Jul 30 11:45:30 2021 +0100
+- [Getting started with Azure Functions](azure.functions/azure-function-getting-started.md) - Fri Jul 30 11:46:55 2021 +0100
 - [Getting started with Fluent Migration](fluent-migration/fluent-migration-getting-started.md) - Fri Jul 30 10:56:10 2021 +0100
 - [Implementing Cursor-based Pagination](api/implementing-cursor-pagination.md) - Wed Jul 28 11:34:22 2021 +0100
 - [Serializatioin and Deserialization with System.Text.Json](system.text.json/serialize-and-deserialize.md) - Tue Jul 27 23:06:51 2021 +0100
@@ -42,6 +42,7 @@ _194 TILs and counting..._
 - [azure](#azure)
 - [azure-data-studio](#azure-data-studio)
 - [azure-devops](#azure-devops)
+- [azure.functions](#azure.functions)
 - [bash](#bash)
 - [car](#car)
 - [checklists](#checklists)
@@ -146,7 +147,6 @@ _194 TILs and counting..._
 
 ### [azure](#azure)
 - [Azure API Management](azure/azure-api-management.md)
-- [Getting started with Azure Functions](azure/azure-function-getting-started.md)
 - [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md)
 - [Azure Functions core Tools](azure/azure-functions-core-tools.md)
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md)
@@ -159,6 +159,9 @@ _194 TILs and counting..._
 
 ### [azure-devops](#azure-devops)
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md)
+
+### [azure.functions](#azure.functions)
+- [Getting started with Azure Functions](azure.functions/azure-function-getting-started.md)
 
 ### [bash](#bash)
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md)
