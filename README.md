@@ -12,6 +12,7 @@ _194 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Getting started with Azure Functions](azure/azure-function-getting-started.md) - Fri Jul 30 11:45:30 2021 +0100
 - [Getting started with Fluent Migration](fluent-migration/fluent-migration-getting-started.md) - Fri Jul 30 10:56:10 2021 +0100
 - [Implementing Cursor-based Pagination](api/implementing-cursor-pagination.md) - Wed Jul 28 11:34:22 2021 +0100
 - [Serializatioin and Deserialization with System.Text.Json](system.text.json/serialize-and-deserialize.md) - Tue Jul 27 23:06:51 2021 +0100
@@ -31,7 +32,6 @@ _194 TILs and counting..._
 - [Developing and running Azure functions on a local machine](azure/working-with-azure-function-locally.md) - Wed Jun 30 12:35:37 2021 +0100
 - [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md) - Wed Jun 30 10:48:25 2021 +0100
 - [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md) - Tue Jun 29 15:05:34 2021 +0100
-- [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
 
 ### Categories
 
@@ -146,7 +146,7 @@ _194 TILs and counting..._
 
 ### [azure](#azure)
 - [Azure API Management](azure/azure-api-management.md)
-- [Getting started with Azure Functions on Mac](azure/azure-function-getting-started-on-mac.md)
+- [Getting started with Azure Functions](azure/azure-function-getting-started.md)
 - [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md)
 - [Azure Functions core Tools](azure/azure-functions-core-tools.md)
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md)
