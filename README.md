@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_193 TILs and counting..._
+_194 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Getting started with Fluent Migration](fluent-migration/fluent-migration-getting-started.md) - Fri Jul 30 10:56:10 2021 +0100
 - [Implementing Cursor-based Pagination](api/implementing-cursor-pagination.md) - Wed Jul 28 11:34:22 2021 +0100
 - [Serializatioin and Deserialization with System.Text.Json](system.text.json/serialize-and-deserialize.md) - Tue Jul 27 23:06:51 2021 +0100
 - [Dynamics Nav Getting Started](microsoft-dynamics-nav/dynamics-nav-getting-started.md) - Tue Jul 27 21:38:31 2021 +0100
@@ -31,7 +32,6 @@ _193 TILs and counting..._
 - [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md) - Wed Jun 30 10:48:25 2021 +0100
 - [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md) - Tue Jun 29 15:05:34 2021 +0100
 - [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
-- [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
 
 ### Categories
 
@@ -56,6 +56,7 @@ _193 TILs and counting..._
 - [fiddler](#fiddler)
 - [file-pond](#file-pond)
 - [firebase](#firebase)
+- [fluent-migration](#fluent-migration)
 - [fsharp](#fsharp)
 - [git](#git)
 - [github](#github)
@@ -220,6 +221,9 @@ _193 TILs and counting..._
 ### [firebase](#firebase)
 - [**Resources**](firebase/getting-started.md)
 - [**resources**](firebase/query.md)
+
+### [fluent-migration](#fluent-migration)
+- [Getting started with Fluent Migration](fluent-migration/fluent-migration-getting-started.md)
 
 ### [fsharp](#fsharp)
 - [## Resources](fsharp/fsharp.md)
