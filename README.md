@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_194 TILs and counting..._
+_195 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Azure Functions Logging](azure.functions/azure.functions.logging.md) - Fri Jul 30 11:55:06 2021 +0100
 - [Unit-testing C# Azure Function](azure.functions/azure-function-unit-testing.md) - Fri Jul 30 11:48:21 2021 +0100
 - [Azure Functions core Tools](azure.functions/azure-functions-core-tools.md) - Fri Jul 30 11:48:01 2021 +0100
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure.functions/azure-functions-hosting-options.md) - Fri Jul 30 11:47:45 2021 +0100
@@ -31,7 +32,6 @@ _194 TILs and counting..._
 - [Share common code in ClassFixture](xunit/classfixture-in-xunit.md) - Thu Jul 15 12:05:08 2021 +0100
 - [Deploy Azure functions with Github actions](github-actions/deploy-azure-functions.md) - Wed Jul 14 16:32:58 2021 +0100
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md) - Tue Jul 13 20:54:16 2021 +0100
-- [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Sat Jul 10 18:27:09 2021 +0100
 
 ### Categories
 
@@ -161,6 +161,7 @@ _194 TILs and counting..._
 - [Unit-testing C# Azure Function](azure.functions/azure-function-unit-testing.md)
 - [Azure Functions core Tools](azure.functions/azure-functions-core-tools.md)
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure.functions/azure-functions-hosting-options.md)
+- [Azure Functions Logging](azure.functions/azure.functions.logging.md)
 - [Developing and running Azure functions on a local machine](azure.functions/working-with-azure-function-locally.md)
 
 ### [bash](#bash)
