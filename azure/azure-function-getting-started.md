@@ -1,4 +1,4 @@
-# Getting started with Azure Functions on Mac
+# Getting started with Azure Functions
 
 ### Writing Azure function app with Rider
 
@@ -17,3 +17,4 @@ Now you are ready to create a Function app project.
 * [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
 
 Make sure you have `local.settings.json` so that `func start` can discover your function
+
