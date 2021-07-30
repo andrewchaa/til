@@ -48,13 +48,13 @@ public class DefaultCountryIsoCodeIndex : Migration
     public override void Up()
     {
         Execute.Script(
-            $"CREATE INDEX IX_Entities_{column} ON {schema}.{table} ({column})");
+            $"CREATE INDEX IX_{table}_{column} ON {schema}.{table} ({column})");
     }
 
     public override void Down()
     {
         Execute.Script(
-            $"DROP INDEX IX_Entities_{column} ON {schema}.{table}");
+            $"DROP INDEX IX_{table}_{column} ON {schema}.{table}");
     }
 }
 ```
