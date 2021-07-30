@@ -38,7 +38,7 @@ Install the packages to your project
 
 Create a migration class
 
-```
+```csharp
 [Migration(202107302306)]
 public class DefaultCountryIsoCodeIndex : Migration
 {
