@@ -12,6 +12,10 @@ _194 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Unit-testing C# Azure Function](azure.functions/azure-function-unit-testing.md) - Fri Jul 30 11:48:21 2021 +0100
+- [Azure Functions core Tools](azure.functions/azure-functions-core-tools.md) - Fri Jul 30 11:48:01 2021 +0100
+- [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure.functions/azure-functions-hosting-options.md) - Fri Jul 30 11:47:45 2021 +0100
+- [Developing and running Azure functions on a local machine](azure.functions/working-with-azure-function-locally.md) - Fri Jul 30 11:47:30 2021 +0100
 - [Getting started with Azure Functions](azure.functions/azure-function-getting-started.md) - Fri Jul 30 11:46:55 2021 +0100
 - [Getting started with Fluent Migration](fluent-migration/fluent-migration-getting-started.md) - Fri Jul 30 10:56:10 2021 +0100
 - [Implementing Cursor-based Pagination](api/implementing-cursor-pagination.md) - Wed Jul 28 11:34:22 2021 +0100
@@ -28,10 +32,6 @@ _194 TILs and counting..._
 - [Deploy Azure functions with Github actions](github-actions/deploy-azure-functions.md) - Wed Jul 14 16:32:58 2021 +0100
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md) - Tue Jul 13 20:54:16 2021 +0100
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Sat Jul 10 18:27:09 2021 +0100
-- [Install Jekyll](jekyll/install-jekyll.md) - Sat Jul 10 11:06:15 2021 +0100
-- [Developing and running Azure functions on a local machine](azure/working-with-azure-function-locally.md) - Wed Jun 30 12:35:37 2021 +0100
-- [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md) - Wed Jun 30 10:48:25 2021 +0100
-- [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md) - Tue Jun 29 15:05:34 2021 +0100
 
 ### Categories
 
@@ -147,12 +147,8 @@ _194 TILs and counting..._
 
 ### [azure](#azure)
 - [Azure API Management](azure/azure-api-management.md)
-- [Unit-testing C# Azure Function](azure/azure-function-unit-testing.md)
-- [Azure Functions core Tools](azure/azure-functions-core-tools.md)
-- [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure/azure-functions-hosting-options.md)
 - [Azure Service Bus Message sessions](azure/azure-servicebus-session.md)
 - [Azure Storage](azure/azure-storage.md)
-- [Developing and running Azure functions on a local machine](azure/working-with-azure-function-locally.md)
 
 ### [azure-data-studio](#azure-data-studio)
 - [Azure Data Studio](azure-data-studio/azure-data-studio-getting-started.md)
@@ -162,6 +158,10 @@ _194 TILs and counting..._
 
 ### [azure.functions](#azure.functions)
 - [Getting started with Azure Functions](azure.functions/azure-function-getting-started.md)
+- [Unit-testing C# Azure Function](azure.functions/azure-function-unit-testing.md)
+- [Azure Functions core Tools](azure.functions/azure-functions-core-tools.md)
+- [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure.functions/azure-functions-hosting-options.md)
+- [Developing and running Azure functions on a local machine](azure.functions/working-with-azure-function-locally.md)
 
 ### [bash](#bash)
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md)
