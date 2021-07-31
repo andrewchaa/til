@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_195 TILs and counting..._
+_196 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Cosmos DB Getting Starated](cosmos.db/cosmos.db.getting.started.md) - Sat Jul 31 22:52:14 2021 +0100
 - [Azure Functions Logging](azure.functions/azure.functions.logging.md) - Fri Jul 30 11:55:06 2021 +0100
 - [Unit-testing C# Azure Function](azure.functions/azure-function-unit-testing.md) - Fri Jul 30 11:48:21 2021 +0100
 - [Azure Functions core Tools](azure.functions/azure-functions-core-tools.md) - Fri Jul 30 11:48:01 2021 +0100
@@ -31,7 +32,6 @@ _195 TILs and counting..._
 - [HttpClient DelegatingHandler](asp.net-core/http-client-delegating-handler.md) - Thu Jul 15 16:10:35 2021 +0100
 - [Share common code in ClassFixture](xunit/classfixture-in-xunit.md) - Thu Jul 15 12:05:08 2021 +0100
 - [Deploy Azure functions with Github actions](github-actions/deploy-azure-functions.md) - Wed Jul 14 16:32:58 2021 +0100
-- [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md) - Tue Jul 13 20:54:16 2021 +0100
 
 ### Categories
 
@@ -48,6 +48,7 @@ _195 TILs and counting..._
 - [checklists](#checklists)
 - [cocoapods](#cocoapods)
 - [container](#container)
+- [cosmos.db](#cosmos.db)
 - [csharp](#csharp)
 - [curl](#curl)
 - [dapper](#dapper)
@@ -186,6 +187,9 @@ _195 TILs and counting..._
 - [Docker Terminology](container/docker-terminology.md)
 - [Dockerize a .NET application](container/dockerize-net-application.md)
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md)
+
+### [cosmos.db](#cosmos.db)
+- [Cosmos DB Getting Starated](cosmos.db/cosmos.db.getting.started.md)
 
 ### [csharp](#csharp)
 - [## basic](csharp/csharp-async.md)
