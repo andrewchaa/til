@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_197 TILs and counting..._
+_198 TILs and counting..._
 
 ---
 
@@ -450,6 +450,7 @@ _197 TILs and counting..._
 - [Provision Cosmos DB](terraform/provision.cosmos.db.md)
 - [required-group](terraform/required-group.md)
 - [Provisioning Azure Functions with Terraform](terraform/terraform-provision-azure-function.md)
+- [Terraform Getting Started](terraform/terraform.getting.started.md)
 
 ### [tools](#tools)
 - [flameshot](tools/flameshot.md)
