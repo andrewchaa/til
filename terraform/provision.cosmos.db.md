@@ -1,5 +1,13 @@
 # Provision Cosmos DB
 
+They hierachy is 
+
+* Account
+* Database
+* Collection
+
+
+
 Create account
 
 ```terraform
