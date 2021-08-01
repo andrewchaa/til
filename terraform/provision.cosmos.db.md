@@ -7,8 +7,7 @@ They hierachy is
 * Container
 
 
-
-Create account
+Exclude all properties by setting exclude at the root directory and gradually add properties you want to index
 
 ```terraform
 resource "azurerm_cosmosdb_account" "showmethemoney" {
