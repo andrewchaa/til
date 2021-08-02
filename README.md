@@ -53,6 +53,7 @@ _198 TILs and counting..._
 - [curl](#curl)
 - [dapper](#dapper)
 - [domain-driven-design](#domain-driven-design)
+- [dot-net](#dot-net)
 - [eastic-search](#eastic-search)
 - [electron](#electron)
 - [fiddler](#fiddler)
@@ -195,7 +196,6 @@ _198 TILs and counting..._
 - [## basic](csharp/csharp-async.md)
 - [// map](csharp/csharp-functional.md)
 - [C#](csharp/csharp.md)
-- [NLog](csharp/logging.md)
 - [NuGet](csharp/nuget.md)
 - [# Usages](csharp/polly.md)
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md)
@@ -211,6 +211,9 @@ _198 TILs and counting..._
 ### [domain-driven-design](#domain-driven-design)
 - [```csharp](domain-driven-design/ddd-value-object.md)
 - [### Resources](domain-driven-design/ddd.md)
+
+### [dot-net](#dot-net)
+- [Logging in .NET](dot-net/logging.md)
 
 ### [eastic-search](#eastic-search)
 - [Full text search examples](eastic-search/full-text-search-examples.md)
