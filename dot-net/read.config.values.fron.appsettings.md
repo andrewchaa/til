@@ -19,7 +19,4 @@ SubcriptionKeyHeader = "Ocp-Apim-Subscription-Key";
 _subscriptionKey = config["subscript_key"];
 var apiHost = config["api_host"];
 var apiProduct = config["product"];
-var v1 = config["v1"];
-var onboardingPort = config["onboarding_port"];
-var reportingPort = config["reporting_port"];
 ```
