@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_199 TILs and counting..._
+_200 TILs and counting..._
 
 ---
 
@@ -213,6 +213,7 @@ _199 TILs and counting..._
 - [### Resources](domain-driven-design/ddd.md)
 
 ### [dot-net](#dot-net)
+- [Cli with CommandLineParser](dot-net/command.line.parser.md)
 - [Logging in .NET](dot-net/logging.md)
 - [Read configuration values from AppSettings.json](dot-net/read.config.values.fron.appsettings.md)
 
