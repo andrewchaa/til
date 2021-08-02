@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_198 TILs and counting..._
+_199 TILs and counting..._
 
 ---
 
@@ -214,6 +214,7 @@ _198 TILs and counting..._
 
 ### [dot-net](#dot-net)
 - [Logging in .NET](dot-net/logging.md)
+- [Read configuration values from AppSettings.json](dot-net/read.config.values.fron.appsettings.md)
 
 ### [eastic-search](#eastic-search)
 - [Full text search examples](eastic-search/full-text-search-examples.md)
