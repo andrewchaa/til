@@ -15,8 +15,6 @@ var config = new ConfigurationBuilder()
     .AddJsonFile($"appsettings.{TestEnvironment}.json")
     .Build();
 
-SubcriptionKeyHeader = "Ocp-Apim-Subscription-Key";
-_subscriptionKey = config["subscript_key"];
 var apiHost = config["api_host"];
 var apiProduct = config["product"];
 ```
