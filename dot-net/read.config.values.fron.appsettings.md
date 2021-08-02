@@ -3,6 +3,7 @@
 Install
 
 * Microsoft.Extensions.Configuration
+* Microsoft.Extensions.Configuration.Json
 
 Use ConfigurationBuilder
 
