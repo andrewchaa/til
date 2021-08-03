@@ -14,8 +14,10 @@ var releaseEnvironment = Environment.GetEnvironmentVariable(ReleaseEnvironmentNa
 TestEnvironment = string.IsNullOrEmpty(releaseEnvironment)
     ? "local"
     : releaseEnvironment.Replace("stage-", string.Empty);
+
 var config = new ConfigurationBuilder()
-    .AddJsonFile($"appsettings.{TestEnvironment}.json")
+    .AddJsonFile($"appsettings.{TestEnvironment}.json") // to read json file
+    .AddEnvironmentVariables() // to read environment variables
     .Build();
 
 var apiHost = config["api_host"];
