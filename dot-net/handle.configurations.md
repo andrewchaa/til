@@ -1,4 +1,6 @@
-# Read configuration values from AppSettings.json
+# Handle Configurations
+
+### Read configuration values from AppSettings.json
 
 Install
 
