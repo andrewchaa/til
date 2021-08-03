@@ -214,8 +214,8 @@ _200 TILs and counting..._
 
 ### [dot-net](#dot-net)
 - [Cli with CommandLineParser](dot-net/command.line.parser.md)
+- [Handle Configurations](dot-net/handle.configurations.md)
 - [Logging in .NET](dot-net/logging.md)
-- [Read configuration values from AppSettings.json](dot-net/read.config.values.fron.appsettings.md)
 
 ### [eastic-search](#eastic-search)
 - [Full text search examples](eastic-search/full-text-search-examples.md)
