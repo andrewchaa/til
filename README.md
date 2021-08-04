@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_200 TILs and counting..._
+_201 TILs and counting..._
 
 ---
 
@@ -214,6 +214,7 @@ _200 TILs and counting..._
 
 ### [dot-net](#dot-net)
 - [Cli with CommandLineParser](dot-net/command.line.parser.md)
+- [dotnet run](dot-net/dotnet.run.md)
 - [Handle Configurations](dot-net/handle.configurations.md)
 - [Logging in .NET](dot-net/logging.md)
 
