@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_201 TILs and counting..._
+_202 TILs and counting..._
 
 ---
 
@@ -250,6 +250,7 @@ _201 TILs and counting..._
 
 ### [github](#github)
 - [Githut shortcuts](github/github-shortcuts.md)
+- [Github Packages](github/github.packages.md)
 
 ### [github-actions](#github-actions)
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md)
