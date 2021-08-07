@@ -359,7 +359,7 @@ _203 TILs and counting..._
 
 ### [nuget](#nuget)
 - [NuGet](nuget/nuget.getting.started.md)
-- [Publishing a new get package](nuget/publish.nuget.package.md)
+- [Publishing a nuget package](nuget/publish.nuget.package.md)
 
 ### [parallels-desktop](#parallels-desktop)
 - [parallels desktop](parallels-desktop/parallels-desktop.md)
