@@ -16,4 +16,6 @@
 3. dotnet push
 
 
-    dotnet nuget push FunctionalWay.0.0.9.nupkg -k <key> -s https://api.nuget.org/v3/index.json
+```
+dotnet nuget push FunctionalWay.0.0.9.nupkg -k <key> -s https://api.nuget.org/v3/index.json
+```
