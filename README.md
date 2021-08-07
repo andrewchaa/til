@@ -89,6 +89,7 @@ _202 TILs and counting..._
 - [next-js](#next-js)
 - [ninject](#ninject)
 - [node-js](#node-js)
+- [nuget](#nuget)
 - [parallels-desktop](#parallels-desktop)
 - [pdf-sharp](#pdf-sharp)
 - [postman](#postman)
@@ -196,7 +197,6 @@ _202 TILs and counting..._
 - [## basic](csharp/csharp-async.md)
 - [// map](csharp/csharp-functional.md)
 - [C#](csharp/csharp.md)
-- [NuGet](csharp/nuget.md)
 - [# Usages](csharp/polly.md)
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md)
 - [Refit](csharp/refit.md)
@@ -356,6 +356,9 @@ _202 TILs and counting..._
 - [npm](node-js/npm.md)
 - [* fs extra, including file copy: https://github.com/jprichardson/node-fs-extra](node-js/resources.md)
 - [Set Up](node-js/set-up-node-environment.md)
+
+### [nuget](#nuget)
+- [NuGet](nuget/nuget.getting.started.md)
 
 ### [parallels-desktop](#parallels-desktop)
 - [parallels desktop](parallels-desktop/parallels-desktop.md)
