@@ -39,3 +39,8 @@ Create a nuget config
 </configuration>
 
 ```
+
+Publish the package
+
+    dotnet nuget push "Fonoa.Optimus.MetricsLib.0.1.0.nupkg" -k {{ your pat }} --source "github"
+    
