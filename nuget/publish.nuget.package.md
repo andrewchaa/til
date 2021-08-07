@@ -19,3 +19,23 @@
 ```
 dotnet nuget push FunctionalWay.0.0.9.nupkg -k <key> -s https://api.nuget.org/v3/index.json
 ```
+
+### Publish the package to Github Registry
+
+[Create a PAT (Personal Access Token)](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+* Go to Settings > Developer settings
+* Create a PAT
+
+Create a nuget config
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <clear />
+    <add key="github" value="https://nuget.pkg.github.com/{{your organisation}}/index.json" />
+  </packageSources>
+</configuration>
+
+```
