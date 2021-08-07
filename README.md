@@ -214,7 +214,7 @@ _203 TILs and counting..._
 
 ### [dot-net](#dot-net)
 - [Cli with CommandLineParser](dot-net/command.line.parser.md)
-- [dotnet run](dot-net/dotnet.run.md)
+- [.NET Cli](dot-net/dotnet.cli.md)
 - [Handle Configurations](dot-net/handle.configurations.md)
 - [Logging in .NET](dot-net/logging.md)
 
