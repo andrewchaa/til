@@ -1,4 +1,4 @@
-# Publishing a new get package
+# Publishing a nuget package
 
 1. Edit .csproj
 
