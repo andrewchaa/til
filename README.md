@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_203 TILs and counting..._
+_204 TILs and counting..._
 
 ---
 
@@ -360,6 +360,7 @@ _203 TILs and counting..._
 ### [nuget](#nuget)
 - [NuGet](nuget/nuget.getting.started.md)
 - [Publishing a nuget package](nuget/publish.nuget.package.md)
+- [Use Github Nuget Registry](nuget/use-github-package-registry.md)
 
 ### [parallels-desktop](#parallels-desktop)
 - [parallels desktop](parallels-desktop/parallels-desktop.md)
