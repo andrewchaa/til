@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_204 TILs and counting..._
+_205 TILs and counting..._
 
 ---
 
@@ -78,6 +78,7 @@ _204 TILs and counting..._
 - [jekyll](#jekyll)
 - [journals](#journals)
 - [json-net](#json-net)
+- [k6](#k6)
 - [keyboard-shortcuts](#keyboard-shortcuts)
 - [korean](#korean)
 - [kubernetes](#kubernetes)
@@ -315,6 +316,9 @@ _204 TILs and counting..._
 
 ### [json-net](#json-net)
 - [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md)
+
+### [k6](#k6)
+- [Getting started with [K6](https://k6.io/docs/)](k6/getting-started-k6.md)
 
 ### [keyboard-shortcuts](#keyboard-shortcuts)
 - [Shortcuts](keyboard-shortcuts/shortcuts.md)
