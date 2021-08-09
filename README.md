@@ -13,12 +13,6 @@ _205 TILs and counting..._
 ### 20 most recent TILs
 
 - [Cosmos DB Getting Starated](cosmos.db/cosmos.db.getting.started.md) - Sat Jul 31 22:52:14 2021 +0100
-- [Azure Functions Logging](azure.functions/azure.functions.logging.md) - Fri Jul 30 11:55:06 2021 +0100
-- [Unit-testing C# Azure Function](azure.functions/azure-function-unit-testing.md) - Fri Jul 30 11:48:21 2021 +0100
-- [Azure Functions core Tools](azure.functions/azure-functions-core-tools.md) - Fri Jul 30 11:48:01 2021 +0100
-- [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure.functions/azure-functions-hosting-options.md) - Fri Jul 30 11:47:45 2021 +0100
-- [Developing and running Azure functions on a local machine](azure.functions/working-with-azure-function-locally.md) - Fri Jul 30 11:47:30 2021 +0100
-- [Getting started with Azure Functions](azure.functions/azure-function-getting-started.md) - Fri Jul 30 11:46:55 2021 +0100
 - [Getting started with Fluent Migration](fluent-migration/fluent-migration-getting-started.md) - Fri Jul 30 10:56:10 2021 +0100
 - [Implementing Cursor-based Pagination](api/implementing-cursor-pagination.md) - Wed Jul 28 11:34:22 2021 +0100
 - [Serializatioin and Deserialization with System.Text.Json](system.text.json/serialize-and-deserialize.md) - Tue Jul 27 23:06:51 2021 +0100
@@ -29,20 +23,26 @@ _205 TILs and counting..._
 - [Getting started with Sentry](sentry/sentry-getting-started.md) - Sat Jul 24 11:38:32 2021 +0100
 - [Keyboard shortcuts](xcode/xcode-shortcuts.md) - Fri Jul 23 23:29:48 2021 +0100
 - [Azure Data Studio](azure-data-studio/azure-data-studio-getting-started.md) - Sun Jul 18 22:38:10 2021 +0100
-- [HttpClient DelegatingHandler](asp.net-core/http-client-delegating-handler.md) - Thu Jul 15 16:10:35 2021 +0100
 - [Share common code in ClassFixture](xunit/classfixture-in-xunit.md) - Thu Jul 15 12:05:08 2021 +0100
 - [Deploy Azure functions with Github actions](github-actions/deploy-azure-functions.md) - Wed Jul 14 16:32:58 2021 +0100
+- [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md) - Tue Jul 13 20:54:16 2021 +0100
+- [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Sat Jul 10 18:27:09 2021 +0100
+- [Install Jekyll](jekyll/install-jekyll.md) - Sat Jul 10 11:06:15 2021 +0100
+- [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
+- [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
+- [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md) - Fri Jun 25 17:24:42 2021 +0100
+- [Useful sql queries](sql/sql-queries.md) - Thu Jun 24 18:21:22 2021 +0100
 
 ### Categories
 
 - [angular-js](#angular-js)
 - [api](#api)
-- [asp.net-core](#asp.net-core)
+- [asp-net-core](#asp-net-core)
 - [aws](#aws)
 - [azure](#azure)
 - [azure-data-studio](#azure-data-studio)
 - [azure-devops](#azure-devops)
-- [azure.functions](#azure.functions)
+- [azure-functions](#azure-functions)
 - [bash](#bash)
 - [car](#car)
 - [checklists](#checklists)
@@ -126,16 +126,16 @@ _205 TILs and counting..._
 - [xunit](#xunit)
 
 ### [angular-js](#angular-js)
-- [angular js](angular-js/angular.js.md)
+- [angular js](angular-js/angular-js.md)
 
 ### [api](#api)
 - [Implementing Cursor-based Pagination](api/implementing-cursor-pagination.md)
 
-### [asp.net-core](#asp.net-core)
-- [ASP.NET Core](asp.net-core/asp.net-core.md)
-- [HttpClient DelegatingHandler](asp.net-core/http-client-delegating-handler.md)
-- [IConfiguration in Unit Test](asp.net-core/iconfiguration-in-unit-test.md)
-- [Conatinerised ASP.NET Core Web API](asp.net-core/web-api-in-container.md)
+### [asp-net-core](#asp-net-core)
+- [ASP.NET Core](asp-net-core/asp-net-core.md)
+- [HttpClient DelegatingHandler](asp-net-core/http-client-delegating-handler.md)
+- [IConfiguration in Unit Test](asp-net-core/iconfiguration-in-unit-test.md)
+- [Conatinerised ASP.NET Core Web API](asp-net-core/web-api-in-container.md)
 
 ### [aws](#aws)
 - [AWS Certificate Manager](aws/aws-certificate-manager.md)
@@ -160,13 +160,13 @@ _205 TILs and counting..._
 ### [azure-devops](#azure-devops)
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md)
 
-### [azure.functions](#azure.functions)
-- [Getting started with Azure Functions](azure.functions/azure-function-getting-started.md)
-- [Unit-testing C# Azure Function](azure.functions/azure-function-unit-testing.md)
-- [Azure Functions core Tools](azure.functions/azure-functions-core-tools.md)
-- [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure.functions/azure-functions-hosting-options.md)
-- [Azure Functions Logging](azure.functions/azure.functions.logging.md)
-- [Developing and running Azure functions on a local machine](azure.functions/working-with-azure-function-locally.md)
+### [azure-functions](#azure-functions)
+- [Getting started with Azure Functions](azure-functions/azure-function-getting-started.md)
+- [Unit-testing C# Azure Function](azure-functions/azure-function-unit-testing.md)
+- [Azure Functions core Tools](azure-functions/azure-functions-core-tools.md)
+- [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md)
+- [Azure Functions Logging](azure-functions/azure-functions-logging.md)
+- [Developing and running Azure functions on a local machine](azure-functions/working-with-azure-function-locally.md)
 
 ### [bash](#bash)
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md)
@@ -214,9 +214,9 @@ _205 TILs and counting..._
 - [### Resources](domain-driven-design/ddd.md)
 
 ### [dot-net](#dot-net)
-- [Cli with CommandLineParser](dot-net/command.line.parser.md)
-- [.NET Cli](dot-net/dotnet.cli.md)
-- [Handle Configurations](dot-net/handle.configurations.md)
+- [Cli with CommandLineParser](dot-net/command-line-parser.md)
+- [.NET Cli](dot-net/dotnet-cli.md)
+- [Handle Configurations](dot-net/handle-configurations.md)
 - [Logging in .NET](dot-net/logging.md)
 
 ### [eastic-search](#eastic-search)
@@ -250,8 +250,8 @@ _205 TILs and counting..._
 - [Git Set up](git/set-up-git.md)
 
 ### [github](#github)
+- [Github Packages](github/github-packages.md)
 - [Githut shortcuts](github/github-shortcuts.md)
-- [Github Packages](github/github.packages.md)
 
 ### [github-actions](#github-actions)
 - [Auto-generate README for TIL](github-actions/auto-generate-readme.md)
@@ -322,8 +322,8 @@ _205 TILs and counting..._
 
 ### [keyboard-shortcuts](#keyboard-shortcuts)
 - [Shortcuts](keyboard-shortcuts/shortcuts.md)
-- [Visual Studio](keyboard-shortcuts/visual studio.md)
 - [VS Code](keyboard-shortcuts/visual-studio-code.md)
+- [Visual Studio](keyboard-shortcuts/visual-studio.md)
 
 ### [korean](#korean)
 - [Learning by doing](korean/learning-by-doing.md)
@@ -362,8 +362,8 @@ _205 TILs and counting..._
 - [Set Up](node-js/set-up-node-environment.md)
 
 ### [nuget](#nuget)
-- [NuGet](nuget/nuget.getting.started.md)
-- [Publishing a nuget package](nuget/publish.nuget.package.md)
+- [NuGet](nuget/nuget-getting-started.md)
+- [Publishing a nuget package](nuget/publish-nuget-package.md)
 - [Use Github Nuget Registry](nuget/use-github-package-registry.md)
 
 ### [parallels-desktop](#parallels-desktop)
@@ -408,7 +408,7 @@ _205 TILs and counting..._
 - [Set environment variables in Rider](rider/set-environment-variables-in-rider.md)
 
 ### [ruby](#ruby)
-- [1. Update gem file](ruby/gem.lock-out-of-sync.md)
+- [1. Update gem file](ruby/gem-lock-out-of-sync.md)
 - [* http://stackoverflow.com/questions/18908708/installing-ruby-gem-in-windows](ruby/install-ruby.md)
 - [```ruby](ruby/unresolved-specs-during-gem-specification-reset.md)
 
@@ -463,10 +463,10 @@ _205 TILs and counting..._
 - [Create Azure API Management](terraform/azure-api-management.md)
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md)
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md)
-- [Provision Cosmos DB](terraform/provision.cosmos.db.md)
+- [Provision Cosmos DB](terraform/provision-cosmos-db.md)
 - [required-group](terraform/required-group.md)
+- [Terraform Getting Started](terraform/terraform-getting-started.md)
 - [Provisioning Azure Functions with Terraform](terraform/terraform-provision-azure-function.md)
-- [Terraform Getting Started](terraform/terraform.getting.started.md)
 
 ### [tools](#tools)
 - [flameshot](tools/flameshot.md)
@@ -489,7 +489,7 @@ _205 TILs and counting..._
 - [**Get value**](webdriver/input.md)
 
 ### [webjob](#webjob)
-- [# adding a console app as webjob to the website](webjob/1.getting-started.md)
+- [# adding a console app as webjob to the website](webjob/1-getting-started.md)
 - [Every 3 hour](webjob/cron.md)
 
 ### [webpack](#webpack)
