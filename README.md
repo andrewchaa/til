@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_205 TILs and counting..._
+_206 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Dockerise Azure Functions](azure-functions/dockerise-azure-functions.md) - Mon Aug 16 14:48:22 2021 +0100
 - [Cosmos DB Getting Starated](cosmos.db/cosmos.db.getting.started.md) - Sat Jul 31 22:52:14 2021 +0100
 - [Getting started with Fluent Migration](fluent-migration/fluent-migration-getting-started.md) - Fri Jul 30 10:56:10 2021 +0100
 - [Implementing Cursor-based Pagination](api/implementing-cursor-pagination.md) - Wed Jul 28 11:34:22 2021 +0100
@@ -31,7 +32,6 @@ _205 TILs and counting..._
 - [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
 - [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
 - [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md) - Fri Jun 25 17:24:42 2021 +0100
-- [Useful sql queries](sql/sql-queries.md) - Thu Jun 24 18:21:22 2021 +0100
 
 ### Categories
 
@@ -166,6 +166,7 @@ _205 TILs and counting..._
 - [Azure Functions core Tools](azure-functions/azure-functions-core-tools.md)
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md)
 - [Azure Functions Logging](azure-functions/azure-functions-logging.md)
+- [Dockerise Azure Functions](azure-functions/dockerise-azure-functions.md)
 - [Developing and running Azure functions on a local machine](azure-functions/working-with-azure-function-locally.md)
 
 ### [bash](#bash)
