@@ -3,7 +3,7 @@
 ### Install Azure Functions Core Tools and Azurite
 
 * [Azure Functions Core Tools](https://www.npmjs.com/package/azure-functions-core-tools)
-* [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
+* [Azurite](https://github.com/Azure/Azurite)
 
 Make sure you have `local.settings.json` so that `func start` can discover your function
 
