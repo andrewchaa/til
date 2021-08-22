@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_207 TILs and counting..._
+_208 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Handling XML Request in ASP.NET Core controller](asp-net-core/handle-xml-request.md) - Sun Aug 22 18:37:49 2021 +0100
 - [Brew commands](brew/brew-commands.md) - Sun Aug 22 12:08:17 2021 +0100
 - [Dockerise Azure Functions](azure-functions/dockerise-azure-functions.md) - Mon Aug 16 14:48:22 2021 +0100
 - [Cosmos DB Getting Starated](cosmos.db/cosmos.db.getting.started.md) - Sat Jul 31 22:52:14 2021 +0100
@@ -31,7 +32,6 @@ _207 TILs and counting..._
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Sat Jul 10 18:27:09 2021 +0100
 - [Install Jekyll](jekyll/install-jekyll.md) - Sat Jul 10 11:06:15 2021 +0100
 - [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
-- [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
 
 ### Categories
 
@@ -134,6 +134,7 @@ _207 TILs and counting..._
 
 ### [asp-net-core](#asp-net-core)
 - [ASP.NET Core](asp-net-core/asp-net-core.md)
+- [Handling XML Request in ASP.NET Core controller](asp-net-core/handle-xml-request.md)
 - [HttpClient DelegatingHandler](asp-net-core/http-client-delegating-handler.md)
 - [IConfiguration in Unit Test](asp-net-core/iconfiguration-in-unit-test.md)
 - [Conatinerised ASP.NET Core Web API](asp-net-core/web-api-in-container.md)
