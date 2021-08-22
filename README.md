@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_206 TILs and counting..._
+_207 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Brew commands](brew/brew-commands.md) - Sun Aug 22 12:08:17 2021 +0100
 - [Dockerise Azure Functions](azure-functions/dockerise-azure-functions.md) - Mon Aug 16 14:48:22 2021 +0100
 - [Cosmos DB Getting Starated](cosmos.db/cosmos.db.getting.started.md) - Sat Jul 31 22:52:14 2021 +0100
 - [Getting started with Fluent Migration](fluent-migration/fluent-migration-getting-started.md) - Fri Jul 30 10:56:10 2021 +0100
@@ -31,7 +32,6 @@ _206 TILs and counting..._
 - [Install Jekyll](jekyll/install-jekyll.md) - Sat Jul 10 11:06:15 2021 +0100
 - [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
 - [**Resources**](dapper/dapper-queries.md) - Sat Jun 26 11:15:12 2021 +0100
-- [Serialize enums as string in JSON.NET](json-net/serialize-enum-as-string-json-net.md) - Fri Jun 25 17:24:42 2021 +0100
 
 ### Categories
 
@@ -44,6 +44,7 @@ _206 TILs and counting..._
 - [azure-devops](#azure-devops)
 - [azure-functions](#azure-functions)
 - [bash](#bash)
+- [brew](#brew)
 - [car](#car)
 - [checklists](#checklists)
 - [cocoapods](#cocoapods)
@@ -174,6 +175,9 @@ _206 TILs and counting..._
 - [everything about file and directory](bash/file-and-directory.md)
 - [Make bash script executable](bash/make-script-executable.md)
 - [Oh My Zsh](bash/ohmyzsh.md)
+
+### [brew](#brew)
+- [Brew commands](brew/brew-commands.md)
 
 ### [car](#car)
 - [### Resources](car/car.md)
