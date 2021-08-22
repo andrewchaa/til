@@ -1,5 +1,9 @@
 # Handling XML Request in ASP.NET Core controller
 
+Resources
+
+* https://docs.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-5.0
+
 Reference `Microsoft.AspNetCore.Mvc.Formatters.Xml`
 
 ```xml
