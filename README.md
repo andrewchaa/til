@@ -12,7 +12,7 @@ _209 TILs and counting..._
 
 ### 20 most recent TILs
 
-- [Dockerize a .NET application](container/dockerize-asp-net-application.md) - Mon Aug 23 10:34:05 2021 +0100
+- [Dockerize an ASP.NET Core application](container/dockerize-asp-net-application.md) - Mon Aug 23 10:34:05 2021 +0100
 - [Docker concepts](container/docker-concepts.md) - Mon Aug 23 10:22:33 2021 +0100
 - [Handling XML Request in ASP.NET Core controller](asp-net-core/handle-xml-request.md) - Sun Aug 22 18:37:49 2021 +0100
 - [Brew commands](brew/brew-commands.md) - Sun Aug 22 12:08:17 2021 +0100
@@ -195,7 +195,7 @@ _209 TILs and counting..._
 - [docker-compose up / down](container/docker-compose.md)
 - [Docker concepts](container/docker-concepts.md)
 - [Docker Terminology](container/docker-terminology.md)
-- [Dockerize a .NET application](container/dockerize-asp-net-application.md)
+- [Dockerize an ASP.NET Core application](container/dockerize-asp-net-application.md)
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md)
 
 ### [cosmos.db](#cosmos.db)
