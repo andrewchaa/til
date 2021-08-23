@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_208 TILs and counting..._
+_209 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Docker concepts](container/docker-concepts.md) - Mon Aug 23 10:22:33 2021 +0100
 - [Handling XML Request in ASP.NET Core controller](asp-net-core/handle-xml-request.md) - Sun Aug 22 18:37:49 2021 +0100
 - [Brew commands](brew/brew-commands.md) - Sun Aug 22 12:08:17 2021 +0100
 - [Dockerise Azure Functions](azure-functions/dockerise-azure-functions.md) - Mon Aug 16 14:48:22 2021 +0100
@@ -31,7 +32,6 @@ _208 TILs and counting..._
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md) - Tue Jul 13 20:54:16 2021 +0100
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Sat Jul 10 18:27:09 2021 +0100
 - [Install Jekyll](jekyll/install-jekyll.md) - Sat Jul 10 11:06:15 2021 +0100
-- [Mock Property or Indexer](moq/mock-property-indexer.md) - Tue Jun 29 12:34:29 2021 +0100
 
 ### Categories
 
@@ -193,6 +193,7 @@ _208 TILs and counting..._
 ### [container](#container)
 - [Docker basic commands](container/docker-basic-commands.md)
 - [docker-compose up / down](container/docker-compose.md)
+- [Docker concepts](container/docker-concepts.md)
 - [Docker Terminology](container/docker-terminology.md)
 - [Dockerize a .NET application](container/dockerize-net-application.md)
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md)
