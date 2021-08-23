@@ -6,4 +6,4 @@
 
 Building ASP.NET containers with multi-stage docker file
 
-![image](https://user-images.githubusercontent.com/840427/130424136-e89264b5-486d-4ebe-bd06-e7e362627fa3.png)
+![image](https://user-images.githubusercontent.com/840427/130424186-8f20d6c7-143c-4041-9672-1f7db91a3f93.png)
