@@ -5,6 +5,8 @@
 * Right-click on the project > Add > Docker Support
 * It will ceate `Dockerfile`
 
+Multi-stage docker file
+
 ```Dockerfile
 FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
 WORKDIR /app
