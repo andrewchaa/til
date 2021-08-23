@@ -1,6 +1,7 @@
-# Dockerize a .NET application
+# Dockerize an ASP.NET Core application
 
-### ASP.NET Core 
+
+### Create a local dockerfile
 
 * Right-click on the project > Add > Docker Support
 * It will ceate `Dockerfile`
@@ -43,4 +44,19 @@ Use the following commands to build and run your Docker image:
     docker build -t aspnetapp .
     docker run -d -p 8080:80 --name myapp aspnetapp
     
-    
+### Deploy the docker image to Azure App Service
+
+```
+# login to azure
+az login
+
+# login to azure container registry
+az acr login --name acrfonoadev
+
+# tag the local docker image 
+docker tag emulator acrfonoadev.azurecr.io/tax-authority-emulator
+
+# push the image to the registry
+docker push acrfonoadev.azurecr.io/tax-authority-emulator
+
+```
