@@ -12,6 +12,7 @@ _209 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Dockerize a .NET application](container/dockerize-asp-net-application.md) - Mon Aug 23 10:34:05 2021 +0100
 - [Docker concepts](container/docker-concepts.md) - Mon Aug 23 10:22:33 2021 +0100
 - [Handling XML Request in ASP.NET Core controller](asp-net-core/handle-xml-request.md) - Sun Aug 22 18:37:49 2021 +0100
 - [Brew commands](brew/brew-commands.md) - Sun Aug 22 12:08:17 2021 +0100
@@ -31,7 +32,6 @@ _209 TILs and counting..._
 - [Deploy Azure functions with Github actions](github-actions/deploy-azure-functions.md) - Wed Jul 14 16:32:58 2021 +0100
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md) - Tue Jul 13 20:54:16 2021 +0100
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Sat Jul 10 18:27:09 2021 +0100
-- [Install Jekyll](jekyll/install-jekyll.md) - Sat Jul 10 11:06:15 2021 +0100
 
 ### Categories
 
@@ -195,7 +195,7 @@ _209 TILs and counting..._
 - [docker-compose up / down](container/docker-compose.md)
 - [Docker concepts](container/docker-concepts.md)
 - [Docker Terminology](container/docker-terminology.md)
-- [Dockerize a .NET application](container/dockerize-net-application.md)
+- [Dockerize a .NET application](container/dockerize-asp-net-application.md)
 - [Login to docker shell interactively](container/interactive-login-docker-shell.md)
 
 ### [cosmos.db](#cosmos.db)
