@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_209 TILs and counting..._
+_210 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Ephmeral certificate](ssl/ephemeral-certificate.md) - Tue Aug 24 13:36:35 2021 +0100
 - [Dockerize an ASP.NET Core application](container/dockerize-asp-net-application.md) - Mon Aug 23 10:34:05 2021 +0100
 - [Docker concepts](container/docker-concepts.md) - Mon Aug 23 10:22:33 2021 +0100
 - [Handling XML Request in ASP.NET Core controller](asp-net-core/handle-xml-request.md) - Sun Aug 22 18:37:49 2021 +0100
@@ -31,7 +32,6 @@ _209 TILs and counting..._
 - [Share common code in ClassFixture](xunit/classfixture-in-xunit.md) - Thu Jul 15 12:05:08 2021 +0100
 - [Deploy Azure functions with Github actions](github-actions/deploy-azure-functions.md) - Wed Jul 14 16:32:58 2021 +0100
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md) - Tue Jul 13 20:54:16 2021 +0100
-- [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Sat Jul 10 18:27:09 2021 +0100
 
 ### Categories
 
@@ -109,6 +109,7 @@ _209 TILs and counting..._
 - [specflow](#specflow)
 - [sql](#sql)
 - [sql-server](#sql-server)
+- [ssl](#ssl)
 - [swagger](#swagger)
 - [swift](#swift)
 - [system.text.json](#system.text.json)
@@ -450,6 +451,9 @@ _209 TILs and counting..._
 - [**Subquery returned more than 1 value**](sql-server/subqueries.md)
 - [### query all tables containing a column name](sql-server/sys-queries.md)
 - [```sql](sql-server/trigger.md)
+
+### [ssl](#ssl)
+- [Ephmeral certificate](ssl/ephemeral-certificate.md)
 
 ### [swagger](#swagger)
 - [### Resources](swagger/swagger.md)
