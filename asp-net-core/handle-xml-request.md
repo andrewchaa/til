@@ -40,3 +40,17 @@ public IActionResult Report([FromBody]XmlDocument request)
     _logger.LogInformation(request.OuterXml);
 ```
 
+If you return SOAP response, you need to wrap the content with SOAP Envelope
+
+```xml
+<soap:Envelope 
+    xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" 
+    xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" 
+    xmlns:soapenc=""http://schemas.xmlsoap.org/soap/encoding/"" 
+    xmlns:tns=""http://tempuri.org/"" 
+    xmlns:types=""http://tempuri.org/encodedTypes"" 
+    xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"">  
+    <soap:Body soap:encodingStyle=""http://schemas.xmlsoap.org/soap/encoding/"">  
+    </soap:Body>
+</soap:Envelope>
+```
