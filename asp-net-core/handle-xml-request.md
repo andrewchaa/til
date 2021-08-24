@@ -13,17 +13,30 @@ Reference `Microsoft.AspNetCore.Mvc.Formatters.Xml`
 Add to the services.
 
 ```csharp
-services.AddMvc(o =>
-{ }).AddXmlSerializerFormatters();
+public void ConfigureServices(IServiceCollection services)
+{
+
+    services.AddControllers(o =>
+    {
+        o.RespectBrowserAcceptHeader = true;
+    });
+    services.AddMvc(o =>
+        {
+            o.OutputFormatters.Add(new XmlDataContractSerializerOutputFormatter());
+        }).AddXmlSerializerFormatters()
+        .AddXmlDataContractSerializerFormatters();
+}
 ```
 
-The object should be `XmlDocument`
+Decoreate the action method with `[Produces("text/xml")]` so that it returns an xml response.
+
+The binding object for the request body needs to be `XmlDocument` 
 
 ```csharp
 [HttpPost]
+[Produces("text/xml")]
 public IActionResult Report([FromBody]XmlDocument request)
 {
     _logger.LogInformation(request.OuterXml);
-    return Ok(request.OuterXml);
-}
 ```
+
