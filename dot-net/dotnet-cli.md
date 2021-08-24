@@ -15,6 +15,10 @@
 
     # build and run a project
     dotnet run 
+    
+    # build and run the project
+    dotnet run --project src/Fonoa.TaxAuthorityEmulator/Fonoa.TaxAuthorityEmulator.csproj
+
 
     # run an assembly
     dotnet myapp.dll
