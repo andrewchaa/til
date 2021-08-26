@@ -12,6 +12,12 @@ _211 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Deploying C# severless project to AWS lambda](github/deploy-serverless-lambda-to-aws.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Auto-generate README for TIL](github/auto-generate-readme.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Deploy Azure function with Azure Functions Core Tool](github/deploy-azure-functions-using-functions-core-tools.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Deploy Azure functions with Github actions](github/deploy-azure-functions.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Build .NET code with Github action](github/build-dotnet-github-action.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Build and deploy Jekull website to AWS S3](github/build-and-deploy-jekyll-website.md) - Thu Aug 26 16:36:53 2021 +0100
 - [CODEOWNERS](github/codeowners.md) - Thu Aug 26 16:30:19 2021 +0100
 - [Ephmeral certificate](ssl/ephemeral-certificate.md) - Tue Aug 24 13:36:35 2021 +0100
 - [Dockerize an ASP.NET Core application](container/dockerize-asp-net-application.md) - Mon Aug 23 10:34:05 2021 +0100
@@ -25,13 +31,7 @@ _211 TILs and counting..._
 - [Serializatioin and Deserialization with System.Text.Json](system.text.json/serialize-and-deserialize.md) - Tue Jul 27 23:06:51 2021 +0100
 - [Dynamics Nav Getting Started](microsoft-dynamics-nav/dynamics-nav-getting-started.md) - Tue Jul 27 21:38:31 2021 +0100
 - [Azure API Management](azure/azure-api-management.md) - Sun Jul 25 18:12:54 2021 +0100
-- [Deploy Azure function with Azure Functions Core Tool](github-actions/deploy-azure-functions-using-functions-core-tools.md) - Sun Jul 25 12:32:34 2021 +0100
 - [Sentry usage](sentry/sentry-usage.md) - Sat Jul 24 11:40:11 2021 +0100
-- [Getting started with Sentry](sentry/sentry-getting-started.md) - Sat Jul 24 11:38:32 2021 +0100
-- [Keyboard shortcuts](xcode/xcode-shortcuts.md) - Fri Jul 23 23:29:48 2021 +0100
-- [Azure Data Studio](azure-data-studio/azure-data-studio-getting-started.md) - Sun Jul 18 22:38:10 2021 +0100
-- [Share common code in ClassFixture](xunit/classfixture-in-xunit.md) - Thu Jul 15 12:05:08 2021 +0100
-- [Deploy Azure functions with Github actions](github-actions/deploy-azure-functions.md) - Wed Jul 14 16:32:58 2021 +0100
 
 ### Categories
 
@@ -64,7 +64,6 @@ _211 TILs and counting..._
 - [fsharp](#fsharp)
 - [git](#git)
 - [github](#github)
-- [github-actions](#github-actions)
 - [glossaries](#glossaries)
 - [gmail](#gmail)
 - [golang](#golang)
@@ -258,17 +257,15 @@ _211 TILs and counting..._
 - [Git Set up](git/set-up-git.md)
 
 ### [github](#github)
+- [Auto-generate README for TIL](github/auto-generate-readme.md)
+- [Build and deploy Jekull website to AWS S3](github/build-and-deploy-jekyll-website.md)
+- [Build .NET code with Github action](github/build-dotnet-github-action.md)
 - [CODEOWNERS](github/codeowners.md)
+- [Deploy Azure function with Azure Functions Core Tool](github/deploy-azure-functions-using-functions-core-tools.md)
+- [Deploy Azure functions with Github actions](github/deploy-azure-functions.md)
+- [Deploying C# severless project to AWS lambda](github/deploy-serverless-lambda-to-aws.md)
 - [Github Packages](github/github-packages.md)
 - [Githut shortcuts](github/github-shortcuts.md)
-
-### [github-actions](#github-actions)
-- [Auto-generate README for TIL](github-actions/auto-generate-readme.md)
-- [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md)
-- [Build .NET code with Github action](github-actions/build-dotnet-github-action.md)
-- [Deploy Azure function with Azure Functions Core Tool](github-actions/deploy-azure-functions-using-functions-core-tools.md)
-- [Deploy Azure functions with Github actions](github-actions/deploy-azure-functions.md)
-- [Deploying C# severless project to AWS lambda](github-actions/deploy-serverless-lambda-to-aws.md)
 
 ### [glossaries](#glossaries)
 - [* AMI: [An Amazon Machine Image (AMI)](https://en.wikipedia.org/wiki/Amazon_Machine_Image) is a special type of virtual appliance that is used to create a virtual machine within the Amazon Elastic Compute Cloud ("EC2"). It serves as the basic unit of deployment for services delivered using EC2.](glossaries/dictionary.md)
