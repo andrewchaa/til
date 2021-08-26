@@ -15,7 +15,10 @@ TestEnvironment = string.IsNullOrEmpty(releaseEnvironment)
     ? "local"
     : releaseEnvironment.Replace("stage-", string.Empty);
 
+var context = builder.GetContext();
+
 var config = new ConfigurationBuilder()
+    .SetBasePath(context.ApplicationRootPath)
     .AddJsonFile($"appsettings.{TestEnvironment}.json") // to read json file
     .AddEnvironmentVariables() // to read environment variables
     .Build();
