@@ -26,3 +26,19 @@ var config = new ConfigurationBuilder()
 var apiHost = config["api_host"];
 var apiProduct = config["product"];
 ```
+
+### strongly typed options configuration
+
+```csharp
+builder.Services.AddSingleton(config);
+builder.Services.Configure<ReportingOptions>(config.GetSection(ReportingOptions.Position));
+
+// option class
+public class ReportingOptions
+{
+    public const string Position = "Values";
+
+    public string HrTaxAuthorityServiceUrl { get; set; }
+}
+
+```
