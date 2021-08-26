@@ -1,8 +1,5 @@
-# VS Code
+# VS Code Keyboard Shortcuts
 
-* [Keyboard Shortcuts](#keyboard-shortcuts)
-
-### Keyboard Shortcuts
 
 * activate file explorer: shft + cmd + e
 * format html: cmd + f, cmd + k
