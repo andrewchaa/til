@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_210 TILs and counting..._
+_211 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [CODEOWNERS](github/codeowners.md) - Thu Aug 26 16:30:19 2021 +0100
 - [Ephmeral certificate](ssl/ephemeral-certificate.md) - Tue Aug 24 13:36:35 2021 +0100
 - [Dockerize an ASP.NET Core application](container/dockerize-asp-net-application.md) - Mon Aug 23 10:34:05 2021 +0100
 - [Docker concepts](container/docker-concepts.md) - Mon Aug 23 10:22:33 2021 +0100
@@ -31,7 +32,6 @@ _210 TILs and counting..._
 - [Azure Data Studio](azure-data-studio/azure-data-studio-getting-started.md) - Sun Jul 18 22:38:10 2021 +0100
 - [Share common code in ClassFixture](xunit/classfixture-in-xunit.md) - Thu Jul 15 12:05:08 2021 +0100
 - [Deploy Azure functions with Github actions](github-actions/deploy-azure-functions.md) - Wed Jul 14 16:32:58 2021 +0100
-- [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md) - Tue Jul 13 20:54:16 2021 +0100
 
 ### Categories
 
@@ -258,6 +258,7 @@ _210 TILs and counting..._
 - [Git Set up](git/set-up-git.md)
 
 ### [github](#github)
+- [CODEOWNERS](github/codeowners.md)
 - [Github Packages](github/github-packages.md)
 - [Githut shortcuts](github/github-shortcuts.md)
 
