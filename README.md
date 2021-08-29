@@ -12,7 +12,7 @@ _213 TILs and counting..._
 
 ### 20 most recent TILs
 
-- [Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md) - Sun Aug 29 18:44:36 2021 +0100
+- [e# Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md) - Sun Aug 29 18:44:36 2021 +0100
 - [// Testing topic subscription](aws-sns/create-a-test-subscription.md) - Sun Aug 29 18:39:23 2021 +0100
 - [Open a file in Rider from the terminal](rider/open-solution-file-from-the-terminal.md) - Sun Aug 29 18:21:15 2021 +0100
 - [# Enable .editorconfig in visual studio code](vs-code/enable-csharp-editorconfig.md) - Thu Aug 26 17:35:33 2021 +0100
@@ -153,7 +153,7 @@ _213 TILs and counting..._
 
 ### [aws-sns](#aws-sns)
 - [// Testing topic subscription](aws-sns/create-a-test-subscription.md)
-- [Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md)
+- [e# Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md)
 
 ### [azure](#azure)
 - [Azure API Management](azure/azure-api-management.md)
