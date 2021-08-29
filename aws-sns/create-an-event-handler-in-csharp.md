@@ -1,4 +1,4 @@
-# Create an event handler in C#
+e# Create an event handler in C#
 
 Though it has improved a lot, still I feel like C# is not the first class citizen language on AWS. Often the examples are
 
@@ -12,7 +12,7 @@ This is how I figured out how to write a C# handler to AWS SNS topic, using [ser
 
 ### Provision a topic. 
 
-I used serverless.yml
+I used [serverless.yml](https://www.serverless.com/framework/docs/providers/aws/events/sns/)
 
 ```yaml
 resources:
