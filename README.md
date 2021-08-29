@@ -12,15 +12,16 @@ _212 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [// Testing topic subscription](aws-sns/create-a-test-subscription.md) - Sun Aug 29 18:39:23 2021 +0100
 - [Open a file in Rider from the terminal](rider/open-solution-file-from-the-terminal.md) - Sun Aug 29 18:21:15 2021 +0100
-- [VS Code Keyboard Shortcuts](vs-code/keyboard-shortcuts.md) - Thu Aug 26 17:35:33 2021 +0100
-- [Setting up lint on VS Code](vs-code/set-up-lint-vs-code.md) - Thu Aug 26 17:35:33 2021 +0100
 - [# Enable .editorconfig in visual studio code](vs-code/enable-csharp-editorconfig.md) - Thu Aug 26 17:35:33 2021 +0100
-- [Build and deploy Jekull website to AWS S3](github/build-and-deploy-jekyll-website.md) - Thu Aug 26 16:36:53 2021 +0100
-- [Deploying C# severless project to AWS lambda](github/deploy-serverless-lambda-to-aws.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Setting up lint on VS Code](vs-code/set-up-lint-vs-code.md) - Thu Aug 26 17:35:33 2021 +0100
+- [VS Code Keyboard Shortcuts](vs-code/keyboard-shortcuts.md) - Thu Aug 26 17:35:33 2021 +0100
 - [Deploy Azure function with Azure Functions Core Tool](github/deploy-azure-functions-using-functions-core-tools.md) - Thu Aug 26 16:36:53 2021 +0100
 - [Auto-generate README for TIL](github/auto-generate-readme.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Deploying C# severless project to AWS lambda](github/deploy-serverless-lambda-to-aws.md) - Thu Aug 26 16:36:53 2021 +0100
 - [Build .NET code with Github action](github/build-dotnet-github-action.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Build and deploy Jekull website to AWS S3](github/build-and-deploy-jekyll-website.md) - Thu Aug 26 16:36:53 2021 +0100
 - [Deploy Azure functions with Github actions](github/deploy-azure-functions.md) - Thu Aug 26 16:36:53 2021 +0100
 - [CODEOWNERS](github/codeowners.md) - Thu Aug 26 16:30:19 2021 +0100
 - [Ephmeral certificate](ssl/ephemeral-certificate.md) - Tue Aug 24 13:36:35 2021 +0100
@@ -31,7 +32,6 @@ _212 TILs and counting..._
 - [Dockerise Azure Functions](azure-functions/dockerise-azure-functions.md) - Mon Aug 16 14:48:22 2021 +0100
 - [Cosmos DB Getting Starated](cosmos.db/cosmos.db.getting.started.md) - Sat Jul 31 22:52:14 2021 +0100
 - [Getting started with Fluent Migration](fluent-migration/fluent-migration-getting-started.md) - Fri Jul 30 10:56:10 2021 +0100
-- [Implementing Cursor-based Pagination](api/implementing-cursor-pagination.md) - Wed Jul 28 11:34:22 2021 +0100
 
 ### Categories
 
@@ -39,6 +39,7 @@ _212 TILs and counting..._
 - [api](#api)
 - [asp-net-core](#asp-net-core)
 - [aws](#aws)
+- [aws-sns](#aws-sns)
 - [azure](#azure)
 - [azure-data-studio](#azure-data-studio)
 - [azure-devops](#azure-devops)
@@ -148,8 +149,10 @@ _212 TILs and counting..._
 - [## resources](aws/aws-elastic-beanstalk.md)
 - [aws rds](aws/aws-rds.md)
 - [AWS - S3](aws/aws-s3.md)
-- [// Testing topic subscription](aws/aws-sns.md)
 - [Step Function](aws/aws-stepfunction.md)
+
+### [aws-sns](#aws-sns)
+- [// Testing topic subscription](aws-sns/create-a-test-subscription.md)
 
 ### [azure](#azure)
 - [Azure API Management](azure/azure-api-management.md)
