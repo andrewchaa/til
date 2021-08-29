@@ -31,6 +31,14 @@ resources:
     handler: Navien.Installers.Apis::Navien.Installers.Apis.EventHandlers.CompanyUpdatedEventHandler::Handle
     package:
       artifact: bin/release/netcoreapp2.1/deploy-package.zip
-    events:
-      - sns: CompanyUpdated
 ```
+
+### Publishing a topic event
+
+Reference `AWSSDK.SimpleNotificationService` to use the client.
+
+```xml
+<PackageReference Include="AWSSDK.Core" Version="3.7.2.8" />
+<PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.7.2.27" />
+```
+
