@@ -13,7 +13,7 @@ _214 TILs and counting..._
 ### 20 most recent TILs
 
 - [Apps](resources/apps.md) - Mon Aug 30 21:31:23 2021 +0100
-- [e# Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md) - Sun Aug 29 18:44:36 2021 +0100
+- [Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md) - Sun Aug 29 18:44:36 2021 +0100
 - [// Testing topic subscription](aws-sns/create-a-test-subscription.md) - Sun Aug 29 18:39:23 2021 +0100
 - [Open a file in Rider from the terminal](rider/open-solution-file-from-the-terminal.md) - Sun Aug 29 18:21:15 2021 +0100
 - [Setting up lint on VS Code](vs-code/set-up-lint-vs-code.md) - Thu Aug 26 17:35:33 2021 +0100
@@ -153,7 +153,7 @@ _214 TILs and counting..._
 
 ### [aws-sns](#aws-sns)
 - [// Testing topic subscription](aws-sns/create-a-test-subscription.md)
-- [e# Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md)
+- [Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md)
 
 ### [azure](#azure)
 - [Azure API Management](azure/azure-api-management.md)
