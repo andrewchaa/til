@@ -24,14 +24,20 @@ resources:
         TopicName: CompanyUpdated
 ```
 
-### Provision a function that will subscribe to the topic
+### Provision a function that will be bound to a SNS topic
+
+This will create the topic also.
 
 ```csharp
   CompanyUpdatedEventHandler:
     handler: Navien.Installers.Apis::Navien.Installers.Apis.EventHandlers.CompanyUpdatedEventHandler::Handle
     package:
       artifact: bin/release/netcoreapp2.1/deploy-package.zip
+    events:
+      - sns: CompanyUpdated
 ```
+
+If you want to bind the function to an existing topic, you have to reference the full ARN.
 
 ### Publishing a topic event
 
