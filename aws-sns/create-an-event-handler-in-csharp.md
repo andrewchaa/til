@@ -41,7 +41,7 @@ If you want to bind the function to an existing topic, you have to reference the
 
 ### Publishing a topic event
 
-Reference `AWSSDK.SimpleNotificationService` to use the client.
+Reference `AWSSDK.SimpleNotificationService` to use the client and to [publish the event](https://docs.aws.amazon.com/sdkfornet/v3/apidocs/items/SNS/TSNSClient.html).
 
 ```xml
 <PackageReference Include="AWSSDK.Core" Version="3.7.2.8" />
