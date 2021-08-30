@@ -48,3 +48,9 @@ Reference `AWSSDK.SimpleNotificationService` to use the client.
 <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.7.2.27" />
 ```
 
+### Subscribing to a topic
+
+Once you create the function, the handle method will be bound to the topic. You need to deserialize the message and handle it within the method.
+
+To receive the SNS event, install `Amazon.Lambda.SNSEvents` package and use `SNSEvent` class. 
+
