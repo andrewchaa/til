@@ -2,7 +2,7 @@
 
 * Value property to return the primitive value
 * Overrided `ToString` for easy logging
-* Implicit conversion, so that the type can be used as if it's a primitive type
+* [Implicit conversion](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/user-defined-conversion-operators), so that the type can be used as if it's a primitive type
 
 
 ```csharp
