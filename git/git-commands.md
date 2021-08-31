@@ -54,12 +54,9 @@ git config --global url."https://".insteadOf git://
 
 ```
 
-
-
-### Remote Repository
-
-```
-```
+command | description
+-- | --
+git remote prune origin | to fix `error: cannot lock ref ... `
 
 ### Remote
 
