@@ -5,6 +5,11 @@
 * [Remote Repository](#remote-repository)
 * [Github Personal Token](#github-personal-token)
 
+command | description
+-- | --
+git remote prune origin | to fix `error: cannot lock ref ... `
+git config --global core.editor "code --wait" | set VS Code as the default git editor
+
 ### Resources
 
 * posh-git: https://github.com/dahlbyk/posh-git
@@ -53,10 +58,6 @@ git config --global url."https://".insteadOf git://
 /deploy
 
 ```
-
-command | description
--- | --
-git remote prune origin | to fix `error: cannot lock ref ... `
 
 ### Remote
 
