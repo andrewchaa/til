@@ -1,4 +1,7 @@
-# Docker Terminology
+# Docker Introduction
+
+![image](https://user-images.githubusercontent.com/840427/132942592-6e64f095-efac-42c9-b4c8-d728a090c811.png)
+
 
 ### Container image
 
