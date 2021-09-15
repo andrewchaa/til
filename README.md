@@ -12,6 +12,7 @@ _217 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Docker basic commands](docker/docker-basic-commands.md) - Wed Sep 15 22:25:24 2021 +0100
 - [Docker Introduction](container/docker-introduction.md) - Sat Sep 11 10:04:05 2021 +0100
 - [gem commands](ruby-gem/gem-commands.md) - Fri Sep 10 20:22:21 2021 +0100
 - [Models for Primitive Types](dot-net/create-model-for-primitive-types.md) - Mon Aug 30 22:57:36 2021 +0100
@@ -20,18 +21,17 @@ _217 TILs and counting..._
 - [Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md) - Sun Aug 29 18:44:36 2021 +0100
 - [// Testing topic subscription](aws-sns/create-a-test-subscription.md) - Sun Aug 29 18:39:23 2021 +0100
 - [Open a file in Rider from the terminal](rider/open-solution-file-from-the-terminal.md) - Sun Aug 29 18:21:15 2021 +0100
-- [VS Code Keyboard Shortcuts](vs-code/keyboard-shortcuts.md) - Thu Aug 26 17:35:33 2021 +0100
 - [Setting up lint on VS Code](vs-code/set-up-lint-vs-code.md) - Thu Aug 26 17:35:33 2021 +0100
+- [VS Code Keyboard Shortcuts](vs-code/keyboard-shortcuts.md) - Thu Aug 26 17:35:33 2021 +0100
 - [# Enable .editorconfig in visual studio code](vs-code/enable-csharp-editorconfig.md) - Thu Aug 26 17:35:33 2021 +0100
-- [Build .NET code with Github action](github/build-dotnet-github-action.md) - Thu Aug 26 16:36:53 2021 +0100
-- [Deploy Azure function with Azure Functions Core Tool](github/deploy-azure-functions-using-functions-core-tools.md) - Thu Aug 26 16:36:53 2021 +0100
-- [Deploy Azure functions with Github actions](github/deploy-azure-functions.md) - Thu Aug 26 16:36:53 2021 +0100
 - [Deploying C# severless project to AWS lambda](github/deploy-serverless-lambda-to-aws.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Deploy Azure function with Azure Functions Core Tool](github/deploy-azure-functions-using-functions-core-tools.md) - Thu Aug 26 16:36:53 2021 +0100
 - [Auto-generate README for TIL](github/auto-generate-readme.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Deploy Azure functions with Github actions](github/deploy-azure-functions.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Build .NET code with Github action](github/build-dotnet-github-action.md) - Thu Aug 26 16:36:53 2021 +0100
 - [Build and deploy Jekull website to AWS S3](github/build-and-deploy-jekyll-website.md) - Thu Aug 26 16:36:53 2021 +0100
 - [CODEOWNERS](github/codeowners.md) - Thu Aug 26 16:30:19 2021 +0100
 - [Ephmeral certificate](ssl/ephemeral-certificate.md) - Tue Aug 24 13:36:35 2021 +0100
-- [Dockerize an ASP.NET Core application](container/dockerize-asp-net-application.md) - Mon Aug 23 10:34:05 2021 +0100
 
 ### Categories
 
@@ -54,6 +54,7 @@ _217 TILs and counting..._
 - [csharp](#csharp)
 - [curl](#curl)
 - [dapper](#dapper)
+- [docker](#docker)
 - [domain-driven-design](#domain-driven-design)
 - [dot-net](#dot-net)
 - [eastic-search](#eastic-search)
@@ -196,7 +197,6 @@ _217 TILs and counting..._
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md)
 
 ### [container](#container)
-- [Docker basic commands](container/docker-basic-commands.md)
 - [docker-compose up / down](container/docker-compose.md)
 - [Docker concepts](container/docker-concepts.md)
 - [Docker Introduction](container/docker-introduction.md)
@@ -220,6 +220,9 @@ _217 TILs and counting..._
 
 ### [dapper](#dapper)
 - [**Resources**](dapper/dapper-queries.md)
+
+### [docker](#docker)
+- [Docker basic commands](docker/docker-basic-commands.md)
 
 ### [domain-driven-design](#domain-driven-design)
 - [```csharp](domain-driven-design/ddd-value-object.md)
