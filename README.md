@@ -12,7 +12,7 @@ _219 TILs and counting..._
 
 ### 20 most recent TILs
 
-- [# What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
+- [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
@@ -496,7 +496,7 @@ _219 TILs and counting..._
 
 ### [typescript](#typescript)
 - [## Set up](typescript/typescript.md)
-- [# What is typescript?](typescript/what-is-typescript.md)
+- [What is typescript?](typescript/what-is-typescript.md)
 
 ### [virtual-box](#virtual-box)
 - [**Cannot register the DVD image '/Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso'**](virtual-box/virtual-box.md)
