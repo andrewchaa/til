@@ -5,6 +5,7 @@ command | description
 `docker build .` | build an image from a Dockerfile
 `docker exec -it 21 /bin/bash` | connect to the running docker instance and it's bash
 `docker exec 21 ls -al` | execute `ls -al` command in the docker instance
+`docker exec b7 cat /var/jenkins_home/secrets/initialAdminPassword` | execute cat command
 `docker image ls` | list docker images
 `docker images` | list all docker images
 `docker image prune` | remove all dangling images
