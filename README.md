@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_217 TILs and counting..._
+_218 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
 - [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
@@ -29,9 +30,8 @@ _217 TILs and counting..._
 - [VS Code Keyboard Shortcuts](vs-code/keyboard-shortcuts.md) - Thu Aug 26 17:35:33 2021 +0100
 - [Setting up lint on VS Code](vs-code/set-up-lint-vs-code.md) - Thu Aug 26 17:35:33 2021 +0100
 - [Build .NET code with Github action](github/build-dotnet-github-action.md) - Thu Aug 26 16:36:53 2021 +0100
-- [Deploying C# severless project to AWS lambda](github/deploy-serverless-lambda-to-aws.md) - Thu Aug 26 16:36:53 2021 +0100
 - [Deploy Azure functions with Github actions](github/deploy-azure-functions.md) - Thu Aug 26 16:36:53 2021 +0100
-- [Auto-generate README for TIL](github/auto-generate-readme.md) - Thu Aug 26 16:36:53 2021 +0100
+- [Build and deploy Jekull website to AWS S3](github/build-and-deploy-jekyll-website.md) - Thu Aug 26 16:36:53 2021 +0100
 
 ### Categories
 
@@ -218,6 +218,7 @@ _217 TILs and counting..._
 - [docker-compose up / down](docker/docker-compose.md)
 - [Docker concepts](docker/docker-concepts.md)
 - [Docker Introduction](docker/docker-introduction.md)
+- [Docker Networks](docker/docker-networks.md)
 - [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md)
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md)
 
