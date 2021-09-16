@@ -1,5 +1,7 @@
-  # What is typescript?
-  
+# What is typescript?
+
+### Features
+
   * Cross-platform
   * ES 6 features
   * Object-oriented language
