@@ -12,13 +12,13 @@ _218 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
 - [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Docker basic commands](docker/docker-basic-commands.md) - Wed Sep 15 22:25:24 2021 +0100
 - [gem commands](ruby-gem/gem-commands.md) - Fri Sep 10 20:22:21 2021 +0100
 - [Models for Primitive Types](dot-net/create-model-for-primitive-types.md) - Mon Aug 30 22:57:36 2021 +0100
 - [References](resources/references.md) - Mon Aug 30 22:54:32 2021 +0100
@@ -214,7 +214,7 @@ _218 TILs and counting..._
 - [**Resources**](dapper/dapper-queries.md)
 
 ### [docker](#docker)
-- [Docker basic commands](docker/docker-basic-commands.md)
+- [Docker basic commands](docker/docker-commands.md)
 - [docker-compose up / down](docker/docker-compose.md)
 - [Docker concepts](docker/docker-concepts.md)
 - [Docker Introduction](docker/docker-introduction.md)
