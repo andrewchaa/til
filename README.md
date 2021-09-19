@@ -6,20 +6,21 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_220 TILs and counting..._
+_221 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Detox test cases](detox/detox-test-cases.md) - Sun Sep 19 09:03:12 2021 +0100
 - [Detox](detox/detox-getting-started.md) - Sat Sep 18 22:02:42 2021 +0100
 - [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
 - [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
 - [gem commands](ruby-gem/gem-commands.md) - Fri Sep 10 20:22:21 2021 +0100
 - [Models for Primitive Types](dot-net/create-model-for-primitive-types.md) - Mon Aug 30 22:57:36 2021 +0100
@@ -28,10 +29,9 @@ _220 TILs and counting..._
 - [Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md) - Sun Aug 29 18:44:36 2021 +0100
 - [// Testing topic subscription](aws-sns/create-a-test-subscription.md) - Sun Aug 29 18:39:23 2021 +0100
 - [Open a file in Rider from the terminal](rider/open-solution-file-from-the-terminal.md) - Sun Aug 29 18:21:15 2021 +0100
-- [Setting up lint on VS Code](vs-code/set-up-lint-vs-code.md) - Thu Aug 26 17:35:33 2021 +0100
 - [# Enable .editorconfig in visual studio code](vs-code/enable-csharp-editorconfig.md) - Thu Aug 26 17:35:33 2021 +0100
+- [Setting up lint on VS Code](vs-code/set-up-lint-vs-code.md) - Thu Aug 26 17:35:33 2021 +0100
 - [VS Code Keyboard Shortcuts](vs-code/keyboard-shortcuts.md) - Thu Aug 26 17:35:33 2021 +0100
-- [Auto-generate README for TIL](github/auto-generate-readme.md) - Thu Aug 26 16:36:53 2021 +0100
 
 ### Categories
 
@@ -216,6 +216,7 @@ _220 TILs and counting..._
 
 ### [detox](#detox)
 - [Detox](detox/detox-getting-started.md)
+- [Detox test cases](detox/detox-test-cases.md)
 
 ### [docker](#docker)
 - [Docker basic commands](docker/docker-commands.md)
