@@ -18,3 +18,19 @@ await element(by.id('username-textinput')).typeText('admin')
 * `.multiTap()`
 * `.scroll()`
 * `.swipe()`
+* `.typeText()`
+* `.replaceText()`
+* `.clearText()`
+
+### Expectations
+
+* `.toBeVisible()`
+* `.toExist()`
+* `.toHaveText()`
+
+### Device Object
+
+* `device.launchApp()`
+* `device.reloadReactNative()`
+* `device.openURL(url)`
+* `device.sendUserNotification(params)`
