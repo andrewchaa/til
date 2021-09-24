@@ -6,5 +6,5 @@ Use `services`
 
 ```csharp
 services.AddSingleton(x => new ServiceBusClient(
-    x.GetService<IConfiguration>().GetConnectionString("fonoa-broker")));
+    x.GetService<IConfiguration>().GetConnectionString("broker")));
 ```
