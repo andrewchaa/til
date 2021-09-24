@@ -12,6 +12,7 @@ _224 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Azure Service Bus Message sessions](azure-service-bus/azure-servicebus-session.md) - Fri Sep 24 09:45:31 2021 +0100
 - [Read Request Body](asp-net-core/read-request-body.md) - Fri Sep 24 09:24:05 2021 +0100
 - [Configuration in ASP.NET](asp-net-core/asp-net-configuration.md) - Fri Sep 24 09:19:59 2021 +0100
 - [ASP.NET Parameter Mappings](asp-net-core/asp-net-parameter-mapping.md) - Thu Sep 23 15:42:48 2021 +0100
@@ -21,8 +22,8 @@ _224 TILs and counting..._
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
-- [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
+- [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
 - [gem commands](ruby-gem/gem-commands.md) - Fri Sep 10 20:22:21 2021 +0100
@@ -31,7 +32,6 @@ _224 TILs and counting..._
 - [Apps](resources/apps.md) - Mon Aug 30 21:31:23 2021 +0100
 - [Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md) - Sun Aug 29 18:44:36 2021 +0100
 - [// Testing topic subscription](aws-sns/create-a-test-subscription.md) - Sun Aug 29 18:39:23 2021 +0100
-- [Open a file in Rider from the terminal](rider/open-solution-file-from-the-terminal.md) - Sun Aug 29 18:21:15 2021 +0100
 
 ### Categories
 
@@ -44,6 +44,7 @@ _224 TILs and counting..._
 - [azure-data-studio](#azure-data-studio)
 - [azure-devops](#azure-devops)
 - [azure-functions](#azure-functions)
+- [azure-service-bus](#azure-service-bus)
 - [bash](#bash)
 - [brew](#brew)
 - [car](#car)
@@ -162,7 +163,6 @@ _224 TILs and counting..._
 
 ### [azure](#azure)
 - [Azure API Management](azure/azure-api-management.md)
-- [Azure Service Bus Message sessions](azure/azure-servicebus-session.md)
 - [Azure Storage](azure/azure-storage.md)
 
 ### [azure-data-studio](#azure-data-studio)
@@ -179,6 +179,9 @@ _224 TILs and counting..._
 - [Azure Functions Logging](azure-functions/azure-functions-logging.md)
 - [Dockerise Azure Functions](azure-functions/dockerise-azure-functions.md)
 - [Developing and running Azure functions on a local machine](azure-functions/working-with-azure-function-locally.md)
+
+### [azure-service-bus](#azure-service-bus)
+- [Azure Service Bus Message sessions](azure-service-bus/azure-servicebus-session.md)
 
 ### [bash](#bash)
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md)
