@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_224 TILs and counting..._
+_225 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Registering services in .NET](dot-net/registering-services.md) - Fri Sep 24 10:10:34 2021 +0100
 - [Azure Service Bus Message sessions](azure-service-bus/azure-servicebus-session.md) - Fri Sep 24 09:45:31 2021 +0100
 - [Read Request Body](asp-net-core/read-request-body.md) - Fri Sep 24 09:24:05 2021 +0100
 - [Configuration in ASP.NET](asp-net-core/asp-net-configuration.md) - Fri Sep 24 09:19:59 2021 +0100
@@ -21,17 +22,16 @@ _224 TILs and counting..._
 - [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
+- [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
-- [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
 - [gem commands](ruby-gem/gem-commands.md) - Fri Sep 10 20:22:21 2021 +0100
 - [Models for Primitive Types](dot-net/create-model-for-primitive-types.md) - Mon Aug 30 22:57:36 2021 +0100
 - [References](resources/references.md) - Mon Aug 30 22:54:32 2021 +0100
 - [Apps](resources/apps.md) - Mon Aug 30 21:31:23 2021 +0100
 - [Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md) - Sun Aug 29 18:44:36 2021 +0100
-- [// Testing topic subscription](aws-sns/create-a-test-subscription.md) - Sun Aug 29 18:39:23 2021 +0100
 
 ### Categories
 
@@ -244,6 +244,7 @@ _224 TILs and counting..._
 - [.NET Cli](dot-net/dotnet-cli.md)
 - [Handle Configurations](dot-net/handle-configurations.md)
 - [Logging in .NET](dot-net/logging.md)
+- [Registering services in .NET](dot-net/registering-services.md)
 
 ### [eastic-search](#eastic-search)
 - [Full text search examples](eastic-search/full-text-search-examples.md)
