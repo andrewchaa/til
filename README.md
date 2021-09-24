@@ -6,23 +6,24 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_222 TILs and counting..._
+_223 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Configuration in ASP.NET](asp-net-core/asp-net-configuration.md) - Fri Sep 24 09:19:59 2021 +0100
 - [ASP.NET Parameter Mappings](asp-net-core/asp-net-parameter-mapping.md) - Thu Sep 23 15:42:48 2021 +0100
 - [Detox test cases](detox/detox-test-cases.md) - Sun Sep 19 09:03:12 2021 +0100
 - [Detox](detox/detox-getting-started.md) - Sat Sep 18 22:02:42 2021 +0100
 - [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
-- [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 - [gem commands](ruby-gem/gem-commands.md) - Fri Sep 10 20:22:21 2021 +0100
 - [Models for Primitive Types](dot-net/create-model-for-primitive-types.md) - Mon Aug 30 22:57:36 2021 +0100
 - [References](resources/references.md) - Mon Aug 30 22:54:32 2021 +0100
@@ -30,7 +31,6 @@ _222 TILs and counting..._
 - [Create an event handler in C#](aws-sns/create-an-event-handler-in-csharp.md) - Sun Aug 29 18:44:36 2021 +0100
 - [// Testing topic subscription](aws-sns/create-a-test-subscription.md) - Sun Aug 29 18:39:23 2021 +0100
 - [Open a file in Rider from the terminal](rider/open-solution-file-from-the-terminal.md) - Sun Aug 29 18:21:15 2021 +0100
-- [VS Code Keyboard Shortcuts](vs-code/keyboard-shortcuts.md) - Thu Aug 26 17:35:33 2021 +0100
 - [Setting up lint on VS Code](vs-code/set-up-lint-vs-code.md) - Thu Aug 26 17:35:33 2021 +0100
 
 ### Categories
@@ -136,6 +136,7 @@ _222 TILs and counting..._
 - [Implementing Cursor-based Pagination](api/implementing-cursor-pagination.md)
 
 ### [asp-net-core](#asp-net-core)
+- [Configuration in ASP.NET](asp-net-core/asp-net-configuration.md)
 - [ASP.NET Core](asp-net-core/asp-net-core.md)
 - [ASP.NET Parameter Mappings](asp-net-core/asp-net-parameter-mapping.md)
 - [Handling XML Request in ASP.NET Core controller](asp-net-core/handle-xml-request.md)
