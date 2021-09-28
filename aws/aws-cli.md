@@ -40,5 +40,5 @@ Named Profiles
     
     ./aws/credentials
     [dolphin]
-    aws_access_key_id=****
-    aws_secret_access_key=****
+    aws_access_key_**=****
+    aws_secret_access_**=****
