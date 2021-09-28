@@ -23,7 +23,7 @@ type Query {
 
 ### Queries
 
-```json
+```
 {
   merchandises {
     id
