@@ -48,4 +48,19 @@ type Query {
   }
 }
 
+# query variables
+query Merchandise($id: ID) {
+  merchandise(id: $id) {
+    id
+    name
+    description
+    lastBid
+    lastBidUser
+    imageUrl
+  }
+}
+
+{
+  "id": "a0001-11"
+}
 ```
