@@ -27,6 +27,8 @@ aws s3 sync --delete ./dist s3://www.jsbeautifieronline.net --acl public-read
 
 Named Profiles
 
+
+    ./aws/config
     [default]
     region=eu-west-1
 
@@ -36,3 +38,7 @@ Named Profiles
     [profile dolphin]
     region=eu-west-1
     
+    ./aws/credentials
+    [dolphin]
+    aws_access_key_id=****
+    aws_secret_access_key=****
