@@ -25,7 +25,7 @@ aws s3 sync --delete ./dist s3://www.jsbeautifieronline.net --acl public-read
 
 ### Set up `./aws` on Mac
 
-Named Profiles
+[Named Profiles](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 
 
     ./aws/config
