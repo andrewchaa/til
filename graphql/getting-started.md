@@ -24,6 +24,7 @@ type Query {
 ### Queries
 
 ```
+# query all
 {
   merchandises {
     id
@@ -34,4 +35,17 @@ type Query {
     imageUrl
   }
 }
+
+# query a single
+{
+  merchandise(id: "a0001-11") {
+    id
+    name
+    description
+    lastBid
+    lastBidUser
+    imageUrl
+  }
+}
+
 ```
