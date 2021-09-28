@@ -21,3 +21,17 @@ type Query {
 
 ```
 
+### Queries
+
+```javascript
+{
+  merchandises {
+    id
+    name
+    description
+    lastBid
+    lastBidUser
+    imageUrl
+  }
+}
+```
