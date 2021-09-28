@@ -21,6 +21,7 @@ command | description
 `docker run -itd ubuntu` | run the ubnutu image interactively but detached
 `docker run -d -p 80:8080 jenkins/jenkins` | run jeninks image in a detached mode with port mapping of 80 to 8080
 `docker rm CONTAINER` | Remove one or more containers
+`docker rm -f $(docker ps -a -q)` | remove all docker containers
 `docker stop $(docker ps -aq)` | remove all docker containers
 `docker run IMAGE [COMMAND]` | creates a writeable container layer over the specified image, and then starts it using the specified command
 `docker stop $(docker ps -aq) | stop all running containers. -aq gives you the id of the containers
