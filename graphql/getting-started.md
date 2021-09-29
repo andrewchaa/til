@@ -108,3 +108,29 @@ $scope.updateNow = (id, index) => {
     })
     .catch((error) => console.log("Server responsed with an error: " + error) );        
 ```
+
+### Alias
+
+```
+ query Merchandise($id1: ID, $id2: ID) {
+  m1: merchandise(id: $id1) {
+    id
+    name
+    description
+    lastBid
+    lastBidUser
+    imageUrl
+  }
+
+  m2: merchandise(id: $id2) {
+    id
+    name
+    description
+    lastBid
+    lastBidUser
+    imageUrl
+  }
+
+}
+
+```
