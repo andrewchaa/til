@@ -134,3 +134,23 @@ $scope.updateNow = (id, index) => {
 }
 
 ```
+
+### framgment
+
+```
+ query Merchandise($id1: ID, $id2: ID) {
+  m1: merchandise(id: $id1) {
+		...infoOnly
+  }
+
+  m2: merchandise(id: $id2) {
+    ...infoOnly
+  }
+}
+
+fragment infoOnly on Merchandise {
+ 	id
+  name
+  description
+}
+```
