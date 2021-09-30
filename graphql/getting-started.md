@@ -154,3 +154,38 @@ fragment infoOnly on Merchandise {
   description
 }
 ```
+
+### directive
+
+```
+query Merchandise($id1: ID, $id2: ID, $showBid:Boolean!) {
+  m1: merchandise(id: $id1) {
+		...infoOnly
+    ...bid @include(if: $showBid)
+  }
+
+  m2: merchandise(id: $id2) {
+    ...infoOnly
+    ...bid @include(if: $showBid)
+    
+  }
+}
+
+fragment infoOnly on Merchandise {
+ 	id
+  name
+  description
+}
+
+fragment bid on Merchandise {
+  lastBid
+  lastBidUser
+}
+
+# query
+{
+  "id1": "a0001-11",
+  "id2": "b0001-11",
+  "showBid": false
+}
+```
