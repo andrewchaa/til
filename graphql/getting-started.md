@@ -189,3 +189,24 @@ fragment bid on Merchandise {
   "showBid": false
 }
 ```
+
+# mutation
+
+```javascript
+mutation submitBid(
+  $id: ID,
+  $newBid:Float,
+  $newBidUser:String
+) {
+  submitBid(id:$id, newBid:$newBid, newBidUser:$newBidUser) {
+    accepted
+    reason
+  }
+}
+
+{
+  "id": "a0001-11",
+  "newBid":500001.00,
+  "newBidUser": "lindam"
+}
+```
