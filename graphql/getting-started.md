@@ -157,10 +157,10 @@ fragment infoOnly on Merchandise {
 
 ### directive
 
-```
+```javascript
 query Merchandise($id1: ID, $id2: ID, $showBid:Boolean!) {
   m1: merchandise(id: $id1) {
-		...infoOnly
+    ...infoOnly
     ...bid @include(if: $showBid)
   }
 
@@ -172,7 +172,7 @@ query Merchandise($id1: ID, $id2: ID, $showBid:Boolean!) {
 }
 
 fragment infoOnly on Merchandise {
- 	id
+  id
   name
   description
 }
