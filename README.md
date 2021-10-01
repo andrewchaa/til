@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_228 TILs and counting..._
+_229 TILs and counting..._
 
 ---
 
@@ -24,10 +24,10 @@ _228 TILs and counting..._
 - [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
-- [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
 - [gem commands](ruby-gem/gem-commands.md) - Fri Sep 10 20:22:21 2021 +0100
 - [Models for Primitive Types](dot-net/create-model-for-primitive-types.md) - Mon Aug 30 22:57:36 2021 +0100
@@ -240,6 +240,7 @@ _228 TILs and counting..._
 - [### Resources](domain-driven-design/ddd.md)
 
 ### [dot-net](#dot-net)
+- [](dot-net/assemblyinfo.md)
 - [Cli with CommandLineParser](dot-net/command-line-parser.md)
 - [Copy all conetent files to output folder](dot-net/copy-all-files-to-output-folder-on-build.md)
 - [Models for Primitive Types](dot-net/create-model-for-primitive-types.md)
