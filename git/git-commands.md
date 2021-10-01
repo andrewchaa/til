@@ -7,8 +7,9 @@
 
 command | description
 -- | --
-git remote prune origin | to fix `error: cannot lock ref ... `
-git config --global core.editor "code --wait" | set VS Code as the default git editor
+`git clone --depth 1 https://github.com/django/django.git` | shallow clone, getting the latest copy of the relevant files, saving space and time
+`git remote prune origin` | to fix `error: cannot lock ref ... `
+`git config --global core.editor "code --wait"` | set VS Code as the default git editor
 
 ### Resources
 
