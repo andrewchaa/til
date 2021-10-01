@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_227 TILs and counting..._
+_228 TILs and counting..._
 
 ---
 
@@ -286,6 +286,7 @@ _227 TILs and counting..._
 - [Deploy Azure function with Azure Functions Core Tool](github/deploy-azure-functions-using-functions-core-tools.md)
 - [Deploy Azure functions with Github actions](github/deploy-azure-functions.md)
 - [Deploying C# severless project to AWS lambda](github/deploy-serverless-lambda-to-aws.md)
+- [Github CLI](github/github-cli.md)
 - [Github Packages](github/github-packages.md)
 - [Githut shortcuts](github/github-shortcuts.md)
 
