@@ -9,3 +9,22 @@
 * Shared storage
 * Shared network: Same IP addresses and port-range
 
+### ReplicaSet
+
+* To maintain a stable set of replica Pods running at any given time
+* Provides declarative management for Pods and ReplicaSets
+
+### Rolling Updates
+
+Zero Downtime Deployments
+
+* New replica set is created
+* New Pods are created
+* Traffic is re-routed
+* Old pods are deleted
+* Old Replica set is deleted
+
+### Resource Management
+
+* Requests: minimum required resources
+* Limits: capped resource usage
