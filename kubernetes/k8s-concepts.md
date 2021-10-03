@@ -2,7 +2,7 @@
 
 ### Pod
 
-![image](https://user-images.githubusercontent.com/840427/135745546-fe3f67de-17c7-472f-9a96-bebf0668cc4c.png)
+![image](https://user-images.githubusercontent.com/840427/135745584-f0814083-5289-4074-8fd8-71a5b93b1c0f.png)
 
 
 * Group of 1 or more containers
