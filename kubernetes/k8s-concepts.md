@@ -28,3 +28,5 @@ Zero Downtime Deployments
 
 * Requests: minimum required resources
 * Limits: capped resource usage
+
+![image](https://user-images.githubusercontent.com/840427/135769843-77fda4ec-e44e-45a3-9e86-468ab6e0bd07.png)
