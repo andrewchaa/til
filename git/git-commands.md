@@ -1,6 +1,5 @@
 # git commands
 
-* [Resources](#resources)
 * [Set up](#set-up)
 * [Remote Repository](#remote-repository)
 * [Github Personal Token](#github-personal-token)
@@ -10,10 +9,9 @@ command | description
 git clone --depth 1 https://github.com/django/django.git | shallow clone, getting the latest copy of the relevant files, saving space and time
 git remote prune origin | to fix `error: cannot lock ref ... `
 git config --global core.editor "code --wait" | set VS Code as the default git editor
+git config --global --edit | edit global config file
+git config --global --list | list global config entries
 
-### Resources
-
-* posh-git: https://github.com/dahlbyk/posh-git
 
 ### Github Personal Token
 
