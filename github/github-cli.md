@@ -2,6 +2,13 @@
 
 https://github.com/cli/cli
 
-To install
+### To install
 
     brew install gh
+
+### Commands
+
+command | description
+-- | --
+gh pr view -w | open a pull request in the browser
+gh pr create -d | create a draft pr
