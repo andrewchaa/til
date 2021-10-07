@@ -5,9 +5,10 @@
 
 Key | Description
 -- | --
+⌘ 0 | Commit
+⌘ 3 | show / hide `Find` window
 ⌘ t | find symbol
 ⌘ x | delete the line
-⌘ 3 | show / hide `Find` window
 ⌘ f6 | change signature
 ⌃ ⌘ ➝ | split and move it to right
 ⌃ ⌘ v | paste from history (custom)
