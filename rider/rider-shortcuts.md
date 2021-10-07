@@ -21,6 +21,7 @@ Key | Description
 ⌥ ⌘ n | inline variable
 ⌥ ⇧ f5 | attach to a process
 ⇧ ⌘ r | (custom) refactor this
+⇧ ⌘ ' | maximise the tool window
 ⇧ ⇧ | command pop up
 ⇧ ⌘ e | show / hide Explorer
 ⇧ ⌘ space | show parameter hint
