@@ -17,6 +17,7 @@ Key | Description
 ⌥ f2 | next error
 ⌥ f7 | find usage
 ⌥ 8 | show / hide unit test window
+⌥ ⌘ 8 | show unit test window
 ⌥ ⌘ n | inline variable
 ⌥ ⇧ f5 | attach to a process
 ⇧ ⌘ r | (custom) refactor this
