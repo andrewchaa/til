@@ -2,6 +2,11 @@
 
     npm i -g typescript         // install typescript
 
+### Concepts
+
+![image](https://user-images.githubusercontent.com/840427/136653911-17446a56-7221-41e0-a6d8-63ca60e60c13.png)
+
+
 ### Basic
 
     let name: string = 'John'
