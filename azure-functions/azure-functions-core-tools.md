@@ -1,6 +1,12 @@
 # Azure Functions core Tools
 
-    # Run functional locally
+To install 
+
+    brew tap azure/functions
+    brew install azure-functions-core-tools@3
+
+to Run functional locally
+
     func start
     
     # deploy project files
