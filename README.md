@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_231 TILs and counting..._
+_232 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [nvm](node-js/nvm.md) - Mon Oct 11 23:56:20 2021 +0100
 - [GraphQL getting started](graphql/getting-started.md) - Tue Sep 28 19:42:17 2021 +0100
 - [Stripe's PaymentIntent](stripe/payment-intent.md) - Tue Sep 28 13:50:48 2021 +0100
 - [Registering services in .NET](dot-net/registering-services.md) - Fri Sep 24 10:10:34 2021 +0100
@@ -24,14 +25,13 @@ _231 TILs and counting..._
 - [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
-- [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
 - [gem commands](ruby-gem/gem-commands.md) - Fri Sep 10 20:22:21 2021 +0100
 - [Models for Primitive Types](dot-net/create-model-for-primitive-types.md) - Mon Aug 30 22:57:36 2021 +0100
-- [References](resources/references.md) - Mon Aug 30 22:54:32 2021 +0100
 
 ### Categories
 
@@ -392,6 +392,7 @@ _231 TILs and counting..._
 - [1. install node-inspector](node-js/debugging-node-js.md)
 - [Kill node process](node-js/kill-node-process.md)
 - [npm](node-js/npm.md)
+- [nvm](node-js/nvm.md)
 - [* fs extra, including file copy: https://github.com/jprichardson/node-fs-extra](node-js/resources.md)
 - [Set Up](node-js/set-up-node-environment.md)
 
