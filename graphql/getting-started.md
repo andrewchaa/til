@@ -1,5 +1,13 @@
 # GraphQL getting started
 
+### Resource
+
+* [GraphQL Playground](https://www.graphqlbin.com/)
+* GraphQL Desktop: `brew cask install graphql-playground`
+* [SWAPI](http://graphql.org/swapi-graphql)
+* [Github API](https://developer.github.com/v4/explorer/)
+* [Yelp](https://www.yelp.com/developers/graphiql)
+
 ### Schema
 
 ```javascript
@@ -210,3 +218,4 @@ mutation submitBid(
   "newBidUser": "lindam"
 }
 ```
+
