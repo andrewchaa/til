@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_232 TILs and counting..._
+_233 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Azure Functions in typescript](azure-functions/functions-in-typescript.md) - Tue Oct 12 08:02:05 2021 +0100
 - [nvm](node-js/nvm.md) - Mon Oct 11 23:56:20 2021 +0100
 - [GraphQL getting started](graphql/getting-started.md) - Tue Sep 28 19:42:17 2021 +0100
 - [Stripe's PaymentIntent](stripe/payment-intent.md) - Tue Sep 28 13:50:48 2021 +0100
@@ -25,13 +26,12 @@ _232 TILs and counting..._
 - [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
-- [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
 - [gem commands](ruby-gem/gem-commands.md) - Fri Sep 10 20:22:21 2021 +0100
-- [Models for Primitive Types](dot-net/create-model-for-primitive-types.md) - Mon Aug 30 22:57:36 2021 +0100
 
 ### Categories
 
@@ -180,6 +180,7 @@ _232 TILs and counting..._
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md)
 - [Azure Functions Logging](azure-functions/azure-functions-logging.md)
 - [Dockerise Azure Functions](azure-functions/dockerise-azure-functions.md)
+- [Azure Functions in typescript](azure-functions/functions-in-typescript.md)
 - [Developing and running Azure functions on a local machine](azure-functions/working-with-azure-function-locally.md)
 
 ### [azure-service-bus](#azure-service-bus)
