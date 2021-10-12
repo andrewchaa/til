@@ -2,6 +2,8 @@
 
 Node version matters. Function runtime v3 works best with Node 14 and raise `Did not find any initialized language workers` error on Node 16
 
+Use [nvm](https://github.com/nvm-sh/nvm) to manage the node version on your local machine.
+
 ```
 inal functionDispatcher state: WorkerProcessRestarting. Initialization timed out and host is shutting down
 [2021-10-11T22:36:40.085Z] Executed 'Functions.CreateCompany' (Failed, Id=b4e06a13-7d3e-4efd-b496-f5ab35fb5f8c, Duration=44820ms)
