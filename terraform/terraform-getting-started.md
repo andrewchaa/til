@@ -9,6 +9,7 @@ Install Terraform
 
 * provider.tf
 * variables.tf
+* resource-group.tf
 * your-resource.tf
 
 ```terraform
@@ -17,10 +18,12 @@ Install Terraform
 terraform {
   backend "azurerm" {
     resource_group_name  = "tstate"
-    storage_account_name = "tstate20081"
+    storage_account_name = "deepeyeststate"
     container_name       = "tstate"
     key                  = "sekyee.tfstate"
   }
+
+  required_version = ">=0.12"
 
   required_providers {
     azurerm = {
@@ -34,7 +37,36 @@ provider "azurerm" {
   features {}
 }
 
+# variables.tf
+
+variable "location" {
+  type    = string
+  default = "UK South"
+}
+
+variable "appname" {
+  type    = string
+  default = "sekyee"
+}
+variable "environment" {
+  type    = string
+  default = "dev"
+}
+
+# resource-group.tf
+
+resource "azurerm_resource_group" "sekyee" {
+  name      = "${var.appname}-rg"
+  location  = var.location
+}
+
 ```
+
+### Running the terraform scripts
+
+    terraform init
+    terraform fmt
+    terraform plan
 
 ### Conventions
 
