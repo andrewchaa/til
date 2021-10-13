@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_234 TILs and counting..._
+_235 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md) - Wed Oct 13 23:49:51 2021 +0100
 - [Commit and push automatically on save](typescript/push-change-automatically-to-github.md) - Wed Oct 13 08:50:18 2021 +0100
 - [Azure Functions in typescript](azure-functions/functions-in-typescript.md) - Tue Oct 12 08:02:05 2021 +0100
 - [nvm](node-js/nvm.md) - Mon Oct 11 23:56:20 2021 +0100
@@ -28,10 +29,9 @@ _234 TILs and counting..._
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
 
 ### Categories
 
@@ -67,6 +67,7 @@ _234 TILs and counting..._
 - [fsharp](#fsharp)
 - [git](#git)
 - [github](#github)
+- [github-actions](#github-actions)
 - [glossaries](#glossaries)
 - [gmail](#gmail)
 - [golang](#golang)
@@ -291,6 +292,9 @@ _234 TILs and counting..._
 - [Github CLI](github/github-cli.md)
 - [Github Packages](github/github-packages.md)
 - [Githut shortcuts](github/github-shortcuts.md)
+
+### [github-actions](#github-actions)
+- [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md)
 
 ### [glossaries](#glossaries)
 - [* AMI: [An Amazon Machine Image (AMI)](https://en.wikipedia.org/wiki/Amazon_Machine_Image) is a special type of virtual appliance that is used to create a virtual machine within the Amazon Elastic Compute Cloud ("EC2"). It serves as the basic unit of deployment for services delivered using EC2.](glossaries/dictionary.md)
