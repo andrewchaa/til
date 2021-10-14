@@ -12,6 +12,7 @@ _235 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [npm commands](node-js/npm-commands.md) - Thu Oct 14 08:28:33 2021 +0100
 - [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md) - Wed Oct 13 23:49:51 2021 +0100
 - [Commit and push automatically on save](typescript/push-change-automatically-to-github.md) - Wed Oct 13 08:50:18 2021 +0100
 - [Azure Functions in typescript](azure-functions/functions-in-typescript.md) - Tue Oct 12 08:02:05 2021 +0100
@@ -30,8 +31,7 @@ _235 TILs and counting..._
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
 - [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Docker Introduction](docker/docker-introduction.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 
 ### Categories
 
@@ -396,7 +396,7 @@ _235 TILs and counting..._
 - [```javascript](node-js/configuration-file.md)
 - [1. install node-inspector](node-js/debugging-node-js.md)
 - [Kill node process](node-js/kill-node-process.md)
-- [npm](node-js/npm.md)
+- [npm commands](node-js/npm-commands.md)
 - [nvm](node-js/nvm.md)
 - [* fs extra, including file copy: https://github.com/jprichardson/node-fs-extra](node-js/resources.md)
 - [Set Up](node-js/set-up-node-environment.md)
