@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_235 TILs and counting..._
+_236 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Github Actions Getting Started](github-actions/getting-starated.md) - Thu Oct 14 08:31:24 2021 +0100
 - [npm commands](node-js/npm-commands.md) - Thu Oct 14 08:28:33 2021 +0100
 - [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md) - Wed Oct 13 23:49:51 2021 +0100
 - [Commit and push automatically on save](typescript/push-change-automatically-to-github.md) - Wed Oct 13 08:50:18 2021 +0100
@@ -29,8 +30,7 @@ _235 TILs and counting..._
 - [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
-- [docker-compose up / down](docker/docker-compose.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Docker concepts](docker/docker-concepts.md) - Wed Sep 15 22:27:14 2021 +0100
+- [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
 - [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 
 ### Categories
@@ -294,6 +294,7 @@ _235 TILs and counting..._
 - [Githut shortcuts](github/github-shortcuts.md)
 
 ### [github-actions](#github-actions)
+- [Github Actions Getting Started](github-actions/getting-starated.md)
 - [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md)
 
 ### [glossaries](#glossaries)
