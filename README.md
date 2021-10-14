@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_238 TILs and counting..._
+_239 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Getting started with Jest](jest/getting-started-with-jest.md) - Thu Oct 14 17:13:59 2021 +0100
 - [jest commands](jest/jest-commands.md) - Thu Oct 14 17:12:26 2021 +0100
 - [Getting started with Gatsby](gatsby-js/getting-started-with-gatsby.md) - Thu Oct 14 08:35:17 2021 +0100
 - [Github Actions Getting Started](github-actions/getting-starated.md) - Thu Oct 14 08:31:24 2021 +0100
@@ -31,7 +32,6 @@ _238 TILs and counting..._
 - [Detox](detox/detox-getting-started.md) - Sat Sep 18 22:02:42 2021 +0100
 - [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
-- [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
 
 ### Categories
 
@@ -356,6 +356,7 @@ _238 TILs and counting..._
 - [Install Jekyll](jekyll/install-jekyll.md)
 
 ### [jest](#jest)
+- [Getting started with Jest](jest/getting-started-with-jest.md)
 - [jest commands](jest/jest-commands.md)
 
 ### [journals](#journals)
