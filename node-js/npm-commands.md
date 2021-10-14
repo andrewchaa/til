@@ -1,7 +1,10 @@
-# npm
+# npm commands
 
-`npm i <package> --force` will install the package ignoring version precondition.
-
+command | description
+-- | --
+npm i <package> --force | install the package ignoring version precondition.
+npm i -g npm@latest | install the latest npm
+npm outdated -g --depth=0 | see which global packages need to be updated
 ```
 npm i @react-native-community/picker
 npm ERR! code ERESOLVE
