@@ -11,3 +11,9 @@ npm i -g gatsby-cli
 
 gatsby -v
 ```
+
+```
+gatsby new
+gatsby develop
+gatsby build
+```
