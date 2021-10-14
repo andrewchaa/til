@@ -1,6 +1,6 @@
 # Github Actions Getting Started
 
-* [Quickstart](https://docs.github.com/en/actions/quickstart)
+[Quickstart](https://docs.github.com/en/actions/quickstart)
 
 * Create a `.github/workflows` directory in your repository on GitHub
 * Createa a workflow yaml
