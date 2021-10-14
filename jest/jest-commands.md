@@ -2,4 +2,5 @@
 
 command | description
 -- | --
-npm run test, yarn test | run all the tests
+jest | run all the tests
+jest -t "add credits" | run tests that match the name 
