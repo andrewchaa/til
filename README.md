@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_237 TILs and counting..._
+_238 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [jest commands](jest/jest-commands.md) - Thu Oct 14 17:12:26 2021 +0100
 - [Getting started with Gatsby](gatsby-js/getting-started-with-gatsby.md) - Thu Oct 14 08:35:17 2021 +0100
 - [Github Actions Getting Started](github-actions/getting-starated.md) - Thu Oct 14 08:31:24 2021 +0100
 - [npm commands](node-js/npm-commands.md) - Thu Oct 14 08:28:33 2021 +0100
@@ -31,7 +32,6 @@ _237 TILs and counting..._
 - [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
-- [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
 
 ### Categories
 
@@ -82,6 +82,7 @@ _237 TILs and counting..._
 - [iis](#iis)
 - [javascript](#javascript)
 - [jekyll](#jekyll)
+- [jest](#jest)
 - [journals](#journals)
 - [json-net](#json-net)
 - [k6](#k6)
@@ -353,6 +354,9 @@ _237 TILs and counting..._
 
 ### [jekyll](#jekyll)
 - [Install Jekyll](jekyll/install-jekyll.md)
+
+### [jest](#jest)
+- [jest commands](jest/jest-commands.md)
 
 ### [journals](#journals)
 - [2019](journals/2019-01.md)
