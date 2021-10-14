@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_236 TILs and counting..._
+_237 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Getting started with Gatsby](gatsby-js/getting-started-with-gatsby.md) - Thu Oct 14 08:35:17 2021 +0100
 - [Github Actions Getting Started](github-actions/getting-starated.md) - Thu Oct 14 08:31:24 2021 +0100
 - [npm commands](node-js/npm-commands.md) - Thu Oct 14 08:28:33 2021 +0100
 - [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md) - Wed Oct 13 23:49:51 2021 +0100
@@ -31,7 +32,6 @@ _236 TILs and counting..._
 - [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 - [Docker Networks](docker/docker-networks.md) - Thu Sep 16 12:48:02 2021 +0100
 - [Login to docker shell interactively](docker/interactive-login-docker-shell.md) - Wed Sep 15 22:27:14 2021 +0100
-- [Dockerize an ASP.NET Core application](docker/dockerize-asp-net-application.md) - Wed Sep 15 22:27:14 2021 +0100
 
 ### Categories
 
@@ -65,6 +65,7 @@ _236 TILs and counting..._
 - [firebase](#firebase)
 - [fluent-migration](#fluent-migration)
 - [fsharp](#fsharp)
+- [gatsby-js](#gatsby-js)
 - [git](#git)
 - [github](#github)
 - [github-actions](#github-actions)
@@ -274,6 +275,9 @@ _236 TILs and counting..._
 
 ### [fsharp](#fsharp)
 - [## Resources](fsharp/fsharp.md)
+
+### [gatsby-js](#gatsby-js)
+- [Getting started with Gatsby](gatsby-js/getting-started-with-gatsby.md)
 
 ### [git](#git)
 - [Checking in Git](git/git-checkout.md)
