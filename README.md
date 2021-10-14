@@ -12,6 +12,7 @@ _239 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Thu Oct 14 19:47:06 2021 +0100
 - [Getting started with Jest](jest/getting-started-with-jest.md) - Thu Oct 14 17:13:59 2021 +0100
 - [jest commands](jest/jest-commands.md) - Thu Oct 14 17:12:26 2021 +0100
 - [Getting started with Gatsby](gatsby-js/getting-started-with-gatsby.md) - Thu Oct 14 08:35:17 2021 +0100
@@ -31,7 +32,6 @@ _239 TILs and counting..._
 - [Detox test cases](detox/detox-test-cases.md) - Sun Sep 19 09:03:12 2021 +0100
 - [Detox](detox/detox-getting-started.md) - Sat Sep 18 22:02:42 2021 +0100
 - [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
-- [Docker basic commands](docker/docker-commands.md) - Thu Sep 16 22:39:13 2021 +0100
 
 ### Categories
 
@@ -288,7 +288,6 @@ _239 TILs and counting..._
 
 ### [github](#github)
 - [Auto-generate README for TIL](github/auto-generate-readme.md)
-- [Build and deploy Jekull website to AWS S3](github/build-and-deploy-jekyll-website.md)
 - [Build .NET code with Github action](github/build-dotnet-github-action.md)
 - [CODEOWNERS](github/codeowners.md)
 - [Deploy Azure function with Azure Functions Core Tool](github/deploy-azure-functions-using-functions-core-tools.md)
@@ -299,6 +298,7 @@ _239 TILs and counting..._
 - [Githut shortcuts](github/github-shortcuts.md)
 
 ### [github-actions](#github-actions)
+- [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md)
 - [Github Actions Getting Started](github-actions/getting-starated.md)
 - [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md)
 
