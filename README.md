@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_239 TILs and counting..._
+_240 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Sign HttpRequestMessage using AWS Signature v4](aws/sign-httprequestmessage-using-aws-signature-v4.md) - Fri Oct 15 17:09:59 2021 +0100
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Thu Oct 14 19:47:06 2021 +0100
 - [Getting started with Jest](jest/getting-started-with-jest.md) - Thu Oct 14 17:13:59 2021 +0100
 - [jest commands](jest/jest-commands.md) - Thu Oct 14 17:12:26 2021 +0100
@@ -31,7 +32,6 @@ _239 TILs and counting..._
 - [ASP.NET Parameter Mappings](asp-net-core/asp-net-parameter-mapping.md) - Thu Sep 23 15:42:48 2021 +0100
 - [Detox test cases](detox/detox-test-cases.md) - Sun Sep 19 09:03:12 2021 +0100
 - [Detox](detox/detox-getting-started.md) - Sat Sep 18 22:02:42 2021 +0100
-- [What is typescript?](typescript/what-is-typescript.md) - Thu Sep 16 22:43:55 2021 +0100
 
 ### Categories
 
@@ -161,6 +161,7 @@ _239 TILs and counting..._
 - [aws rds](aws/aws-rds.md)
 - [AWS - S3](aws/aws-s3.md)
 - [Step Function](aws/aws-stepfunction.md)
+- [Sign HttpRequestMessage using AWS Signature v4](aws/sign-httprequestmessage-using-aws-signature-v4.md)
 
 ### [aws-sns](#aws-sns)
 - [// Testing topic subscription](aws-sns/create-a-test-subscription.md)
