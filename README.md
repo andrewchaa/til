@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_240 TILs and counting..._
+_241 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Deploy static website to Azure Blob Storage](github-actions/deploy-static-website-to-azure-blob-storage.md) - Mon Oct 18 09:53:40 2021 +0100
 - [Sign HttpRequestMessage using AWS Signature v4](aws/sign-httprequestmessage-using-aws-signature-v4.md) - Fri Oct 15 17:09:59 2021 +0100
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Thu Oct 14 19:47:06 2021 +0100
 - [Getting started with Jest](jest/getting-started-with-jest.md) - Thu Oct 14 17:13:59 2021 +0100
@@ -31,7 +32,6 @@ _240 TILs and counting..._
 - [Configuration in ASP.NET](asp-net-core/asp-net-configuration.md) - Fri Sep 24 09:19:59 2021 +0100
 - [ASP.NET Parameter Mappings](asp-net-core/asp-net-parameter-mapping.md) - Thu Sep 23 15:42:48 2021 +0100
 - [Detox test cases](detox/detox-test-cases.md) - Sun Sep 19 09:03:12 2021 +0100
-- [Detox](detox/detox-getting-started.md) - Sat Sep 18 22:02:42 2021 +0100
 
 ### Categories
 
@@ -300,6 +300,7 @@ _240 TILs and counting..._
 
 ### [github-actions](#github-actions)
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md)
+- [Deploy static website to Azure Blob Storage](github-actions/deploy-static-website-to-azure-blob-storage.md)
 - [Github Actions Getting Started](github-actions/getting-starated.md)
 - [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md)
 
