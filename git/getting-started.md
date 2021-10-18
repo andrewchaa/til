@@ -42,11 +42,8 @@ You can edit ~/.gitconfig in the text editor
       added = yellow
       changed = green
       untracked = cyan
-    [user]
-        name = Andrew Youngho Chaa
-        email = andrew.yh.chaa@gmail.com
+
     [core]
-        excludesfile = /Users/andrewchaa/.gitignore
         editor = code --wait
     [init]
         defaultBranch = main
