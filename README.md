@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_241 TILs and counting..._
+_242 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Getting started with husky](husky/getting-started.md) - Mon Oct 18 12:47:30 2021 +0100
 - [Apps](resources/tools.md) - Mon Oct 18 12:10:18 2021 +0100
 - [Deploy static website to Azure Blob Storage](github-actions/deploy-static-website-to-azure-blob-storage.md) - Mon Oct 18 09:53:40 2021 +0100
 - [Sign HttpRequestMessage using AWS Signature v4](aws/sign-httprequestmessage-using-aws-signature-v4.md) - Fri Oct 15 17:09:59 2021 +0100
@@ -31,7 +32,6 @@ _241 TILs and counting..._
 - [Azure Service Bus Message sessions](azure-service-bus/azure-servicebus-session.md) - Fri Sep 24 09:45:31 2021 +0100
 - [Read Request Body](asp-net-core/read-request-body.md) - Fri Sep 24 09:24:05 2021 +0100
 - [Configuration in ASP.NET](asp-net-core/asp-net-configuration.md) - Fri Sep 24 09:19:59 2021 +0100
-- [ASP.NET Parameter Mappings](asp-net-core/asp-net-parameter-mapping.md) - Thu Sep 23 15:42:48 2021 +0100
 
 ### Categories
 
@@ -77,6 +77,7 @@ _241 TILs and counting..._
 - [gulp](#gulp)
 - [hackintosh](#hackintosh)
 - [html](#html)
+- [husky](#husky)
 - [iPhone](#iPhone)
 - [identity-server](#identity-server)
 - [iis](#iis)
@@ -332,6 +333,9 @@ _241 TILs and counting..._
 
 ### [html](#html)
 - [Bootstrap](html/bootstrap.md)
+
+### [husky](#husky)
+- [Getting started with husky](husky/getting-started.md)
 
 ### [iPhone](#iPhone)
 - [Launch login page on public wifi](iPhone/launch-login-page-on-public-wifi.md)
