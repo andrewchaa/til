@@ -12,6 +12,7 @@ _241 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Apps](resources/tools.md) - Mon Oct 18 12:10:18 2021 +0100
 - [Deploy static website to Azure Blob Storage](github-actions/deploy-static-website-to-azure-blob-storage.md) - Mon Oct 18 09:53:40 2021 +0100
 - [Sign HttpRequestMessage using AWS Signature v4](aws/sign-httprequestmessage-using-aws-signature-v4.md) - Fri Oct 15 17:09:59 2021 +0100
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Thu Oct 14 19:47:06 2021 +0100
@@ -31,7 +32,6 @@ _241 TILs and counting..._
 - [Read Request Body](asp-net-core/read-request-body.md) - Fri Sep 24 09:24:05 2021 +0100
 - [Configuration in ASP.NET](asp-net-core/asp-net-configuration.md) - Fri Sep 24 09:19:59 2021 +0100
 - [ASP.NET Parameter Mappings](asp-net-core/asp-net-parameter-mapping.md) - Thu Sep 23 15:42:48 2021 +0100
-- [Detox test cases](detox/detox-test-cases.md) - Sun Sep 19 09:03:12 2021 +0100
 
 ### Categories
 
@@ -452,8 +452,8 @@ _241 TILs and counting..._
 - [Regulax Expression](regular-expression/regular-expression.md)
 
 ### [resources](#resources)
-- [Apps](resources/apps.md)
 - [References](resources/references.md)
+- [Apps](resources/tools.md)
 
 ### [rider](#rider)
 - [Open a file in Rider from the terminal](rider/open-solution-file-from-the-terminal.md)
