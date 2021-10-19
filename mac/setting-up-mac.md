@@ -23,6 +23,10 @@ Use F1, F2 as standard function key
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/840427/122651786-0efe0d80-d133-11eb-8f63-33d928d04370.png">
 
+Display App Switcher on both the screens
+
+    defaults write com.apple.Dock appswitcher-all-displays -bool true
+    killall Dock
 
 ## Tools and Applications
 
