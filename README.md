@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_244 TILs and counting..._
+_245 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Getting started with Tailwind CSS](tailwind-css/getting-started.md) - Tue Oct 26 21:59:35 2021 +0100
 - [Getting started with Snapshooter](snapshooter/getting-started.md) - Tue Oct 26 16:37:58 2021 +0100
 - [Module](terraform/terraform-module.md) - Tue Oct 26 16:07:56 2021 +0100
 - [Getting started with Git](git/getting-started.md) - Mon Oct 18 16:54:00 2021 +0100
@@ -31,7 +32,6 @@ _244 TILs and counting..._
 - [nvm](node-js/nvm.md) - Mon Oct 11 23:56:20 2021 +0100
 - [GraphQL getting started](graphql/getting-started.md) - Tue Sep 28 19:42:17 2021 +0100
 - [Stripe's PaymentIntent](stripe/payment-intent.md) - Tue Sep 28 13:50:48 2021 +0100
-- [Registering services in .NET](dot-net/registering-services.md) - Fri Sep 24 10:10:34 2021 +0100
 
 ### Categories
 
@@ -123,6 +123,7 @@ _244 TILs and counting..._
 - [swagger](#swagger)
 - [swift](#swift)
 - [system.text.json](#system.text.json)
+- [tailwind-css](#tailwind-css)
 - [terminals](#terminals)
 - [terraform](#terraform)
 - [tools](#tools)
@@ -523,6 +524,9 @@ _244 TILs and counting..._
 
 ### [system.text.json](#system.text.json)
 - [Serializatioin and Deserialization with System.Text.Json](system.text.json/serialize-and-deserialize.md)
+
+### [tailwind-css](#tailwind-css)
+- [Getting started with Tailwind CSS](tailwind-css/getting-started.md)
 
 ### [terminals](#terminals)
 - [conemu](terminals/conemu.md)
