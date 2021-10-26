@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_245 TILs and counting..._
+_246 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Aligntments in div](tailwind-css/alignments-in-div.md) - Tue Oct 26 22:02:32 2021 +0100
 - [Getting started with Tailwind CSS](tailwind-css/getting-started.md) - Tue Oct 26 21:59:35 2021 +0100
 - [Getting started with Snapshooter](snapshooter/getting-started.md) - Tue Oct 26 16:37:58 2021 +0100
 - [Module](terraform/terraform-module.md) - Tue Oct 26 16:07:56 2021 +0100
@@ -31,7 +32,6 @@ _245 TILs and counting..._
 - [Azure Functions in typescript](azure-functions/functions-in-typescript.md) - Tue Oct 12 08:02:05 2021 +0100
 - [nvm](node-js/nvm.md) - Mon Oct 11 23:56:20 2021 +0100
 - [GraphQL getting started](graphql/getting-started.md) - Tue Sep 28 19:42:17 2021 +0100
-- [Stripe's PaymentIntent](stripe/payment-intent.md) - Tue Sep 28 13:50:48 2021 +0100
 
 ### Categories
 
@@ -526,6 +526,7 @@ _245 TILs and counting..._
 - [Serializatioin and Deserialization with System.Text.Json](system.text.json/serialize-and-deserialize.md)
 
 ### [tailwind-css](#tailwind-css)
+- [Aligntments in div](tailwind-css/alignments-in-div.md)
 - [Getting started with Tailwind CSS](tailwind-css/getting-started.md)
 
 ### [terminals](#terminals)
