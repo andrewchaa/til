@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_243 TILs and counting..._
+_244 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Getting started with Snapshooter](snapshooter/getting-started.md) - Tue Oct 26 16:37:58 2021 +0100
 - [Module](terraform/terraform-module.md) - Tue Oct 26 16:07:56 2021 +0100
 - [Getting started with Git](git/getting-started.md) - Mon Oct 18 16:54:00 2021 +0100
 - [Getting started with husky](husky/getting-started.md) - Mon Oct 18 12:47:30 2021 +0100
@@ -31,7 +32,6 @@ _243 TILs and counting..._
 - [GraphQL getting started](graphql/getting-started.md) - Tue Sep 28 19:42:17 2021 +0100
 - [Stripe's PaymentIntent](stripe/payment-intent.md) - Tue Sep 28 13:50:48 2021 +0100
 - [Registering services in .NET](dot-net/registering-services.md) - Fri Sep 24 10:10:34 2021 +0100
-- [Azure Service Bus Message sessions](azure-service-bus/azure-servicebus-session.md) - Fri Sep 24 09:45:31 2021 +0100
 
 ### Categories
 
@@ -114,6 +114,7 @@ _243 TILs and counting..._
 - [sentry](#sentry)
 - [serverless-framework](#serverless-framework)
 - [slack](#slack)
+- [snapshooter](#snapshooter)
 - [specflow](#specflow)
 - [sql](#sql)
 - [sql-server](#sql-server)
@@ -486,6 +487,9 @@ _243 TILs and counting..._
 
 ### [slack](#slack)
 - [Slack shortcuts](slack/slack-shortcuts.md)
+
+### [snapshooter](#snapshooter)
+- [Getting started with Snapshooter](snapshooter/getting-started.md)
 
 ### [specflow](#specflow)
 - [* from https://stackoverflow.com/questions/25433031/specflow-test-step-inheritance-causes-ambiguous-step-definitions](specflow/ambigous-step-definitions.md)
