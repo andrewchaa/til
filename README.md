@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_242 TILs and counting..._
+_243 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Module](terraform/terraform-module.md) - Tue Oct 26 16:07:56 2021 +0100
 - [Getting started with Git](git/getting-started.md) - Mon Oct 18 16:54:00 2021 +0100
 - [Getting started with husky](husky/getting-started.md) - Mon Oct 18 12:47:30 2021 +0100
 - [Apps](resources/tools.md) - Mon Oct 18 12:10:18 2021 +0100
@@ -31,7 +32,6 @@ _242 TILs and counting..._
 - [Stripe's PaymentIntent](stripe/payment-intent.md) - Tue Sep 28 13:50:48 2021 +0100
 - [Registering services in .NET](dot-net/registering-services.md) - Fri Sep 24 10:10:34 2021 +0100
 - [Azure Service Bus Message sessions](azure-service-bus/azure-servicebus-session.md) - Fri Sep 24 09:45:31 2021 +0100
-- [Read Request Body](asp-net-core/read-request-body.md) - Fri Sep 24 09:24:05 2021 +0100
 
 ### Categories
 
@@ -533,6 +533,7 @@ _242 TILs and counting..._
 - [Provision Cosmos DB](terraform/provision-cosmos-db.md)
 - [required-group](terraform/required-group.md)
 - [Terraform Getting Started](terraform/terraform-getting-started.md)
+- [Module](terraform/terraform-module.md)
 - [Provisioning Azure Functions with Terraform](terraform/terraform-provision-azure-function.md)
 
 ### [tools](#tools)
