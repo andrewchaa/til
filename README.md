@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_247 TILs and counting..._
+_248 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [GraphQl Client](graphql-client/getting-started.md) - Thu Oct 28 12:09:44 2021 +0100
 - [Mock4Net WireMock](mock4net/getting-started.md) - Thu Oct 28 11:37:08 2021 +0100
 - [Aligntments in div](tailwind-css/alignments-in-div.md) - Tue Oct 26 22:02:32 2021 +0100
 - [Getting started with Tailwind CSS](tailwind-css/getting-started.md) - Tue Oct 26 21:59:35 2021 +0100
@@ -31,7 +32,6 @@ _247 TILs and counting..._
 - [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md) - Wed Oct 13 23:49:51 2021 +0100
 - [Commit and push automatically on save](typescript/push-change-automatically-to-github.md) - Wed Oct 13 08:50:18 2021 +0100
 - [Azure Functions in typescript](azure-functions/functions-in-typescript.md) - Tue Oct 12 08:02:05 2021 +0100
-- [nvm](node-js/nvm.md) - Mon Oct 11 23:56:20 2021 +0100
 
 ### Categories
 
@@ -74,6 +74,7 @@ _247 TILs and counting..._
 - [golang](#golang)
 - [grafana](#grafana)
 - [graphql](#graphql)
+- [graphql-client](#graphql-client)
 - [gulp](#gulp)
 - [hackintosh](#hackintosh)
 - [html](#html)
@@ -327,6 +328,9 @@ _247 TILs and counting..._
 
 ### [graphql](#graphql)
 - [GraphQL getting started](graphql/getting-started.md)
+
+### [graphql-client](#graphql-client)
+- [GraphQl Client](graphql-client/getting-started.md)
 
 ### [gulp](#gulp)
 - [**Getting started**](gulp/gulp.md)
