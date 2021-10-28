@@ -31,7 +31,7 @@ private const string UrlByDesignIdQuery = @"
     ";
 
 var graphqlClient = new GraphQLHttpClient(new Uri(config.Value.BaseUrl), new NewtonsoftJsonSerializer());
-graphqlClient.HttpClient.DefaultRequestHeaders.Add("mnpg-auth-key", config.Value.ApiKey);
+graphqlClient.HttpClient.DefaultRequestHeaders.Add("auth-key", config.Value.ApiKey);
 
 var request = new DesignApiGraphQlRequest
 {
