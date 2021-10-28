@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_246 TILs and counting..._
+_247 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Mock4Net WireMock](mock4net/getting-started.md) - Thu Oct 28 11:37:08 2021 +0100
 - [Aligntments in div](tailwind-css/alignments-in-div.md) - Tue Oct 26 22:02:32 2021 +0100
 - [Getting started with Tailwind CSS](tailwind-css/getting-started.md) - Tue Oct 26 21:59:35 2021 +0100
 - [Getting started with Snapshooter](snapshooter/getting-started.md) - Tue Oct 26 16:37:58 2021 +0100
@@ -31,7 +32,6 @@ _246 TILs and counting..._
 - [Commit and push automatically on save](typescript/push-change-automatically-to-github.md) - Wed Oct 13 08:50:18 2021 +0100
 - [Azure Functions in typescript](azure-functions/functions-in-typescript.md) - Tue Oct 12 08:02:05 2021 +0100
 - [nvm](node-js/nvm.md) - Mon Oct 11 23:56:20 2021 +0100
-- [GraphQL getting started](graphql/getting-started.md) - Tue Sep 28 19:42:17 2021 +0100
 
 ### Categories
 
@@ -93,6 +93,7 @@ _246 TILs and counting..._
 - [logentries](#logentries)
 - [mac](#mac)
 - [microsoft-dynamics-nav](#microsoft-dynamics-nav)
+- [mock4net](#mock4net)
 - [moq](#moq)
 - [mysql](#mysql)
 - [next-js](#next-js)
@@ -396,6 +397,9 @@ _246 TILs and counting..._
 
 ### [microsoft-dynamics-nav](#microsoft-dynamics-nav)
 - [Dynamics Nav Getting Started](microsoft-dynamics-nav/dynamics-nav-getting-started.md)
+
+### [mock4net](#mock4net)
+- [Mock4Net WireMock](mock4net/getting-started.md)
 
 ### [moq](#moq)
 - [Mock Property or Indexer](moq/mock-property-indexer.md)
