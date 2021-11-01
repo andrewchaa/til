@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_248 TILs and counting..._
+_249 TILs and counting..._
 
 ---
 
@@ -38,6 +38,7 @@ _248 TILs and counting..._
 - [angular-js](#angular-js)
 - [api](#api)
 - [asp-net-core](#asp-net-core)
+- [automapper](#automapper)
 - [aws](#aws)
 - [aws-sns](#aws-sns)
 - [azure](#azure)
@@ -155,6 +156,9 @@ _248 TILs and counting..._
 - [IConfiguration in Unit Test](asp-net-core/iconfiguration-in-unit-test.md)
 - [Read Request Body](asp-net-core/read-request-body.md)
 - [Conatinerised ASP.NET Core Web API](asp-net-core/web-api-in-container.md)
+
+### [automapper](#automapper)
+- [AutoMapper Custom Value Resolvers](automapper/custom-value-resolvers.md)
 
 ### [aws](#aws)
 - [AWS Certificate Manager](aws/aws-certificate-manager.md)
