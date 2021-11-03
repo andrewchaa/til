@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_250 TILs and counting..._
+_251 TILs and counting..._
 
 ---
 
@@ -108,6 +108,7 @@ _250 TILs and counting..._
 - [python](#python)
 - [react](#react)
 - [react-native](#react-native)
+- [react-native-testing-library](#react-native-testing-library)
 - [regular-expression](#regular-expression)
 - [resources](#resources)
 - [rider](#rider)
@@ -465,6 +466,9 @@ _250 TILs and counting..._
 ### [react-native](#react-native)
 - [React Native upgrade issues](react-native/react-native-upgrade-issues.md)
 - [Setting up [development environment](https://reactnative.dev/docs/environment-setup)](react-native/setting-up-development-environment.md)
+
+### [react-native-testing-library](#react-native-testing-library)
+- [Getting started with react native testing library](react-native-testing-library/getting-started.md)
 
 ### [regular-expression](#regular-expression)
 - [Regulax Expression](regular-expression/regular-expression.md)
