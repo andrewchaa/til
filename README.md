@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_249 TILs and counting..._
+_250 TILs and counting..._
 
 ---
 
@@ -550,6 +550,7 @@ _249 TILs and counting..._
 ### [terraform](#terraform)
 - [Create Azure API Management](terraform/azure-api-management.md)
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md)
+- [IAM permissions](terraform/iam-permissions.md)
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md)
 - [Provision Cosmos DB](terraform/provision-cosmos-db.md)
 - [required-group](terraform/required-group.md)
