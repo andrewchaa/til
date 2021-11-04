@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_251 TILs and counting..._
+_252 TILs and counting..._
 
 ---
 
@@ -376,6 +376,7 @@ _251 TILs and counting..._
 ### [jest](#jest)
 - [Getting started with Jest](jest/getting-started-with-jest.md)
 - [jest commands](jest/jest-commands.md)
+- [Mock functions](jest/mock-functions.md)
 
 ### [journals](#journals)
 - [2019](journals/2019-01.md)
