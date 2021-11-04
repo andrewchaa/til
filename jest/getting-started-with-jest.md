@@ -10,8 +10,6 @@ Install Jest
 configuration
 
 ```json
-# jest.config.js
-
 module.exports = {
   verbose: true,
   preset: "react-native",
