@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_253 TILs and counting..._
+_254 TILs and counting..._
 
 ---
 
@@ -473,6 +473,7 @@ _253 TILs and counting..._
 - [Getting started with react native testing library](react-native-testing-library/getting-started.md)
 
 ### [react-navigation](#react-navigation)
+- [Stack Navigator](react-navigation/stack-navigator.md)
 - [Tab Navigation](react-navigation/tab-navigation.md)
 
 ### [regular-expression](#regular-expression)
