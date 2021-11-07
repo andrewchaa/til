@@ -29,8 +29,16 @@ const Tab = createBottomTabNavigator()
         : '#8FA0BE'
 
         return <IconMCI name={iconName} size={size} color={iconColor} />
-      }
-    })}
+      },
+      tabBarStyle: {
+        height: 90,
+        paddingHorizontal: 5,
+        paddingTop: 0,
+        backgroundColor: 'rgba(34,36,40,1)',
+        position: 'absolute',
+        borderTopWidth: 0,
+    },
+  })}
     >
     <Tab.Screen name="Home" component={Home} />
     <Tab.Screen name="List" component={RegistrationList} />
