@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_255 TILs and counting..._
+_256 TILs and counting..._
 
 ---
 
@@ -457,6 +457,7 @@ _255 TILs and counting..._
 - [Resuing code with composition](react/code-reuse-by-composition.md)
 - [Create react app](react/create-react-app.md)
 - [```javascript](react/dom-events.md)
+- [React Hooks](react/hooks.md)
 - [```javascript](react/react-datepicker.md)
 - [**Resources**](react/react.js.md)
 - [react](react/react.md)
