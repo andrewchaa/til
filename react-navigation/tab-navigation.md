@@ -41,3 +41,9 @@ const Tab = createBottomTabNavigator()
 
 ```
     
+Hiding header
+
+```javascript
+screenOptions={({ route }) => ({
+  headerShown: false,
+```
