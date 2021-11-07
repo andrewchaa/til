@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_254 TILs and counting..._
+_255 TILs and counting..._
 
 ---
 
@@ -361,6 +361,7 @@ _254 TILs and counting..._
 - [# Associate a certificate to a website](iis/iis.md)
 
 ### [javascript](#javascript)
+- [async and await](javascript/async-await.md)
 - [#### css3 selector](javascript/casperjs.md)
 - [```javascript](javascript/check-null.md)
 - [```javascript](javascript/copy-to-clipboard.md)
