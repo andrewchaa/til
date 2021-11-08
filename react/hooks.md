@@ -36,3 +36,18 @@ const RegistrationList = () => {
   }, [])
 ```
 
+`useState()` with object
+
+Use spread operator
+
+```javascript
+<View style={styles.leftFormField}>
+  <FormFloatingTitleInput
+    title="Product Model"
+    value={registration.model}
+    editable={__DEV__ ? true : false}
+    onChangeText={model => setRegistration({...registration, model})}
+    error={validation.model}
+  />
+</View>
+```
