@@ -8,4 +8,4 @@ key | description
 ⌘ ^ w | show tabs in the tab bar
 ⌥ ⌘ f | replace
 ⇧ ⌘ e | activate file explorer
-
+⇧ ⌘ \ | jump to matching bracket
