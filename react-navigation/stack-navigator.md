@@ -20,7 +20,18 @@ const ListStack = () => {
 }
 ```
 
-### Parameters
+### Navigate
+
+```javascript
+const RegistrationList = ({ navigation }) => {
+...
+    <TouchableOpacity onPress={() => navigation.navigate('Details', {
+      registration: item,
+      registrationId: item.registrationId
+    })}
+```
+
+### Parameters 
 
 ```javascript
 export default function RegistrationDetails ({ navigation, route }) {
