@@ -20,7 +20,7 @@ const ListStack = () => {
 }
 ```
 
-### Navigate
+### Navigation and parameters
 
 ```javascript
 const RegistrationList = ({ navigation }) => {
@@ -29,11 +29,7 @@ const RegistrationList = ({ navigation }) => {
       registration: item,
       registrationId: item.registrationId
     })}
-```
 
-### Parameters 
-
-```javascript
 export default function RegistrationDetails ({ navigation, route }) {
 
   const { registration } = route.params
