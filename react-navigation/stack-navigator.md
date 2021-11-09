@@ -19,3 +19,12 @@ const ListStack = () => {
   );
 }
 ```
+
+### Parameters
+
+```javascript
+export default function RegistrationDetails ({ navigation, route }) {
+
+  const { registration } = route.params
+
+```
