@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_257 TILs and counting..._
+_258 TILs and counting..._
 
 ---
 
@@ -463,6 +463,7 @@ _257 TILs and counting..._
 - [```javascript](react/dom-events.md)
 - [React Hooks](react/hooks.md)
 - [```javascript](react/react-datepicker.md)
+- [Run on device](react/react-native-run-on-device.md)
 - [**Resources**](react/react.js.md)
 - [react](react/react.md)
 - [import React, { PropTypes, Component } from 'react';](react/redux-container.md)
