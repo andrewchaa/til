@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_258 TILs and counting..._
+_259 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Running on device](xcode/run-app-on-device.md) - Thu Nov 11 00:06:37 2021 +0000
 - [GraphQl Client](graphql-client/getting-started.md) - Thu Oct 28 12:09:44 2021 +0100
 - [Mock4Net WireMock](mock4net/getting-started.md) - Thu Oct 28 11:37:08 2021 +0100
 - [Aligntments in div](tailwind-css/alignments-in-div.md) - Tue Oct 26 22:02:32 2021 +0100
@@ -31,7 +32,6 @@ _258 TILs and counting..._
 - [npm commands](node-js/npm-commands.md) - Thu Oct 14 08:28:33 2021 +0100
 - [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md) - Wed Oct 13 23:49:51 2021 +0100
 - [Commit and push automatically on save](typescript/push-change-automatically-to-github.md) - Wed Oct 13 08:50:18 2021 +0100
-- [Azure Functions in typescript](azure-functions/functions-in-typescript.md) - Tue Oct 12 08:02:05 2021 +0100
 
 ### Categories
 
@@ -612,6 +612,7 @@ _258 TILs and counting..._
 - [Writing down the process of a given work](work/writing-down-process-of-work.md)
 
 ### [xcode](#xcode)
+- [Running on device](xcode/run-app-on-device.md)
 - [Keyboard shortcuts](xcode/xcode-shortcuts.md)
 
 ### [xunit](#xunit)
