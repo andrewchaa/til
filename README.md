@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_260 TILs and counting..._
+_261 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [spread ...](javascript/spread.md) - Thu Nov 11 23:27:45 2021 +0000
 - [Getting started with terragrunt](terragrunt/getting-started-with-terragrunt.md) - Thu Nov 11 16:10:37 2021 +0000
 - [Running on device](xcode/run-app-on-device.md) - Thu Nov 11 00:06:37 2021 +0000
 - [GraphQl Client](graphql-client/getting-started.md) - Thu Oct 28 12:09:44 2021 +0100
@@ -31,7 +32,6 @@ _260 TILs and counting..._
 - [Getting started with Gatsby](gatsby-js/getting-started-with-gatsby.md) - Thu Oct 14 08:35:17 2021 +0100
 - [Github Actions Getting Started](github-actions/getting-starated.md) - Thu Oct 14 08:31:24 2021 +0100
 - [npm commands](node-js/npm-commands.md) - Thu Oct 14 08:28:33 2021 +0100
-- [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md) - Wed Oct 13 23:49:51 2021 +0100
 
 ### Categories
 
@@ -376,6 +376,7 @@ _260 TILs and counting..._
 - [// install directory from github repo](javascript/npm.md)
 - [**Display the whole pdf**](javascript/pdf.js.md)
 - [* https://github.com/mzabriskie/axios: Promise based HTTP client for the browser and node.js](javascript/resources.md)
+- [spread ...](javascript/spread.md)
 
 ### [jekyll](#jekyll)
 - [Install Jekyll](jekyll/install-jekyll.md)
