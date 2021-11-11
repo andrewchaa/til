@@ -2,8 +2,13 @@
 
 Install Terraform
 
+    brew update
     brew tap hashicorp/tap
     brew install hashicorp/tap/terraform
+    terraform -help
+    
+    terraform -install-autocomplete
+
 
 ### File structure
 
