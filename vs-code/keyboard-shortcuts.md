@@ -9,3 +9,4 @@ key | description
 ⌥ ⌘ f | replace
 ⇧ ⌘ e | activate file explorer
 ⇧ ⌘ \ | jump to matching bracket
+⇧ ⌥ ⌘ ↑ / ↓ | column selection up or down
