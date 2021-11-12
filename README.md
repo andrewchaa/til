@@ -12,6 +12,7 @@ _261 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Configuration](dot-net/configurations.md) - Fri Nov 12 15:08:46 2021 +0000
 - [spread ...](javascript/spread.md) - Thu Nov 11 23:27:45 2021 +0000
 - [Getting started with terragrunt](terragrunt/getting-started-with-terragrunt.md) - Thu Nov 11 16:10:37 2021 +0000
 - [Running on device](xcode/run-app-on-device.md) - Thu Nov 11 00:06:37 2021 +0000
@@ -31,7 +32,6 @@ _261 TILs and counting..._
 - [jest commands](jest/jest-commands.md) - Thu Oct 14 17:12:26 2021 +0100
 - [Getting started with Gatsby](gatsby-js/getting-started-with-gatsby.md) - Thu Oct 14 08:35:17 2021 +0100
 - [Github Actions Getting Started](github-actions/getting-starated.md) - Thu Oct 14 08:31:24 2021 +0100
-- [npm commands](node-js/npm-commands.md) - Thu Oct 14 08:28:33 2021 +0100
 
 ### Categories
 
@@ -260,10 +260,10 @@ _261 TILs and counting..._
 ### [dot-net](#dot-net)
 - [](dot-net/assemblyinfo.md)
 - [Cli with CommandLineParser](dot-net/command-line-parser.md)
+- [Configuration](dot-net/configurations.md)
 - [Copy all conetent files to output folder](dot-net/copy-all-files-to-output-folder-on-build.md)
 - [Models for Primitive Types](dot-net/create-model-for-primitive-types.md)
 - [.NET Cli](dot-net/dotnet-cli.md)
-- [Handle Configurations](dot-net/handle-configurations.md)
 - [Logging in .NET](dot-net/logging.md)
 - [Registering services in .NET](dot-net/registering-services.md)
 
