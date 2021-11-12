@@ -35,7 +35,7 @@ var apiProduct = config["product"];
 ```csharp
 public class HandlerOptions
 {
-    [ConfigurationKeyName("MNPG_ENVIRONMENT_NAME")]
+    [ConfigurationKeyName("ENVIRONMENT_NAME")]
     public string EnvironmentName { get;set; } 
 
     [ConfigurationKeyName("component_name")]
