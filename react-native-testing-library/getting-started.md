@@ -1,3 +1,4 @@
 # Getting started with react native testing library
 
-    npm install --save-dev @testing-library/react-native
+    yarn add --dev @testing-library/react-native
+    yarn add --dev react-test-renderer 
