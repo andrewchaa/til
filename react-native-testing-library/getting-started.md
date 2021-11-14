@@ -56,3 +56,15 @@ RNNativeModules.PlatformConstants = RNNativeModules.PlatformConstants || {
 
 ```
 
+jest 27.x version incompatibility
+
+
+    yarn add --dev @jest/create-cache-key-function
+
+```json
+
+  "resolutions": {
+    "react-native/@jest/create-cache-key-function": "^27.0.2"
+  }
+
+```
