@@ -9,7 +9,6 @@ Create jest setup to mock native modules
 jest.config.js
 
 ```javascript
-
 module.exports = {
   verbose: true,
   preset: 'react-native',
@@ -21,10 +20,16 @@ module.exports = {
     'json',
     'node',
   ],
-  setupFiles: ['<rootDir>/jest.setup.js'],
+  moduleNameMapper: {
+    "styled-components" : "<rootDir>/node_modules/styled-components/native/dist/styled-components.native.cjs.js"
+
+  },
+  setupFiles: [
+    '<rootDir>/jest.setup.js',
+    '<rootDir>/node_modules/react-native-gesture-handler/jestSetup.js'
+  ],
   transformIgnorePatterns: [
-    'node_modules/(?!(@react-native|react-native'
-    + '|react-native-vector-icons|react-native-linear-gradient)/)'
+    'node_modules/(?!(jest-)?@?react-native|@react-native-community|@react-navigation)',
   ]
 }
 
