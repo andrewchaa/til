@@ -35,9 +35,24 @@ jest.setup.js
 ```javascript
 import mockRNCNetInfo from '@react-native-community/netinfo/jest/netinfo-mock.js'
 import mockRNDeviceInfo from 'react-native-device-info/jest/react-native-device-info-mock'
+import { NativeModules as RNNativeModules } from "react-native";
 
 jest.mock('@react-native-community/netinfo', () => mockRNCNetInfo)
 jest.mock('react-native-device-info', () => mockRNDeviceInfo);
+
+RNNativeModules.UIManager = RNNativeModules.UIManager || {};
+RNNativeModules.UIManager.RCTView = RNNativeModules.UIManager.RCTView || {};
+RNNativeModules.RNGestureHandlerModule = RNNativeModules.RNGestureHandlerModule || {
+  State: { BEGAN: "BEGAN", FAILED: "FAILED", ACTIVE: "ACTIVE", END: "END" },
+  attachGestureHandler: jest.fn(),
+  createGestureHandler: jest.fn(),
+  dropGestureHandler: jest.fn(),
+  updateGestureHandler: jest.fn(),
+
+};
+RNNativeModules.PlatformConstants = RNNativeModules.PlatformConstants || {
+  forceTouchAvailable: false
+};
 
 ```
 
