@@ -37,3 +37,18 @@ Some `react-native` libraries ship uncompiled ES6 code. It needs to be compiled 
 You can tell `Jest` to compile those packages by whitelisting them in the `transformIgnorePatterns` option in the jest config.
 
 The transformIgnorePatterns option (which is an array of Regular-Expressions) is originally meant to exclude files from being compiled, but using (?!(some-dir-name|another-name)) pattern (the (?!...), negative look-ahead), we do tell Jest to exclude anything in node_modules directory, except the names that we did specify.
+
+### fixing "cannot find name 'jest'" lint error in typescript
+
+* install @types/jest
+* `import '@types/jest'` in the test file
+* add types to `tsconfig.json'
+
+```json
+{
+  "compilerOptions": {
+      "types": ["node", "jest"]
+  },
+}
+```
+
