@@ -3,7 +3,7 @@
 There is [a desktop app](https://github.com/graphql/graphql-playground). 
 
 ```graphql
-query($input: OrdersByPostcodeInput!) {
+query($input: PostcodeInput!) {
     ordersByPostcode(input: $input) {
         items {
           id
@@ -35,6 +35,19 @@ Variables
       "offset": 0,
       "limit": 10
   }  
+}
+
+```
+
+To create the query
+
+Create the type in the schema
+
+```javascript
+input PostcodeInput {
+    postcode: String!
+    offset: Long
+    limit: Long
 }
 
 ```
