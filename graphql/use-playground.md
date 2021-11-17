@@ -18,10 +18,23 @@ query($input: OrdersByPostcodeInput!) {
 }
 ```
 
-Header
+Headers
 
 ```json
 {
   "api-auth-key": "xxxx"
 }
+```
+
+Variables
+
+```json
+{
+  "input": {
+      "postcode": "EC4N 4SA",
+      "offset": 0,
+      "limit": 10
+  }  
+}
+
 ```
