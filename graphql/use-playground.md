@@ -51,3 +51,30 @@ input PostcodeInput {
 }
 
 ```
+
+Extend the query in the schema
+
+```javascript
+extend type Query {
+  ...
+  ordersByPostcode(input: postcodeInput!): Orders
+}
+```
+
+Resolve the query
+
+```javascript
+public async searchOrdersByPostcode(
+        postcode: string
+    ): Promise<OrderPagedResponse> {
+
+  return await this.get(
+        `/orders`,
+        {
+            postcode
+        },
+        { headers: await this.getHeaders() }
+    );
+}
+
+```
