@@ -77,4 +77,19 @@ public async searchOrdersByPostcode(
     );
 }
 
+export const resolvers: Resolvers = {
+    Me: {
+        order: getMyOrder
+    },
+    Query: {
+        ...
+        ordersByPostcode: searchOrdersByPostcode
+    },
+    Customer: {
+        order: getCustomerOrder
+    },
+    Mutation: {
+        cancelOrder: cancelCustomerOrder
+    }
+};
 ```
