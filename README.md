@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_263 TILs and counting..._
+_264 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Where are the archives?](xcode/where-are-archives.md) - Fri Nov 19 16:37:48 2021 +0000
 - [Azure CDN](terraform/azure-cdn.md) - Fri Nov 19 15:40:51 2021 +0000
 - [Using GraphQL Playground](graphql/use-playground.md) - Wed Nov 17 13:52:09 2021 +0000
 - [Configuration](dot-net/configurations.md) - Fri Nov 12 15:08:46 2021 +0000
@@ -31,7 +32,6 @@ _263 TILs and counting..._
 - [Sign HttpRequestMessage using AWS Signature v4](aws/sign-httprequestmessage-using-aws-signature-v4.md) - Fri Oct 15 17:09:59 2021 +0100
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Thu Oct 14 19:47:06 2021 +0100
 - [Getting started with Jest](jest/getting-started-with-jest.md) - Thu Oct 14 17:13:59 2021 +0100
-- [jest commands](jest/jest-commands.md) - Thu Oct 14 17:12:26 2021 +0100
 
 ### Categories
 
@@ -620,6 +620,7 @@ _263 TILs and counting..._
 
 ### [xcode](#xcode)
 - [Running on device](xcode/run-app-on-device.md)
+- [Where are the archives?](xcode/where-are-archives.md)
 - [Keyboard shortcuts](xcode/xcode-shortcuts.md)
 
 ### [xunit](#xunit)
