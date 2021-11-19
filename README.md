@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_262 TILs and counting..._
+_263 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Azure CDN](terraform/azure-cdn.md) - Fri Nov 19 15:40:51 2021 +0000
 - [Using GraphQL Playground](graphql/use-playground.md) - Wed Nov 17 13:52:09 2021 +0000
 - [Configuration](dot-net/configurations.md) - Fri Nov 12 15:08:46 2021 +0000
 - [spread ...](javascript/spread.md) - Thu Nov 11 23:27:45 2021 +0000
@@ -31,7 +32,6 @@ _262 TILs and counting..._
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Thu Oct 14 19:47:06 2021 +0100
 - [Getting started with Jest](jest/getting-started-with-jest.md) - Thu Oct 14 17:13:59 2021 +0100
 - [jest commands](jest/jest-commands.md) - Thu Oct 14 17:12:26 2021 +0100
-- [Getting started with Gatsby](gatsby-js/getting-started-with-gatsby.md) - Thu Oct 14 08:35:17 2021 +0100
 
 ### Categories
 
@@ -569,6 +569,7 @@ _262 TILs and counting..._
 
 ### [terraform](#terraform)
 - [Create Azure API Management](terraform/azure-api-management.md)
+- [Azure CDN](terraform/azure-cdn.md)
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md)
 - [IAM permissions](terraform/iam-permissions.md)
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md)
