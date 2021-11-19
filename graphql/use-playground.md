@@ -3,7 +3,7 @@
 There is [a desktop app](https://github.com/graphql/graphql-playground). 
 
 ```graphql
-query($input: PostcodeInput!) {
+query SearchOrdersByPostcode($input: PostcodeInput!) {
     ordersByPostcode(input: $input) {
         items {
           id
