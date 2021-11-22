@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_265 TILs and counting..._
+_266 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Remove old provisioning profiles](xcode/remove-provisioning-profile.md) - Mon Nov 22 12:29:52 2021 +0000
 - [Create a new certificate](xcode/create-new-certificate.md) - Sun Nov 21 22:26:03 2021 +0000
 - [Where are the archives?](xcode/where-are-archives.md) - Fri Nov 19 16:37:48 2021 +0000
 - [Azure CDN](terraform/azure-cdn.md) - Fri Nov 19 15:40:51 2021 +0000
@@ -31,7 +32,6 @@ _265 TILs and counting..._
 - [Apps](resources/tools.md) - Mon Oct 18 12:10:18 2021 +0100
 - [Deploy static website to Azure Blob Storage](github-actions/deploy-static-website-to-azure-blob-storage.md) - Mon Oct 18 09:53:40 2021 +0100
 - [Sign HttpRequestMessage using AWS Signature v4](aws/sign-httprequestmessage-using-aws-signature-v4.md) - Fri Oct 15 17:09:59 2021 +0100
-- [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md) - Thu Oct 14 19:47:06 2021 +0100
 
 ### Categories
 
@@ -620,6 +620,7 @@ _265 TILs and counting..._
 
 ### [xcode](#xcode)
 - [Create a new certificate](xcode/create-new-certificate.md)
+- [Remove old provisioning profiles](xcode/remove-provisioning-profile.md)
 - [Running on device](xcode/run-app-on-device.md)
 - [Where are the archives?](xcode/where-are-archives.md)
 - [Keyboard shortcuts](xcode/xcode-shortcuts.md)
