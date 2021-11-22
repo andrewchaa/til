@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_266 TILs and counting..._
+_267 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [React Native Camera](react-native/react-native-cemera.md) - Mon Nov 22 12:32:56 2021 +0000
 - [Remove old provisioning profiles](xcode/remove-provisioning-profile.md) - Mon Nov 22 12:29:52 2021 +0000
 - [Create a new certificate](xcode/create-new-certificate.md) - Sun Nov 21 22:26:03 2021 +0000
 - [Where are the archives?](xcode/where-are-archives.md) - Fri Nov 19 16:37:48 2021 +0000
@@ -31,7 +32,6 @@ _266 TILs and counting..._
 - [Getting started with husky](husky/getting-started.md) - Mon Oct 18 12:47:30 2021 +0100
 - [Apps](resources/tools.md) - Mon Oct 18 12:10:18 2021 +0100
 - [Deploy static website to Azure Blob Storage](github-actions/deploy-static-website-to-azure-blob-storage.md) - Mon Oct 18 09:53:40 2021 +0100
-- [Sign HttpRequestMessage using AWS Signature v4](aws/sign-httprequestmessage-using-aws-signature-v4.md) - Fri Oct 15 17:09:59 2021 +0100
 
 ### Categories
 
@@ -476,6 +476,7 @@ _266 TILs and counting..._
 - [```javascript](react/stateless-component.md)
 
 ### [react-native](#react-native)
+- [React Native Camera](react-native/react-native-cemera.md)
 - [React Native upgrade issues](react-native/react-native-upgrade-issues.md)
 - [Setting up [development environment](https://reactnative.dev/docs/environment-setup)](react-native/setting-up-development-environment.md)
 
