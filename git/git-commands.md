@@ -1,9 +1,5 @@
 # git commands
 
-* [Set up](#set-up)
-* [Remote Repository](#remote-repository)
-* [Github Personal Token](#github-personal-token)
-
 command | description
 -- | --
 git branch \| grep -v "master" \| xargs git branch -D | delete all local branches except master
