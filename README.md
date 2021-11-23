@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_267 TILs and counting..._
+_268 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Interesting linq statements](dot-net/linq-statements.md) - Tue Nov 23 10:32:49 2021 +0000
 - [React Native Camera](react-native/react-native-cemera.md) - Mon Nov 22 12:32:56 2021 +0000
 - [Remove old provisioning profiles](xcode/remove-provisioning-profile.md) - Mon Nov 22 12:29:52 2021 +0000
 - [Create a new certificate](xcode/create-new-certificate.md) - Sun Nov 21 22:26:03 2021 +0000
@@ -31,7 +32,6 @@ _267 TILs and counting..._
 - [Getting started with Git](git/getting-started.md) - Mon Oct 18 16:54:00 2021 +0100
 - [Getting started with husky](husky/getting-started.md) - Mon Oct 18 12:47:30 2021 +0100
 - [Apps](resources/tools.md) - Mon Oct 18 12:10:18 2021 +0100
-- [Deploy static website to Azure Blob Storage](github-actions/deploy-static-website-to-azure-blob-storage.md) - Mon Oct 18 09:53:40 2021 +0100
 
 ### Categories
 
@@ -264,6 +264,7 @@ _267 TILs and counting..._
 - [Copy all conetent files to output folder](dot-net/copy-all-files-to-output-folder-on-build.md)
 - [Models for Primitive Types](dot-net/create-model-for-primitive-types.md)
 - [.NET Cli](dot-net/dotnet-cli.md)
+- [Interesting linq statements](dot-net/linq-statements.md)
 - [Logging in .NET](dot-net/logging.md)
 - [Registering services in .NET](dot-net/registering-services.md)
 
