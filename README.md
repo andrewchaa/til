@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_268 TILs and counting..._
+_269 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Connec using AnyConnect from terminal](cisco-anyconnect/connect-from-terminal.md) - Mon Nov 29 23:08:15 2021 +0000
 - [Interesting linq statements](dot-net/linq-statements.md) - Tue Nov 23 10:32:49 2021 +0000
 - [React Native Camera](react-native/react-native-cemera.md) - Mon Nov 22 12:32:56 2021 +0000
 - [Remove old provisioning profiles](xcode/remove-provisioning-profile.md) - Mon Nov 22 12:29:52 2021 +0000
@@ -31,7 +32,6 @@ _268 TILs and counting..._
 - [Module](terraform/terraform-module.md) - Tue Oct 26 16:07:56 2021 +0100
 - [Getting started with Git](git/getting-started.md) - Mon Oct 18 16:54:00 2021 +0100
 - [Getting started with husky](husky/getting-started.md) - Mon Oct 18 12:47:30 2021 +0100
-- [Apps](resources/tools.md) - Mon Oct 18 12:10:18 2021 +0100
 
 ### Categories
 
@@ -50,6 +50,7 @@ _268 TILs and counting..._
 - [brew](#brew)
 - [car](#car)
 - [checklists](#checklists)
+- [cisco-anyconnect](#cisco-anyconnect)
 - [cocoapods](#cocoapods)
 - [cosmos.db](#cosmos.db)
 - [csharp](#csharp)
@@ -217,6 +218,9 @@ _268 TILs and counting..._
 
 ### [checklists](#checklists)
 - [Things to do to set up a new project](checklists/new-project-setup.md)
+
+### [cisco-anyconnect](#cisco-anyconnect)
+- [Connec using AnyConnect from terminal](cisco-anyconnect/connect-from-terminal.md)
 
 ### [cocoapods](#cocoapods)
 - [Async Storage issues](cocoapods/async-storage-troubleshooting.md)
