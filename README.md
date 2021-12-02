@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_269 TILs and counting..._
+_270 TILs and counting..._
 
 ---
 
@@ -184,6 +184,7 @@ _269 TILs and counting..._
 ### [azure](#azure)
 - [Azure API Management](azure/azure-api-management.md)
 - [Azure Storage](azure/azure-storage.md)
+- [Create an Azure service principal](azure/create-service-principal.md)
 
 ### [azure-data-studio](#azure-data-studio)
 - [Azure Data Studio](azure-data-studio/azure-data-studio-getting-started.md)
