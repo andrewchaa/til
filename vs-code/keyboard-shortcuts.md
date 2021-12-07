@@ -13,9 +13,9 @@ key | description
 ⌘ u | unlo last cursor operation
 ⌘ + . | refactor - introduce a variable
 ⌘ \ | split editor view
-⌘ ⇧ w | show tabs in the tab bar
-⌘ ⇧ l | add cursors to all matching selections
 ⌘ ⌥ \[ | fold code block 
+⇧ ⌘ w | show tabs in the tab bar
+⇧ ⌘ l | add cursors to all matching selections
 ⇧ ⌥ a | toggle block comment
 ⇧ ⌥ f | format document
 ⇧ ⌥ up / down | duplicate selection up or down
