@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_271 TILs and counting..._
+_272 TILs and counting..._
 
 ---
 
@@ -206,6 +206,7 @@ _271 TILs and counting..._
 - [Azure Service Bus Message sessions](azure-service-bus/azure-servicebus-session.md)
 
 ### [bash](#bash)
+- [Bash commands](bash/commands.md)
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md)
 - [everything about file and directory](bash/file-and-directory.md)
 - [Make bash script executable](bash/make-script-executable.md)
