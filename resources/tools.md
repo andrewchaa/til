@@ -3,6 +3,7 @@
 name | description
 ---- | ----
 [AvaloniaILSpy](https://github.com/icsharpcode/AvaloniaILSpy) | Avalonia-based .NET Decompiler (port of ILSpy)
+[Clipy](https://github.com/Clipy/Clipy) | Clipboard extension app for macOS
 [Detox](https://github.com/wix/detox/) | Gray box end-to-end testing and automation framework for mobile apps
 [dotnet format](https://github.com/dotnet/format) | a code formatter for dotnet that applies style preferences to a project or solution
 [flipper](https://github.com/facebook/flipper) | A desktop debugging platform for mobile developers.
