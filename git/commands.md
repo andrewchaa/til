@@ -6,6 +6,7 @@ git branch \| grep -v "master" \| xargs git branch -D | delete all local branche
 git co master -- source/graphql/yarn.lock | revert the file with the file from the master branch
 git clone --depth 1 https://github.com/django/django.git | shallow clone, getting the latest copy of the relevant files, saving space and time
 git remote prune origin | to fix `error: cannot lock ref ... `
+`git reset --mixed origin/HEAD` | reset to origin/HEAD leaving files uncommitted 
 git config --global core.editor "code --wait" | set VS Code as the default git editor
 git config --global --edit | edit global config file
 git config --global --list | list global config entries
