@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_272 TILs and counting..._
+_273 TILs and counting..._
 
 ---
 
@@ -499,6 +499,7 @@ _272 TILs and counting..._
 - [Regulax Expression](regular-expression/regular-expression.md)
 
 ### [resources](#resources)
+- [Chrome Extensions](resources/chrome-extensions.md)
 - [References](resources/references.md)
 - [Apps](resources/tools.md)
 
