@@ -302,9 +302,9 @@ _272 TILs and counting..._
 - [Getting started with Gatsby](gatsby-js/getting-started-with-gatsby.md)
 
 ### [git](#git)
+- [git commands](git/commands.md)
 - [Getting started with Git](git/getting-started.md)
 - [Checking in Git](git/git-checkout.md)
-- [git commands](git/git-commands.md)
 - [Deleting things in git](git/git-deletions.md)
 
 ### [github](#github)
