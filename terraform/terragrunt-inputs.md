@@ -8,6 +8,8 @@ inputs.dev.tfvars
 log_level = "Information"
 ```
 
+terragrunt.hcl
+
 ```hcl
 terraform {
   source = "."
