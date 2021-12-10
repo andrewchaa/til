@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_273 TILs and counting..._
+_274 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Terragrunt input vars](terraform/terragrunt-inputs.md) - Fri Dec 10 16:30:03 2021 +0000
 - [Connec using AnyConnect from terminal](cisco-anyconnect/connect-from-terminal.md) - Mon Nov 29 23:08:15 2021 +0000
 - [Interesting linq statements](dot-net/linq-statements.md) - Tue Nov 23 10:32:49 2021 +0000
 - [React Native Camera](react-native/react-native-cemera.md) - Mon Nov 22 12:32:56 2021 +0000
@@ -31,7 +32,6 @@ _273 TILs and counting..._
 - [Getting started with Snapshooter](snapshooter/getting-started.md) - Tue Oct 26 16:37:58 2021 +0100
 - [Module](terraform/terraform-module.md) - Tue Oct 26 16:07:56 2021 +0100
 - [Getting started with Git](git/getting-started.md) - Mon Oct 18 16:54:00 2021 +0100
-- [Getting started with husky](husky/getting-started.md) - Mon Oct 18 12:47:30 2021 +0100
 
 ### Categories
 
@@ -588,6 +588,7 @@ _273 TILs and counting..._
 - [Terraform Getting Started](terraform/terraform-getting-started.md)
 - [Module](terraform/terraform-module.md)
 - [Provisioning Azure Functions with Terraform](terraform/terraform-provision-azure-function.md)
+- [Terragrunt input vars](terraform/terragrunt-inputs.md)
 
 ### [terragrunt](#terragrunt)
 - [Getting started with terragrunt](terragrunt/getting-started-with-terragrunt.md)
