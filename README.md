@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_274 TILs and counting..._
+_275 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Typescript Domain Object](typescript/domain-class.md) - Sat Dec 11 10:31:14 2021 +0000
 - [Terragrunt input vars](terraform/terragrunt-inputs.md) - Fri Dec 10 16:30:03 2021 +0000
 - [Connec using AnyConnect from terminal](cisco-anyconnect/connect-from-terminal.md) - Mon Nov 29 23:08:15 2021 +0000
 - [Interesting linq statements](dot-net/linq-statements.md) - Tue Nov 23 10:32:49 2021 +0000
@@ -31,7 +32,6 @@ _274 TILs and counting..._
 - [Getting started with Tailwind CSS](tailwind-css/getting-started.md) - Tue Oct 26 21:59:35 2021 +0100
 - [Getting started with Snapshooter](snapshooter/getting-started.md) - Tue Oct 26 16:37:58 2021 +0100
 - [Module](terraform/terraform-module.md) - Tue Oct 26 16:07:56 2021 +0100
-- [Getting started with Git](git/getting-started.md) - Mon Oct 18 16:54:00 2021 +0100
 
 ### Categories
 
@@ -599,6 +599,7 @@ _274 TILs and counting..._
 - [Marta](tools/marta.md)
 
 ### [typescript](#typescript)
+- [Typescript Domain Object](typescript/domain-class.md)
 - [Commit and push automatically on save](typescript/push-change-automatically-to-github.md)
 - [## Set up](typescript/typescript.md)
 - [What is typescript?](typescript/what-is-typescript.md)
