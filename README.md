@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_274 TILs and counting..._
+_275 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Cosmos DB Indexing](cosmos-db/indexing.md) - Sat Dec 11 19:08:05 2021 +0000
 - [Typescript Domain Object](typescript/domain-class.md) - Sat Dec 11 10:31:14 2021 +0000
 - [Terragrunt input vars](terraform/terragrunt-inputs.md) - Fri Dec 10 16:30:03 2021 +0000
 - [Connec using AnyConnect from terminal](cisco-anyconnect/connect-from-terminal.md) - Mon Nov 29 23:08:15 2021 +0000
@@ -31,7 +32,6 @@ _274 TILs and counting..._
 - [Aligntments in div](tailwind-css/alignments-in-div.md) - Tue Oct 26 22:02:32 2021 +0100
 - [Getting started with Tailwind CSS](tailwind-css/getting-started.md) - Tue Oct 26 21:59:35 2021 +0100
 - [Getting started with Snapshooter](snapshooter/getting-started.md) - Tue Oct 26 16:37:58 2021 +0100
-- [Module](terraform/terraform-module.md) - Tue Oct 26 16:07:56 2021 +0100
 
 ### Categories
 
@@ -52,6 +52,7 @@ _274 TILs and counting..._
 - [checklists](#checklists)
 - [cisco-anyconnect](#cisco-anyconnect)
 - [cocoapods](#cocoapods)
+- [cosmos-db](#cosmos-db)
 - [csharp](#csharp)
 - [curl](#curl)
 - [dapper](#dapper)
@@ -226,6 +227,9 @@ _274 TILs and counting..._
 ### [cocoapods](#cocoapods)
 - [Async Storage issues](cocoapods/async-storage-troubleshooting.md)
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md)
+
+### [cosmos-db](#cosmos-db)
+- [Cosmos DB Indexing](cosmos-db/indexing.md)
 
 ### [csharp](#csharp)
 - [## basic](csharp/csharp-async.md)
