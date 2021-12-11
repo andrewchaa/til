@@ -39,12 +39,12 @@ https://docs.microsoft.com/en-us/azure/cosmos-db/index-policy
 * Included Path: /food/ingredients/nutrition/*
 * Excluded Path: /food/ingredients/*
 
-* a path leading to a scalar value (string or number) ends with /?
-* elements from an array are addressed together through the /[] notation (instead of /0, /1 etc.)
-* the /* wildcard can be used to match any elements below the node
-
 In this case, the included path takes precedence over the excluded path because it is more precise. 
 Based on these paths, any data in the food/ingredients path or nested within would be 
 excluded from the index. The exception would be data within the included path: `/food/ingredients/nutrition/*`, 
 which would be indexed
+
+* a path leading to a scalar value (string or number) ends with /?
+* elements from an array are addressed together through the /[] notation (instead of /0, /1 etc.)
+* the /* wildcard can be used to match any elements below the node
 
