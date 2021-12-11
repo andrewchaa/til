@@ -1,2 +1,0 @@
-# Cosmos DB Getting Starated
-
