@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_275 TILs and counting..._
+_274 TILs and counting..._
 
 ---
 
@@ -52,7 +52,6 @@ _275 TILs and counting..._
 - [checklists](#checklists)
 - [cisco-anyconnect](#cisco-anyconnect)
 - [cocoapods](#cocoapods)
-- [cosmos.db](#cosmos.db)
 - [csharp](#csharp)
 - [curl](#curl)
 - [dapper](#dapper)
@@ -227,9 +226,6 @@ _275 TILs and counting..._
 ### [cocoapods](#cocoapods)
 - [Async Storage issues](cocoapods/async-storage-troubleshooting.md)
 - [Cocoapods set up](cocoapods/cocoapods-set-up.md)
-
-### [cosmos.db](#cosmos.db)
-- [Cosmos DB Getting Starated](cosmos.db/cosmos.db.getting.started.md)
 
 ### [csharp](#csharp)
 - [## basic](csharp/csharp-async.md)
