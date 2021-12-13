@@ -14,12 +14,6 @@ sudo chown -R $USER 3.0.0/
 
 This will change the ownership
 
-### Rename directory
-
-```bash
-mv ./wynwyn ./wynwynapi
-```
-
 ### Copy all files into an existing directory
 
     cp -R Fonoa.Poc.AzureServiceBusPoc/. poc-azure-service-bus
