@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_275 TILs and counting..._
+_274 TILs and counting..._
 
 ---
 
@@ -208,7 +208,6 @@ _275 TILs and counting..._
 ### [bash](#bash)
 - [Bash commands](bash/commands.md)
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md)
-- [everything about file and directory](bash/file-and-directory.md)
 - [Make bash script executable](bash/make-script-executable.md)
 - [Oh My Zsh](bash/ohmyzsh.md)
 
