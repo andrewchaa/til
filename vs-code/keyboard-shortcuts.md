@@ -22,6 +22,7 @@ key | description
 ⌃ \` | open integrated terminal
 ⌥ up / down | move line up or down 
 ⌥ ⌘ f | replace
+⌥ ⌘ t | close other windows
 ⇧ ⌘ e | activate file explorer
 ⇧ ⌘ \ | jump to matching bracket
 ⇧ ⌥ ⌘ ↑ / ↓ | column selection up or down
