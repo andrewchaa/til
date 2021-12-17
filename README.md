@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_275 TILs and counting..._
+_276 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Using `terraform-aws-modules/lambda/aws`](terraform/terraform-aws-modules-lambda.md) - Fri Dec 17 19:38:37 2021 +0000
 - [Data Source: aws_iam_policy_document](terraform/data-aws-iam-policy-document.md) - Thu Dec 16 11:05:45 2021 +0000
 - [Cosmos DB Indexing](cosmos-db/indexing.md) - Sat Dec 11 19:08:05 2021 +0000
 - [Typescript Domain Object](typescript/domain-class.md) - Sat Dec 11 10:31:14 2021 +0000
@@ -31,7 +32,6 @@ _275 TILs and counting..._
 - [GraphQl Client](graphql-client/getting-started.md) - Thu Oct 28 12:09:44 2021 +0100
 - [Mock4Net WireMock](mock4net/getting-started.md) - Thu Oct 28 11:37:08 2021 +0100
 - [Aligntments in div](tailwind-css/alignments-in-div.md) - Tue Oct 26 22:02:32 2021 +0100
-- [Getting started with Tailwind CSS](tailwind-css/getting-started.md) - Tue Oct 26 21:59:35 2021 +0100
 
 ### Categories
 
@@ -585,6 +585,7 @@ _275 TILs and counting..._
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md)
 - [Provision Cosmos DB](terraform/provision-cosmos-db.md)
 - [required-group](terraform/required-group.md)
+- [Using `terraform-aws-modules/lambda/aws`](terraform/terraform-aws-modules-lambda.md)
 - [Terraform Getting Started](terraform/terraform-getting-started.md)
 - [Module](terraform/terraform-module.md)
 - [Provisioning Azure Functions with Terraform](terraform/terraform-provision-azure-function.md)
