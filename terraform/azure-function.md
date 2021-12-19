@@ -126,3 +126,21 @@ resource "azurerm_function_app" "wynwyn" {
 * Free tier is not available for C# runtime (https://docs.microsoft.com/en-us/answers/questions/148581/i-get-error-when-trying-to-create-azure-function-f.html)
 * Make sure `alwsys_on` is set to `true`. Otherwise, the instance wouldn't be ready when you deploy and the CI will most of the time fail.
 
+```terraform
+resource "azurerm_function_app" "simplyapi_prod" {
+  name                       = "${var.appname}-prod"
+  location                   = var.location
+  resource_group_name        = azurerm_resource_group.simplyapi.name
+  app_service_plan_id        = azurerm_app_service_plan.simplyapi.id
+  storage_account_name       = azurerm_storage_account.simplyapi.name
+  storage_account_access_key = azurerm_storage_account.simplyapi.primary_access_key
+  os_type                    = "linux"
+  version                    = "~3"
+
+  site_config {
+    cors {
+      allowed_origins = ["https://www.sekyee.co.uk"]
+    }
+  }
+}
+```
