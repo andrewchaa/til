@@ -12,6 +12,7 @@ _276 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Provisioning Azure Functions with Terraform](terraform/azure-function.md) - Sun Dec 19 23:50:40 2021 +0000
 - [Using `terraform-aws-modules/lambda/aws`](terraform/terraform-aws-modules-lambda.md) - Fri Dec 17 19:38:37 2021 +0000
 - [Data Source: aws_iam_policy_document](terraform/data-aws-iam-policy-document.md) - Thu Dec 16 11:05:45 2021 +0000
 - [Cosmos DB Indexing](cosmos-db/indexing.md) - Sat Dec 11 19:08:05 2021 +0000
@@ -31,7 +32,6 @@ _276 TILs and counting..._
 - [Running on device](xcode/run-app-on-device.md) - Thu Nov 11 00:06:37 2021 +0000
 - [GraphQl Client](graphql-client/getting-started.md) - Thu Oct 28 12:09:44 2021 +0100
 - [Mock4Net WireMock](mock4net/getting-started.md) - Thu Oct 28 11:37:08 2021 +0100
-- [Aligntments in div](tailwind-css/alignments-in-div.md) - Tue Oct 26 22:02:32 2021 +0100
 
 ### Categories
 
@@ -579,6 +579,7 @@ _276 TILs and counting..._
 ### [terraform](#terraform)
 - [Create Azure API Management](terraform/azure-api-management.md)
 - [Azure CDN](terraform/azure-cdn.md)
+- [Provisioning Azure Functions with Terraform](terraform/azure-function.md)
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md)
 - [Data Source: aws_iam_policy_document](terraform/data-aws-iam-policy-document.md)
 - [IAM permissions](terraform/iam-permissions.md)
@@ -588,7 +589,6 @@ _276 TILs and counting..._
 - [Using `terraform-aws-modules/lambda/aws`](terraform/terraform-aws-modules-lambda.md)
 - [Terraform Getting Started](terraform/terraform-getting-started.md)
 - [Module](terraform/terraform-module.md)
-- [Provisioning Azure Functions with Terraform](terraform/terraform-provision-azure-function.md)
 - [Terragrunt input vars](terraform/terragrunt-inputs.md)
 
 ### [terragrunt](#terragrunt)
