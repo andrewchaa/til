@@ -21,8 +21,9 @@ public LocalFunctionTests(ITestOutputHelper output)
 }
 
 _output.WriteLine($"Elapsed: {watch.ElapsedTicks}");
-
 ```
+
+Do `dotnet test source/*.IntegrationTests/ --logger "console;verbosity=detailed"` to output the log to the console
 
 ### parameterised tests
 
