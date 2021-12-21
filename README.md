@@ -12,6 +12,7 @@ _277 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [# Resources](aws/dynamodb.md) - Tue Dec 21 14:57:43 2021 +0000
 - [dotnet test commands](dotnet-test/commands.md) - Tue Dec 21 10:25:40 2021 +0000
 - [Provisioning Azure Functions with Terraform](terraform/azure-function.md) - Sun Dec 19 23:50:40 2021 +0000
 - [Using `terraform-aws-modules/lambda/aws`](terraform/terraform-aws-modules-lambda.md) - Fri Dec 17 19:38:37 2021 +0000
@@ -31,7 +32,6 @@ _277 TILs and counting..._
 - [spread ...](javascript/spread.md) - Thu Nov 11 23:27:45 2021 +0000
 - [Getting started with terragrunt](terragrunt/getting-started-with-terragrunt.md) - Thu Nov 11 16:10:37 2021 +0000
 - [Running on device](xcode/run-app-on-device.md) - Thu Nov 11 00:06:37 2021 +0000
-- [GraphQl Client](graphql-client/getting-started.md) - Thu Oct 28 12:09:44 2021 +0100
 
 ### Categories
 
@@ -170,12 +170,12 @@ _277 TILs and counting..._
 - [AWS Certificate Manager](aws/aws-certificate-manager.md)
 - [aws cli](aws/aws-cli.md)
 - [cloud formation](aws/aws-cloudformation.md)
-- [# Resources](aws/aws-dynamodb.md)
 - [// Stop the instance](aws/aws-ec2.md)
 - [## resources](aws/aws-elastic-beanstalk.md)
 - [aws rds](aws/aws-rds.md)
 - [AWS - S3](aws/aws-s3.md)
 - [Step Function](aws/aws-stepfunction.md)
+- [# Resources](aws/dynamodb.md)
 - [Sign HttpRequestMessage using AWS Signature v4](aws/sign-httprequestmessage-using-aws-signature-v4.md)
 
 ### [aws-sns](#aws-sns)
