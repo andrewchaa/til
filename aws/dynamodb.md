@@ -8,6 +8,47 @@
 
 ### CRUD
 
+Saving with Data Model
+
+```csharp
+
+// ServierRegistration.cs
+// Assembly: AWSSDK.Extensions.NETCore.Setup
+public void ConfigureServices(IServiceCollection services, IConfiguration configuration)
+{
+    services.AddAWSService<IAmazonDynamoDB>()
+        .AddDefaultAWSOptions(configuration.GetAWSOptions())
+        ;
+}
+
+// data model
+[DynamoDBTable("contacts-api-contacts")]
+public class OrderDeliveries
+{
+    [DynamoDBHashKey("contactId")]
+    public string ContactId { get; set; }
+
+    [DynamoDBProperty("addresses", typeof(DynamoDbJsonConverter<Address[]>))]
+    public Address[] Addresses { get; set; }
+}
+
+
+// Repository
+    try
+    {
+        var context = new DynamoDBContext(_dynamoDbClient);
+        await context.SaveAsync(orderDeliveries);
+        return (true, null);
+    }
+    catch (Exception ex)
+    {
+        _logger.FixToday(ex, 
+            $"Failed to save contacts to DynamoDB for ContactId: {contactId}");
+        return (false, ex);
+    }
+
+```
+
 ```csharp
 
 // Creating tables with Powershell
