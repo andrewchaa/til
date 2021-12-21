@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_276 TILs and counting..._
+_277 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [dotnet test commands](dotnet-test/commands.md) - Tue Dec 21 10:25:40 2021 +0000
 - [Provisioning Azure Functions with Terraform](terraform/azure-function.md) - Sun Dec 19 23:50:40 2021 +0000
 - [Using `terraform-aws-modules/lambda/aws`](terraform/terraform-aws-modules-lambda.md) - Fri Dec 17 19:38:37 2021 +0000
 - [Data Source: aws_iam_policy_document](terraform/data-aws-iam-policy-document.md) - Thu Dec 16 11:05:45 2021 +0000
@@ -31,7 +32,6 @@ _276 TILs and counting..._
 - [Getting started with terragrunt](terragrunt/getting-started-with-terragrunt.md) - Thu Nov 11 16:10:37 2021 +0000
 - [Running on device](xcode/run-app-on-device.md) - Thu Nov 11 00:06:37 2021 +0000
 - [GraphQl Client](graphql-client/getting-started.md) - Thu Oct 28 12:09:44 2021 +0100
-- [Mock4Net WireMock](mock4net/getting-started.md) - Thu Oct 28 11:37:08 2021 +0100
 
 ### Categories
 
@@ -60,6 +60,7 @@ _276 TILs and counting..._
 - [docker](#docker)
 - [domain-driven-design](#domain-driven-design)
 - [dot-net](#dot-net)
+- [dotnet-test](#dotnet-test)
 - [eastic-search](#eastic-search)
 - [electron](#electron)
 - [fiddler](#fiddler)
@@ -272,6 +273,9 @@ _276 TILs and counting..._
 - [Interesting linq statements](dot-net/linq-statements.md)
 - [Logging in .NET](dot-net/logging.md)
 - [Registering services in .NET](dot-net/registering-services.md)
+
+### [dotnet-test](#dotnet-test)
+- [dotnet test commands](dotnet-test/commands.md)
 
 ### [eastic-search](#eastic-search)
 - [Full text search examples](eastic-search/full-text-search-examples.md)
