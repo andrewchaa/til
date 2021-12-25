@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_277 TILs and counting..._
+_278 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [](azure-functions/cosmos-db-trigger.md) - Sat Dec 25 12:35:09 2021 +0000
 - [# Resources](aws/dynamodb.md) - Tue Dec 21 14:57:43 2021 +0000
 - [dotnet test commands](dotnet-test/commands.md) - Tue Dec 21 10:25:40 2021 +0000
 - [Provisioning Azure Functions with Terraform](terraform/azure-function.md) - Sun Dec 19 23:50:40 2021 +0000
@@ -31,7 +32,6 @@ _277 TILs and counting..._
 - [Configuration](dot-net/configurations.md) - Fri Nov 12 15:08:46 2021 +0000
 - [spread ...](javascript/spread.md) - Thu Nov 11 23:27:45 2021 +0000
 - [Getting started with terragrunt](terragrunt/getting-started-with-terragrunt.md) - Thu Nov 11 16:10:37 2021 +0000
-- [Running on device](xcode/run-app-on-device.md) - Thu Nov 11 00:06:37 2021 +0000
 
 ### Categories
 
@@ -199,6 +199,7 @@ _277 TILs and counting..._
 - [Azure Functions core Tools](azure-functions/azure-functions-core-tools.md)
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md)
 - [Azure Functions Logging](azure-functions/azure-functions-logging.md)
+- [](azure-functions/cosmos-db-trigger.md)
 - [Dockerise Azure Functions](azure-functions/dockerise-azure-functions.md)
 - [Azure Functions in typescript](azure-functions/functions-in-typescript.md)
 - [Developing and running Azure functions on a local machine](azure-functions/working-with-azure-function-locally.md)
