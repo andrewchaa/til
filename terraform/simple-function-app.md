@@ -12,6 +12,8 @@ resource "azurerm_function_app" "simplyapi_prod" {
   version                    = "~3"
 
   app_settings = {
+    "WEBSITE_RUN_FROM_PACKAGE"       = "",
+    "FUNCTIONS_WORKER_RUNTIME"       = "node", # necessary to expose app settings to environment variable
     "is_production"                  = "true",
     "APPINSIGHTS_INSTRUMENTATIONKEY" = azurerm_application_insights.simplyapi.instrumentation_key
   }
