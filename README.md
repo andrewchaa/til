@@ -12,6 +12,7 @@ _278 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Azure Function in JavaScript](azure-functions/azure-function-javascript-overview.md) - Sat Dec 25 16:58:28 2021 +0000
 - [Cosmos DB Trigger](azure-functions/cosmos-db-trigger.md) - Sat Dec 25 12:35:09 2021 +0000
 - [# Resources](aws/dynamodb.md) - Tue Dec 21 14:57:43 2021 +0000
 - [dotnet test commands](dotnet-test/commands.md) - Tue Dec 21 10:25:40 2021 +0000
@@ -31,7 +32,6 @@ _278 TILs and counting..._
 - [Using GraphQL Playground](graphql/use-playground.md) - Wed Nov 17 13:52:09 2021 +0000
 - [Configuration](dot-net/configurations.md) - Fri Nov 12 15:08:46 2021 +0000
 - [spread ...](javascript/spread.md) - Thu Nov 11 23:27:45 2021 +0000
-- [Getting started with terragrunt](terragrunt/getting-started-with-terragrunt.md) - Thu Nov 11 16:10:37 2021 +0000
 
 ### Categories
 
@@ -194,7 +194,7 @@ _278 TILs and counting..._
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md)
 
 ### [azure-functions](#azure-functions)
-- [Getting started with Azure Functions](azure-functions/azure-function-getting-started.md)
+- [Azure Function in JavaScript](azure-functions/azure-function-javascript-overview.md)
 - [Unit-testing C# Azure Function](azure-functions/azure-function-unit-testing.md)
 - [Azure Functions core Tools](azure-functions/azure-functions-core-tools.md)
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md)
