@@ -12,7 +12,7 @@ _278 TILs and counting..._
 
 ### 20 most recent TILs
 
-- [](azure-functions/cosmos-db-trigger.md) - Sat Dec 25 12:35:09 2021 +0000
+- [Cosmos DB Trigger](azure-functions/cosmos-db-trigger.md) - Sat Dec 25 12:35:09 2021 +0000
 - [# Resources](aws/dynamodb.md) - Tue Dec 21 14:57:43 2021 +0000
 - [dotnet test commands](dotnet-test/commands.md) - Tue Dec 21 10:25:40 2021 +0000
 - [Provisioning Azure Functions with Terraform](terraform/azure-function.md) - Sun Dec 19 23:50:40 2021 +0000
@@ -199,7 +199,7 @@ _278 TILs and counting..._
 - [Azure Functions core Tools](azure-functions/azure-functions-core-tools.md)
 - [Azure Functions [hosting options](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)](azure-functions/azure-functions-hosting-options.md)
 - [Azure Functions Logging](azure-functions/azure-functions-logging.md)
-- [](azure-functions/cosmos-db-trigger.md)
+- [Cosmos DB Trigger](azure-functions/cosmos-db-trigger.md)
 - [Dockerise Azure Functions](azure-functions/dockerise-azure-functions.md)
 - [Azure Functions in typescript](azure-functions/functions-in-typescript.md)
 - [Developing and running Azure functions on a local machine](azure-functions/working-with-azure-function-locally.md)
