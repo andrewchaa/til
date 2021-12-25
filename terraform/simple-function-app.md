@@ -12,7 +12,8 @@ resource "azurerm_function_app" "simplyapi_prod" {
   version                    = "~3"
 
   app_settings = {
-    "is_production" = "true"
+    "is_production"                  = "true",
+    "APPINSIGHTS_INSTRUMENTATIONKEY" = azurerm_application_insights.simplyapi.instrumentation_key
   }
 
   site_config {
@@ -21,5 +22,16 @@ resource "azurerm_function_app" "simplyapi_prod" {
     }
   }
 }
+
+resource "azurerm_application_insights" "simplyapi" {
+  name                = "${var.appname}-prod-insights"
+  location            = var.location
+  resource_group_name = azurerm_resource_group.simplyapi.name
+  application_type    = "web"
+  tags = {
+    environment = "production"
+  }
+}
+
 
 ```
