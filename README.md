@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_278 TILs and counting..._
+_279 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Simple function app](terraform/simple-function-app.md) - Sat Dec 25 21:30:26 2021 +0000
 - [Azure Function in JavaScript](azure-functions/azure-function-javascript-overview.md) - Sat Dec 25 16:58:28 2021 +0000
 - [Cosmos DB Trigger](azure-functions/cosmos-db-trigger.md) - Sat Dec 25 12:35:09 2021 +0000
 - [# Resources](aws/dynamodb.md) - Tue Dec 21 14:57:43 2021 +0000
@@ -31,7 +32,6 @@ _278 TILs and counting..._
 - [Azure CDN](terraform/azure-cdn.md) - Fri Nov 19 15:40:51 2021 +0000
 - [Using GraphQL Playground](graphql/use-playground.md) - Wed Nov 17 13:52:09 2021 +0000
 - [Configuration](dot-net/configurations.md) - Fri Nov 12 15:08:46 2021 +0000
-- [spread ...](javascript/spread.md) - Thu Nov 11 23:27:45 2021 +0000
 
 ### Categories
 
@@ -591,6 +591,7 @@ _278 TILs and counting..._
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md)
 - [Provision Cosmos DB](terraform/provision-cosmos-db.md)
 - [required-group](terraform/required-group.md)
+- [Simple function app](terraform/simple-function-app.md)
 - [Using `terraform-aws-modules/lambda/aws`](terraform/terraform-aws-modules-lambda.md)
 - [Terraform Getting Started](terraform/terraform-getting-started.md)
 - [Module](terraform/terraform-module.md)
