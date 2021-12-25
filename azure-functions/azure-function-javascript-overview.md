@@ -55,6 +55,26 @@ module.exports = async function (context, req) {
 }
 ```
 
+### Inputs
+
+Input are divided into two categories in Azure Functions: one is the trigger input and the other is the additional input. Trigger and other input bindings (bindings of direction === "in") can be read by a function in three ways:
+
+As parameters passed to your function. They are passed to the function in the same order that they are defined in function.json. The name property defined in function.json does not need to match the name of your parameter, although it should.
+
+```JavaScript
+module.exports = async function(context, myTrigger, myInput, myOtherInput) { ... };
+```
+As members of the context.bindings object. Each member is named by the name property defined in function.json.
+
+```JavaScript
+module.exports = async function(context) { 
+    context.log("This is myTrigger: " + context.bindings.myTrigger);
+    context.log("This is myInput: " + context.bindings.myInput);
+    context.log("This is myOtherInput: " + context.bindings.myOtherInput);
+};
+```
+
+
 ### Install Azure Functions Core Tools and Azurite
 
 * [Azure Functions Core Tools](https://www.npmjs.com/package/azure-functions-core-tools)
