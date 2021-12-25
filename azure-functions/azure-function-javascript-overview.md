@@ -23,6 +23,38 @@ FunctionsProject
  
 At the root of the project, there's a shared host.json file that can be used to configure the function app. Each function has a folder with its own code file (.js) and binding configuration file (function.json)
 
+By default, the Functions runtime looks for your function in index.js, where index.js shares the same parent directory as its corresponding function.json
+
+Exporting an async function
+
+```javascript
+module.exports = async function (context) {
+    context.log('JavaScript trigger function processed a request.');
+};
+```
+
+To assign an output using return, change the name property to $return in function.json.
+
+```json
+{
+  "type": "http",
+  "direction": "out",
+  "name": "$return"
+}
+```
+
+In this case, your function should look like the following example:
+
+```JavaScript
+module.exports = async function (context, req) {
+    context.log('JavaScript HTTP trigger function processed a request.');
+    // You can call and await an async method here
+    return {
+        body: "Hello, world!"
+    };
+}
+```
+
 ### Install Azure Functions Core Tools and Azurite
 
 * [Azure Functions Core Tools](https://www.npmjs.com/package/azure-functions-core-tools)
