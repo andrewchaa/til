@@ -13,9 +13,15 @@ resource "azurerm_function_app" "simplyapi_prod" {
 
   app_settings = {
     "WEBSITE_RUN_FROM_PACKAGE"       = "",
-    "FUNCTIONS_WORKER_RUNTIME"       = "node", # necessary to expose app settings to environment variable
+    "FUNCTIONS_WORKER_RUNTIME"       = "node",
     "is_production"                  = "true",
     "APPINSIGHTS_INSTRUMENTATIONKEY" = azurerm_application_insights.simplyapi.instrumentation_key
+  }
+
+  connection_string {
+    name  = "COSMOSDB_CONNECTION_STRING"
+    type  = "DocDb"
+    value = azurerm_cosmosdb_account.simplyapiprod.connection_strings[0]
   }
 
   site_config {
