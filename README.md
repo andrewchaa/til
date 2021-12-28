@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_279 TILs and counting..._
+_280 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [Creating resources in multi region](terraform/create-resource-in-multi-regions.md) - Tue Dec 28 13:51:56 2021 +0000
 - [Simple function app](terraform/simple-function-app.md) - Sat Dec 25 21:30:26 2021 +0000
 - [Azure Function in JavaScript](azure-functions/azure-function-javascript-overview.md) - Sat Dec 25 16:58:28 2021 +0000
 - [Cosmos DB Trigger](azure-functions/cosmos-db-trigger.md) - Sat Dec 25 12:35:09 2021 +0000
@@ -31,7 +32,6 @@ _279 TILs and counting..._
 - [Where are the archives?](xcode/where-are-archives.md) - Fri Nov 19 16:37:48 2021 +0000
 - [Azure CDN](terraform/azure-cdn.md) - Fri Nov 19 15:40:51 2021 +0000
 - [Using GraphQL Playground](graphql/use-playground.md) - Wed Nov 17 13:52:09 2021 +0000
-- [Configuration](dot-net/configurations.md) - Fri Nov 12 15:08:46 2021 +0000
 
 ### Categories
 
@@ -586,6 +586,7 @@ _279 TILs and counting..._
 - [Azure CDN](terraform/azure-cdn.md)
 - [Provisioning Azure Functions with Terraform](terraform/azure-function.md)
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md)
+- [Creating resources in multi region](terraform/create-resource-in-multi-regions.md)
 - [Data Source: aws_iam_policy_document](terraform/data-aws-iam-policy-document.md)
 - [IAM permissions](terraform/iam-permissions.md)
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md)
