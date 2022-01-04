@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_280 TILs and counting..._
+_281 TILs and counting..._
 
 ---
 
@@ -236,6 +236,7 @@ _280 TILs and counting..._
 - [## basic](csharp/csharp-async.md)
 - [// map](csharp/csharp-functional.md)
 - [C#](csharp/csharp.md)
+- [ID class to avoid primitive obsession](csharp/id-class.md)
 - [# Usages](csharp/polly.md)
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md)
 - [Refit](csharp/refit.md)
