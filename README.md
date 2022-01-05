@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_282 TILs and counting..._
+_281 TILs and counting..._
 
 ---
 
@@ -595,7 +595,6 @@ _282 TILs and counting..._
 - [Data Source: aws_iam_policy_document](terraform/data-aws-iam-policy-document.md)
 - [IAM permissions](terraform/iam-permissions.md)
 - [Provisioning Azure resources with Github actions](terraform/provision-azure-resource-on-github-actions.md)
-- [Provision Cosmos DB](terraform/provision-cosmos-db.md)
 - [required-group](terraform/required-group.md)
 - [Simple function app](terraform/simple-function-app.md)
 - [Using `terraform-aws-modules/lambda/aws`](terraform/terraform-aws-modules-lambda.md)
