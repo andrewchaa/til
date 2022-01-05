@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_281 TILs and counting..._
+_282 TILs and counting..._
 
 ---
 
@@ -68,6 +68,7 @@ _281 TILs and counting..._
 - [firebase](#firebase)
 - [fluent-migration](#fluent-migration)
 - [fsharp](#fsharp)
+- [functional-programming](#functional-programming)
 - [gatsby-js](#gatsby-js)
 - [git](#git)
 - [github](#github)
@@ -302,6 +303,9 @@ _281 TILs and counting..._
 
 ### [fsharp](#fsharp)
 - [## Resources](fsharp/fsharp.md)
+
+### [functional-programming](#functional-programming)
+- [Higher order function](functional-programming/higher-order-function.md)
 
 ### [gatsby-js](#gatsby-js)
 - [Getting started with Gatsby](gatsby-js/getting-started-with-gatsby.md)
