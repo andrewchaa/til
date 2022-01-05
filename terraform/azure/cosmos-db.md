@@ -62,7 +62,8 @@ resource "azurerm_cosmosdb_sql_container" "eventsstoredev" {
 }
 ```
 
-```terraformresource "azurerm_cosmosdb_account" "simplyapiprod" {
+```terraform
+resource "azurerm_cosmosdb_account" "simplyapiprod" {
   name                = "${var.appname}-prod"
   location            = var.location
   resource_group_name = azurerm_resource_group.simplyapi_prod.name
