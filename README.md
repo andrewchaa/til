@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_281 TILs and counting..._
+_282 TILs and counting..._
 
 ---
 
@@ -242,6 +242,7 @@ _281 TILs and counting..._
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md)
 - [Refit](csharp/refit.md)
 - [## Request](csharp/restsharp.md)
+- [Test Data Builder](csharp/test-data-builder.md)
 
 ### [curl](#curl)
 - [```](curl/curl.md)
