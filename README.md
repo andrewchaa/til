@@ -650,7 +650,7 @@ _281 TILs and counting..._
 - [Keyboard shortcuts](xcode/xcode-shortcuts.md)
 
 ### [xunit](#xunit)
-- [Share common code in ClassFixture](xunit/classfixture-in-xunit.md)
+- [Share common code in ClassFixture](xunit/classfixture.md)
 - [xUnit](xunit/xunit.md)
 
 [1]: https://github.com/jbranchaud/til
