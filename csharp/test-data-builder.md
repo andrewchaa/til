@@ -18,12 +18,12 @@ public class OrderDeliveryDataBuilder
                 {
                     AddressFirstLine = "Herbal House",
                     City = "London",
-                    FirstName = "Moon",
+                    FirstName = "Firstname",
                     Id = Guid.NewGuid().ToString(),
                     Country = "United Kingdom",
                     IsMyAddress = true,
-                    LastName = "Pig",
-                    Postcode = "EC1R 5EN",
+                    LastName = "Lastname",
+                    Postcode = "EC4R 4SA",
                     Title = "Miss"
                 },
             DeliveryDate = DateTime.Today,
