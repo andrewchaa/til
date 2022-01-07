@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_282 TILs and counting..._
+_283 TILs and counting..._
 
 ---
 
@@ -178,6 +178,7 @@ _282 TILs and counting..._
 - [Step Function](aws/aws-stepfunction.md)
 - [# Resources](aws/dynamodb.md)
 - [Sign HttpRequestMessage using AWS Signature v4](aws/sign-httprequestmessage-using-aws-signature-v4.md)
+- [SQS](aws/sqs.md)
 
 ### [aws-sns](#aws-sns)
 - [// Testing topic subscription](aws-sns/create-a-test-subscription.md)
