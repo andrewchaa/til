@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_283 TILs and counting..._
+_284 TILs and counting..._
 
 ---
 
@@ -177,6 +177,7 @@ _283 TILs and counting..._
 - [AWS - S3](aws/aws-s3.md)
 - [Step Function](aws/aws-stepfunction.md)
 - [# Resources](aws/dynamodb.md)
+- [lambda](aws/lambda.md)
 - [Sign HttpRequestMessage using AWS Signature v4](aws/sign-httprequestmessage-using-aws-signature-v4.md)
 - [SQS](aws/sqs.md)
 
