@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_284 TILs and counting..._
+_285 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [System.Text.Json](csharp/system-text-json.md) - Tue Jan 11 15:20:38 2022 +0000
 - [Creating resources in multi region](terraform/create-resource-in-multi-regions.md) - Tue Dec 28 13:51:56 2021 +0000
 - [Simple function app](terraform/simple-function-app.md) - Sat Dec 25 21:30:26 2021 +0000
 - [Azure Function in JavaScript](azure-functions/azure-function-javascript-overview.md) - Sat Dec 25 16:58:28 2021 +0000
@@ -31,7 +32,6 @@ _284 TILs and counting..._
 - [Create a new certificate](xcode/create-new-certificate.md) - Sun Nov 21 22:26:03 2021 +0000
 - [Where are the archives?](xcode/where-are-archives.md) - Fri Nov 19 16:37:48 2021 +0000
 - [Azure CDN](terraform/azure-cdn.md) - Fri Nov 19 15:40:51 2021 +0000
-- [Using GraphQL Playground](graphql/use-playground.md) - Wed Nov 17 13:52:09 2021 +0000
 
 ### Categories
 
@@ -244,6 +244,7 @@ _284 TILs and counting..._
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md)
 - [Refit](csharp/refit.md)
 - [## Request](csharp/restsharp.md)
+- [System.Text.Json](csharp/system-text-json.md)
 - [Test Data Builder](csharp/test-data-builder.md)
 
 ### [curl](#curl)
