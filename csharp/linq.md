@@ -1,6 +1,6 @@
 # Interesting linq statements
 
-Create a batch from a collection
+### Create a batch from a collection
 
 ```csharp
 public static class EnumerableExtensions
@@ -27,7 +27,7 @@ var batches = _records
                 
 ```
 
-Where list contains another list
+### Where list contains another list
 
 ```csharp
 var deliveries = Deliveries.Where(x =>
