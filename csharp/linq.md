@@ -26,3 +26,15 @@ var batches = _records
     .ToList();
                 
 ```
+
+Where list contains another list
+
+```csharp
+var deliveries = Deliveries.Where(x =>
+{
+    var lineItemIdsInDelivery = x.OrderItems.Select(o => o.Id);
+    var itemIdsInOrder = orderItemIds.Select(o => o.Value);
+    return lineItemIdsInDelivery.Intersect(itemIdsInOrder).Any();
+});
+
+```
