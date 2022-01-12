@@ -12,6 +12,7 @@ _285 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Interesting linq statements](csharp/linq.md) - Wed Jan 12 18:22:19 2022 +0000
 - [System.Text.Json](csharp/system-text-json.md) - Tue Jan 11 15:20:38 2022 +0000
 - [Creating resources in multi region](terraform/create-resource-in-multi-regions.md) - Tue Dec 28 13:51:56 2021 +0000
 - [Simple function app](terraform/simple-function-app.md) - Sat Dec 25 21:30:26 2021 +0000
@@ -26,7 +27,6 @@ _285 TILs and counting..._
 - [Typescript Domain Object](typescript/domain-class.md) - Sat Dec 11 10:31:14 2021 +0000
 - [Terragrunt input vars](terraform/terragrunt-inputs.md) - Fri Dec 10 16:30:03 2021 +0000
 - [Connec using AnyConnect from terminal](cisco-anyconnect/connect-from-terminal.md) - Mon Nov 29 23:08:15 2021 +0000
-- [Interesting linq statements](dot-net/linq-statements.md) - Tue Nov 23 10:32:49 2021 +0000
 - [React Native Camera](react-native/react-native-cemera.md) - Mon Nov 22 12:32:56 2021 +0000
 - [Remove old provisioning profiles](xcode/remove-provisioning-profile.md) - Mon Nov 22 12:29:52 2021 +0000
 - [Create a new certificate](xcode/create-new-certificate.md) - Sun Nov 21 22:26:03 2021 +0000
@@ -240,6 +240,7 @@ _285 TILs and counting..._
 - [// map](csharp/csharp-functional.md)
 - [C#](csharp/csharp.md)
 - [ID class to avoid primitive obsession](csharp/id-class.md)
+- [Interesting linq statements](csharp/linq.md)
 - [Polly](csharp/polly.md)
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md)
 - [Refit](csharp/refit.md)
@@ -277,7 +278,6 @@ _285 TILs and counting..._
 - [Copy all conetent files to output folder](dot-net/copy-all-files-to-output-folder-on-build.md)
 - [Models for Primitive Types](dot-net/create-model-for-primitive-types.md)
 - [.NET Cli](dot-net/dotnet-cli.md)
-- [Interesting linq statements](dot-net/linq-statements.md)
 - [Logging in .NET](dot-net/logging.md)
 - [Registering services in .NET](dot-net/registering-services.md)
 
