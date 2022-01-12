@@ -240,7 +240,7 @@ _285 TILs and counting..._
 - [// map](csharp/csharp-functional.md)
 - [C#](csharp/csharp.md)
 - [ID class to avoid primitive obsession](csharp/id-class.md)
-- [# Usages](csharp/polly.md)
+- [Polly](csharp/polly.md)
 - [Reading appsettings.json file in test project](csharp/read-appsettings-json-in-test.md)
 - [Refit](csharp/refit.md)
 - [## Request](csharp/restsharp.md)
