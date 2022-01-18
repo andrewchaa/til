@@ -4,6 +4,16 @@
 
 * [Fluent Migrator](https://fluentmigrator.github.io/)
 
+
+Install the packages to your project
+
+* FluentMigrator
+* FluentMigrator.Extensions.SqlServer
+* FluentMigrator.Runner
+* FluentMigrator.Runner.SqlServer
+* FluentMigrator.Console : to run in console
+
+
 An example
 
 ```csharp
@@ -29,13 +39,6 @@ namespace test
 }
 ```
 
-Install the packages to your project
-
-* FluentMigrator
-* FluentMigrator.Extensions.SqlServer
-* FluentMigrator.Runner
-* FluentMigrator.Runner.SqlServer
-* FluentMigrator.Console : to run in console
 
 Create a migration class
 
