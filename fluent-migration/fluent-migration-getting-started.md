@@ -67,5 +67,7 @@ public class DefaultCountryIsoCodeIndex : Migration
 
 For cross-platform, install `FluentMigrator.DotNet.Cli`
 
+https://fluentmigrator.github.io/articles/runners/dotnet-fm.html
+
     dotnet tool install -g FluentMigrator.DotNet.Cli
     dotnet fm migrate -p sqlite -c "Data Source=test.db" -a ".\bin\Debug\netcoreapp2.1\test.dll"
