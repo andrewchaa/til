@@ -66,6 +66,7 @@ public class DefaultCountryIsoCodeIndex : Migration
 ### Running the migration
 
 For cross-platform, install `FluentMigrator.DotNet.Cli`
+Before you run the cli, make sure to do `dotnet publish`.
 
 https://fluentmigrator.github.io/articles/runners/dotnet-fm.html
 
