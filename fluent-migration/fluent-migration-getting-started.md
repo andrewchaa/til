@@ -93,3 +93,15 @@ https://fluentmigrator.github.io/articles/runners/dotnet-fm.html
 
     dotnet tool install -g FluentMigrator.DotNet.Cli
     dotnet fm migrate -p sqlite -c "Data Source=test.db" -a ".\bin\Debug\netcoreapp2.1\test.dll"
+    
+Migration script
+
+```bash
+#!/bin/bash
+
+dotnet publish src/Aurora.DataMigrations
+pushd src/Aurora.DataMigrations/bin/Debug/net5.0/publish
+dotnet fm migrate -p SqlServer2016 -c "CONN STRING" -a "DataMigrations.dll"
+popd
+
+```
