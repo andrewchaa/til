@@ -17,30 +17,51 @@ Install the packages to your project
 An example
 
 ```csharp
-using FluentMigrator;
-
-namespace test
+[Migration(1)]
+public class CreateFunctions001 : Migration
 {
-    [Migration(20180430121800)]
-    public class AddLogTable : Migration
+    public override void Up()
     {
-        public override void Up()
-        {
-            Create.Table("Log")
-                .WithColumn("Id").AsInt64().PrimaryKey().Identity()
-                .WithColumn("Text").AsString();
-        }
+        Execute.Script(Path.Combine(Directory.GetCurrentDirectory(), "Scripts/001/dp_GetAllocatedInventorySoQty.sql"));
+    }
 
-        public override void Down()
-        {
-            Delete.Table("Log");
-        }
+    public override void Down()
+    {
     }
 }
 ```
 
+```sql
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE FUNCTION [dbo].[dp_GetAllocatedInventorySoQty] (
+    @itemNo NVARCHAR(20),
+    @locationCode NVARCHAR(10),
+    @supplyType INT,
+    @shipmentLineNo INT,
+    @shipmentNo NVARCHAR(20),
+    @ExcludeDocNo NVARCHAR(20)
+)
+RETURNS INT
+WITH EXECUTE AS CALLER
+AS
+BEGIN
+    DECLARE @qty int;
+SELECT @qty = SUM([Quantity])
+FROM [dbo].[Aurora World Ltd_$Allocation Entry] ae
+WHERE ae.[Item No_] = @itemNo
+  AND ae.[Location Code] = @locationCode
+  AND ae.[Supply Type] = @supplyType
+  AND ae.[Warehouse Shipment Line No_] = @shipmentLineNo
+  AND ae.[Warehouse Shipment No_] = @shipmentNo
+  AND ae.[Demand Document No_] NOT LIKE @ExcludeDocNo
+    RETURN(@qty)
+END;
+GO
 
-Create a migration class
+```
 
 ```csharp
 [Migration(202107302306)]
