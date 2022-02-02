@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_286 TILs and counting..._
+_287 TILs and counting..._
 
 ---
 
@@ -331,6 +331,7 @@ _286 TILs and counting..._
 - [Github CLI](github/github-cli.md)
 - [Github Packages](github/github-packages.md)
 - [Githut shortcuts](github/github-shortcuts.md)
+- [Github keyboard shortcuts](github/keyboard-shortcuts.md)
 
 ### [github-actions](#github-actions)
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md)
