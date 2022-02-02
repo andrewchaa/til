@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_287 TILs and counting..._
+_288 TILs and counting..._
 
 ---
 
@@ -597,6 +597,7 @@ _287 TILs and counting..._
 - [Azure CDN](terraform/azure-cdn.md)
 - [Provisioning Azure Functions with Terraform](terraform/azure-function.md)
 - [Blob storage for static website](terraform/blob-storage-for-static-website.md)
+- [terraform CLI commands](terraform/cli-commands.md)
 - [Creating resources in multi region](terraform/create-resource-in-multi-regions.md)
 - [Data Source: aws_iam_policy_document](terraform/data-aws-iam-policy-document.md)
 - [IAM permissions](terraform/iam-permissions.md)
