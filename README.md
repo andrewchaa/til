@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_289 TILs and counting..._
+_290 TILs and counting..._
 
 ---
 
@@ -198,6 +198,7 @@ _289 TILs and counting..._
 - [Azure Devops Pipeline hierachy](azure-devops/azure-devops-pipeline-hierachy.md)
 
 ### [azure-functions](#azure-functions)
+- [Allow CORS for HTTP Triger](azure-functions/allow-cors.md)
 - [Azure Function in JavaScript](azure-functions/azure-function-javascript-overview.md)
 - [Unit-testing C# Azure Function](azure-functions/azure-function-unit-testing.md)
 - [Azure Functions core Tools](azure-functions/azure-functions-core-tools.md)
