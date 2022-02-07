@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_290 TILs and counting..._
+_291 TILs and counting..._
 
 ---
 
@@ -613,6 +613,7 @@ _290 TILs and counting..._
 
 ### [terragrunt](#terragrunt)
 - [Getting started with terragrunt](terragrunt/getting-started-with-terragrunt.md)
+- [Use output of a module as input to another module](terragrunt/use-dependency-to-use-output-as-input.md)
 
 ### [tools](#tools)
 - [flameshot](tools/flameshot.md)
