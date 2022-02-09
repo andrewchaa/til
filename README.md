@@ -20,7 +20,6 @@ _291 TILs and counting..._
 - [Azure Function in JavaScript](azure-functions/azure-function-javascript-overview.md) - Sat Dec 25 16:58:28 2021 +0000
 - [Cosmos DB Trigger](azure-functions/cosmos-db-trigger.md) - Sat Dec 25 12:35:09 2021 +0000
 - [# Resources](aws/dynamodb.md) - Tue Dec 21 14:57:43 2021 +0000
-- [dotnet test commands](dotnet-test/commands.md) - Tue Dec 21 10:25:40 2021 +0000
 - [Provisioning Azure Functions with Terraform](terraform/azure-function.md) - Sun Dec 19 23:50:40 2021 +0000
 - [Using `terraform-aws-modules/lambda/aws`](terraform/terraform-aws-modules-lambda.md) - Fri Dec 17 19:38:37 2021 +0000
 - [Data Source: aws_iam_policy_document](terraform/data-aws-iam-policy-document.md) - Thu Dec 16 11:05:45 2021 +0000
@@ -32,6 +31,7 @@ _291 TILs and counting..._
 - [Remove old provisioning profiles](xcode/remove-provisioning-profile.md) - Mon Nov 22 12:29:52 2021 +0000
 - [Create a new certificate](xcode/create-new-certificate.md) - Sun Nov 21 22:26:03 2021 +0000
 - [Where are the archives?](xcode/where-are-archives.md) - Fri Nov 19 16:37:48 2021 +0000
+- [Azure CDN](terraform/azure-cdn.md) - Fri Nov 19 15:40:51 2021 +0000
 
 ### Categories
 
@@ -60,7 +60,7 @@ _291 TILs and counting..._
 - [docker](#docker)
 - [domain-driven-design](#domain-driven-design)
 - [dot-net](#dot-net)
-- [dotnet-test](#dotnet-test)
+- [dotnet](#dotnet)
 - [eastic-search](#eastic-search)
 - [electron](#electron)
 - [fiddler](#fiddler)
@@ -284,8 +284,8 @@ _291 TILs and counting..._
 - [Logging in .NET](dot-net/logging.md)
 - [Registering services in .NET](dot-net/registering-services.md)
 
-### [dotnet-test](#dotnet-test)
-- [dotnet test commands](dotnet-test/commands.md)
+### [dotnet](#dotnet)
+- [dotnet commands](dotnet/commands.md)
 
 ### [eastic-search](#eastic-search)
 - [Full text search examples](eastic-search/full-text-search-examples.md)
