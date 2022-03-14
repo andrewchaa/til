@@ -8,7 +8,7 @@ command | description
 `git config --global core.editor "code --wait"` | set VS Code as the default git editor
 `git config --global --edit` | edit global config file
 `git config --global --list` | list global config entries
-`git fetch origin, git reset --hard origin/master | reset local repository branch to remote repository HEAD
+`git fetch origin, git reset --hard origin/master` | reset local repository branch to remote repository HEAD
 `git remote prune origin | to fix` `error: cannot lock ref ... `
 `git reset --mixed origin/HEAD` | reset to origin/HEAD leaving files uncommitted 
 
