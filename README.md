@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_291 TILs and counting..._
+_292 TILs and counting..._
 
 ---
 
@@ -217,6 +217,7 @@ _291 TILs and counting..._
 - [Displaying the content of a file on the shell](bash/display-file-content-on-shell.md)
 - [Make bash script executable](bash/make-script-executable.md)
 - [Oh My Zsh](bash/ohmyzsh.md)
+- [Pass arguments with spaces to a shell script function](bash/pass-arguments-with-spaces.md)
 
 ### [brew](#brew)
 - [Brew commands](brew/brew-commands.md)
