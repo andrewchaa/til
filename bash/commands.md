@@ -9,3 +9,4 @@ command | description
 `kill -9 15532` | kill the process by PID
 `mv api-remote/ api/` | rename the directory
 `lsof -i tcp:7071` | list open files. list all processes that are using the port number 7071
+`export -p` | show all exported variables
