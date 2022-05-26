@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_292 TILs and counting..._
+_293 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [```yml](github-actions/run-terraform-per-environment.md) - Thu May 26 18:21:53 2022 +0100
 - [Copy a folder to output directory](csharp/copy-a-folder-to-output-directory.md) - Sat Jan 22 14:47:14 2022 +0000
 - [Interesting linq statements](csharp/linq.md) - Wed Jan 12 18:22:19 2022 +0000
 - [System.Text.Json](csharp/system-text-json.md) - Tue Jan 11 15:20:38 2022 +0000
@@ -31,7 +32,6 @@ _292 TILs and counting..._
 - [Remove old provisioning profiles](xcode/remove-provisioning-profile.md) - Mon Nov 22 12:29:52 2021 +0000
 - [Create a new certificate](xcode/create-new-certificate.md) - Sun Nov 21 22:26:03 2021 +0000
 - [Where are the archives?](xcode/where-are-archives.md) - Fri Nov 19 16:37:48 2021 +0000
-- [Azure CDN](terraform/azure-cdn.md) - Fri Nov 19 15:40:51 2021 +0000
 
 ### Categories
 
@@ -341,6 +341,7 @@ _292 TILs and counting..._
 - [Deploy Azure Function](github-actions/deploy-azure-function.md)
 - [Deploy static website to Azure Blob Storage](github-actions/deploy-static-website-to-azure-blob-storage.md)
 - [Github Actions Getting Started](github-actions/getting-starated.md)
+- [```yml](github-actions/run-terraform-per-environment.md)
 - [Run terraform scripts with github actions](github-actions/run-terraform-scripts.md)
 
 ### [gitlab](#gitlab)
