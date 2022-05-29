@@ -8,5 +8,5 @@ To use the client library
 
 ```
 npm i -g @aws-amplify/cli
-
+amplify codegen
 ```
