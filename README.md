@@ -6,12 +6,13 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_293 TILs and counting..._
+_294 TILs and counting..._
 
 ---
 
 ### 20 most recent TILs
 
+- [AppSync](aws/appsync.md) - Sun May 29 22:42:52 2022 +0100
 - [```yml](github-actions/run-terraform-per-environment.md) - Thu May 26 18:21:53 2022 +0100
 - [Copy a folder to output directory](csharp/copy-a-folder-to-output-directory.md) - Sat Jan 22 14:47:14 2022 +0000
 - [Interesting linq statements](csharp/linq.md) - Wed Jan 12 18:22:19 2022 +0000
@@ -31,7 +32,6 @@ _293 TILs and counting..._
 - [React Native Camera](react-native/react-native-cemera.md) - Mon Nov 22 12:32:56 2021 +0000
 - [Remove old provisioning profiles](xcode/remove-provisioning-profile.md) - Mon Nov 22 12:29:52 2021 +0000
 - [Create a new certificate](xcode/create-new-certificate.md) - Sun Nov 21 22:26:03 2021 +0000
-- [Where are the archives?](xcode/where-are-archives.md) - Fri Nov 19 16:37:48 2021 +0000
 
 ### Categories
 
@@ -169,6 +169,7 @@ _293 TILs and counting..._
 - [AutoMapper Custom Value Resolvers](automapper/custom-value-resolvers.md)
 
 ### [aws](#aws)
+- [AppSync](aws/appsync.md)
 - [AWS Certificate Manager](aws/aws-certificate-manager.md)
 - [aws cli](aws/aws-cli.md)
 - [cloud formation](aws/aws-cloudformation.md)
