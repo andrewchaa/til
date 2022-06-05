@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_294 TILs and counting..._
+_295 TILs and counting..._
 
 ---
 
@@ -624,6 +624,7 @@ _294 TILs and counting..._
 - [Marta](tools/marta.md)
 
 ### [typescript](#typescript)
+- [CLI Commands](typescript/cli-commands.md)
 - [Typescript Domain Object](typescript/domain-class.md)
 - [Commit and push automatically on save](typescript/push-change-automatically-to-github.md)
 - [## Set up](typescript/typescript.md)
