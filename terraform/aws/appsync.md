@@ -66,8 +66,11 @@ resource "aws_iam_role" "iam_appsync_role" {
 
 data "aws_iam_policy_document" "iam_invoke_lambda_policy_document" {
   statement {
-    actions   = ["lambda:InvokeFunction"]
-    resources = ["*"]
+    actions = ["lambda:InvokeFunction"]
+    resources = [
+      aws_lambda_function.create_registrations.arn,
+      aws_lambda_function.list_registrations.arn
+    ]
   }
 }
 
@@ -88,7 +91,10 @@ data "aws_iam_policy_document" "iam_lambda_log_policy_document" {
       "logs:CreateLogStream",
       "logs:PutLogEvents"
     ]
-    resources = ["arn:aws:logs:*:*:*"]
+    resources = [
+      "${aws_cloudwatch_log_group.create_registrations.arn}:*",
+      "${aws_cloudwatch_log_group.list_registrations.arn}:*"
+    ]
   }
 }
 
