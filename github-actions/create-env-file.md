@@ -1,6 +1,6 @@
 Create .env file
 
-```
+```yml
   - name: Run a multi-line script
     run: |
       touch .env
