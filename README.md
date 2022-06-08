@@ -6,7 +6,7 @@ and researching. My goal is to work in public. I was inspired to start this
 repository after reading Josh Branchaud's [TIL collection][1].
 
 
-_287 TILs and counting..._
+_288 TILs and counting..._
 
 ---
 
@@ -339,6 +339,7 @@ _287 TILs and counting..._
 
 ### [github-actions](#github-actions)
 - [Build and deploy Jekull website to AWS S3](github-actions/build-and-deploy-jekyll-website.md)
+- [Create .env file](github-actions/create-env-file.md)
 - [Deploy Azure Function](github-actions/deploy-azure-function.md)
 - [Deploy static website to Azure Blob Storage](github-actions/deploy-static-website-to-azure-blob-storage.md)
 - [Github Actions Getting Started](github-actions/getting-starated.md)
