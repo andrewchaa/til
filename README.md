@@ -12,6 +12,7 @@ _288 TILs and counting..._
 
 ### 20 most recent TILs
 
+- [Getting started with Jest](jest/getting-started.md) - Thu Jun 16 11:11:31 2022 +0100
 - [AppSync](aws/appsync.md) - Sun May 29 22:42:52 2022 +0100
 - [```yml](github-actions/run-terraform-per-environment.md) - Thu May 26 18:21:53 2022 +0100
 - [Copy a folder to output directory](csharp/copy-a-folder-to-output-directory.md) - Sat Jan 22 14:47:14 2022 +0000
@@ -31,7 +32,6 @@ _288 TILs and counting..._
 - [Create a new certificate](xcode/create-new-certificate.md) - Sun Nov 21 22:26:03 2021 +0000
 - [Where are the archives?](xcode/where-are-archives.md) - Fri Nov 19 16:37:48 2021 +0000
 - [Using GraphQL Playground](graphql/use-playground.md) - Wed Nov 17 13:52:09 2021 +0000
-- [Configuration](dot-net/configurations.md) - Fri Nov 12 15:08:46 2021 +0000
 
 ### Categories
 
@@ -412,7 +412,7 @@ _288 TILs and counting..._
 - [Install Jekyll](jekyll/install-jekyll.md)
 
 ### [jest](#jest)
-- [Getting started with Jest](jest/getting-started-with-jest.md)
+- [Getting started with Jest](jest/getting-started.md)
 - [jest commands](jest/jest-commands.md)
 - [Mock functions](jest/mock-functions.md)
 
