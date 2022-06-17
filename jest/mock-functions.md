@@ -13,7 +13,7 @@ export default { getIPAddress: () => {}, }
 
 ## Mock module and verify the given parameter
 
-```
+```javascript
 import { handler } from './index'
 import { ddbDocClient } from '../services/dynamodbClient'
 
